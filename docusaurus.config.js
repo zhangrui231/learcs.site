@@ -59,6 +59,16 @@ const config = {
     ],
   ],
 
+  plugins: [
+    // With options object (babel style)
+    [
+      '/src/plugins/plugin-baidu-analytic',
+      {
+        trackingID: 'c106b2729592653e5e0c26db5e5d3142',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
