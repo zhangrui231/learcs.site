@@ -62,7 +62,7 @@ const config = {
   plugins: [
     // With options object (babel style)
     [
-      './src/plugins/plugin-baidu-analytic',
+      './src/plugins/plugin-baidu-analytics',
       {
         trackingID: 'c106b2729592653e5e0c26db5e5d3142',
       },
