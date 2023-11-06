@@ -77,7 +77,7 @@ const config = {
       navbar: {
         title: 'TeachYourselfCS',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'TeachYourselfCS',
           src: 'img/logo.svg',
         },
         items: [
@@ -85,14 +85,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '自学指南',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: '驿站', position: 'left'},
+          {to:'/community', label: '社区', position: 'left'}
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
