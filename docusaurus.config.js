@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CS自学社区',
-  tagline: 'TeachYourselfCS',
+  tagline: '摆脱教程地狱，快速走出新手村，打开新的编程世界',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
