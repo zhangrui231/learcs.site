@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CS自学社区',
-  tagline: '摆脱教程地狱，快速走出新手村，打开新的编程世界',
+  tagline: '摆脱教程地狱，快速走出新手村，打开编程新世界',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -85,7 +85,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '自学指南',
+            label: '自学路线',
           },
           {to: '/blog', label: '驿站', position: 'left'},
           {to:'/community', label: '社区', position: 'left'}
