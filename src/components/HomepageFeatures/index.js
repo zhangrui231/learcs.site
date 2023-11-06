@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '完整的学习路线',
-    Svg: require('@site/static/img/road-min.svg').default,
+    Svg: require('@site/static/img/road.svg').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: '最好的课程资源',
-    Svg: require('@site/static/img/resourse-min.svg').default,
+    Svg: require('@site/static/img/resourse.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: '科学的学习方法',
-    Svg: require('@site/static/img/methods-min.svg').default,
+    Svg: require('@site/static/img/methods.svg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
