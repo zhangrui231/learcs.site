@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/road.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        大多数人采用的学习编程的方式是挑一个流行的编程语言，然后一头扎进去，然后就不知道下一步改做什么。
+        极少的人会从一个路线图开始，路线图相当于编码世界的一张鸟瞰图，梳理了一些相关的编程概念、语言以及几乎100% 的开发者每天都会使用的工具。
       </>
     ),
   },
@@ -18,18 +18,19 @@ const FeatureList = [
     Svg: require('@site/static/img/resourse.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        互联网上，到处都有许多的学习资源，然而精华与糟粕并存. 当你确定了要学习什么内容之后。你要确定对于这些内容，最好的书籍或者视频课程 是什么
+        在CS自学社区里，我们尝试对这些问题做出确定的回答。
       </>
     ),
   },
   {
-    title: '科学的学习方法',
+    title: '正确的学习方法',
     Svg: require('@site/static/img/methods.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        学习编程是一个模糊的过程，要从一个又一个的错误信息中学习。在学习的过程中有时候会迷失方向，有时候会感到沮丧。
+        解决这些问题最好的办法就是快速摆脱无休止的基础学习，使你能清晰的了解你不知道的事情，以至于你能清楚地表达出你想问的问题，以至于你能做大量的编码练习。
+        再就是，加入学习小组，跟其他正在学习的人交流分享可以提高效率。
       </>
     ),
   },
