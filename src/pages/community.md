@@ -10,4 +10,5 @@ hide_table_of_contents: true
 # QQ群
 - 一群
   - 群号：556800917
-  - 二维码 ![qrcode](/img/qrcode1.png)
+  - 二维码 
+  ![qrcode](/img/qrcode1.png)
