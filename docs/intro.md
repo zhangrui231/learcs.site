@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 自学路线
+# 前言
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

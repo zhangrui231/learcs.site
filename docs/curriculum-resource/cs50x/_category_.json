@@ -1,0 +1,8 @@
+{
+    "label": "cs50x",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "CS50x是哈佛大学的一门在线计算机科学入门课程，它是CS50课程的在线版本。这门课程涵盖了计算机科学的基础知识，包括算法、数据结构、软件工程，以及网络。学生将有机会学习多种编程语言，包括C、Python和JavaScript，以及SQL、CSS和HTML。更多的课程信息，包括课程大纲、评分标准等，可以在官方课程网站https://cs50.harvard.edu找到。"
+    }
+  }
