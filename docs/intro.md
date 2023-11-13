@@ -1,47 +1,23 @@
 ---
 sidebar_position: 1
+description: 自学编程，自学计算机,如何自学编程，如何学习编程，学习编程的正确方式。
 ---
 
 # 前言
 
-Let's discover **Docusaurus in less than 5 minutes**.
+:::note[注意]
+为自己的行为负责，这是成熟的标志。学习是一种持续的***苦差事***，它需要毅力和耐心。愿你历尽***艰辛**，最终收获满载
 
-## Getting Started
 
-Get started by **creating a new site**.
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 我是谁
 
-### What you'll need
+## 为什么要做CS自学社区
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 特别鸣谢
 
-## Generate a new site
+## 关于交流学习群的建立
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
