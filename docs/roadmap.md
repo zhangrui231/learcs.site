@@ -28,15 +28,15 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
       <td>Harvard CS50 | 有基础可跳过</td>
       <td>哈佛大学的CS50 课程是一门面向所有学生的计算机科学导论课程，非常适合小白入门。该课程旨在教授计算机科学的基本概念和编程技能，并帮助学生理解计算机科学在当今世界的重要性。</td>
       <td>无</td>
-      <td>[中文语音 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3077042729?spm_id_from=333.1368.list.card_medialist.click) | [英文原声 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3143019829?spm_id_from=333.1368.list.card_medialist.click)</td>
+      <td><a href="https://www.bilibili.com/medialist/detail/ml3077042729?spm_id_from=333.1368.list.card_medialist.click">中文语音 + 双语字幕 </a> | <a href="https://www.bilibili.com/medialist/detail/ml3143019829?spm_id_from=333.1368.list.card_medialist.click">英文原声 + 双语字幕</a>()</td>
       <td>[discord](https://discord.gg/ZVVangWh)</td>
     </tr>
     <tr>
       <td>UC Berkeley CS61A</td>
       <td>计算机程序的构造与解释，你是否对计算机科学充满好奇？你是否想要学习如何编程？你是否想要为未来的职业生涯做好准备？那么，CS61A 课程就是为你量身定制的！
 CS61A 课程是伯克利大学最受欢迎的课程之一，每年有超过 10,000 名学生注册。 该课程旨在帮助学生理解计算机程序的构造和解释，培养学生的编程能力和解决问题的能力</td>
-      <td>[在线教材](https://www.composingprograms.com/) | [在线教材中译版本](https://composingprograms.netlify.app/) </td>
-      <td>[中文语音 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3074028229?spm_id_from=333.1368.list.card_medialist.click) | [英文原声 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3140015129?spm_id_from=333.1368.list.card_medialist.click)</td>
+      <td><a href="https://www.composingprograms.com/"> 在线教材</a> | <a href="https://composingprograms.netlify.app/">在线教材中译版本</a> </td>
+      <td><a href="https://www.bilibili.com/medialist/detail/ml3074028229?spm_id_from=333.1368.list.card_medialist.click">中文语音 + 双语字幕</a> | <a href="https://www.bilibili.com/medialist/detail/ml3140015129?spm_id_from=333.1368.list.card_medialist.click">英文原声 + 双语字幕</a></td>
       <td>内容9</td>
     </tr>
 </table>
