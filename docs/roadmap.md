@@ -12,37 +12,35 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
 
 ## 简要
 
-大致按照列出的顺序，借助我们所建议的教材或者视频课程（但是最好二者兼用），学习如下的九门科目。目标是先花 100 到 200 个小时学习完每一个科目，然后在你职业生涯中，不时温习其中的精髓。
+大致按照列出的顺序，借助我们所建议的教材或者视频课程（但是最好二者兼用），学习如下的科目。目标是先花 100 到 200 个小时学习完每一个科目，然后在你职业生涯中，不时温习其中的精髓。
 
 <table>
     <tr>
       <td>主题</td>
       <td>课程</td>
       <td>介绍</td>
-      <td>书籍</td>
+      <td>教材</td>
       <td>视频</td>
       <td>讨论组</td>
     </tr>
     <tr>
       <td rowspan="2">编程入门</td>
-      <td>Harvard CS50</td>
-      <td>内容1</td>
-      <td>内容2</td>
-      <td>内容3</td>
-      <td>内容7</td>
+      <td>Harvard CS50 | 有基础可跳过</td>
+      <td>哈佛大学的CS50 课程是一门面向所有学生的计算机科学导论课程，非常适合小白入门。该课程旨在教授计算机科学的基本概念和编程技能，并帮助学生理解计算机科学在当今世界的重要性。</td>
+      <td>无</td>
+      <td>[中文语音 + 双语字幕](https://space.bilibili.com/526939229/channel/collectiondetail?sid=2309008) | [英文原声 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3143019829?spm_id_from=333.1368.list.card_medialist.click)</td>
+      <td>[discord](https://discord.gg/ZVVangWh)</td>
     </tr>
     <tr>
       <td>UC Berkeley CS61A</td>
-      <td>内容5</td>
-      <td>内容6</td>
-      <td>内容8</td>
+      <td>计算机程序的构造与解释，你是否对计算机科学充满好奇？你是否想要学习如何编程？你是否想要为未来的职业生涯做好准备？那么，CS61A 课程就是为你量身定制的！
+CS61A 课程是伯克利大学最受欢迎的课程之一，每年有超过 10,000 名学生注册。 该课程旨在帮助学生理解计算机程序的构造和解释，培养学生的编程能力和解决问题的能力</td>
+      <td>[在线教材](https://www.composingprograms.com/) | [在线教材中译版本](https://composingprograms.netlify.app/) </td>
+      <td>[中文语音 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3074028229?spm_id_from=333.1368.list.card_medialist.click) | [英文原声 + 双语字幕](https://www.bilibili.com/medialist/detail/ml3074028229?spm_id_from=333.1368.list.card_medialist.click)</td>
       <td>内容9</td>
     </tr>
 </table>
 
-| 主题 | 课程 |介绍| 书籍 | 视频 | 讨论组 |
-|-|-|-|-|-|-|
-| [编程入门](#编程入门) | 
 
 
 
