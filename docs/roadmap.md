@@ -83,6 +83,46 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
+    <tr>
+        <td>操作系统</td>
+        <td>UC Berkeley CS162</td>
+        <td>本课程的目的是教授操作系统的设计以及出现在其他计算机系统中的操作系统概念。我们将涵盖的主题包括操作系统的概念、系统编程、网络化和分布式系统、存储系统，包括多程序系统（进程、进程间通信和同步）、内存分配（分段、分页）、资源分配和调度、文件系统、基本网络（套接字、分层、API、可靠性）、事务、安全性和隐私。</td>
+        <td>《Operating Systems: Principles and Practice》 </td>
+        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+    </tr>
+    <tr>
+        <td>计算机网络</td>
+        <td>Stanford CS144</td>
+        <td>CS144 是斯坦福大学的一门计算机网络课程，由 Nick McKeown 教授和 Philip Levis 教授主讲。这门课程涵盖了计算机网络的基本原理和实践，重点关注互联网的结构和组成。课程包括分组交换、分层和路由、传输和 TCP、可靠传输、流量控制和拥塞控制等主题。课程还包含了八个实验项目，让学生用 C++ 实现一个完整的 TCP/IP 协议栈，并用自己的协议栈与其他学生的计算机进行通信。这门课程是计算机科学专业的必修课，也适合对计算机网络感兴趣的其他专业的学生。</td>
+        <td>无</td>
+        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+    </tr>
+    <tr>
+        <td>数据库</td>
+        <td>CMU 15-445</td>
+        <td>这门课程涉及数据库管理系统的设计与实施。主题包括数据模型（关系型、文档、键/值）、存储模型（n元、分解）、查询语言（SQL、存储过程）、存储体系结构（堆、日志结构化）、索引（保序树、哈希表）、事务处理（ACID、并发控制）、恢复（日志、检查点）、查询处理（连接、排序、聚合、优化）以及并行体系结构（多核、分布式）。使用开源和商业数据库系统的案例研究来阐明这些技术和权衡。该课程适合已准备好展示强大系统编程技能的学生。</td>
+        <td>《Database System Concepts》</td>
+        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+    </tr>
+    <tr>
+        <td>编译原理</td>
+        <td>Stanford CS143</td>
+        <td></td>
+        <td> 《编译原理》通常称为龙书</td>
+        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+    </tr>
+    <tr>
+        <td>分布式系统</td>
+        <td>MIT6.824</td>
+        <td>随着计算机在数量上的增加，计算机同样开始 分散。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。</td>
+        <td>无</td>
+        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+    </tr>
 </table>
 
 
