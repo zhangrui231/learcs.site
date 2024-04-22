@@ -87,7 +87,7 @@ const config = {
             position: 'left',
             label: '自学路线',
           },
-          {to: '/blog', label: '驿站', position: 'left'},
+          // {to: '/blog', label: '驿站', position: 'left'},
           {to:'/community', label: '社区', position: 'left'}
           // {
           //   href: 'https://github.com/facebook/docusaurus',
