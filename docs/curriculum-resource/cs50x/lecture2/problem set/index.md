@@ -11,7 +11,7 @@ import DocCardList from '@theme/DocCardList';
 
 1.  Log into [cs50.dev](https://cs50.dev/) using your GitHub account.
 2.  Run `update50` in your codespace’s terminal window to ensure your codespace is up-to-date and, when prompted, click **Rebuild now**
-3.  Submit [Hello](hello.mdx)
+3.  Submit [Hello](hello.md)
 4.  Submit one of:
     -   [this version of Mario](mario less.md) if feeling less comfortable
     -   [this version of Mario](mario more.md) if feeling more comfortable
