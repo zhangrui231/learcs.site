@@ -3,6 +3,8 @@ title: Problem Set
 description: cs50x Lecture1 Problem Set
 ---
 
+import DocCardList from '@theme/DocCardList';
+
 # Problem Set 1 - CS50x 2023
 
 ## [What to Do](#what-to-do)
@@ -32,3 +34,5 @@ By [Monday, January 1, 2024 at 4:59 AM UTC](https://time.cs50.io/20231231T235900
     is yielding errors, try running
     
     instead!
+
+<DocCardList />
