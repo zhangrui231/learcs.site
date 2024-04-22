@@ -11,13 +11,13 @@ import DocCardList from '@theme/DocCardList';
 
 1.  Log into [cs50.dev](https://cs50.dev/) using your GitHub account.
 2.  Run `update50` in your codespace’s terminal window to ensure your codespace is up-to-date and, when prompted, click **Rebuild now**
-3.  Submit [Hello](/curriculum/cs50x/lecture2/problems set/hello)
+3.  Submit [Hello](/curriculum/cs50x/lecture2/problems set/hello.md)
 4.  Submit one of:
-    -   [this version of Mario](/curriculum/cs50x/lecture2/problems set/mario less) if feeling less comfortable
-    -   [this version of Mario](/curriculum/cs50x/lecture2/problems set/mario more) if feeling more comfortable
+    -   [this version of Mario](/curriculum/cs50x/lecture2/problems set/mario less.md) if feeling less comfortable
+    -   [this version of Mario](/curriculum/cs50x/lecture2/problems set/mario more.md) if feeling more comfortable
 5.  Submit one of:
-    -   [Cash](/curriculum/cs50x/lecture2/problems set/cash) if feeling less comfortable
-    -   [Credit](/curriculum/cs50x/lecture2/problems set/credit) if feeling more comfortable
+    -   [Cash](/curriculum/cs50x/lecture2/problems set/cash.md) if feeling less comfortable
+    -   [Credit](/curriculum/cs50x/lecture2/problems set/credit.md) if feeling more comfortable
 
 If you submit both versions of Mario, we’ll record the higher of your two scores. If you submit both Cash and Credit, we’ll record the higher of your two scores.
 
