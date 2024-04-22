@@ -1,13 +1,14 @@
 ---
 sidebar_position: 1
 description: CS50X lecture1 scratch Notes 课程笔记 
+
 ---
 
 # Notes
-## Lecture 1 Scratch - CS50x 2023
+## Lecture 0 - CS50x 2023
 
 - [Notes](#notes)
-  - [Lecture 1 Scratch - CS50x 2023](#lecture-1-scratch---cs50x-2023)
+  - [Lecture 0 - CS50x 2023](#lecture-0---cs50x-2023)
   - [Welcome!](#welcome)
   - [What’s Ahead](#whats-ahead)
   - [Community!](#community)
@@ -67,7 +68,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
 
 -   Essentially, computer programming is about taking some input and creating some output - thus solving a problem. What happens in between the input and output, what we could call _a black box,_ is the focus of this course.
     
-    ![Black box with input and output](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide38.png "Black box with input and output")
+    ![Black box with input and output](/img/cs50/cs50Week0Slide38.png  "Black box with input and output")
     
 -   For example, we may need to take attendance for a class. We could use a system called _unary_ to count, one finger at a time. Computers today count using a system called _binary_. It’s from the term _binary digit_ that we get a familiar term called _bit_. A _bit_ is a zero or one.
 -   Computers only speak in terms of zeros and ones. Zeros represent _off._ Ones represent _on._ Computers are millions, and perhaps billions, of transistors that are being turned on and off.
@@ -103,7 +104,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
 -   Thank goodness for standards like ASCII that allow us to agree upon these values!
 -   Here is an expanded map of ASCII values:
     
-    ![ASCII map](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide93.png "ASCII map")
+    ![ASCII map](/img/cs50/cs50Week0Slide93.png  "ASCII map")
     
 -   If you wish, you can learn more about [ASCII](https://en.wikipedia.org/wiki/ASCII).
 
@@ -113,7 +114,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
 -   Since there were not enough digits in binary to represent all the various characters that could be represented by humans, the _Unicode_ standard expanded the number of bits that can be transmitted and understood by computers.
 -   There are emojis that you probably use every day. The following may look familiar to you:
     
-    ![emojis](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide103.png "emojis")
+    ![emojis](/img/cs50/cs50Week0Slide103.png  "emojis")
     
 -   Computer scientists faced a challenge when wanting to assign various skin tones to each emoji to allow the communication to be further personalized. In this case, the creators and contributors of emojis decided that the initial bits would be the structure of the emoji itself, followed by skin tone.
 -   More and more features are being added to the Unicode standard to represent further characters and emojis.
@@ -124,11 +125,11 @@ description: CS50X lecture1 scratch Notes 课程笔记
 
 -   Red, green, and blue (called `RGB`) is a combination of three numbers.
     
-    ![red green blue boxes](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide118.png "red green blue boxes")
+    ![red green blue boxes](/img/cs50/cs50Week0Slide118.png  "red green blue boxes")
     
 -   Taking our previously used 72, 73, and 33, which said `HI!` via text, would be interpreted by image readers as a light shade of yellow. The red value would be 72, the green value would be 73, and the blue would be 33.
     
-    ![yellow box](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide120.png "yellow box")
+    ![yellow box](/img/cs50/cs50Week0Slide120.png  "yellow box")
     
 
 ## [Images, Video and Sound](#images-video-and-sound)
@@ -147,7 +148,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
 -   A final and perhaps better approach could be to go to the middle of the phone book and ask, “Is the name I am looking for to the left or to the right?” Then, repeat this process, cutting the problem in half and half and half.
 -   Each of these approaches could be called algorithms. The speed of each of these algorithms can be pictured as follows in what is called _big-O notation_:
     
-    ![big o notation](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide141.png "big o notation") Notice that the first algorithm, highlighted in red, has a big-O of `n` because if there are 100 names in the phone book, it could take up to 100 tries to find the correct name. The second algorithm, where two pages were searched at a time, has a big-O of ‘n/2’ because we searched twice as fast through the pages. The final algorithm has a big-O of log2n as doubling the problem would only result in one more step to solve the problem.
+    ![big o notation](/img/cs50/cs50Week0Slide141.png  "big o notation") Notice that the first algorithm, highlighted in red, has a big-O of `n` because if there are 100 names in the phone book, it could take up to 100 tries to find the correct name. The second algorithm, where two pages were searched at a time, has a big-O of ‘n/2’ because we searched twice as fast through the pages. The final algorithm has a big-O of log2n as doubling the problem would only result in one more step to solve the problem.
     
 
 ## [Pseudocode and the Basic Building Blocks of Programming](#pseudocode-and-the-basic-building-blocks-of-programming)
@@ -186,11 +187,11 @@ description: CS50X lecture1 scratch Notes 课程笔记
 -   Scatch is a great way to get into computer programming because it allows you to play with these building blocks in a visual manner, not having to be concerned about the syntax of curly braces, semicolons, parentheses, and the like.
 -   Scatch `IDE` (integrated development environment) looks like the following:
     
-    ![scratch interface](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide162.png "scratch interface") Notice that on the left, there are _building blocks_ that you can use in your programming. To the immediate right of the building blocks, there is the area to which you can drag blocks to build a program. To the right of that, you see the _stage_ where a cat stands. The stage is where your programming comes to life.
+    ![scratch interface](/img/cs50/cs50Week0Slide162.png  "scratch interface") Notice that on the left, there are _building blocks_ that you can use in your programming. To the immediate right of the building blocks, there is the area to which you can drag blocks to build a program. To the right of that, you see the _stage_ where a cat stands. The stage is where your programming comes to life.
     
 -   Scratch operates on a coordinate system as follows:
     
-    ![scratch coordinate system](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide167.png "scratch coordinate system") Notice that the center of the stage is at coordinate (0,0). Right now, the cat’s position is at that same position.
+    ![scratch coordinate system](/img/cs50/cs50Week0Slide167.png  "scratch coordinate system") Notice that the center of the stage is at coordinate (0,0). Right now, the cat’s position is at that same position.
     
 -   To begin, drag the “when green flag clicked” building block to the programming area. Then, drag the `say` building block to the programming area and attach it to the previous block.
     
@@ -200,7 +201,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
     
 -   This illustrates quite well what we were discussing earlier regarding programming:
     
-    ![scratch with black box](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide172.png "scratch with black box") Notice that the input `hello world` is passed to the function `say`, and the _side effect_ of that function running is the cat saying `hello world`.
+    ![scratch with black box](/img/cs50/cs50Week0Slide172.png  "scratch with black box") Notice that the input `hello world` is passed to the function `say`, and the _side effect_ of that function running is the cat saying `hello world`.
     
 -   We can make your program more interactive by having the cat say `hello` to someone specific. Modify your program as below:
     
@@ -234,7 +235,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
     
 -   We can even advance this further by using the `define` block, where you can create your own block (your own function)! Write code as follows:
     
-    ![scratch define](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Scratch6.png "scratch define") Notice that we are defining our own block called `meow`. The function plays the sound `meow`, then waits one second. Below that, you can see that when the green flag is clicked, our meow function is repeated three times.
+    ![scratch define](/img/cs50/cs50Week0Scratch6.png  "scratch define") Notice that we are defining our own block called `meow`. The function plays the sound `meow`, then waits one second. Below that, you can see that when the green flag is clicked, our meow function is repeated three times.
     
 -   We can even provide a way by which the function can take an input `n` and repeat a number of times:
     
@@ -265,7 +266,7 @@ description: CS50X lecture1 scratch Notes 课程笔记
 -   _Oscartime_ is one of David’s own Scratch programs – though the music may haunt him because of the number of hours he listened to it while creating this program. Take a few moments to play through the game yourself.
 -   Building Oscartime ourselves, we first add the lamp post.
     
-    ![oscartime interface](https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Scratch10.png "oscartime interface")
+    ![oscartime interface](/img/cs50/cs50Week0Scratch10.png  "oscartime interface")
     
 -   Then, write code as follows:
     
