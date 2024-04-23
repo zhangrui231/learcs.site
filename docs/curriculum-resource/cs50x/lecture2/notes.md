@@ -1,352 +1,618 @@
 ---
 sidebar_position: 1
 description: CS50X lecture1 scratch Notes 课程笔记 
-
+title: Notes
 ---
 
-# Notes
-## Lecture 0 - CS50x 2023
+# Lecture 1 - CS50x 2023
 
-- [Notes](#notes)
-  - [Lecture 0 - CS50x 2023](#lecture-0---cs50x-2023)
+- [Lecture 1 - CS50x 2023](#lecture-1---cs50x-2023)
   - [Welcome!](#welcome)
-  - [What’s Ahead](#whats-ahead)
-  - [Community!](#community)
-  - [Computational Thinking](#computational-thinking)
-  - [Text](#text)
-  - [Emojis](#emojis)
-  - [RGB](#rgb)
-  - [Images, Video and Sound](#images-video-and-sound)
-  - [Algorithms](#algorithms)
-  - [Pseudocode and the Basic Building Blocks of Programming](#pseudocode-and-the-basic-building-blocks-of-programming)
-  - [Scratch](#scratch)
+  - [Hello World](#hello-world)
+  - [Functions](#functions)
+  - [Variables](#variables)
+  - [Conditionals](#conditionals)
+  - [Loops](#loops)
+  - [Linux and the Command Line](#linux-and-the-command-line)
+  - [Mario](#mario)
+  - [Comments](#comments)
   - [Abstraction](#abstraction)
-  - [If](#if)
-  - [Expanding Your Imagination](#expanding-your-imagination)
-  - [Sprite Movement](#sprite-movement)
-  - [More Sprites](#more-sprites)
+  - [Operators and Types](#operators-and-types)
   - [Summing Up](#summing-up)
 
 ## [Welcome!](#welcome)
 
--   This class is about more than computer programming!
--   Indeed, this class is about problem-solving in a way that is exceedingly empowering! You will likely take the problem solving that you learn here will likely be instantly applicable to your work beyond this course and even your career as a whole!
--   However, it will not be easy! You will be “drinking from the firehose” of knowledge during this course. You’ll be amazed at what you will be able to accomplish in the coming weeks.
--   This course is far more about you advancing “you” from “where you are today” than hitting some imagined standard.
--   The most important opening consideration in this course: Give the time you need to learn through this course. Everyone learns differently. If something does not work out well at the start, know that with time you will grow and grow in your skill.
+-   In our previous session, we learned about Scratch, a visual programming language.
+-   Indeed, all the essential programming concepts presented in Scratch will be utilized as you learn how to program any programming language.
+-   Recall that machines only understand binary. Where humans write _source code_, a list of instructions for the computer that is human readable, machines only understand what we can now call _machine code_. This machine code is a pattern of ones and zeros that produces a desired effect.
+-   It turns out that we can convert _source code_ into `machine code` using a very special piece of software called a _compiler_. Today, we will be introducing you to a compiler that will allow you to convert source code in the programming language _C_ into machine code.
+-   Today, in addition to learning about how to code, you will be learning about how to write good code.
+-   Code can be evaluated upon three axes. First, _correctness_ refers to “does the code run as intended?” Second, _design_ refers to “how well is the code designed?” Finally, _style_ refers to “how aesthetically pleasing and consistent is the code?”
 
-## [What’s Ahead](#whats-ahead)
+## [Hello World](#hello-world)
 
--   You will be learning this week about Scratch, a visual programming language.
--   Then, in future weeks, you will learn about C. That will look something like this:
+-   The compiler that is utilized for this course is _Visual Studio Code_, affectionately referred to as , which can be accessed via that same url, or simply as \*VS Code.\*
+-   One of the most important reasons we utilize VS Code is that it has all the software required for the course already pre-loaded on it. This course and the instructions herein were designed with VS Code in mind. Best always to utilize VS Code for assignments in this course.
+-   You can open VS Code at [cs50.dev](https://cs50.dev/).
+-   The compiler can be divided into a number of regions:
+    
+    ![IDE](/img/cs50/cs50Week1Slide017.png  "IDE") Notice that there is a _file explorer_ on the left side where you can find your files. Further, notice that there is a region in the middle called a _text editor_ where you can edit your program. Finally, there is a `command line interface`, known as a _CLI_, _command line_, or _terminal window_ where we can send commands to the computer in the cloud.
+    
+-   We can build your first program in C by typing `code hello.c` into the terminal window. Notice that we deliberately lowercased the entire filename and included the `.c` extension. Then, in the text editor that appears, write code as follows:
     
     ```
-      #include <stdio.h>
+    #include <stdio.h>
     
-      int main(void)
-      {
-          printf("hello, world\n");
-      }
-    
-    ```
-    
--   Further, as the weeks progress, you will learn about algorithms.
--   You will learn about memory.
--   You will learn about buggy code and what causes computer crashes.
--   You will learn about data structures such as a hash table.
--   Then, we will transition to a new, higher-level language called _Python_. Your code will look something like this:
-    
--   This class will give you a strong understanding of how recent programming languages developed from the earlier ones.
--   We will also be looking at how we can use databases and third-party frameworks to build web applications.
-
-## [Community!](#community)
-
--   You are part of a community of those taking this course at Harvard College, Harvard Extension School, and via edX.org.
--   Puzzle Day and the CS50 Fair
-
-## [Computational Thinking](#computational-thinking)
-
--   Essentially, computer programming is about taking some input and creating some output - thus solving a problem. What happens in between the input and output, what we could call _a black box,_ is the focus of this course.
-    
-    ![Black box with input and output](/img/cs50/cs50Week0Slide38.png  "Black box with input and output")
-    
--   For example, we may need to take attendance for a class. We could use a system called _unary_ to count, one finger at a time. Computers today count using a system called _binary_. It’s from the term _binary digit_ that we get a familiar term called _bit_. A _bit_ is a zero or one.
--   Computers only speak in terms of zeros and ones. Zeros represent _off._ Ones represent _on._ Computers are millions, and perhaps billions, of transistors that are being turned on and off.
--   If you imagine using a light bulb, a single bulb can only count from zero to one.
--   However, if you were to have three light bulbs, there are more options open to you!
--   Using three light bulbs, the following could represent zero:
-    
--   Similarly, the following would represent one:
-    
--   By this logic, we could propose that the following equals two:
-    
--   Extending this logic further, the following represents three:
-    
--   Four would appear as:
-    
--   We could, in fact, using only three light bulbs count as high as seven!
-    
--   As a heuristic, we could imagine that the following values represent each possible place in our _binary digit_:
-    
--   Computers use ‘base-2’ to count. This can be pictured as follows:
-    
--   Therefore, you could say that it would require three bits (the four’s place, the two’s place, and the one’s place) to represent a number as high as seven.
-    
--   Computers generally use eight bits to represent a number. For example, `00000101` is the number 5 in _binary_.
-
-## [Text](#text)
-
--   Just as numbers are binary patterns of ones and zeros, letters are represented using ones and zeros too!
--   Since there is an overlap between the ones and zeros that represent numbers and letters, the _ASCII_ standard was created to map specific letters to specific numbers.
--   For example, the letter `A` was decided to map to the number 65.
--   If you received a text message, the binary under that message might represent the numbers 72, 73, and 33. Mapping these out to ASCII, your message would look as follows:
-    
--   Thank goodness for standards like ASCII that allow us to agree upon these values!
--   Here is an expanded map of ASCII values:
-    
-    ![ASCII map](/img/cs50/cs50Week0Slide93.png  "ASCII map")
-    
--   If you wish, you can learn more about [ASCII](https://en.wikipedia.org/wiki/ASCII).
-
-## [Emojis](#emojis)
-
--   As time has rolled on, there are more and more ways to communicate via text.
--   Since there were not enough digits in binary to represent all the various characters that could be represented by humans, the _Unicode_ standard expanded the number of bits that can be transmitted and understood by computers.
--   There are emojis that you probably use every day. The following may look familiar to you:
-    
-    ![emojis](/img/cs50/cs50Week0Slide103.png  "emojis")
-    
--   Computer scientists faced a challenge when wanting to assign various skin tones to each emoji to allow the communication to be further personalized. In this case, the creators and contributors of emojis decided that the initial bits would be the structure of the emoji itself, followed by skin tone.
--   More and more features are being added to the Unicode standard to represent further characters and emojis.
--   If you wish, you can learn more about [Unicode](https://en.wikipedia.org/wiki/Unicode).
--   If you wish, you can learn more about [emojis](https://en.wikipedia.org/wiki/Emoji).
-
-## [RGB](#rgb)
-
--   Red, green, and blue (called `RGB`) is a combination of three numbers.
-    
-    ![red green blue boxes](/img/cs50/cs50Week0Slide118.png  "red green blue boxes")
-    
--   Taking our previously used 72, 73, and 33, which said `HI!` via text, would be interpreted by image readers as a light shade of yellow. The red value would be 72, the green value would be 73, and the blue would be 33.
-    
-    ![yellow box](/img/cs50/cs50Week0Slide120.png  "yellow box")
-    
-
-## [Images, Video and Sound](#images-video-and-sound)
-
--   Images are simply collections of RGB values.
--   Videos are sequences of many images that are stored together, just like a flipbook.
--   Music can be represented through MIDI data.
-
-## [Algorithms](#algorithms)
-
--   Problem-solving is central to computer science and computer programming.
--   Imagine the basic problem of trying to locate a single name in a phone book.
--   How might you go about this?
--   One approach could be to simply read from page one to the next to the next until reaching the last page.
--   Another approach could be to search two pages at a time.
--   A final and perhaps better approach could be to go to the middle of the phone book and ask, “Is the name I am looking for to the left or to the right?” Then, repeat this process, cutting the problem in half and half and half.
--   Each of these approaches could be called algorithms. The speed of each of these algorithms can be pictured as follows in what is called _big-O notation_:
-    
-    ![big o notation](/img/cs50/cs50Week0Slide141.png  "big o notation") Notice that the first algorithm, highlighted in red, has a big-O of `n` because if there are 100 names in the phone book, it could take up to 100 tries to find the correct name. The second algorithm, where two pages were searched at a time, has a big-O of ‘n/2’ because we searched twice as fast through the pages. The final algorithm has a big-O of log2n as doubling the problem would only result in one more step to solve the problem.
-    
-
-## [Pseudocode and the Basic Building Blocks of Programming](#pseudocode-and-the-basic-building-blocks-of-programming)
-
--   The ability to create _pseudocode_ is central to one’s success in both this class and in computer programming.
--   Pseudocode is a human-readable version of your code. For example, considering the third algorithm above, we could compose pseudocode as follows:
-    
-    ```
-      1  Pick up phone book
-      2  Open to middle of phone book
-      3  Look at page
-      4  If person is on page
-      5      Call person
-      6  Else if person is earlier in book
-      7      Open to middle of left half of book
-      8      Go back to line 3
-      9  Else if person is later in book
-      10     Open to middle of right half of book
-      11     Go back to line 3
-      12 Else
-      13     Quit
+    int main(void)
+    {
+        printf("hello, world\n");
+    }
     
     ```
     
--   Pseudocoding is such an important skill for at least two reasons. First, when you pseudocode before you create formal code, it allows you to think through the logic of your problem in advance. Second, when you pseudocode, you can later provide this information to others that are seeking to understand your coding decisions and how your code works.
--   Notice that the language within our pseudocode has some unique features. First, some of these lines begin with verbs like _pick up,_ _open,_ _look at._ Later, we will call these _functions_.
--   Second, notice that some lines include statements like `if` or `else if.` These are called _conditionals_.
--   Third, notice how there are expressions that can be stated as _true_ or _false,_ such as “person is earlier in the book.” We call these _boolean expressions_.
--   Finally, notice how these statements like “go back to line 3.” We call these _loops_.
--   In the context of _Scratch_, which is discussed below, we will use each of the above basic building blocks of programming.
+    Note that every single character above serves a purpose. If you type it incorrectly, the program will not run.
+    
+-   Clicking back in the terminal window, you can compile your code by executing `make hello`. Notice that we are omitting `.c`. `make` is a compiler that will look for our `hello.c` file and turn it into a program called `hello`. If executing this command results in no errors, you can proceed. If not, double-check your code to ensure it matches the above.
+-   Now, type `./hello` and your program will execute saying `hello, world`.
+-   Now, open the _file explorer_ on the left. You will notice that there is now both a file called `hello.c` and another file called `hello`. `hello.c` is able to be read by the compiler: It’s where your code is stored. `hello` is an executable file that you can run, but cannot be read by the compiler.
+-   Let’s look at our code more carefully:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        printf("hello, world\n");
+    }
+    
+    ```
+    
+    Notice that our code is highlighted using syntax highlighting.
+    
 
-## [Scratch](#scratch)
+## [Functions](#functions)
 
--   _Scratch_ is a visual programming language developed by MIT.
--   Scratch utilizes the same essential coding building blocks that we covered earlier in this lecture.
--   Scatch is a great way to get into computer programming because it allows you to play with these building blocks in a visual manner, not having to be concerned about the syntax of curly braces, semicolons, parentheses, and the like.
--   Scatch `IDE` (integrated development environment) looks like the following:
+-   In Scratch, we utilized the `say` block to display any text on the screen. Indeed, in C, we have a function called `printf` that does exactly this.
+-   Notice our code already invokes this function:
     
-    ![scratch interface](/img/cs50/cs50Week0Slide162.png  "scratch interface") Notice that on the left, there are _building blocks_ that you can use in your programming. To the immediate right of the building blocks, there is the area to which you can drag blocks to build a program. To the right of that, you see the _stage_ where a cat stands. The stage is where your programming comes to life.
+    ```
+    printf("hello, world\n");
     
--   Scratch operates on a coordinate system as follows:
+    ```
     
-    ![scratch coordinate system](/img/cs50/cs50Week0Slide167.png  "scratch coordinate system") Notice that the center of the stage is at coordinate (0,0). Right now, the cat’s position is at that same position.
+    Notice that the printf function is called. The argument passed to printf is ‘hello, world\\n’. The statement of code is closed with a `;`.
     
--   To begin, drag the “when green flag clicked” building block to the programming area. Then, drag the `say` building block to the programming area and attach it to the previous block.
+-   A common error in C programming is the omission of a semicolon. Modify your code as follows:
     
-    whenclickedsayhello, world
+    ```
+    #include <stdio.h>
     
-    Notice that when you click the green flag now, on the stage, the cat says, “hello world.”
+    int main(void)
+    {
+        printf("hello, world\n")
+    }
     
--   This illustrates quite well what we were discussing earlier regarding programming:
+    ```
     
-    ![scratch with black box](/img/cs50/cs50Week0Slide172.png  "scratch with black box") Notice that the input `hello world` is passed to the function `say`, and the _side effect_ of that function running is the cat saying `hello world`.
+    Notice the semicolon is now gone.
     
--   We can make your program more interactive by having the cat say `hello` to someone specific. Modify your program as below:
+-   In your terminal window, run `make hello`. You will now be met with numerous errors! Placing the semicolon back in the correct position and running `make hello` again, the errors go away.
+-   Notice also the special symbol `\n` in your code. Try removing those characters and _making_ your program again by executing `make hello`. Typing `./hello` in the terminal window, how did your program change?
+-   Restore your program to the following:
     
-    whenclickedaskWhat's your name?andwaitsayjoinhello,answer
+    ```
+    #include <stdio.h>
     
-    Notice that when the green flag is clicked, the function `ask` is run. The program prompts you, the user, `What's your name?` It then stores that name in the _variable_ called `answer`. The program then passes `answer` to a special function called `join`, which combines two strings of text `hello`, and whatever name was provided. These collectively are passed to the `say` function. The cat says, `Hello,` and a name. Your program is now interactive.
+    int main(void)
+    {
+        printf("hello, world\n");
+    }
     
--   Quite similarly, we can modify our program as follows:
+    ```
     
-    whenclickedaskWhat's your name?andwaitspeakjoinhello,answer
+    Notice the semicolon and `\n` have been restored.
     
-    Notice that this program, when the green flag is clicked, passes the same variable, joined with `hello`, to a function called `speak`.
+-   The statement at the start of the code `#include <stdio.h>` is a very special command that tells the compile that you want to use the capabilities of _library_ called `stdio.h`. This allows you, among many other things, to utilize the `printf` function. You can read about all the capabilities of this library on the [Manual Pages](https://manual.cs50.io/).
+-   It turns out that CS50 has its own library called `cs50.h`. Let’s use this library in your program.
+
+## [Variables](#variables)
+
+-   Recall that in Scratch, we had the ability to ask the user “What’s your name?” and say “hello” with that name appended to it.
+-   In C, we can do the same. Modify your code as follows:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        string answer = get_string("What's your name? ");
+        printf("hello, %s\n", answer);
+    }
+    
+    ```
+    
+    Notice that `#include <cs50.h>` has been added to the top of your code. The `get_string` function is used to get a string from the user. Then, the variable `answer` is passed to the `printf` function. `%s` tells the `printf` function to prepare itself to receive a `string`.
+    
+-   `answer` is a special holding place we call a _variable_. `answer` is of type `string` and can hold any string within it. There are many _data types_, such as `int`, `bool`, `char`, and many others.
+-   Running `make hello` again in the terminal window, you can run your program by typing `./hello`. The program now asks for your name and then says hello with your name attached.
+
+## [Conditionals](#conditionals)
+
+-   Another building block you utilized within Scratch was that of _conditionals_. For example, you might want to do one thing if x is greater than y. Further, you might want to do something else if that condition is not met.
+-   In the terminal window, type `code compare.c` and write code as follows:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        int x = get_int("What's x? ");
+        int y = get_int("What's y? ");
+    
+        if (x < y)
+        {
+            printf("x is less than y\n");
+        }
+    }
+    
+    ```
+    
+    Notice that we create two variables, an `int` or integer called `x` and another called `y`. The values of these are populated using the `get_int` function.
+    
+-   You can run your code by executing `make compare` in the terminal window, followed by `./compare`. If you get any error messages, check your code for errors.
+-   We can improve your program by coding as follows:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        int x = get_int("What's x? ");
+        int y = get_int("What's y? ");
+    
+        if (x < y)
+        {
+            printf("x is less than y\n");
+        }
+        else if (x > y)
+        {
+            printf("x is greater than y\n");
+        }
+        else
+        {
+            printf("x is equal to y\n");
+        }
+    }
+    
+    ```
+    
+    Notice that all potential outcomes are now accounted for.
+    
+-   You can re-make and re-run your program and test it out.
+-   Considering another data type called a `char` we can start a new program by typing `code agree.c` into the terminal window. In the text editor, write code as follows:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        // Prompt user to agree
+        char c = get_char("Do you agree? ");
+    
+        // Check whether agreed
+        if (c == 'Y' || c == 'y')
+        {
+            printf("Agreed.\n");
+        }
+        else if (c == 'N' || c == 'n')
+        {
+            printf("Not agreed.\n");
+        }
+    }
+    
+    ```
+    
+    Notice that single quotes are utilized for single characters. Further, notice that `==` ensure that something _is equal_ to something else, where a single equal sign would have a very different function in C. Finally, notice that `||` effectively means _or_.
+    
+-   You can test your code by typing `make agree` into the terminal window, followed by `./agree`.
+
+## [Loops](#loops)
+
+-   We can also utilize the loops building block from Scratch in our C programs.
+-   In your terminal window, type `code meow.c` and write code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        printf("meow\n");
+        printf("meow\n");
+        printf("meow\n");
+    }
+    
+    ```
+    
+    Notice this does as intended but has an opportunity for better design.
+    
+-   We can improve our program by modifying your code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        int i = 0;
+        while (i < 3)
+        {
+            printf("meow\n");
+            i++;
+        }
+    }
+    
+    ```
+    
+    Notice that we create an `int` called `i` and assign it the value `0`. Then, we create a `while` loop that will run as long as `i < 3`. Then, the loop runs. Every time `1` is added to `i` using the `i++` statement.
+    
+-   Similarly, we can implement a count-down of sorts by modifying our code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        int i = 3;
+        while (i > 0)
+        {
+            printf("meow\n");
+            i--;
+        }
+    }
+    
+    ```
+    
+    Notice how our counter `i` is started at `3`. Each time the loop runs, it will reduce the counter by `1`. Once the counter is less than zero, it will stop the loop.
+    
+-   We can further improve the design using a `for` loop. Modify your code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            printf("meow\n");
+        }
+    }
+    
+    ```
+    
+    Notice that the `for` loop includes three arguments. The first argument `int i = 0` starts our counter at zero. The second argument `i < 3` is the condition that is being checked. Finally, the argument `i++` tells the loop to increment by one each time the loop runs.
+    
+-   We can even loop forever using the following code:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        while (true)
+        {
+            printf("meow\n");
+        }
+    }
+    
+    ```
+    
+    Notice that `true` will always be the case. Therefore, the code will always run. You will lose control of your terminal window by running this code. You can break from an infinite by hitting `control-C` on your keyboard.
+    
+
+## [Linux and the Command Line](#linux-and-the-command-line)
+
+-   _Linux_ is an operating system that is accessible via the command line in the terminal window in VS Code.
+-   Some common command-line arguments we may use include:
+    -   `cd`, for changing our current directory (folder)
+    -   `cp`, for copying files and directories
+    -   `ls`, for listing files in a directory
+    -   `mkdir`, for making a directory
+    -   `mv`, for moving (renaming) files and directories
+    -   `rm`, for removing (deleting) files
+    -   `rmdir`, for removing (deleting) directories
+-   The most commonly used is `ls` which will list all the files in the current directory or directory. Go ahead and type `ls` into the terminal window and hit `enter`. You’ll see all the files in the current folder.
+-   Another useful command is `mv`, where you can move a file from one file to another. For example, you could use this command to rename `Hello.c` (notice the uppercase `H`) to `hello.c` by typing `mv Hello.c hello.c`.
+-   You can also create folders. You can type `mkdir pset1` to create a directory called `pset1`.
+-   You can then use `cd pset1` to change your current directory to `pset1`.
+
+## [Mario](#mario)
+
+-   Everything we’ve discussed today has focused on various building-blocks of your work as a programmer.
+-   The following will help you orient toward working on a problem set for this class in general: How does one approach a computer science related problem?
+-   Imagine we wanted to emulate the visual of the game Super Mario Bros. Considering the four question-blocks pictured, how could we create code that roughly represents these four horizontal blocks?
+    
+    ![Mario Question Marks](/img/cs50/cs50Week1Slide123.png  "Mario Question Marks")
+    
+-   In the terminal window, type `code mario.c` and code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            printf("?");
+        }
+        printf("\n");
+    }
+    
+    ```
+    
+    Notice how four question marks are printed here using a loop.
+    
+-   Similarly, we can apply this same logic to be able to create three vertical blocks.
+    
+    ![Mario Blocks](/img/cs50/cs50Week1Slide125.png  "Mario Blocks")
+    
+-   To accomplish this, modify your code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            printf("#\n");
+        }
+    }
+    
+    ```
+    
+    Notice how three vertical bricks are printed using a loop.
+    
+-   What if we wanted to combine these ideas to create a three-by-three group of blocks?
+    
+    ![Mario Grid](/img/cs50/cs50Week1Slide127.png  "Mario Grid")
+    
+-   We can follow the logic above, combining the same ideas. Modify your code as follows:
+    
+    ```
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                printf("#");
+            }
+            printf("\n");
+        }
+    }
+    
+    ```
+    
+    Notice that one loop is inside another. The first loop defines what vertical row is being printed. For each row, three columns are printed. After each row, a new line is printed.
+    
+-   What if we wanted to ensure that the number of blocks to be _constant_, that is, unchangeable? Modify your code as follows:
+    
+    ```
+    int main(void)
+    {
+        const int n = 3;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                printf("#");
+            }
+            printf("\n");
+        }
+    
+    ```
+    
+    Notice how `n` is now a constant. It can never be changed.
+    
+-   As illustrated earlier in this lecture, we can make our code prompt the user for the size of the grid. Modify your code as follows:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        int n = get_int("Size: ");
+    
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                printf("#");
+            }
+            printf("\n");
+        }
+    }
+    
+    ```
+    
+    Notice that `get_int` is used to prompt the user.
+    
+-   A general piece of advice within programming is that you should never fully trust your user. They will likely misbehave, typing incorrect values where they should not. We can protect our program from bad behavior by checking to make sure the user’s input satisfies our needs. Modify your code as follows:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        int n;
+        do
+        {
+            n = get_int("Size: ");
+        }
+        while (n < 1);
+    
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                printf("#");
+            }
+            printf("\n");
+        }
+    }
+    
+    ```
+    
+    Notice how the user is continuously prompted for the size until the user’s input is 1 or greater.
+    
+
+## [Comments](#comments)
+
+-   Comments are fundamental parts of a computer program, where you leave explanatory remarks to yourself and others that may be collaborating with you regarding your code.
+-   All code you create for this course must include robust comments.
+-   Typically each comment is a few words or more, providing the reader an opportunity to understand what is happening in a specific block of code. Further, such comments serve as a reminder for you later when you need to revise your code.
+-   Comments involve placing `//` into your code, followed by a comment. Modify your code as follows to integrate comments:
+    
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
+    
+    int main(void)
+    {
+        // Get size of grid
+        int n;
+        do
+        {
+            n = get_int("Size: ");
+        }
+        while (n < 1);
+    
+        // Print grid of bricks
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                printf("#");
+            }
+            printf("\n");
+        }
+    }
+    
+    ```
+    
+    Notice how each comment begins with a `//`.
     
 
 ## [Abstraction](#abstraction)
 
--   Along with pseudocoding, _abstraction_ is an essential skill and concept within computer programming.
--   Abstraction is the act of simplifying a problem into smaller and smaller problems.
--   For example, if you were hosting a huge dinner for your friends, the _problem_ of having to cook the entire meal could be quite overwhelming! However, if you break down the task of cooking the meal into smaller and smaller tasks (or problems), the big task of creating this delicious meal might feel less challenging.
--   In programming, and even within Scratch, we can see abstraction in action. In your programming area, program as follows:
+-   _Abstraction_ is the art of simplifying our code such that it deals with smaller and smaller problems.
+-   Looking at your code, you can see how two essential problems in our code are _get size of grid_ and _print grid of bricks_.
+-   We can abstract away these two problems into separate functions. Modify your code as follows:
     
-    whenclickedplaysoundMeowuntildonewait1secondsplaysoundMeowuntildonewait1secondsplaysoundMeowuntildone
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
     
-    Notice that you are doing the same thing over and over again. Indeed, if you see yourself repeatedly coding the same statements, it’s likely the case that you could program more artfully – abstracting away this repetitive code.
+    int get_size(void);
+    void print_grid(int n);
     
--   You can modify your code as follows:
+    int main(void)
+    {
+        int n = get_size();
+        print_grid(n);
+    }
     
-    whenclickedrepeat3playsoundMeowuntildonewait1seconds
+    int get_size(void)
+    {
+        int n;
+        do
+        {
+            n = get_int("Size: ");
+        }
+        while (n < 1);
+        return n;
+    }
     
-    Notice that the loop does exactly as the previous program did. However, the problem is simplified by abstracting away the repetition to a block that _repeats_ the code for us.
+    void print_grid(int n)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                printf("#");
+            }
+            printf("\n");
+        }
+    }
     
--   We can even advance this further by using the `define` block, where you can create your own block (your own function)! Write code as follows:
+    ```
     
-    ![scratch define](/img/cs50/cs50Week0Scratch6.png  "scratch define") Notice that we are defining our own block called `meow`. The function plays the sound `meow`, then waits one second. Below that, you can see that when the green flag is clicked, our meow function is repeated three times.
-    
--   We can even provide a way by which the function can take an input `n` and repeat a number of times:
-    
-    definemeowntimesrepeatnplaysoundMeowuntildonewait1seconds
-    
-    Notice how `n` is taken from “meow n times.” `n` is passed to the meow function through the `define` block.
-    
--   The cat, by the way, we can call a `sprite` – a general term used in game programming for an object or character on the screen with which the player will interact.
-
-## [If](#if)
-
--   _conditionals_ are an essential building block of programming, where the program looks to see if a specific condition has been met. If a condition is met, the program does something.
--   To illustrate a conditional, write code as follows:
-    
-    whenclickedforeveriftouchingmouse-pointer?thenplaysoundMeowuntildone
-    
-    Notice that the `forever` block is utilized such that the `if` block is triggered over and over again, such that it can check continuously if the cat is touching the mouse pointer.
-    
--   We can modify our program as follows to integrate video sensing:
-    
-    whenvideomotion\>50playsoundMeowuntildone
-    
--   Remember, programming is often a process of trial and error. If you get frustrated, take time to talk yourself through the problem at hand. What is the specific problem that you are working on right now? What is working? What is not working?
-
-## [Expanding Your Imagination](#expanding-your-imagination)
-
--   We showed you in this lecture a number of Scratch programs to stoke your imagination.
--   _Oscartime_ is one of David’s own Scratch programs – though the music may haunt him because of the number of hours he listened to it while creating this program. Take a few moments to play through the game yourself.
--   Building Oscartime ourselves, we first add the lamp post.
-    
-    ![oscartime interface](/img/cs50/cs50Week0Scratch10.png  "oscartime interface")
-    
--   Then, write code as follows:
-    
-    whenclickedswitchcostumetooscar1foreveriftouchingmouse-pointer?thenswitchcostumetooscar2elseswitchcostumetooscar1
-    
-    Notice that moving your mouse over Oscar changes his costume. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565100517).
-    
--   Then, modify your code as follow to create a falling piece of trash:
-    
-    whenclickedgotox:pickrandom\-240to240y:180foreverifdistancetofloor\>0thenchangeyby\-3
-    
-    Notice that the trash’s position on the y-axis always begins at 180. The x position is randomized. While the trash is above the floor, it goes down 3 pixels at a time. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565117390).
-    
--   Next, modify your code as follows to allow for the possibility of dragging trash.
-    
-    whenclickedforeverifmousedown?andtouchingmouse-pointer?thengotomouse-pointer
-    
-    You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565119737).
-    
--   Next, we can implement the scoring variables as follows:
-    
-    whenclickedforeveriftouchingOscar?thenchangescoreby1gotox:pickrandom\-240to240y:180
-    
-    You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565472267).
+    Notice that we have three functions now. First, we have the `main` function that calls two other functions called `get_size` and `print_grid`. Second, we have a second function called `get_size` which includes the exact code we had to accomplish this task prior. Third, we have another function called `print_grid` that prints the grid. Because we abstracted away the essential problems within our program, our `main` function is very short.
     
 
-## [Sprite Movement](#sprite-movement)
+## [Operators and Types](#operators-and-types)
 
--   Moving away from Oscartime to Ivy’s Hardest Game, we can now imagine how to implement movement within our program.
--   Our program has three main components.
--   First, write code as follows:
+-   _Operators_ refer to the mathematical operations that are supported by your compiler. In C, these mathematical operators include:
     
-    whenclickedgotox:0y:0foreverlistenforkeyboardfeelforwalls
+    -   `+` for addition
+    -   `-` for subtraction
+    -   `*` for multiplication
+    -   `/` for division
+    -   `%` for remainder
+-   Types refer to the possible data that can be stored within a variable. For example, a `char` is designed to accommodate a single character like `a` or `2`.
+-   Types are very important because each type has specific limits. For example, because of the limits in memory, the highest value of an `int` can be `4294967296`.
+-   Types with which you might interact during this course include:
     
-    Notice that when the green flag is clicked, our sprite moves to the center of the stage at coordinates (0,0) and then listens for the keyboard and checks for walls forever.
+    -   `bool`, a Boolean expression of either true or false
+    -   `char`, a single character like a or 2
+    -   `double`, a floating-point value with more digits than a float
+    -   `float`, a floating-point value, or real number with a decimal value
+    -   `int`, integers up to a certain size, or number of bits
+    -   `long`, integers with more bits, so they can count higher than an int
+    -   `string`, a string of characters
+-   You can implement a calculator in C. In your terminal, type `code calculator.c` and write code as follows:
     
--   Second, add this second group of code blocks:
+    ```
+    #include <cs50.h>
+    #include <stdio.h>
     
-    definelistenforkeyboardifkeyup arrowpressed?thenchangeyby1ifkeydown arrowpressed?thenchangeyby\-1ifkeyright arrowpressed?thenchangexby1ifkeyleft arrowpressed?thenchangexby\-1
+    int main(void)
+    {
+        // Prompt user for x
+        int x = get_int("x: ");
     
-    Notice how we have created a custom `listen for keyboard` script. For each of our arrow keys on the keyboard, it will move the sprite around the screen.
+        // Prompt user for y
+        int y = get_int("y: ");
     
--   Finally, add this group of code blocks:
+        // Perform addition
+        printf("%i\n", x + y);
+    }
     
-    definefeelforwallsiftouchingleft wall?thenchangexby1iftouchingright wall?thenchangexby\-1
+    ```
     
-    Notice how we also have a custom `feel for walls` script. When a sprite touches a wall, it moves it back to a safe position – preventing it from walking off the screen.
+    Notice how the `get_int` function is utilized to obtain an integer from the user twice. One integer is stored in the `int` variable called `x`. Another is stored in the `int` variable called `y`. Then, the `printf` function prints the value of `x + y`, designated by the `%i` symbol.
     
--   You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565121265).
--   Go try the full game [Oscartime](https://scratch.mit.edu/projects/277537196).
-
-## [More Sprites](#more-sprites)
-
--   Scratch allows for many sprites to be on the screen at once.
--   Adding another sprite, add the following code blocks to your program:
-    
-    whenclickedgotox:0y:0pointindirection90foreveriftouchingleft wall?ortouchingright wall?thenturn180degreesmove1steps
-    
-    Notice how the Yale sprite seems to get in the way of the Harvard sprite by moving back and forth. When it bumps into a wall, it turns around until it bumps the wall again. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565127193).
-    
--   You can even make a sprite follow another sprite. Adding another sprite, add the following code blocks to your program:
-    
-    whenclickedgotorandom positionforeverpointtowardsHarvardmove1steps
-    
-    Notice how the MIT logo now seems to follow around the Harvard one. You can learn more by [exploring these code blocks](https://scratch.mit.edu/projects/565479840).
-    
--   Go try the full game [Ivy’s Hardest Game](https://scratch.mit.edu/projects/565742837).
+-   As you are coding, pay special attention to the types of variables you are using to avoid problems within your code.
 
 ## [Summing Up](#summing-up)
 
-In this lesson, you learned how this course sits in the wide world of computer science and programming. You learned…
+In this lesson, you learned how to apply the building blocks you learned in Scratch to the C programming language. You learned…
 
--   Few students come to this class with prior coding experience!
--   You are not alone! You are part of a community.
--   Problem solving is the essence of the work of computer scientists.
--   This course is not simply about programming – this course will introduce you to a new way of learning that you can apply to almost every area of life.
--   How numbers, text, images, music, and video are understood by computers.
--   The fundamental programming skill of pseudocoding.
--   How abstraction will play a role in your future work in this course.
--   The basic building blocks of programming, including functions, conditionals, loops, and variables.
--   How to build a project in Scratch.
+-   How to create your first program in C.
+-   Predefined functions that come natively with C and how to implement your own functions.
+-   How to use variables, conditionals, and loops.
+-   How to use the Linux command line.
+-   How to approach problem-solving for a computer science problem.
+-   How to integrate comments into your code.
+-   How to approach abstraction to simplify and improve your code.
+-   How to utilize types and operators.
 
 See you next time!

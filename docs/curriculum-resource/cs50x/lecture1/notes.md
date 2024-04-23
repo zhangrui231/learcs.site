@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 description: CS50X lecture0 scratch Notes | 课程笔记 
-
+title: Notes
 ---
 
 # Notes
