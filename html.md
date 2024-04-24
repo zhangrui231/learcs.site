@@ -1,9 +1,3 @@
----
-sidebar_position: 2
-description: CS50X lecture1 C Lab1
-title: Lab
----
-
 # Lab 1: Population Growth - CS50x 2023
 
 Determine how long it takes for a population to reach a particular size.
