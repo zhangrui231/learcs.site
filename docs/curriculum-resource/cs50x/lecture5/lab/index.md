@@ -1,5 +1,4 @@
 ---
-sidebar_position: 4
 description: lecture4 Memory Lab | 实验
 title: Lab
 ---
@@ -11,8 +10,8 @@ title: Lab
 1.  Log into [cs50.dev](https://cs50.dev/) using your GitHub account
 2.  Run `update50` in your codespace’s terminal window to ensure your codespace is up-to-date and, when prompted, click **Rebuild now**
 3.  Submit one of:
-    -   [Smiley](https://cs50.harvard.edu/x/2023/labs//4/smiley/)
-    -   [Volume](https://cs50.harvard.edu/x/2023/labs//4/volume/)
+    -   [Smiley](smiley.md)
+    -   [Volume](volume.md)
 
 If you submit both Smiley and Volume, we’ll record the higher of your two scores.
 
