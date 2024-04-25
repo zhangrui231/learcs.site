@@ -26,7 +26,7 @@ By [2023-12-31T23:59:00-05:00](https://time.cs50.io/20231231T235900-0500).
 
 ## Advice
 
--   Try out any of David’s programs from class via [Week 2](https://cs50.harvard.edu/x/2023/psets/weeks/2/)’s examples.
+-   Try out any of David’s programs from class via [Week 2](https://cs50.harvard.edu/x/2023/weeks/2/)’s examples.
 -   To see the manual pages for C functions, visit [manual.cs50.io](https://manual.cs50.io/).
 -   If you see any errors when compiling your code with `make`, focus first on fixing the very first error you see, scrolling up as needed. If unsure what it means, try asking `help50` for help. For instance, if trying to compile `readability`, and
 

@@ -29,7 +29,7 @@ By [2023-12-31T23:59:00-05:00](https://time.cs50.io/20231231T235900-0500).
 
 ## Advice
 
--   Try out any of David’s programs from [Week 6](https://cs50.harvard.edu/x/2023/psets/weeks/6/).
+-   Try out any of David’s programs from [Week 6](https://cs50.harvard.edu/x/2023/weeks/6/).
 
 ## Academic Honesty
 

@@ -24,7 +24,7 @@ By [2023-12-31T23:59:00-05:00](https://time.cs50.io/20231231T235900-0500).
 
 ## Advice
 
--   Try out any of David’s programs from class via [Week 3](https://cs50.harvard.edu/x/2023/psets/weeks/3/)’s sandboxes.
+-   Try out any of David’s programs from class via [Week 3](https://cs50.harvard.edu/x/2023/weeks/3/)’s sandboxes.
 -   If you see any errors when compiling your code with `make`, focus first on fixing the very first error you see, scrolling up as needed. If unsure what it means, try asking `help50` for help. For instance, if trying to compile `plurality`, and
 
     is yielding errors, try running
