@@ -1,7 +1,3 @@
----
-title: lecture2
----
-
 import DocCardList from '@theme/DocCardList';
 
 # Scratch

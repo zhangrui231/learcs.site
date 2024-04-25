@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
-description: cs50x problem set Cash
-title: Cash
+description: cs50x problem set cash
+title: cash
 ---
 
 # Cash - CS50x 2023

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-description: CS50X lecture1 C Lab1
+sidebar_position: 4
+description: lecture1 C Lab | 实验
 title: Lab
 ---
 
@@ -16,7 +16,7 @@ Years: 9
 
 ```
 
-## [Background](#background)
+## Background
 
 Say we have a population of `n` llamas. Each year, `n / 3` new llamas are born, and `n / 4` llamas pass away.
 
@@ -24,7 +24,7 @@ For example, if we were to start with `n = 1200` llamas, then in the first year,
 
 To try another example, if we were to start with `n = 1000` llamas, at the end of the year, we would have `1000 / 3 = 333.33` new llamas. We can’t have a decimal portion of a llama, though, so we’ll truncate the decimal to get `333` new llamas born. `1000 / 4 = 250` llamas will pass away, so we’ll end up with a total of `1000 + 333 - 250 = 1083` llamas at the end of the year.
 
-## [Getting Started](#getting-started)
+## Getting Started
 
 Recall that Visual Studio Code (aka VS Code) is a popular “integrated development environment” (IDE) via which you can write code. So that you don’t have to download, install, and configure your own copy of VS Code, we’ll use a cloud-based version instead that has everything you’ll need pre-installed.
 
@@ -56,7 +56,7 @@ followed by Enter in order to download a template file called `population.c` in 
 
 and see a file named `population.c`. Executing `code population.c` should open the file where you will type your code for this lab. If not, retrace your steps and see if you can determine where you went wrong!
 
-## [Implementation Details](#implementation-details)
+## Implementation Details
 
 Complete the implementation of `population.c`, such that it calculates the number of years required for the population to grow from the start size to the end size.
 
@@ -67,12 +67,12 @@ Complete the implementation of `population.c`, such that it calculates the numbe
 -   Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
 -   Finally, your program should print the number of years required for the llama population to reach that end size, as by printing to the terminal `Years: n`, where `n` is the number of years.
 
-### [Walkthrough](#walkthrough)
+### Walkthrough
 
-### [Hints](#hints)
+### Hints
 
 -   If you want to repeatedly re-prompt the user for the value of a variable until some condition is met, you might want to use a `do ... while` loop. For example, recall the following code from lecture, which prompts the user repeatedly until they enter a positive integer.
-    
+
     ```
       int n;
       do
@@ -80,26 +80,26 @@ Complete the implementation of `population.c`, such that it calculates the numbe
           n = get_int("Positive Integer: ");
       }
       while (n < 1);
-    
+
     ```
-    
+
     How might you adapt this code to ensure a start size of at least 9, and an end size of at least the start size?
-    
+
 -   To declare a new variable, be sure to specify its data type, a name for the variable, and (optionally) what its initial value should be.
     -   For example, you might want to create a variable to keep track of how many years have passed.
 -   To calculate how many years it will take for the population to reach the end size, another loop might be helpful! Inside the loop, you’ll likely want to update the population size according to the formula in the Background, and update the number of years that have passed.
-    
+
 -   To print an integer `n` to the terminal, recall that you can use a line of code like
-    
+
     ```
       printf("The number is %i\n", n);
-    
-    ```
-    
-    to specify that the variable `n` should fill in for the placeholder `%i`.
-    
 
-### [How to Test Your Code](#how-to-test-your-code)
+    ```
+
+    to specify that the variable `n` should fill in for the placeholder `%i`.
+
+
+### How to Test Your Code
 
 Your program should behave per these examples below.
 
@@ -151,7 +151,7 @@ check50 cs50/labs/2023/x/population
 
 Execute the below to evaluate the style of your code using `style50`.
 
-## [How to Submit](#how-to-submit)
+## How to Submit
 
 In your terminal, execute the below to submit your work.
 

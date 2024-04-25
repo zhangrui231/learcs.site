@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 description: cs50x problem set hello
-title: Hello
+title: hello
 ---
 
 # Hello - CS50x 2023
@@ -72,6 +72,9 @@ As before, be sure to compile your program with:
 
 And be sure to execute your program, testing it a few times with different inputs, with:
 
+### [Walkthrough](#walkthrough)
+
+Here’s a “walkthrough” (i.e., tour) of this problem, if you’d like a verbal overview of what to do too!
 
 ### [Hints](#hints)
 

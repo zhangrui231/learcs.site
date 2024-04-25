@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: cs50x problem set hello
+description: cs50x problem set scratch
 title: Scratch
 ---
 

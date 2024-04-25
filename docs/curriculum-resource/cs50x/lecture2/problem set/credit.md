@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
-description: cs50x problem set Credit
-title: Credit
+description: cs50x problem set credit
+title: credit
 ---
 
 # Credit - CS50x 2023
