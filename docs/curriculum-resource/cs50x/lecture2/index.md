@@ -7,6 +7,6 @@ import DocCardList from '@theme/DocCardList';
  
 ## Sorrce Code
 
-[Source Code](/resources/cs50/src1.pdf)
+[Source Code](/resource/cs50/src1.pdf)
 
 <DocCardList />
