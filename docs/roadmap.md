@@ -131,7 +131,8 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
 
 ## 分科目说明
 ### 编程入门
-#### cs50x 
+#### 推荐课程
+##### cs50x 
 
 有些人可能会觉得CS50X这门课程过于简单或者啰嗦，但实际上，这门课程的内容并不简单，它全面涵盖了计算机科学的基础知识，包括算法、数据结构、软件工程，以及网络。学习CS50X将会让你对计算机科学有一个比较全面的理解学完之后对计算机科学不再那么迷茫，而且还有机会学习多种编程语言，包括C、Python和JavaScript，以及SQL、CSS和HTML。因为是面向所有人的基础导论课程，因此，教授在讲解时循序渐进会尽可能详细和清晰，以确保每个人都能跟上。这种教学方式可能会让一些已经有一定基础的学生觉得啰嗦，但对于初学者来说，这无疑是非常有帮助的。所以将 CS50X 作为计算机科学入门第一课是非常好的选择。
 CS50X提供了丰富的课程资源包括
@@ -147,20 +148,25 @@ CS50X提供了丰富的课程资源包括
 - Lab （课程实验，可以与同学合作完成）
 - Problem Set （课程作业，需要每个人独立完成）
 
-### cs61a
+##### cs61a
 说到CS61A，不得不提及一部与该课程同名的经典著作 [《Structure and Interpretation of Computer Programs》](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-4.html#%_toc_start)，中文译本 《计算机程序的构造和解释》也就是大名鼎鼎的SICP。很多大学的计算机专业本科程序设计「导论」课程都以SICP为教材，其中大家较为熟知的有
 - [MIT6.001](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) 由SICP的作者之一 Hal Abelson 授课。以LISP的变体scheme为授课语言。
 - UCB cs61a 
    [Brian Harvey 开设的 SICP 课程](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=title&tab=collection),该课程也是以scheme为授课语言。Spring 2011是该课程的最后一版，后续的课程更新为以Python为授课语言。比起 MIT 的课程，它更加完善，更适用于初学者。
 
 - [John DeNero 讲授的更新的 CS 61A 课程](https://inst.eecs.berkeley.edu/~cs61a/fa23/),升级后的课程继承了SICP但使用Python语言讲解。而且为课程重新编写了配套书籍 [Composing Programs](https://www.composingprograms.com/)。
-考虑到python是当下使用范围最广的编程语言之一且学习难度低，所以本指南选用更新 CS 61A 课程。强烈建议学有余力的同学阅读 SICP 结合 Brian Harvey 的 CS61a 课程学习SICP。因为 SICP 是独一无二的，它可以——至少很有可能——改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
+考虑到python是当下使用范围最广的编程语言之一且学习难度低，所以本指南选用UCB更新后的 CS61A 课程。但强烈建议学有余力的同学阅读 SICP 结合 Brian Harvey 的 CS61a 课程学习SICP。因为 SICP 是独一无二的，它可以很有可能改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
 cs61a（新版） 提供了丰富的课程资源包括：
-- [课程网站](https://inst.eecs.berkeley.edu/~cs61a/fa23/)
-- Videos | 视频课程
+- [课程网站](https://cs61a.org/)
+- Videos | 提前录制的由John DeNero 授课的课程视频
+- Recordings | 课堂实录（内容跟video一样，需要登陆 bcourses.berkeley.edu 账号才能观看）
+- slides | 课程PPT
 - Textbook | 阅读教材
 - Lab | 实验
 - Discussions | 讨论环节的问题集
 - Homework | 作业
 - Projects | 项目
+  
+***虽然CS50,CS61a 都是CSEE学科的编程入门基础课程，但是直接上手CS61A 对学习能力有一定的要求，所以建议先学习CS50x，然后学习CS61A，以免因学习难度过高而导致信心受挫***
+#### 
 
