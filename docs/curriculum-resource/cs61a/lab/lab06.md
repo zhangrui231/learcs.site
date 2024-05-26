@@ -1,5 +1,5 @@
 ---
-title: Lab 6: OOP
+title: Lab 6 OOP
 ---
 # Lab 6: OOP | CS 61A Spring 2024
 
