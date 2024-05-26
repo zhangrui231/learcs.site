@@ -46,11 +46,11 @@ User-defined classes are created by class statements, which consist of a single 
 
 ```
 class <name>:
-    <suite>
+    \<suite\>
 
 ```
 
-When a class statement is executed, a new class is created and bound to <name> in the first frame of the current environment. The suite is then executed. Any names bound within the <suite> of a class statement, through def or assignment statements, create or modify attributes of the class.
+When a class statement is executed, a new class is created and bound to \<name\> in the first frame of the current environment. The suite is then executed. Any names bound within the \<suite\> of a class statement, through def or assignment statements, create or modify attributes of the class.
 
 Classes are typically organized around manipulating instance attributes, which are the name-value pairs associated with each instance of that class. The class specifies the instance attributes of its objects by defining a method for initializing new objects. For example, part of initializing an object of the Account class is to assign it a starting balance of 0.
 

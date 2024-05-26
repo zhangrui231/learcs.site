@@ -15,11 +15,11 @@ These two parts of a program, the part that operates on abstract data and the pa
 A rational number is a ratio of integers, and rational numbers constitute an important sub-class of real numbers. A rational number such as 1/3 or 17/29 is typically written as:
 
 ```
-<numerator>/<denominator>
+numerator/denominator
 
 ```
 
-where both the <numerator> and <denominator> are placeholders for integer values. Both parts are needed to exactly characterize the value of the rational number. Actually dividing integers produces a float approximation, losing the exact precision of integers.
+where both the numerator and denominator are placeholders for integer values. Both parts are needed to exactly characterize the value of the rational number. Actually dividing integers produces a float approximation, losing the exact precision of integers.
 
 ```
 >>> 1/3

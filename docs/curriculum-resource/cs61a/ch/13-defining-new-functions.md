@@ -18,7 +18,7 @@ We begin by examining how to express the idea of _squaring_. We might say, "To s
 
 which defines a new function that has been given the name square. This user-defined function is not built into the interpreter. It represents the compound operation of multiplying something by itself. The x in this definition is called a _formal parameter_, which provides a name for the thing to be multiplied. The definition creates this user-defined function and associates it with the name square.
 
-**How to define a function.** Function definitions consist of a def statement that indicates a name and a comma-separated list of named <formal parameters>, then a return statement, called the function body, that specifies the <return expression> of the function, which is an expression to be evaluated whenever the function is applied:
+**How to define a function.** Function definitions consist of a def statement that indicates a name and a comma-separated list of named <formal parameters>, then a return statement, called the function body, that specifies the eturn expression of the function, which is an expression to be evaluated whenever the function is applied:
 
 ```
 def name(<formal parameters>):

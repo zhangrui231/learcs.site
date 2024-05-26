@@ -510,7 +510,7 @@ We can understand the structure of a lambda expression by constructing a corresp
 
 ```
 
-The result of a lambda expression is called a lambda function. It has no intrinsic name (and so Python prints <lambda> for the name), but otherwise it behaves like any other function.
+The result of a lambda expression is called a lambda function. It has no intrinsic name (and so Python prints lambda for the name), but otherwise it behaves like any other function.
 
 ```
 >>> s = lambda x: x * x
