@@ -1,5 +1,5 @@
 ---
-title： Discussion 7 OOP
+title: Discussion 7 OOP
 ---
 # Discussion 7 | CS 61A Spring 2024
 
