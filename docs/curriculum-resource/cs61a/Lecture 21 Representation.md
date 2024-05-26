@@ -1,9 +1,9 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 21
-description: cs61a  Lecture 21 Representation| �γ̱ʼ� 
+description: cs61a  Lecture 21 Representation| �γ̱ʼ� 
 ---
+import DocCardList from '@theme/DocCardList';
+
 # Lecture 21 Representation
 ## lecture Video
 

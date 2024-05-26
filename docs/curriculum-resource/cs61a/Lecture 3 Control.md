@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 3
-description: cs61a  Lecture 3 Control| �γ̱ʼ� 
+description: cs61a  Lecture 3 Control| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 3 Control
 ## lecture Video
 

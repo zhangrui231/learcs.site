@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 6
-description: cs61a  Lecture 6 Functional Abstraction| �γ̱ʼ� 
+description: cs61a  Lecture 6 Functional Abstraction| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 6 Functional Abstraction
 ## lecture Video
 

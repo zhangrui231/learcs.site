@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 33
-description: cs61a  Lecture 33 SQL| �γ̱ʼ� 
+description: cs61a  Lecture 33 SQL| �γ̱ʼ� 
 ---
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 33 SQL
 ## lecture Video
 

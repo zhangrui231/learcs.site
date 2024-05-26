@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 38
-description: cs61a  Lecture 38 Conclusion| �γ̱ʼ� 
+description: cs61a  Lecture 38 Conclusion| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
 # Lecture 38 Conclusion
 ## lecture Video
 

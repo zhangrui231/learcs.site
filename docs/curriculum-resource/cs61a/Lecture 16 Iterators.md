@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 16
-description: cs61a  Lecture 16 Iterators| �γ̱ʼ� 
+description: cs61a  Lecture 16 Iterators| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 16 Iterators
 ## lecture Video
 

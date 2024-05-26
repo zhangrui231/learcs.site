@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 35
-description: cs61a  Lecture 35 Aggregation| �γ̱ʼ� 
+description: cs61a  Lecture 35 Aggregation| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 35 Aggregation
 ## lecture Video
 

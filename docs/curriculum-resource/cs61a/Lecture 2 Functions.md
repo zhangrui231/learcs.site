@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 2
-description: cs61a  Lecture 2 Functions| �γ̱ʼ� 
+description: cs61a  Lecture 2 Functions| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 2 Functions
 ## lecture Video
 

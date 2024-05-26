@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 10
-description: cs61a  Lecture 10 Tree Recursion| �γ̱ʼ� 
+description: cs61a  Lecture 10 Tree Recursion| �γ̱ʼ� 
 ---
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 10 Tree Recursion
 ## lecture Video
 

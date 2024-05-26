@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 29
-description: cs61a  Lecture 29 Calculator| �γ̱ʼ� 
+description: cs61a  Lecture 29 Calculator| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
 # Lecture 29 Calculator
 ## lecture Video
 

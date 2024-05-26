@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 13
-description: cs61a  Lecture 13 Data Abstraction| �γ̱ʼ� 
+description: cs61a  Lecture 13 Data Abstraction| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 13 Data Abstraction
 ## lecture Video
 

@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 9
-description: cs61a  Lecture 9 Recursion| �γ̱ʼ� 
+description: cs61a  Lecture 9 Recursion| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 9 Recursion
 ## lecture Video
 

@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 36
-description: cs61a  Lecture 36 Databases (Optional)| �γ̱ʼ� 
+description: cs61a  Lecture 36 Databases (Optional)| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
 # Lecture 36 Databases (Optional)
 ## lecture Video
 

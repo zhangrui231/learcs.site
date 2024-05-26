@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 28
-description: cs61a  Lecture 28 Scheme Lists| �γ̱ʼ� 
+description: cs61a  Lecture 28 Scheme Lists| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 28 Scheme Lists
 ## lecture Video
 

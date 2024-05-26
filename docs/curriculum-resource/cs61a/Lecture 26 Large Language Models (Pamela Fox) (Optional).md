@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 26
-description: cs61a  Lecture 26 Large Language Models (Pamela Fox) (Optional)| �γ̱ʼ� 
+description: cs61a  Lecture 26 Large Language Models (Pamela Fox) (Optional)| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 26 Large Language Models (Pamela Fox) (Optional)
 ## lecture Video
 

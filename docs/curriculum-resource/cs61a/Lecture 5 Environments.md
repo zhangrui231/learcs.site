@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 5
-description: cs61a  Lecture 5 Environments| �γ̱ʼ� 
+description: cs61a  Lecture 5 Environments| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 5 Environments
 ## lecture Video
 

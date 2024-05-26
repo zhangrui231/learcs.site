@@ -1,9 +1,11 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 23
-description: cs61a  Lecture 23 Efficiency| �γ̱ʼ� 
+description: cs61a  Lecture 23 Efficiency| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
+
 # Lecture 23 Efficiency
 ## lecture Video
 

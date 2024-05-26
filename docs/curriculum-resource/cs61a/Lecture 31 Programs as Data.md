@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 31
-description: cs61a  Lecture 31 Programs as Data| �γ̱ʼ� 
+description: cs61a  Lecture 31 Programs as Data| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
 # Lecture 31 Programs as Data
 ## lecture Video
 

@@ -1,9 +1,10 @@
-import DocCardList from '@theme/DocCardList';
-
 ---
 sidebar_position: 30
-description: cs61a  Lecture 30 Interpreters| �γ̱ʼ� 
+description: cs61a  Lecture 30 Interpreters| �γ̱ʼ� 
 ---
+
+import DocCardList from '@theme/DocCardList';
+
 # Lecture 30 Interpreters
 ## lecture Video
 
