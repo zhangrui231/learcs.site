@@ -1,11 +1,9 @@
----
-sidebar_position: 18
-description: cs61a  Lecture 18 Objects| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 18
+description: cs61a  Lecture 18 Objects
+---
 # Lecture 18 Objects
 ## lecture Video
 
@@ -14,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/18-Objects_1pp.pdf)
 ## Texbook
-
+[Ch. 2.5 25-object-oriented-programming](./ch/25-object-oriented-programming.md) | 
 
 ## Lab & Discussion Links
 
 
 ## Homework & Project
-[HW 05: Generators](./homework/hw05.md)[Solutions](./homework/sol-hw05.md)
+[HW 05: Generators](./homework/hw05.md) | [Solutions](./homework/sol-hw05.md) | 
 
 
 <DocCardList />

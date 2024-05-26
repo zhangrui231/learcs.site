@@ -1,3 +1,7 @@
+---
+title: Lab 8 Solutions
+---
+
 # Lab 8 Solutions | CS 61A Spring 2024
 
 ## Lab 8 Solutions

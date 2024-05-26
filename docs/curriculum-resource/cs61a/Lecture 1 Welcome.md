@@ -1,10 +1,9 @@
+import DocCardList from '@theme/DocCardList';
+
 ---
 sidebar_position: 1
 description: cs61a  Lecture 1 Welcome
 ---
-
-import DocCardList from '@theme/DocCardList';
-
 # Lecture 1 Welcome
 ## lecture Video
 
@@ -16,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Disc 00: Getting Started](./dis/disc00.md)[Solutions](./dis/sol-disc00.md)
+[Disc 00: Getting Started](./dis/disc00.md) | [Solutions](./dis/sol-disc00.md) | 
 
 ## Homework & Project
 None

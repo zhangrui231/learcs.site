@@ -1,3 +1,6 @@
+---
+title: Discussion 11 SQL
+---
 # Discussion 11 | CS 61A Spring 2024
 
 ## Discussion 11: SQL

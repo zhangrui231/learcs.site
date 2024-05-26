@@ -1,3 +1,7 @@
+---
+title: Discussion 5 Solutions
+---
+
 # Discussion 5 | CS 61A Spring 2024
 
 ## Discussion 5: Trees

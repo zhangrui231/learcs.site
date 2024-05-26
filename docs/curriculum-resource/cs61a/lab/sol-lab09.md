@@ -1,3 +1,7 @@
+---
+title: Lab 9 Solutions
+---
+
 # Lab 9 Solutions | CS 61A Spring 2024
 
 ## Lab 9 Solutions

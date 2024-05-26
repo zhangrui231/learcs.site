@@ -1,11 +1,9 @@
----
-sidebar_position: 16
-description: cs61a  Lecture 16 Iterators| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 16
+description: cs61a  Lecture 16 Iterators
+---
 # Lecture 16 Iterators
 ## lecture Video
 
@@ -14,10 +12,10 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/16-Iterators_1pp.pdf)
 ## Texbook
-
+[Ch. 4.2 42-implicit-sequences](./ch/42-implicit-sequences.md) | 
 
 ## Lab & Discussion Links
-[Lab 05: Iterators, Mutability](./lab/lab05.md)[Solutions](./lab/sol-lab05.md)
+[Lab 05: Iterators, Mutability](./lab/lab05.md) | [Solutions](./lab/sol-lab05.md) | 
 
 ## Homework & Project
 None

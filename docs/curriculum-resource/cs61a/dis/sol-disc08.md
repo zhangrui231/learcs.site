@@ -1,3 +1,7 @@
+---
+title: Discussion 8 Solutions
+---
+
 # Discussion 8 | CS 61A Spring 2024
 
 ## Discussion 8: Linked Lists, Efficiency

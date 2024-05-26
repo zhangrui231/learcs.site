@@ -1,3 +1,6 @@
+---
+title: Lab 9 Scheme
+---
 # Lab 9: Scheme | CS 61A Spring 2024
 
 ## Lab 9: Scheme

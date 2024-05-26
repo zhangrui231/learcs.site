@@ -1,11 +1,9 @@
----
-sidebar_position: 35
-description: cs61a  Lecture 35 Aggregation| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 35
+description: cs61a  Lecture 35 Aggregation
+---
 # Lecture 35 Aggregation
 ## lecture Video
 
@@ -20,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Homework & Project
-[HW 10: SQL](./homework/hw10.md)[Solutions](./homework/sol-hw10.md)
+[HW 10: SQL](./homework/hw10.md) | [Solutions](./homework/sol-hw10.md) | 
 
 
 <DocCardList />

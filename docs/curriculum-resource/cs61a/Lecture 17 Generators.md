@@ -1,11 +1,9 @@
----
-sidebar_position: 17
-description: cs61a  Lecture 17 Generators| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 17
+description: cs61a  Lecture 17 Generators
+---
 # Lecture 17 Generators
 ## lecture Video
 
@@ -14,10 +12,10 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/17-Generators_1pp.pdf)
 ## Texbook
-
+[Ch. 4.2 42-implicit-sequences](./ch/42-implicit-sequences.md) | 
 
 ## Lab & Discussion Links
-[Disc 06: Iterators, Generators](./dis/disc06.md)[Solutions](./dis/sol-disc06.md)
+[Disc 06: Iterators, Generators](./dis/disc06.md) | [Solutions](./dis/sol-disc06.md) | 
 
 ## Homework & Project
 None

@@ -1,3 +1,6 @@
+---
+title: Lab 10 Interpreters
+---
 # Lab 10: Interpreters | CS 61A Spring 2024
 
 ## Lab 10: Interpreters

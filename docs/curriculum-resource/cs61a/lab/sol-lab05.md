@@ -1,3 +1,7 @@
+---
+title: Lab 5 Solutions
+---
+
 # Lab 5 Solutions | CS 61A Spring 2024
 
 ## Lab 5 Solutions

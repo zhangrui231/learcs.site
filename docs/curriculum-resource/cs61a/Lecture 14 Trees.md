@@ -1,11 +1,9 @@
----
-sidebar_position: 14
-description: cs61a  Lecture 14 Trees| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 14
+description: cs61a  Lecture 14 Trees
+---
 # Lecture 14 Trees
 ## lecture Video
 
@@ -14,10 +12,10 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/14-Trees_1pp.pdf)
 ## Texbook
-
+[Ch. 2.3 23-sequences](./ch/23-sequences.md) | 
 
 ## Lab & Discussion Links
-[Disc 05: Trees](./dis/disc05.md)[Solutions](./dis/sol-disc05.md)
+[Disc 05: Trees](./dis/disc05.md) | [Solutions](./dis/sol-disc05.md) | 
 
 ## Homework & Project
 None

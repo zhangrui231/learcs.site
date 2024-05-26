@@ -1,3 +1,6 @@
+---
+title:  Lab 1 Functions, Control
+---
 # Lab 1: Functions, Control | CS 61A Spring 2024
 
 ## Lab 1: Functions, Control

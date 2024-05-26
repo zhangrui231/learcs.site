@@ -1,3 +1,7 @@
+---
+title: Scheme Interpreter
+sidebar_position: 4
+---
 # Project 4: Scheme Interpreter | CS 61A Spring 2024
 
 > ![Money Tree](/img/cs61a/money_tree.png)

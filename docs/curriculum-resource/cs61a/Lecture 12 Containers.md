@@ -1,10 +1,9 @@
----
-sidebar_position: 12
-description: cs61a  Lecture 12 Containers| �γ̱ʼ� 
----
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 12
+description: cs61a  Lecture 12 Containers
+---
 # Lecture 12 Containers
 ## lecture Video
 
@@ -13,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/12-Containers_1pp.pdf)
 ## Texbook
-
+[Ch. 2.3 23-sequences](./ch/23-sequences.md) | 
 
 ## Lab & Discussion Links
-[Disc 04: Tree Recursion](./dis/disc04.md)[Solutions](./dis/sol-disc04.md)
+[Disc 04: Tree Recursion](./dis/disc04.md) | [Solutions](./dis/sol-disc04.md) | 
 
 ## Homework & Project
-[Cats](./project/cats.md)
+[Cats](./project/cats.md) | 
 
 
 <DocCardList />

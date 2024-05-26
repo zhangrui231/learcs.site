@@ -1,3 +1,6 @@
+---
+title: Homework 1 Solutions
+---
 # Homework 1 Solutions | CS 61A Spring 2024
 
 ## Homework 1 Solutions

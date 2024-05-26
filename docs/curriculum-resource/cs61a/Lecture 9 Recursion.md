@@ -1,11 +1,9 @@
----
-sidebar_position: 9
-description: cs61a  Lecture 9 Recursion| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 9
+description: cs61a  Lecture 9 Recursion
+---
 # Lecture 9 Recursion
 ## lecture Video
 
@@ -14,10 +12,10 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/09-Recursion_1pp.pdf)
 ## Texbook
-
+[Ch. 1.7 17-recursive-functions](./ch/17-recursive-functions.md) | 
 
 ## Lab & Discussion Links
-[Disc 03: Recursion](./dis/disc03.md)[Solutions](./dis/sol-disc03.md)
+[Disc 03: Recursion](./dis/disc03.md) | [Solutions](./dis/sol-disc03.md) | 
 
 ## Homework & Project
 None

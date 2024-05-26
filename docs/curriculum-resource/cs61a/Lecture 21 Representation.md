@@ -1,9 +1,9 @@
----
-sidebar_position: 21
-description: cs61a  Lecture 21 Representation| �γ̱ʼ� 
----
 import DocCardList from '@theme/DocCardList';
 
+---
+sidebar_position: 21
+description: cs61a  Lecture 21 Representation
+---
 # Lecture 21 Representation
 ## lecture Video
 
@@ -12,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/21-Representation_1pp.pdf)
 ## Texbook
-
+[Ch. 2.7 27-object-abstraction](./ch/27-object-abstraction.md) | 
 
 ## Lab & Discussion Links
 
 
 ## Homework & Project
-[HW 06: Object-Oriented Programming, Linked Lists](./homework/hw06.md)[Solutions](./homework/sol-hw06.md)
+[HW 06: Object-Oriented Programming, Linked Lists](./homework/hw06.md) | [Solutions](./homework/sol-hw06.md) | 
 
 
 <DocCardList />

@@ -1,3 +1,6 @@
+---
+title: Higher-Order Functions, Lambda Expressions
+---
 # Lab 2: Higher-Order Functions, Lambda Expressions
 
 _Due by 11:59pm on Wednesday, January 31._

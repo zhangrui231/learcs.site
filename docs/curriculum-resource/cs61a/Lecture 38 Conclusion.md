@@ -1,10 +1,9 @@
----
-sidebar_position: 38
-description: cs61a  Lecture 38 Conclusion| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
+---
+sidebar_position: 38
+description: cs61a  Lecture 38 Conclusion
+---
 # Lecture 38 Conclusion
 ## lecture Video
 
@@ -19,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Homework & Project
-[HW 11: Finale](./homework/hw11.md)[Scheme Gallery](./homework/scheme_gallery.md)
+[HW 11: Finale](./homework/hw11.md) | [Scheme Gallery](./homework/scheme_gallery.md) | 
 
 
 <DocCardList />

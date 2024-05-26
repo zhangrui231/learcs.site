@@ -1,3 +1,7 @@
+---
+title: Discussion 10 Solutions
+---
+
 # Discussion 10 | CS 61A Spring 2024
 
 ## Discussion 10: Interpreters

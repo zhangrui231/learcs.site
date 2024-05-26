@@ -1,3 +1,6 @@
+---
+title: Lab 0 Solutions
+---
 # Lab 0 Solutions | CS 61A Spring 2024
 
 ## Lab 0 Solutions

@@ -1,10 +1,9 @@
----
-sidebar_position: 36
-description: cs61a  Lecture 36 Databases (Optional)| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
+---
+sidebar_position: 36
+description: cs61a  Lecture 36 Databases (Optional)
+---
 # Lecture 36 Databases (Optional)
 ## lecture Video
 
@@ -16,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Lab 12: SQL](./lab/lab12.md)[Solutions](./lab/sol-lab12.md)
+[Lab 12: SQL](./lab/lab12.md) | [Solutions](./lab/sol-lab12.md) | 
 
 ## Homework & Project
 None

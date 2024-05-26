@@ -1,11 +1,9 @@
----
-sidebar_position: 11
-description: cs61a  Lecture 11 Sequences| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 11
+description: cs61a  Lecture 11 Sequences
+---
 # Lecture 11 Sequences
 ## lecture Video
 
@@ -14,10 +12,10 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/11-Sequences_1pp.pdf)
 ## Texbook
-
+[Ch. 2.1 21-introduction](./ch/21-introduction.md) | [Ch. 2.3 23-sequences](./ch/23-sequences.md) | 
 
 ## Lab & Discussion Links
-[Lab 03: Recursion, Python Lists](./lab/lab03.md)[Solutions](./lab/sol-lab03.md)
+[Lab 03: Recursion, Python Lists](./lab/lab03.md) | [Solutions](./lab/sol-lab03.md) | 
 
 ## Homework & Project
 None

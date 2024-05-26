@@ -1,3 +1,6 @@
+---
+title: Lab 11 Programs as Data, Macros
+---
 # Lab 11: Programs as Data, Macros
 
 _Due by 11:59pm on Wednesday, April 17._

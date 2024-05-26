@@ -1,3 +1,8 @@
+---
+title: The Game of Hog
+sidebar_position: 1
+---
+
 # Project 1: The Game of Hog
 
 > ![5-sided die](/img/cs61a/icon.gif)

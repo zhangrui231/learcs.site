@@ -1,3 +1,7 @@
+---
+title: Lab 7 Inheritance, Linked Lists
+---
+
 # Lab 7: Inheritance, Linked Lists
 
 _Due by 11:59pm on Wednesday, March 13._

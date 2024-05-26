@@ -1,11 +1,9 @@
----
-sidebar_position: 24
-description: cs61a  Lecture 24 Decomposition| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 24
+description: cs61a  Lecture 24 Decomposition
+---
 # Lecture 24 Decomposition
 ## lecture Video
 

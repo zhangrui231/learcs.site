@@ -1,3 +1,6 @@
+---
+title: Discussion 9 Scheme, Scheme Lists
+---
 # Discussion 9 | CS 61A Spring 2024
 
 ## Discussion 9: Scheme, Scheme Lists

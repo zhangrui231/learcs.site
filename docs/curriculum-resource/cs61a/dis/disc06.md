@@ -1,3 +1,6 @@
+---
+title: Discussion 6 Iterators, Generators
+---
 # Discussion 6 | CS 61A Spring 2024
 
 ## Discussion 6: Iterators, Generators

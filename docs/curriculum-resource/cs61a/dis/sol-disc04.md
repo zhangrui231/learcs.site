@@ -1,3 +1,7 @@
+---
+title: Discussion 4 Solutions
+---
+
 # Discussion 4 | CS 61A Spring 2024
 
 ## Discussion 4: Tree Recursion

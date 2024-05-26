@@ -1,3 +1,7 @@
+---
+title: Discussion 0 Solutions
+---
+
 # Discussion 0 | CS 61A Spring 2024
 
 ## Discussion 0: Getting Started

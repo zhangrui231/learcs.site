@@ -1,3 +1,6 @@
+---
+title: Lab 1 Solutions
+---
 # Lab 1 Solutions | CS 61A Spring 2024
 
 ## Lab 1 Solutions

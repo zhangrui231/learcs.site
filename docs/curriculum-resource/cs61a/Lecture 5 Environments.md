@@ -1,11 +1,9 @@
----
-sidebar_position: 5
-description: cs61a  Lecture 5 Environments| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 5
+description: cs61a  Lecture 5 Environments
+---
 # Lecture 5 Environments
 ## lecture Video
 
@@ -14,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/05-Environments_1pp.pdf)
 ## Texbook
-
+[Ch. 1.6 16-higher-order-functions](./ch/16-higher-order-functions.md) | 
 
 ## Lab & Discussion Links
 
 
 ## Homework & Project
-[HW 02: Higher-Order Functions](./homework/hw02.md)[Solutions](./homework/sol-hw02.md)
+[HW 02: Higher-Order Functions](./homework/hw02.md) | [Solutions](./homework/sol-hw02.md) | 
 
 
 <DocCardList />

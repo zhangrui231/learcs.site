@@ -1,10 +1,9 @@
----
-sidebar_position: 10
-description: cs61a  Lecture 10 Tree Recursion| �γ̱ʼ� 
----
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 10
+description: cs61a  Lecture 10 Tree Recursion
+---
 # Lecture 10 Tree Recursion
 ## lecture Video
 
@@ -13,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/10-Tree_Recursion_1pp.pdf)
 ## Texbook
-
+[Ch. 1.7 17-recursive-functions](./ch/17-recursive-functions.md) | 
 
 ## Lab & Discussion Links
 
 
 ## Homework & Project
-[HW 03: Recursion, Tree Recursion](./homework/hw03.md)[Solutions](./homework/sol-hw03.md)
+[HW 03: Recursion, Tree Recursion](./homework/hw03.md) | [Solutions](./homework/sol-hw03.md) | 
 
 
 <DocCardList />

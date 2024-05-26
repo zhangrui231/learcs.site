@@ -1,3 +1,6 @@
+---
+title: Lab 5 Mutability, Iterators
+---
 # Lab 5: Mutability, Iterators | CS 61A Spring 2024
 
 ## Lab 5: Mutability, Iterators

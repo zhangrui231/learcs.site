@@ -1,3 +1,6 @@
+---
+title: Discussion 10 Interpreters
+---
 # Discussion 10 | CS 61A Spring 2024
 
 ## Discussion 10: Interpreters

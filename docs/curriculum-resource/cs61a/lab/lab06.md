@@ -1,3 +1,6 @@
+---
+title: Lab 6: OOP
+---
 # Lab 6: OOP | CS 61A Spring 2024
 
 ## Lab 6: OOP

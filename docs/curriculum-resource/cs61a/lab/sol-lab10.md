@@ -1,3 +1,6 @@
+---
+title: Lab 10 Solutions
+---
 # Lab 10 Solutions | CS 61A Spring 2024
 
 ## Lab 10 Solutions

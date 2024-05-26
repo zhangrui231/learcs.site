@@ -1,3 +1,7 @@
+---
+title: Discussion 12 Solutions
+---
+
 # Discussion 12 | CS 61A Spring 2024
 
 ## Discussion 12: Final Review

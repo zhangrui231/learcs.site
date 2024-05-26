@@ -1,3 +1,6 @@
+---
+title: Homework 10 Solutions
+---
 # Homework 10 Solutions | CS 61A Spring 2024
 
 ## Homework 10 Solutions

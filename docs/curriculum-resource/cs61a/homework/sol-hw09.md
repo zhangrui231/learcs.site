@@ -1,3 +1,7 @@
+---
+title: Homework 9 Solutions
+---
+
 # Homework 9 Solutions | CS 61A Spring 2024
 
 ## Homework 9 Solutions

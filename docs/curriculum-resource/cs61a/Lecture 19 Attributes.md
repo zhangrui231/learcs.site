@@ -1,11 +1,9 @@
----
-sidebar_position: 19
-description: cs61a  Lecture 19 Attributes| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 19
+description: cs61a  Lecture 19 Attributes
+---
 # Lecture 19 Attributes
 ## lecture Video
 
@@ -14,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/19-Attributes_1pp.pdf)
 ## Texbook
-
+[Ch. 2.5 25-object-oriented-programming](./ch/25-object-oriented-programming.md) | 
 
 ## Lab & Discussion Links
-[Lab 06: Object-Oriented Programming](./lab/lab06.md)[Solutions](./lab/sol-lab06.md)
+[Lab 06: Object-Oriented Programming](./lab/lab06.md) | [Solutions](./lab/sol-lab06.md) | 
 
 ## Homework & Project
-[Ants](./project/ants.md)
+[Ants](./project/ants.md) | 
 
 
 <DocCardList />

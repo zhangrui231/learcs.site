@@ -1,3 +1,6 @@
+---
+title: Homework 4 Solutions
+---
 # Homework 4 Solutions | CS 61A Spring 2024
 
 ## Homework 4 Solutions

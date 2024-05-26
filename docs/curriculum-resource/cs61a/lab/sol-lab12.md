@@ -1,3 +1,6 @@
+---
+title: Lab 12 Solutions
+---
 # Lab 12 Solutions | CS 61A Spring 2024
 
 ## Lab 12 Solutions

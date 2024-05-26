@@ -1,3 +1,7 @@
+---
+title: Discussion 1 Solutions
+---
+
 # Discussion 1 | CS 61A Spring 2024
 
 ## Discussion 1: Control, Environment Diagrams

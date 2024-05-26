@@ -1,3 +1,7 @@
+---
+title: Homework 8 Solutions
+---
+
 # Homework 8 Solutions | CS 61A Spring 2024
 
 ## Homework 8 Solutions

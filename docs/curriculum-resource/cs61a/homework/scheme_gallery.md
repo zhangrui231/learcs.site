@@ -1,3 +1,6 @@
+---
+title: Scheme Art Gallery
+---
 # Scheme Art Gallery | CS 61A Spring 2024
 
 > The output is art,  

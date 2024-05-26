@@ -1,10 +1,9 @@
----
-sidebar_position: 7
-description: cs61a  Lecture 7 Function Examples| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
+---
+sidebar_position: 7
+description: cs61a  Lecture 7 Function Examples
+---
 # Lecture 7 Function Examples
 ## lecture Video
 
@@ -16,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Disc 02: Environment Diagrams, Higher-Order Functions](./dis/disc02.md)[Solutions](./dis/sol-disc02.md)
+[Disc 02: Environment Diagrams, Higher-Order Functions](./dis/disc02.md) | [Solutions](./dis/sol-disc02.md) | 
 
 ## Homework & Project
 None

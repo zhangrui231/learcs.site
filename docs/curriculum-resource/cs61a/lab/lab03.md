@@ -1,3 +1,6 @@
+---
+title: Lab 3 Recursion, Python Lists
+---
 # Lab 3: Recursion, Python Lists
 
 _Due by 11:59pm on Wednesday, February 14._

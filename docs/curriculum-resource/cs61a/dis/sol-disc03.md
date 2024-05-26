@@ -1,3 +1,7 @@
+---
+title: Discussion 3 Solutions
+---
+
 # Discussion 3 | CS 61A Spring 2024
 
 ## Discussion 3: Recursion

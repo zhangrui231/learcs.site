@@ -1,3 +1,6 @@
+---
+title: Homework 5 Solutions
+---
 # Homework 5 Solutions | CS 61A Spring 2024
 
 ## Homework 5 Solutions

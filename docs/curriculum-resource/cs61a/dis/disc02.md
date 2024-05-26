@@ -1,3 +1,6 @@
+---
+title: Discussion 2 Environment Diagrams, Higher-Order Functions
+---
 # Discussion 2 | CS 61A Spring 2024
 
 ## Discussion 2: Environment Diagrams, Higher-Order Functions

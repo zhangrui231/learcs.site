@@ -1,3 +1,6 @@
+---
+title: Lab 11 Solutions
+---
 # Lab 11 Solutions | CS 61A Spring 2024
 
 ## Lab 11 Solutions

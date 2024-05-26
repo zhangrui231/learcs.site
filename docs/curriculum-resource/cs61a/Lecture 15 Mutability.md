@@ -1,11 +1,9 @@
----
-sidebar_position: 15
-description: cs61a  Lecture 15 Mutability| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 15
+description: cs61a  Lecture 15 Mutability
+---
 # Lecture 15 Mutability
 ## lecture Video
 
@@ -14,13 +12,13 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/15-Mutability_1pp.pdf)
 ## Texbook
-
+[Ch. 2.4 24-mutable-data](./ch/24-mutable-data.md) | 
 
 ## Lab & Discussion Links
 
 
 ## Homework & Project
-[HW 04: Sequences, Trees](./homework/hw04.md)[Solutions](./homework/sol-hw04.md)
+[HW 04: Sequences, Trees](./homework/hw04.md) | [Solutions](./homework/sol-hw04.md) | 
 
 
 <DocCardList />

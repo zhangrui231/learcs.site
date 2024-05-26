@@ -1,10 +1,9 @@
----
-sidebar_position: 31
-description: cs61a  Lecture 31 Programs as Data| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
+---
+sidebar_position: 31
+description: cs61a  Lecture 31 Programs as Data
+---
 # Lecture 31 Programs as Data
 ## lecture Video
 
@@ -16,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Disc 10: Interpreters](./dis/disc10.md)[Solutions](./dis/sol-disc10.md)
+[Disc 10: Interpreters](./dis/disc10.md) | [Solutions](./dis/sol-disc10.md) | 
 
 ## Homework & Project
 None

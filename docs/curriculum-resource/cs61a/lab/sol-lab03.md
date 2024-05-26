@@ -1,3 +1,7 @@
+---
+title: Lab 3 Solutions
+---
+
 # Lab 3 Solutions | CS 61A Spring 2024
 
 ## Lab 3 Solutions

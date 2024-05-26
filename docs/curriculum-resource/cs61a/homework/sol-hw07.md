@@ -1,3 +1,7 @@
+---
+title: Homework 7 Solutions
+---
+
 # Homework 7 Solutions | CS 61A Spring 2024
 
 ## Homework 7 Solutions

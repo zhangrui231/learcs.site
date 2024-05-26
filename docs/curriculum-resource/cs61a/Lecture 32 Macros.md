@@ -1,11 +1,9 @@
----
-sidebar_position: 32
-description: cs61a  Lecture 32 Macros| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 32
+description: cs61a  Lecture 32 Macros
+---
 # Lecture 32 Macros
 ## lecture Video
 
@@ -20,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Homework & Project
-[HW 09: Programs as Data, Macros](./homework/hw09.md)[Solutions](./homework/sol-hw09.md)
+[HW 09: Programs as Data, Macros](./homework/hw09.md) | [Solutions](./homework/sol-hw09.md) | 
 
 
 <DocCardList />

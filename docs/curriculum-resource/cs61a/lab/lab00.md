@@ -1,3 +1,7 @@
+---
+title: Lab 0 Getting Started
+---
+
 # Lab 0: Getting Started | CS 61A Spring 2024
 
 ## Lab 0: Getting Started

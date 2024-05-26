@@ -1,3 +1,6 @@
+---
+title: Homework 3 Solutions
+---
 # Homework 3 Solutions | CS 61A Spring 2024
 
 ## Homework 3 Solutions

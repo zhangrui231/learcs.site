@@ -1,10 +1,9 @@
----
-sidebar_position: 33
-description: cs61a  Lecture 33 SQL| �γ̱ʼ� 
----
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 33
+description: cs61a  Lecture 33 SQL
+---
 # Lecture 33 SQL
 ## lecture Video
 
@@ -16,10 +15,10 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Lab 11: Programs as Data, Macros](./lab/lab11.md)[Solutions](./lab/sol-lab11.md)
+[Lab 11: Programs as Data, Macros](./lab/lab11.md) | [Solutions](./lab/sol-lab11.md) | 
 
 ## Homework & Project
-[(Optional) Scheme Contest](./project/scheme_contest.md)
+[(Optional) Scheme Contest](./project/scheme_contest.md) | 
 
 
 <DocCardList />

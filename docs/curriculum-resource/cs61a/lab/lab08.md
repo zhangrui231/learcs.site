@@ -1,3 +1,6 @@
+---
+title: Lab 8 Mutable Trees
+---
 # Lab 8: Mutable Trees | CS 61A Spring 2024
 
 ## Lab 8: Mutable Trees

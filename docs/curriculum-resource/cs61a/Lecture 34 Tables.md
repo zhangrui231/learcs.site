@@ -1,11 +1,9 @@
----
-sidebar_position: 34
-description: cs61a  Lecture 34 Tables| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 34
+description: cs61a  Lecture 34 Tables
+---
 # Lecture 34 Tables
 ## lecture Video
 
@@ -17,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Disc 11: SQL](./dis/disc11.md)[Solutions](./dis/sol-disc11.md)
+[Disc 11: SQL](./dis/disc11.md) | [Solutions](./dis/sol-disc11.md) | 
 
 ## Homework & Project
 None

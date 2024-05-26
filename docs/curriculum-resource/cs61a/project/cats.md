@@ -1,3 +1,8 @@
+---
+title: Autocorrected Typing Software
+sidebar_position: 2
+---
+
 # Project 2: CS 61A Autocorrected Typing Software
 
 ![](/img/cs61a/cats_typing_still.gif)

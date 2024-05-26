@@ -1,11 +1,9 @@
----
-sidebar_position: 6
-description: cs61a  Lecture 6 Functional Abstraction| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 6
+description: cs61a  Lecture 6 Functional Abstraction
+---
 # Lecture 6 Functional Abstraction
 ## lecture Video
 
@@ -17,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Lab 02: Higher-Order Functions, Lambda Expressions](./lab/lab02.md)[Solutions](./lab/sol-lab02.md)
+[Lab 02: Higher-Order Functions, Lambda Expressions](./lab/lab02.md) | [Solutions](./lab/sol-lab02.md) | 
 
 ## Homework & Project
 None

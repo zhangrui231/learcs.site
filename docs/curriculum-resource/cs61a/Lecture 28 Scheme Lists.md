@@ -1,11 +1,9 @@
----
-sidebar_position: 28
-description: cs61a  Lecture 28 Scheme Lists| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 28
+description: cs61a  Lecture 28 Scheme Lists
+---
 # Lecture 28 Scheme Lists
 ## lecture Video
 
@@ -14,10 +12,10 @@ import DocCardList from '@theme/DocCardList';
 ## Slider
 [Slides (1pp)](/resource/cs61a/28-Scheme_Lists_1pp.pdf)
 ## Texbook
-
+[Ch. 3.2 32-functional-programming](./ch/32-functional-programming.md) | 
 
 ## Lab & Discussion Links
-[Disc 09: Scheme, Scheme Lists](./dis/disc09.md)[Solutions](./dis/sol-disc09.md)
+[Disc 09: Scheme, Scheme Lists](./dis/disc09.md) | [Solutions](./dis/sol-disc09.md) | 
 
 ## Homework & Project
 None

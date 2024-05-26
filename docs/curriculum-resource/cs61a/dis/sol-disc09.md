@@ -1,3 +1,7 @@
+---
+title: Discussion 9 Solutions
+---
+
 # Discussion 9 | CS 61A Spring 2024
 
 ## Discussion 9: Scheme, Scheme Lists

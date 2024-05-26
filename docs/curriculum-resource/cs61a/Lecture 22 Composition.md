@@ -1,10 +1,9 @@
----
-sidebar_position: 22
-description: cs61a  Lecture 22 Composition| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
+---
+sidebar_position: 22
+description: cs61a  Lecture 22 Composition
+---
 # Lecture 22 Composition
 ## lecture Video
 
@@ -16,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Lab 07: Linked Lists, Inheritance](./lab/lab07.md)[Solutions](./lab/sol-lab07.md)
+[Lab 07: Linked Lists, Inheritance](./lab/lab07.md) | [Solutions](./lab/sol-lab07.md) | 
 
 ## Homework & Project
 None

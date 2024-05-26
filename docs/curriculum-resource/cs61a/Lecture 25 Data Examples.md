@@ -1,11 +1,9 @@
----
-sidebar_position: 25
-description: cs61a  Lecture 25 Data Examples| �γ̱ʼ� 
----
-
 import DocCardList from '@theme/DocCardList';
 
-
+---
+sidebar_position: 25
+description: cs61a  Lecture 25 Data Examples
+---
 # Lecture 25 Data Examples
 ## lecture Video
 
@@ -17,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Lab 08: Mutable Trees](./lab/lab08.md)[Solutions](./lab/sol-lab08.md)
+[Lab 08: Mutable Trees](./lab/lab08.md) | [Solutions](./lab/sol-lab08.md) | 
 
 ## Homework & Project
 None

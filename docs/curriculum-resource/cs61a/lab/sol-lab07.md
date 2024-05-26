@@ -1,3 +1,7 @@
+---
+title: Lab 7 Solutions
+---
+
 # Lab 7 Solutions | CS 61A Spring 2024
 
 ## Lab 7 Solutions

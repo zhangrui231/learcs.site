@@ -1,3 +1,6 @@
+---
+title: Lab 12 SQL 
+---
 # Lab 12: SQL | CS 61A Spring 2024
 
 ## Lab 12: SQL

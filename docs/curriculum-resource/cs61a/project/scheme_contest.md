@@ -1,3 +1,8 @@
+---
+title: Scheme Art
+sidebar_position: 5
+---
+
 # Optional Contest: Scheme Art | CS 61A Spring 2024
 
 ## Optional Contest: Scheme Art

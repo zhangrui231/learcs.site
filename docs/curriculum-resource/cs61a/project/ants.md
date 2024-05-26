@@ -1,3 +1,8 @@
+---
+title: Autocorrected Typing Software
+sidebar_position: 3
+---
+
 # Project 3: Ants Vs. SomeBees
 
 ![Ants vs. Somebees](/img/cs61a/splash.png)
