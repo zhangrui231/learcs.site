@@ -18,10 +18,10 @@ We begin by examining how to express the idea of _squaring_. We might say, "To s
 
 which defines a new function that has been given the name square. This user-defined function is not built into the interpreter. It represents the compound operation of multiplying something by itself. The x in this definition is called a _formal parameter_, which provides a name for the thing to be multiplied. The definition creates this user-defined function and associates it with the name square.
 
-**How to define a function.** Function definitions consist of a def statement that indicates a <name> and a comma-separated list of named <formal parameters>, then a return statement, called the function body, that specifies the <return expression> of the function, which is an expression to be evaluated whenever the function is applied:
+**How to define a function.** Function definitions consist of a def statement that indicates a name and a comma-separated list of named <formal parameters>, then a return statement, called the function body, that specifies the <return expression> of the function, which is an expression to be evaluated whenever the function is applied:
 
 ```
-def <name>(<formal parameters>):
+def name(<formal parameters>):
     return <return expression>
 
 ```
@@ -87,7 +87,7 @@ The error message TypeError: 'int' object is not callable is reporting that the 
 
 **Function Signatures.** Functions differ in the number of arguments that they are allowed to take. To track these requirements, we draw each function in a way that shows the function name and its formal parameters. The user-defined function square takes only x; providing more or fewer arguments will result in an error. A description of the formal parameters of a function is called the function's signature.
 
-The function max can take an arbitrary number of arguments. It is rendered as max(...). Regardless of the number of arguments taken, all built-in functions will be rendered as <name>(...), because these primitive functions were never explicitly defined.
+The function max can take an arbitrary number of arguments. It is rendered as max(...). Regardless of the number of arguments taken, all built-in functions will be rendered as name(...), because these primitive functions were never explicitly defined.
 
 ### 1.3.2   Calling User-Defined Functions
 
