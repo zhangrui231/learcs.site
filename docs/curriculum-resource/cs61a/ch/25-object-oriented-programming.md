@@ -46,15 +46,15 @@ User-defined classes are created by class statements, which consist of a single 
 
 ```
 class <name>:
-    \<suite\>
+    <suite>
 
 ```
 
-When a class statement is executed, a new class is created and bound to \<name\> in the first frame of the current environment. The suite is then executed. Any names bound within the \<suite\> of a class statement, through def or assignment statements, create or modify attributes of the class.
+When a class statement is executed, a new class is created and bound to &lt;name&gt; in the first frame of the current environment. The suite is then executed. Any names bound within the &lt;suite&gt; of a class statement, through def or assignment statements, create or modify attributes of the class.
 
 Classes are typically organized around manipulating instance attributes, which are the name-value pairs associated with each instance of that class. The class specifies the instance attributes of its objects by defining a method for initializing new objects. For example, part of initializing an object of the Account class is to assign it a starting balance of 0.
 
-The <suite> of a class statement contains def statements that define new methods for objects of that class. The method that initializes objects has a special name in Python, \_\_init\_\_ (two underscores on each side of the word "init"), and is called the _constructor_ for the class.
+The &lt;suite&gt; of a class statement contains def statements that define new methods for objects of that class. The method that initializes objects has a special name in Python, \_\_init\_\_ (two underscores on each side of the word "init"), and is called the _constructor_ for the class.
 
 ```
 >>> class Account:
@@ -165,7 +165,7 @@ The central idea in message passing was that data values should have behavior by
 
 ```
 
-The <expression> can be any valid Python expression, but the <name> must be a simple name (not an expression that evaluates to a name). A dot expression evaluates to the value of the attribute with the given <name>, for the object that is the value of the <expression>.
+The &lt;expression&gt; can be any valid Python expression, but the &lt;name&gt; must be a simple name (not an expression that evaluates to a name). A dot expression evaluates to the value of the attribute with the given &lt;name&gt;, for the object that is the value of the &lt;expression&gt;.
 
 The built-in function getattr also returns an attribute for an object by name. It is the function equivalent of dot notation. Using getattr, we can look up an attribute using a string, just as we did with a dispatch dictionary.
 
@@ -185,7 +185,7 @@ True
 
 The attributes of an object include all of its instance attributes, along with all of the attributes (including methods) defined in its class. Methods are attributes of the class that require special handling.
 
-**Methods and functions.** When a method is invoked on an object, that object is implicitly passed as the first argument to the method. That is, the object that is the value of the <expression> to the left of the dot is passed automatically as the first argument to the method named on the right side of the dot expression. As a result, the object is bound to the parameter self.
+**Methods and functions.** When a method is invoked on an object, that object is implicitly passed as the first argument to the method. That is, the object that is the value of the &lt;expression&gt; to the left of the dot is passed automatically as the first argument to the method named on the right side of the dot expression. As a result, the object is bound to the parameter self.
 
 To achieve automatic self binding, Python distinguishes between _functions_, which we have been creating since the beginning of the text, and _bound methods_, which couple together a function and the object on which that method will be invoked. A bound method value is already associated with its first argument, the instance on which it was invoked, which will be named self when the method is called.
 
@@ -267,9 +267,9 @@ As we have seen, a dot expression consists of an expression, a dot, and a name:
 
 To evaluate a dot expression:
 
-1.  Evaluate the <expression> to the left of the dot, which yields the _object_ of the dot expression.
-2.  <name> is matched against the instance attributes of that object; if an attribute with that name exists, its value is returned.
-3.  If <name> does not appear among instance attributes, then <name> is looked up in the class, which yields a class attribute value.
+1.  Evaluate the &lt;expression&gt; to the left of the dot, which yields the _object_ of the dot expression.
+2.  &lt;name&gt; is matched against the instance attributes of that object; if an attribute with that name exists, its value is returned.
+3.  If &lt;name&gt; does not appear among instance attributes, then &lt;name&gt; is looked up in the class, which yields a class attribute value.
 4.  That value is returned unless it is a function, in which case a bound method is returned instead.
 
 In this evaluation procedure, instance attributes are found before class attributes, just as local names have priority over global in an environment. Methods defined within the class are combined with the object of the dot expression to form a bound method during the fourth step of this evaluation procedure. The procedure for looking up a name in a class has additional nuances that will arise shortly, once we introduce class inheritance.

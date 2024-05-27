@@ -16,7 +16,7 @@ Exception: an error occurred
 
 ```
 
-When an exception is raised, no further statements in the current block of code are executed. Unless the exception is _handled_ (described below), the interpreter will return directly to the interactive read-eval-print loop, or terminate entirely if Python was started with a file argument. In addition, the interpreter will print a _stack backtrace_, which is a structured block of text that describes the nested set of active function calls in the branch of execution in which the exception was raised. In the example above, the file name <stdin> indicates that the exception was raised by the user in an interactive session, rather than from code in a file.
+When an exception is raised, no further statements in the current block of code are executed. Unless the exception is _handled_ (described below), the interpreter will return directly to the interactive read-eval-print loop, or terminate entirely if Python was started with a file argument. In addition, the interpreter will print a _stack backtrace_, which is a structured block of text that describes the nested set of active function calls in the branch of execution in which the exception was raised. In the example above, the file name &lt;stdin&gt; indicates that the exception was raised by the user in an interactive session, rather than from code in a file.
 
 **Handling exceptions.** An exception can be handled by an enclosing try statement. A try statement consists of multiple clauses; the first begins with try and the rest begin with except:
 
@@ -29,7 +29,7 @@ except <exception class> as <name>:
 
 ```
 
-The <try suite> is always executed immediately when the try statement is executed. Suites of the except clauses are only executed when an exception is raised during the course of executing the <try suite>. Each except clause specifies the particular class of exception to handle. For instance, if the <exception class> is AssertionError, then any instance of a class inheriting from AssertionError that is raised during the course of executing the <try suite> will be handled by the following <except suite>. Within the <except suite>, the identifier <name> is bound to the exception object that was raised, but this binding does not persist beyond the <except suite>.
+The &lt;try suite&gt; is always executed immediately when the try statement is executed. Suites of the except clauses are only executed when an exception is raised during the course of executing the &lt;try suite&gt;. Each except clause specifies the particular class of exception to handle. For instance, if the &lt;exception class&gt; is AssertionError, then any instance of a class inheriting from AssertionError that is raised during the course of executing the &lt;try suite&gt; will be handled by the following &lt;except suite&gt;. Within the &lt;except suite&gt;, the identifier &lt;name&gt; is bound to the exception object that was raised, but this binding does not persist beyond the &lt;except suite&gt;.
 
 For example, we can handle a ZeroDivisionError exception using a try statement that binds the name x to 0 when the exception is raised.
 
@@ -45,7 +45,7 @@ handling a <class 'ZeroDivisionError'>
 
 ```
 
-A try statement will handle exceptions that occur within the body of a function that is applied (either directly or indirectly) within the <try suite>. When an exception is raised, control jumps directly to the body of the <except suite> of the most recent try statement that handles that type of exception.
+A try statement will handle exceptions that occur within the body of a function that is applied (either directly or indirectly) within the &lt;try suite&gt;. When an exception is raised, control jumps directly to the body of the &lt;except suite&gt; of the most recent try statement that handles that type of exception.
 
 ```
 >>> def invert(x):

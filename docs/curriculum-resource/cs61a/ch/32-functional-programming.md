@@ -16,15 +16,15 @@ As in Python, Scheme expressions may be primitives or combinations. Number liter
 
 The if expression in Scheme is a _special form_, meaning that while it looks syntactically like a call expression, it has a different evaluation procedure. The general form of an if expression is:
 
-To evaluate an if expression, the interpreter starts by evaluating the <predicate> part of the expression. If the <predicate> evaluates to a true value, the interpreter then evaluates the <consequent> and returns its value. Otherwise it evaluates the <alternative> and returns its value.
+To evaluate an if expression, the interpreter starts by evaluating the &lt;predicate&gt; part of the expression. If the &lt;predicate&gt; evaluates to a true value, the interpreter then evaluates the &lt;consequent&gt; and returns its value. Otherwise it evaluates the &lt;alternative&gt; and returns its value.
 
 Numerical values can be compared using familiar comparison operators, but prefix notation is used in this case as well:
 
 The boolean values #t (or true) and #f (or false) in Scheme can be combined with boolean special forms, which have evaluation procedures similar to those in Python.
 
-> -   (and <e1> ... <en>) The interpreter evaluates the expressions <e> one at a time, in left-to-right order. If any <e> evaluates to false, the value of the and expression is false, and the rest of the <e>'s are not evaluated. If all <e>'s evaluate to true values, the value of the and expression is the value of the last one.
-> -   (or <e1> ... <en>) The interpreter evaluates the expressions <e> one at a time, in left-to-right order. If any <e> evaluates to a true value, that value is returned as the value of the or expression, and the rest of the <e>'s are not evaluated. If all <e>'s evaluate to false, the value of the or expression is false.
-> -   (not <e>) The value of a not expression is true when the expression <e> evaluates to false, and false otherwise.
+> -   (and &lt;e1&gt; ... &lt;en&gt;) The interpreter evaluates the expressions &lt;e&gt; one at a time, in left-to-right order. If any &lt;e&gt; evaluates to false, the value of the and expression is false, and the rest of the &lt;e&gt;'s are not evaluated. If all &lt;e&gt;'s evaluate to true values, the value of the and expression is the value of the last one.
+> -   (or &lt;e1&gt; ... &lt;en&gt;) The interpreter evaluates the expressions &lt;e&gt; one at a time, in left-to-right order. If any &lt;e&gt; evaluates to a true value, that value is returned as the value of the or expression, and the rest of the &lt;e&gt;'s are not evaluated. If all &lt;e&gt;'s evaluate to false, the value of the or expression is false.
+> -   (not &lt;e&gt;) The value of a not expression is true when the expression &lt;e&gt; evaluates to false, and false otherwise.
 
 ### 3.2.2   Definitions
 
@@ -34,7 +34,7 @@ New functions (called _procedures_ in Scheme) can be defined using a second vers
 
 The general form of a procedure definition is:
 
-The <name> is a symbol to be associated with the procedure definition in the environment. The <formal parameters> are the names used within the body of the procedure to refer to the corresponding arguments of the procedure. The <body> is an expression that will yield the value of the procedure application when the formal parameters are replaced by the actual arguments to which the procedure is applied. The <name> and the <formal parameters> are grouped within parentheses, just as they would be in an actual call to the procedure being defined.
+The &lt;name&gt; is a symbol to be associated with the procedure definition in the environment. The &lt;formal parameters&gt; are the names used within the body of the procedure to refer to the corresponding arguments of the procedure. The <body> is an expression that will yield the value of the procedure application when the formal parameters are replaced by the actual arguments to which the procedure is applied. The &lt;name&gt; and the &lt;formal parameters&gt; are grouped within parentheses, just as they would be in an actual call to the procedure being defined.
 
 Having defined square, we can now use it in call expressions:
 

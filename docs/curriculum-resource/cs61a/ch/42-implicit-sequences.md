@@ -167,7 +167,7 @@ TODO demonstrate these values
 
 ### 4.2.4   For Statements
 
-The for statement in Python operates on iterators. Objects are _iterable_ (an interface) if they have an \_\_iter\_\_ method that returns an _iterator_. Iterable objects can be the value of the <expression> in the header of a for statement:
+The for statement in Python operates on iterators. Objects are _iterable_ (an interface) if they have an \_\_iter\_\_ method that returns an _iterator_. Iterable objects can be the value of the &lt;expression&gt; in the header of a for statement:
 
 ```
 for <name> in <expression>:
@@ -175,7 +175,7 @@ for <name> in <expression>:
 
 ```
 
-To execute a for statement, Python evaluates the header <expression>, which must yield an iterable value. Then, the \_\_iter\_\_ method is invoked on that value. Until a StopIteration exception is raised, Python repeatedly invokes the \_\_next\_\_ method on that iterator and binds the result to the <name> in the for statement. Then, it executes the <suite>.
+To execute a for statement, Python evaluates the header &lt;expression&gt;, which must yield an iterable value. Then, the \_\_iter\_\_ method is invoked on that value. Until a StopIteration exception is raised, Python repeatedly invokes the \_\_next\_\_ method on that iterator and binds the result to the &lt;name&gt; in the for statement. Then, it executes the &lt;suite&gt;.
 
 ```
 >>> counts = [1, 2, 3]
@@ -207,7 +207,7 @@ With our knowledge of iterators, we can implement the execution rule of a for st
 
 Above, the iterator returned by invoking the \_\_iter\_\_ method of counts is bound to a name items so that it can be queried for each element in turn. The handling clause for the StopIteration exception does nothing, but handling the exception provides a control mechanism for exiting the while loop.
 
-To use an iterator in a for loop, the iterator must also have an \_\_iter\_\_ method. The Iterator types <http://docs.python.org/3/library/stdtypes.html#iterator-types> \`\_ section of the Python docs suggest that an iterator have an \`\`\_\_iter\_\_\` method that returns the iterator itself, so that all iterators are iterable.
+To use an iterator in a for loop, the iterator must also have an \_\_iter\_\_ method. The Iterator types &lt;http://docs.python.org/3/library/stdtypes.html#iterator-types&gt; \`\_ section of the Python docs suggest that an iterator have an \`\`\_\_iter\_\_\` method that returns the iterator itself, so that all iterators are iterable.
 
 ### 4.2.5   Generators and Yield Statements
 

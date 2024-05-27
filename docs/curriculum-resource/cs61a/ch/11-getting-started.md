@@ -40,7 +40,7 @@ To start an interactive session, run the Python 3 application. Type python3 at a
 
 If you see the Python prompt, \>>>, then you have successfully started an interactive session. These notes depict example interactions using the prompt, followed by some input.
 
-**Interactive controls.** Each session keeps a history of what you have typed. To access that history, press Control-P (previous) and Control-N (next). Control-D exits a session, which discards this history. Up and down arrows also cycle through history on some systems.
+**Interactive controls.** Each session keeps a history of what you have typed. To access that history, press &lt;Control&gt;-P (previous) and &lt;Control&gt;-N (next). &lt;Control&gt;-D exits a session, which discards this history. Up and down arrows also cycle through history on some systems.
 
 ### 1.1.4   First Example
 

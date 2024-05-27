@@ -60,8 +60,6 @@ Bindings are not accessed directly, but instead through two Frame methods: looku
 
 The implementation of lookup and the use of define are left as exercises. As an illustration of their use, consider the following example Scheme program:
 
-120  
-
 The first input expression is a define special form, evaluated by the do\_define\_form Python function. Defining a function has several steps:
 
 1.  Check the format of the expression to ensure that it is a well-formed Scheme list with at least two elements following the keyword define.
