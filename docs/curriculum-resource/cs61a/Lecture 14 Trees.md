@@ -1,3 +1,9 @@
+---
+sidebar_position: 14
+description: cs61a Lecture 14 Trees
+title: Lecture 14 Trees
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 14 Trees
 ## Slider
 [Slides (1pp)](/resource/cs61a/14-Trees_1pp.pdf)
 ## Texbook
-[Ch. 2.3 23-sequences](./ch/23-sequences.md) | 
+[Ch. 2.3 23-sequences](https://www.composingprograms.com/pages/23-sequences.html) | 
 
 ## Lab & Discussion Links
 [Disc 05: Trees](./dis/disc05.md) | [Solutions](./dis/sol-disc05.md) | 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

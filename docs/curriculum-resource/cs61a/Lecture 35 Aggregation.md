@@ -1,3 +1,9 @@
+---
+sidebar_position: 35
+description: cs61a Lecture 35 Aggregation
+title: Lecture 35 Aggregation
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ description: cs61a  Lecture 35 Aggregation
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 32
+description: cs61a Lecture 32 Macros
+title: Lecture 32 Macros
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ description: cs61a  Lecture 32 Macros
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 20
+description: cs61a Lecture 20 Inheritance
+title: Lecture 20 Inheritance
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 20 Inheritance
 ## Slider
 [Slides (1pp)](/resource/cs61a/20-Inheritance_1pp.pdf)
 ## Texbook
-[Ch. 2.5 25-object-oriented-programming](./ch/25-object-oriented-programming.md) | 
+[Ch. 2.5 25-object-oriented-programming](https://www.composingprograms.com/pages/25-object-oriented-programming.html) | 
 
 ## Lab & Discussion Links
 [Disc 07: OOP](./dis/disc07.md) | [Solutions](./dis/sol-disc07.md) | 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

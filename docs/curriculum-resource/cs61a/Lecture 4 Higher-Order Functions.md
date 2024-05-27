@@ -1,3 +1,9 @@
+---
+sidebar_position: 4
+description: cs61a Lecture 4 Higher-Order Functions
+title: Lecture 4 Higher-Order Functions
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 4 Higher-Order Functions
 ## Slider
 [Slides (1pp)](/resource/cs61a/04-Higher-Order_Functions_1pp.pdf)
 ## Texbook
-[Ch. 1.6 16-higher-order-functions](./ch/16-higher-order-functions.md) | 
+[Ch. 1.6 16-higher-order-functions](https://www.composingprograms.com/pages/16-higher-order-functions.html) | 
 
 ## Lab & Discussion Links
 [Disc 01: Control, Environment Diagrams](./dis/disc01.md) | [Solutions](./dis/sol-disc01.md) | 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 4 Higher-Order Functions
 
 
 <DocCardList />
+

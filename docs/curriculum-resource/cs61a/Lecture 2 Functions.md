@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+description: cs61a Lecture 2 Functions
+title: Lecture 2 Functions
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 2 Functions
 ## Slider
 
 ## Texbook
-[Ch. 1.1 11-getting-started](./ch/11-getting-started.md) | [Ch. 1.2 12-elements-of-programming](./ch/12-elements-of-programming.md) | [Ch. 1.3 13-defining-new-functions](./ch/13-defining-new-functions.md) | 
+[Ch. 1.1 11-getting-started](https://www.composingprograms.com/pages/11-getting-started.html) | [Ch. 1.2 12-elements-of-programming](https://www.composingprograms.com/pages/12-elements-of-programming.html) | [Ch. 1.3 13-defining-new-functions](https://www.composingprograms.com/pages/13-defining-new-functions.html) | 
 
 ## Lab & Discussion Links
 [Lab 00: Getting Started](./lab/lab00.md) | [Solutions](./lab/sol-lab00.md) | 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 2 Functions
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 19
+description: cs61a Lecture 19 Attributes
+title: Lecture 19 Attributes
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 19 Attributes
 ## Slider
 [Slides (1pp)](/resource/cs61a/19-Attributes_1pp.pdf)
 ## Texbook
-[Ch. 2.5 25-object-oriented-programming](./ch/25-object-oriented-programming.md) | 
+[Ch. 2.5 25-object-oriented-programming](https://www.composingprograms.com/pages/25-object-oriented-programming.html) | 
 
 ## Lab & Discussion Links
 [Lab 06: Object-Oriented Programming](./lab/lab06.md) | [Solutions](./lab/sol-lab06.md) | 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 19 Attributes
 
 
 <DocCardList />
+

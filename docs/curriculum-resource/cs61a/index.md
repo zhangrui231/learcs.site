@@ -1,5 +1,6 @@
 ---
 title: cs61a
+
 ---
 
 import DocCardList from '@theme/DocCardList';
@@ -51,7 +52,7 @@ CS 61A 没有正式的编程相关的先决条件，因为没有先前经验的�
 每周有三次50分钟的现场讲座。此外，每次讲座都有一个视频播放列表。请在参加现场讲座或讨论课之前观看视频播放列表。视频涵盖了课程的所有必需内容。现场讲座不会覆盖所有课程材料，而是会侧重于实例讲解（所以请观看视频）。
 
 ## 教材
-本课程的在线教材是[《Composing Programs》](https://www.composingprograms.com/)，这是专为本课程编写的，基于经典教材[《Structure and Interpretation of Computer Programs》](https://mitpress.mit.edu/sites/default/files/sicp/index.html)。每次讲座的阅读材料都在课程日程中列出。我们建议你在观看讲座视频之前完成这些阅读。
+本课程的在线教材是[《Composing Programs》](https://www.composingprograms.com/)，这是专为本课程，基于经典教材[《Structure and Interpretation of Computer Programs》](https://web.mit.edu/6.001/6.037/sicp.pdf) 编写的。每次讲座的阅读材料都在课程日程中列出。我们建议你在观看讲座视频之前完成这些阅读。
 
 
 <DocCardList />

@@ -1,3 +1,9 @@
+---
+sidebar_position: 37
+description: cs61a Lecture 37 Final Examples
+title: Lecture 37 Final Examples
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

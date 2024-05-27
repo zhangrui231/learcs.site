@@ -1,4 +1,5 @@
 {
     "label": "cs61a homework ",
-    "position": 102
+    "position": 102,
+    "sidebar_class_name": "hidden"
   }

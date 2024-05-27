@@ -1,3 +1,9 @@
+---
+sidebar_position: 18
+description: cs61a Lecture 18 Objects
+title: Lecture 18 Objects
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 18 Objects
 ## Slider
 [Slides (1pp)](/resource/cs61a/18-Objects_1pp.pdf)
 ## Texbook
-[Ch. 2.5 25-object-oriented-programming](./ch/25-object-oriented-programming.md) | 
+[Ch. 2.5 25-object-oriented-programming](https://www.composingprograms.com/pages/25-object-oriented-programming.html) | 
 
 ## Lab & Discussion Links
 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 18 Objects
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 12
+description: cs61a Lecture 12 Containers
+title: Lecture 12 Containers
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 12 Containers
 ## Slider
 [Slides (1pp)](/resource/cs61a/12-Containers_1pp.pdf)
 ## Texbook
-[Ch. 2.3 23-sequences](./ch/23-sequences.md) | 
+[Ch. 2.3 23-sequences](https://www.composingprograms.com/pages/23-sequences.html) | 
 
 ## Lab & Discussion Links
 [Disc 04: Tree Recursion](./dis/disc04.md) | [Solutions](./dis/sol-disc04.md) | 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 12 Containers
 
 
 <DocCardList />
+

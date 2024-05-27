@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+description: cs61a Lecture 1 Welcome
+title: Lecture 1 Welcome
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

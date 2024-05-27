@@ -1,3 +1,9 @@
+---
+sidebar_position: 13
+description: cs61a Lecture 13 Data Abstraction
+title: Lecture 13 Data Abstraction
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 13 Data Abstraction
 ## Slider
 [Slides (1pp)](/resource/cs61a/13-Data_Abstraction_1pp.pdf)
 ## Texbook
-[Ch. 2.2 22-data-abstraction](./ch/22-data-abstraction.md) | 
+[Ch. 2.2 22-data-abstraction](https://www.composingprograms.com/pages/22-data-abstraction.html) | 
 
 ## Lab & Discussion Links
 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

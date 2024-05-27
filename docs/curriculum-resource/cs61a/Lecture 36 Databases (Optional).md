@@ -1,3 +1,9 @@
+---
+sidebar_position: 36
+description: cs61a Lecture 36 Databases (Optional)
+title: Lecture 36 Databases (Optional)
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

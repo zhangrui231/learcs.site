@@ -1,3 +1,9 @@
+---
+sidebar_position: 23
+description: cs61a Lecture 23 Efficiency
+title: Lecture 23 Efficiency
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 23 Efficiency
 ## Slider
 [Slides (1pp)](/resource/cs61a/23-Efficiency_1pp.pdf)
 ## Texbook
-[Ch. 2.8 28-efficiency](./ch/28-efficiency.md) | 
+[Ch. 2.8 28-efficiency](https://www.composingprograms.com/pages/28-efficiency.html) | 
 
 ## Lab & Discussion Links
 [Disc 08: Linked Lists, Efficiency](./dis/disc08.md) | [Solutions](./dis/sol-disc08.md) | 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

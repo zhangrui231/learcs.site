@@ -1,3 +1,9 @@
+---
+sidebar_position: 27
+description: cs61a Lecture 27 Scheme
+title: Lecture 27 Scheme
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 27 Scheme
 ## Slider
 [Slides (1pp)](/resource/cs61a/27-Scheme_1pp.pdf)
 ## Texbook
-[Ch. 3.1 31-introduction](./ch/31-introduction.md) | [Ch. 3.2 32-functional-programming](./ch/32-functional-programming.md) | 
+[Ch. 3.1 31-introduction](https://www.composingprograms.com/pages/31-introduction.html) | [Ch. 3.2 32-functional-programming](https://www.composingprograms.com/pages/32-functional-programming.html) | 
 
 ## Lab & Discussion Links
 [Lab 09: Scheme](./lab/lab09.md) | [Solutions](./lab/sol-lab09.md) | 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 27 Scheme
 
 
 <DocCardList />
+

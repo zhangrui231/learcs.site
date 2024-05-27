@@ -1,4 +1,5 @@
 {
     "label": "cs61a project ",
-    "position": 104
+    "position": 104,
+    "sidebar_class_name": "hidden"
   }

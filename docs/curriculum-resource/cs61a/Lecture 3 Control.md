@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+description: cs61a Lecture 3 Control
+title: Lecture 3 Control
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 3 Control
 ## Slider
 [Slides (1pp)](/resource/cs61a/03-Control_1pp.pdf)
 ## Texbook
-[Ch. 1.4 14-designing-functions](./ch/14-designing-functions.md) | [Ch. 1.5 15-control](./ch/15-control.md) | 
+[Ch. 1.4 14-designing-functions](https://www.composingprograms.com/pages/14-designing-functions.html) | [Ch. 1.5 15-control](https://www.composingprograms.com/pages/15-control.html) | 
 
 ## Lab & Discussion Links
 [Lab 01: Functions, Control](./lab/lab01.md) | [Solutions](./lab/sol-lab01.md) | 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

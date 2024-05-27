@@ -1,3 +1,9 @@
+---
+sidebar_position: 17
+description: cs61a Lecture 17 Generators
+title: Lecture 17 Generators
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 17 Generators
 ## Slider
 [Slides (1pp)](/resource/cs61a/17-Generators_1pp.pdf)
 ## Texbook
-[Ch. 4.2 42-implicit-sequences](./ch/42-implicit-sequences.md) | 
+[Ch. 4.2 42-implicit-sequences](https://www.composingprograms.com/pages/42-implicit-sequences.html) | 
 
 ## Lab & Discussion Links
 [Disc 06: Iterators, Generators](./dis/disc06.md) | [Solutions](./dis/sol-disc06.md) | 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

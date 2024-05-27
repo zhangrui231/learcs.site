@@ -1,3 +1,9 @@
+---
+sidebar_position: 5
+description: cs61a Lecture 5 Environments
+title: Lecture 5 Environments
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 5 Environments
 ## Slider
 [Slides (1pp)](/resource/cs61a/05-Environments_1pp.pdf)
 ## Texbook
-[Ch. 1.6 16-higher-order-functions](./ch/16-higher-order-functions.md) | 
+[Ch. 1.6 16-higher-order-functions](https://www.composingprograms.com/pages/16-higher-order-functions.html) | 
 
 ## Lab & Discussion Links
 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 5 Environments
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 16
+description: cs61a Lecture 16 Iterators
+title: Lecture 16 Iterators
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 16 Iterators
 ## Slider
 [Slides (1pp)](/resource/cs61a/16-Iterators_1pp.pdf)
 ## Texbook
-[Ch. 4.2 42-implicit-sequences](./ch/42-implicit-sequences.md) | 
+[Ch. 4.2 42-implicit-sequences](https://www.composingprograms.com/pages/42-implicit-sequences.html) | 
 
 ## Lab & Discussion Links
 [Lab 05: Iterators, Mutability](./lab/lab05.md) | [Solutions](./lab/sol-lab05.md) | 
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

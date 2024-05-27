@@ -1,3 +1,9 @@
+---
+sidebar_position: 34
+description: cs61a Lecture 34 Tables
+title: Lecture 34 Tables
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

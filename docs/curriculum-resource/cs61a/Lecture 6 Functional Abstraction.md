@@ -1,3 +1,9 @@
+---
+sidebar_position: 6
+description: cs61a Lecture 6 Functional Abstraction
+title: Lecture 6 Functional Abstraction
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

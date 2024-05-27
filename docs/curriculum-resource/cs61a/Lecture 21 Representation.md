@@ -1,3 +1,9 @@
+---
+sidebar_position: 21
+description: cs61a Lecture 21 Representation
+title: Lecture 21 Representation
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 21 Representation
 ## Slider
 [Slides (1pp)](/resource/cs61a/21-Representation_1pp.pdf)
 ## Texbook
-[Ch. 2.7 27-object-abstraction](./ch/27-object-abstraction.md) | 
+[Ch. 2.7 27-object-abstraction](https://www.composingprograms.com/pages/27-object-abstraction.html) | 
 
 ## Lab & Discussion Links
 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 21 Representation
 
 
 <DocCardList />
+

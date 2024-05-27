@@ -1,3 +1,9 @@
+---
+sidebar_position: 15
+description: cs61a Lecture 15 Mutability
+title: Lecture 15 Mutability
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 15 Mutability
 ## Slider
 [Slides (1pp)](/resource/cs61a/15-Mutability_1pp.pdf)
 ## Texbook
-[Ch. 2.4 24-mutable-data](./ch/24-mutable-data.md) | 
+[Ch. 2.4 24-mutable-data](https://www.composingprograms.com/pages/24-mutable-data.html) | 
 
 ## Lab & Discussion Links
 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 15 Mutability
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 26
+description: cs61a Lecture 26 Large Language Models (Pamela Fox) (Optional)
+title: Lecture 26 Large Language Models (Pamela Fox) (Optional)
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 29
+description: cs61a Lecture 29 Calculator
+title: Lecture 29 Calculator
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 29 Calculator
 ## Slider
 [Slides (1pp)](/resource/cs61a/29-Calculator_1pp.pdf)
 ## Texbook
-[Ch. 3.3 33-exceptions](./ch/33-exceptions.md) | [Ch. 3.4 34-interpreters-for-languages-with-combination](./ch/34-interpreters-for-languages-with-combination.md) | 
+[Ch. 3.3 33-exceptions](https://www.composingprograms.com/pages/33-exceptions.html) | [Ch. 3.4 34-interpreters-for-languages-with-combination](https://www.composingprograms.com/pages/34-interpreters-for-languages-with-combination.html) | 
 
 ## Lab & Discussion Links
 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 29 Calculator
 
 
 <DocCardList />
+

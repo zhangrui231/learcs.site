@@ -1,3 +1,9 @@
+---
+sidebar_position: 25
+description: cs61a Lecture 25 Data Examples
+title: Lecture 25 Data Examples
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+

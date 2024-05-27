@@ -1,3 +1,9 @@
+---
+sidebar_position: 33
+description: cs61a Lecture 33 SQL
+title: Lecture 33 SQL
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ description: cs61a  Lecture 33 SQL
 
 
 <DocCardList />
+

@@ -1,3 +1,9 @@
+---
+sidebar_position: 30
+description: cs61a Lecture 30 Interpreters
+title: Lecture 30 Interpreters
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -12,7 +18,7 @@ description: cs61a  Lecture 30 Interpreters
 ## Slider
 [Slides (1pp)](/resource/cs61a/30-Interpreters_1pp.pdf)
 ## Texbook
-[Ch. 3.5 35-interpreters-for-languages-with-abstraction](./ch/35-interpreters-for-languages-with-abstraction.md) | 
+[Ch. 3.5 35-interpreters-for-languages-with-abstraction](https://www.composingprograms.com/pages/35-interpreters-for-languages-with-abstraction.html) | 
 
 ## Lab & Discussion Links
 [Lab 10: Interpreters](./lab/lab10.md) | [Solutions](./lab/sol-lab10.md) | 
@@ -22,3 +28,4 @@ description: cs61a  Lecture 30 Interpreters
 
 
 <DocCardList />
+

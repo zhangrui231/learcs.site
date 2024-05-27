@@ -1,3 +1,9 @@
+---
+sidebar_position: 7
+description: cs61a Lecture 7 Function Examples
+title: Lecture 7 Function Examples
+---
+
 import DocCardList from '@theme/DocCardList';
 
 ---
@@ -22,3 +28,4 @@ None
 
 
 <DocCardList />
+
