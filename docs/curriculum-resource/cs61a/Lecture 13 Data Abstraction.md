@@ -6,10 +6,7 @@ title: Lecture 13 Data Abstraction
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 13
-description: cs61a  Lecture 13 Data Abstraction
----
+
 # Lecture 13 Data Abstraction
 ## lecture Video
 

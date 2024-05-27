@@ -6,10 +6,7 @@ title: Lecture 28 Scheme Lists
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 28
-description: cs61a  Lecture 28 Scheme Lists
----
+
 # Lecture 28 Scheme Lists
 ## lecture Video
 

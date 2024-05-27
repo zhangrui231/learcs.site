@@ -6,10 +6,7 @@ title: Lecture 5 Environments
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 5
-description: cs61a  Lecture 5 Environments
----
+
 # Lecture 5 Environments
 ## lecture Video
 

@@ -6,10 +6,7 @@ title: Lecture 38 Conclusion
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 38
-description: cs61a  Lecture 38 Conclusion
----
+
 # Lecture 38 Conclusion
 ## lecture Video
 

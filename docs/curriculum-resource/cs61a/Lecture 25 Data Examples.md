@@ -6,10 +6,7 @@ title: Lecture 25 Data Examples
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 25
-description: cs61a  Lecture 25 Data Examples
----
+
 # Lecture 25 Data Examples
 ## lecture Video
 

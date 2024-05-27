@@ -6,10 +6,6 @@ title: Lecture 35 Aggregation
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 35
-description: cs61a  Lecture 35 Aggregation
----
 # Lecture 35 Aggregation
 ## lecture Video
 

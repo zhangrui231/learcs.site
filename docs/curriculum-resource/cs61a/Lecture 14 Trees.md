@@ -6,10 +6,7 @@ title: Lecture 14 Trees
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 14
-description: cs61a  Lecture 14 Trees
----
+
 # Lecture 14 Trees
 ## lecture Video
 

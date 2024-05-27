@@ -6,10 +6,7 @@ title: Lecture 33 SQL
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 33
-description: cs61a  Lecture 33 SQL
----
+
 # Lecture 33 SQL
 ## lecture Video
 

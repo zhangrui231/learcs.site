@@ -6,10 +6,7 @@ title: Lecture 21 Representation
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 21
-description: cs61a  Lecture 21 Representation
----
+
 # Lecture 21 Representation
 ## lecture Video
 

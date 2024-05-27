@@ -6,10 +6,7 @@ title: Lecture 30 Interpreters
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 30
-description: cs61a  Lecture 30 Interpreters
----
+
 # Lecture 30 Interpreters
 ## lecture Video
 

@@ -6,10 +6,7 @@ title: Lecture 23 Efficiency
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 23
-description: cs61a  Lecture 23 Efficiency
----
+
 # Lecture 23 Efficiency
 ## lecture Video
 

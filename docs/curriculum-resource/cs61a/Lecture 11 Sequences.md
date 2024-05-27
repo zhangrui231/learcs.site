@@ -6,10 +6,7 @@ title: Lecture 11 Sequences
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 11
-description: cs61a  Lecture 11 Sequences
----
+
 # Lecture 11 Sequences
 ## lecture Video
 

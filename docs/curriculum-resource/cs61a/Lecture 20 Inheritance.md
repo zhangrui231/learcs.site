@@ -6,10 +6,7 @@ title: Lecture 20 Inheritance
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 20
-description: cs61a  Lecture 20 Inheritance
----
+
 # Lecture 20 Inheritance
 ## lecture Video
 

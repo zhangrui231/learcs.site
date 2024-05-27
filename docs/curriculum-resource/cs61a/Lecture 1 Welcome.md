@@ -6,10 +6,7 @@ title: Lecture 1 Welcome
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 1
-description: cs61a  Lecture 1 Welcome
----
+
 # Lecture 1 Welcome
 ## lecture Video
 

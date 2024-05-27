@@ -6,10 +6,7 @@ title: Lecture 37 Final Examples
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 37
-description: cs61a  Lecture 37 Final Examples
----
+
 # Lecture 37 Final Examples
 ## lecture Video
 

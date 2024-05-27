@@ -6,10 +6,7 @@ title: Lecture 31 Programs as Data
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 31
-description: cs61a  Lecture 31 Programs as Data
----
+
 # Lecture 31 Programs as Data
 ## lecture Video
 

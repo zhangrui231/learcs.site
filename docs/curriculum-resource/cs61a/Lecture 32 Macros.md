@@ -6,10 +6,7 @@ title: Lecture 32 Macros
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 32
-description: cs61a  Lecture 32 Macros
----
+
 # Lecture 32 Macros
 ## lecture Video
 

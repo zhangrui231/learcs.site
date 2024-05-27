@@ -6,10 +6,7 @@ title: Lecture 34 Tables
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 34
-description: cs61a  Lecture 34 Tables
----
+
 # Lecture 34 Tables
 ## lecture Video
 

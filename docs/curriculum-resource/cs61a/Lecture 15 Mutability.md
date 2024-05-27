@@ -6,10 +6,7 @@ title: Lecture 15 Mutability
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 15
-description: cs61a  Lecture 15 Mutability
----
+
 # Lecture 15 Mutability
 ## lecture Video
 

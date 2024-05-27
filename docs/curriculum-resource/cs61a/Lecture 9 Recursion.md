@@ -6,10 +6,7 @@ title: Lecture 9 Recursion
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 9
-description: cs61a  Lecture 9 Recursion
----
+
 # Lecture 9 Recursion
 ## lecture Video
 

@@ -6,10 +6,7 @@ title: Lecture 4 Higher-Order Functions
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 4
-description: cs61a  Lecture 4 Higher-Order Functions
----
+
 # Lecture 4 Higher-Order Functions
 ## lecture Video
 

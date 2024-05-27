@@ -6,10 +6,7 @@ title: Lecture 3 Control
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 3
-description: cs61a  Lecture 3 Control
----
+
 # Lecture 3 Control
 ## lecture Video
 

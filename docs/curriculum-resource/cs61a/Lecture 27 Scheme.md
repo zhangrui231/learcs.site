@@ -6,10 +6,7 @@ title: Lecture 27 Scheme
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 27
-description: cs61a  Lecture 27 Scheme
----
+
 # Lecture 27 Scheme
 ## lecture Video
 

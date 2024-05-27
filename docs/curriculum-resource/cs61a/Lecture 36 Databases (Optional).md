@@ -6,10 +6,7 @@ title: Lecture 36 Databases (Optional)
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 36
-description: cs61a  Lecture 36 Databases (Optional)
----
+
 # Lecture 36 Databases (Optional)
 ## lecture Video
 

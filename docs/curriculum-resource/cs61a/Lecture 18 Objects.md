@@ -6,10 +6,7 @@ title: Lecture 18 Objects
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 18
-description: cs61a  Lecture 18 Objects
----
+
 # Lecture 18 Objects
 ## lecture Video
 

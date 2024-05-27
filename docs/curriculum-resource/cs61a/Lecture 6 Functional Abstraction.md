@@ -6,10 +6,7 @@ title: Lecture 6 Functional Abstraction
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 6
-description: cs61a  Lecture 6 Functional Abstraction
----
+
 # Lecture 6 Functional Abstraction
 ## lecture Video
 

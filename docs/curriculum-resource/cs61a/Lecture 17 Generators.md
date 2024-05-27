@@ -6,10 +6,7 @@ title: Lecture 17 Generators
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 17
-description: cs61a  Lecture 17 Generators
----
+
 # Lecture 17 Generators
 ## lecture Video
 

@@ -6,10 +6,7 @@ title: Lecture 7 Function Examples
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 7
-description: cs61a  Lecture 7 Function Examples
----
+
 # Lecture 7 Function Examples
 ## lecture Video
 

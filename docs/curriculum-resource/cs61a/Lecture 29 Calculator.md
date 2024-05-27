@@ -6,10 +6,7 @@ title: Lecture 29 Calculator
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 29
-description: cs61a  Lecture 29 Calculator
----
+
 # Lecture 29 Calculator
 ## lecture Video
 

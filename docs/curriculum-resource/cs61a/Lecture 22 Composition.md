@@ -6,10 +6,7 @@ title: Lecture 22 Composition
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 22
-description: cs61a  Lecture 22 Composition
----
+
 # Lecture 22 Composition
 ## lecture Video
 

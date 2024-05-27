@@ -6,10 +6,7 @@ title: Lecture 16 Iterators
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 16
-description: cs61a  Lecture 16 Iterators
----
+
 # Lecture 16 Iterators
 ## lecture Video
 

@@ -6,10 +6,7 @@ title: Lecture 2 Functions
 
 import DocCardList from '@theme/DocCardList';
 
----
-sidebar_position: 2
-description: cs61a  Lecture 2 Functions
----
+
 # Lecture 2 Functions
 ## lecture Video
 
