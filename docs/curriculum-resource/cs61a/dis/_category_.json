@@ -1,5 +1,5 @@
 {
     "label": "cs61a discussion ",
     "position": 101,
-    "sidebar_class_name": "hidden"
+    "className": "hidden"
   }
