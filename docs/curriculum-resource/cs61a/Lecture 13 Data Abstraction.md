@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 2.2 22-data-abstraction](https://www.composingprograms.com/pages/22-data-abstraction.html) | 
 
 ## Lab & Discussion Links
-
+[Lab 04: Tree Recursion, Data Abstraction](./lab/lab04.md) | [Solutions](./lab/sol-lab04.md) | 
 
 ## Homework & Project
 None
