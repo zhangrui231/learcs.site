@@ -34,7 +34,7 @@ New functions (called _procedures_ in Scheme) can be defined using a second vers
 
 The general form of a procedure definition is:
 
-The &lt;name&gt; is a symbol to be associated with the procedure definition in the environment. The &lt;formal parameters&gt; are the names used within the body of the procedure to refer to the corresponding arguments of the procedure. The <body> is an expression that will yield the value of the procedure application when the formal parameters are replaced by the actual arguments to which the procedure is applied. The &lt;name&gt; and the &lt;formal parameters&gt; are grouped within parentheses, just as they would be in an actual call to the procedure being defined.
+The &lt;name&gt; is a symbol to be associated with the procedure definition in the environment. The &lt;formal parameters&gt; are the names used within the body of the procedure to refer to the corresponding arguments of the procedure. The &lt;body&gt; is an expression that will yield the value of the procedure application when the formal parameters are replaced by the actual arguments to which the procedure is applied. The &lt;name&gt; and the &lt;formal parameters&gt; are grouped within parentheses, just as they would be in an actual call to the procedure being defined.
 
 Having defined square, we can now use it in call expressions:
 
