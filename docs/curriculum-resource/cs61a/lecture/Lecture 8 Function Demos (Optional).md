@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
-description: cs61a Lecture 8 Function Demos (Optional)
-title: Lecture 8 Function Demos (Optional)
+description: cs61a Lecture 8 Function Demos
+title: Lecture 8 Function Demos
 ---
 
 import DocCardList from '@theme/DocCardList';
