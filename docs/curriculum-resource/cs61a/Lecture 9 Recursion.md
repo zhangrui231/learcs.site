@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 1.7 17-recursive-functions](https://www.composingprograms.com/pages/17-recursive-functions.html) | 
 
 ## Lab & Discussion Links
-[Disc 03: Recursion](../ldis/disc03.md) | [Solutions](../ldis/sol-disc03.md) | 
+[Disc 03: Recursion](../dis/disc03.md) | [Solutions](../dis/sol-disc03.md) | 
 
 ## Homework & Project
 None

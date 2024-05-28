@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 4.2 42-implicit-sequences](https://www.composingprograms.com/pages/42-implicit-sequences.html) | 
 
 ## Lab & Discussion Links
-[Disc 06: Iterators, Generators](../ldis/disc06.md) | [Solutions](../ldis/sol-disc06.md) | 
+[Disc 06: Iterators, Generators](../dis/disc06.md) | [Solutions](../dis/sol-disc06.md) | 
 
 ## Homework & Project
 None

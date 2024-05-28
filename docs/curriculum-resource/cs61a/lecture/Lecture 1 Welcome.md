@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Disc 00: Getting Started](../ldis/disc00.md) | [Solutions](../ldis/sol-disc00.md) | 
+[Disc 00: Getting Started](../dis/disc00.md) | [Solutions](../dis/sol-disc00.md) | 
 
 ## Homework & Project
 None

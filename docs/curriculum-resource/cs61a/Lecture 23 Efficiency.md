@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 2.8 28-efficiency](https://www.composingprograms.com/pages/28-efficiency.html) | 
 
 ## Lab & Discussion Links
-[Disc 08: Linked Lists, Efficiency](../ldis/disc08.md) | [Solutions](../ldis/sol-disc08.md) | 
+[Disc 08: Linked Lists, Efficiency](../dis/disc08.md) | [Solutions](../dis/sol-disc08.md) | 
 
 ## Homework & Project
 None

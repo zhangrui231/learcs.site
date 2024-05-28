@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 2.5 25-object-oriented-programming](https://www.composingprograms.com/pages/25-object-oriented-programming.html) | 
 
 ## Lab & Discussion Links
-[Disc 07: OOP](../ldis/disc07.md) | [Solutions](../ldis/sol-disc07.md) | 
+[Disc 07: OOP](../dis/disc07.md) | [Solutions](../dis/sol-disc07.md) | 
 
 ## Homework & Project
 None

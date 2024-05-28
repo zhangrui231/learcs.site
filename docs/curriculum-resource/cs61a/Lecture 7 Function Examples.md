@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 
 
 ## Lab & Discussion Links
-[Disc 02: Environment Diagrams, Higher-Order Functions](../ldis/disc02.md) | [Solutions](../ldis/sol-disc02.md) | 
+[Disc 02: Environment Diagrams, Higher-Order Functions](../dis/disc02.md) | [Solutions](../dis/sol-disc02.md) | 
 
 ## Homework & Project
 None

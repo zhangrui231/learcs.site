@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 3.2 32-functional-programming](https://www.composingprograms.com/pages/32-functional-programming.html) | 
 
 ## Lab & Discussion Links
-[Disc 09: Scheme, Scheme Lists](../ldis/disc09.md) | [Solutions](../ldis/sol-disc09.md) | 
+[Disc 09: Scheme, Scheme Lists](../dis/disc09.md) | [Solutions](../dis/sol-disc09.md) | 
 
 ## Homework & Project
 None

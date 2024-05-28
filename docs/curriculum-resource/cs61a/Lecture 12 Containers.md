@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 2.3 23-sequences](https://www.composingprograms.com/pages/23-sequences.html) | 
 
 ## Lab & Discussion Links
-[Disc 04: Tree Recursion](../ldis/disc04.md) | [Solutions](../ldis/sol-disc04.md) | 
+[Disc 04: Tree Recursion](../dis/disc04.md) | [Solutions](../dis/sol-disc04.md) | 
 
 ## Homework & Project
 [Cats](../project/cats.md) | 

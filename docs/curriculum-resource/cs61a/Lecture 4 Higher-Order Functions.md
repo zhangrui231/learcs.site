@@ -18,7 +18,7 @@ import DocCardList from '@theme/DocCardList';
 [Ch. 1.6 16-higher-order-functions](https://www.composingprograms.com/pages/16-higher-order-functions.html) | 
 
 ## Lab & Discussion Links
-[Disc 01: Control, Environment Diagrams](../ldis/disc01.md) | [Solutions](../ldis/sol-disc01.md) | 
+[Disc 01: Control, Environment Diagrams](../dis/disc01.md) | [Solutions](../dis/sol-disc01.md) | 
 
 ## Homework & Project
 [Hog](../project/hog.md) | 
