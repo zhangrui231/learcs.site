@@ -1,5 +1,5 @@
 ---
-title: Autocorrected Typing Software
+title: Ants
 sidebar_position: 3
 ---
 

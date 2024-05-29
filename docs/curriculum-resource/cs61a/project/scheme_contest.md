@@ -1,5 +1,5 @@
 ---
-title: Scheme Art
+title: Scheme Gallery
 sidebar_position: 5
 ---
 

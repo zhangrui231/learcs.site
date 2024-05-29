@@ -1,5 +1,5 @@
 ---
-title: Autocorrected Typing Software
+title: Cats
 sidebar_position: 2
 ---
 

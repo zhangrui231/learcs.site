@@ -1,5 +1,5 @@
 ---
-title: The Game of Hog
+title: Hog
 sidebar_position: 1
 ---
 

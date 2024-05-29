@@ -1,5 +1,5 @@
 ---
-title: Scheme Interpreter
+title: Scheme
 sidebar_position: 4
 ---
 # Project 4: Scheme Interpreter | CS 61A Spring 2024
