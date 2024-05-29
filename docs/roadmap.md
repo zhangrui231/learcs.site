@@ -42,7 +42,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>算法与数据结构</td>
         <td>UC Berkeley CS61B</td>
         <td>CS 61系列是计算机科学的介绍，特别强调以程序员的视角来看软件和机器。CS 61A涵盖了高级问题解决方法，为您提供了将编程问题的解决方案组织为函数组合、对象集合或规则集的多种方式。在CS61B中，我们更详细地（在某种程度上更基础地）关注编程的效率，特别侧重于编写程序（设计）和运行程序（运行时）的效率。</td>
-        <td>无 </td>
+        <td>本课程没有指定的教科书，但有推荐的阅读材料和书籍 </td>
         <td><a href="https://space.bilibili.com/526939229/channel/collectiondetail?sid=2323057">中文语音</a> | <a href="https://space.bilibili.com/526939229/channelcollectiondetail?sid=2323065">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
@@ -148,14 +148,14 @@ CS50X提供了丰富的课程资源包括
 - Lab （课程实验，可以与同学合作完成）
 - Problem Set （课程作业，需要每个人独立完成）
 
-##### cs61a
-说到CS61A，不得不提及一部与该课程同名的经典著作 [《Structure and Interpretation of Computer Programs》](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-4.html#%_toc_start)，中文译本 《计算机程序的构造和解释》也就是大名鼎鼎的SICP。很多大学的计算机专业本科程序设计「导论」课程都以SICP为教材，其中大家较为熟知的有
+##### cs 61A
+说到CS 61A，不得不提及一部与该课程同名的经典著作 [《Structure and Interpretation of Computer Programs》](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-4.html#%_toc_start)，中文译本 《计算机程序的构造和解释》也就是大名鼎鼎的SICP。很多大学的计算机专业本科程序设计「导论」课程都以SICP为教材，其中大家较为熟知的有
 - [MIT6.001](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) 由SICP的作者之一 Hal Abelson 授课。以LISP的变体scheme为授课语言。
 - UCB cs61a 
    [Brian Harvey 开设的 SICP 课程](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=title&tab=collection),该课程也是以scheme为授课语言。Spring 2011是该课程的最后一版，后续的课程更新为以Python为授课语言。比起 MIT 的课程，它更加完善，更适用于初学者。
 
 - [John DeNero 讲授的更新的 CS 61A 课程](https://inst.eecs.berkeley.edu/~cs61a/fa23/),升级后的课程继承了SICP但使用Python语言讲解。而且为课程重新编写了配套书籍 [Composing Programs](https://www.composingprograms.com/)。
-考虑到python是当下使用范围最广的编程语言之一且学习难度低，所以本指南选用UCB更新后的 CS61A 课程。但强烈建议学有余力的同学阅读 SICP 结合 Brian Harvey 的 CS61a 课程学习SICP。因为 SICP 是独一无二的，它可以很有可能改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
+考虑到python是当下使用范围最广的编程语言之一且学习难度低，所以本指南选用UCB更新后的 CS 61A 课程。但强烈建议学有余力的同学阅读 SICP 结合 Brian Harvey 的 CS61a 课程学习SICP。因为 SICP 是独一无二的，它可以很有可能改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
 cs61a（新版） 提供了丰富的课程资源包括：
 - [课程网站](https://cs61a.org/)
 - Videos | 提前录制的由John DeNero 授课的课程视频
@@ -168,5 +168,25 @@ cs61a（新版） 提供了丰富的课程资源包括：
 - Projects | 项目
   
 ***虽然CS50,CS61a 都是CSEE学科的编程入门基础课程，但是直接上手CS61A 对学习能力有一定的要求，所以建议先学习CS50x，然后学习CS61A，以免因学习难度过高而导致信心受挫***
-#### 
 
+### 算法与数据解构
+正如几十年来的共识，我们认为，计算机科学教育所赋予人们的最大能量在于对常见算法和数据结构的熟悉。此外，这也可以训练一个人对于各种问题的解决能力，有助于其他领域的学习。关于算法与数据结构，有成百上千的书可供使用，经常被推荐的有
+- [《Introduction to Algorithms》](https://dl.ebooksworld.ir/books/Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.MIT.Press.9780262046305.EBooksWorld.ir.pdf)（中文译本《算法导论》）通常被称为"CLRS" 这本书是算法领域的经典之作。在MIT被用作 6.006和6.046课程的教材，难度较大。
+  
+- [《Algorithms (4th Edition)》](https://algs4.cs.princeton.edu/home/) 算法领域经典的参考书，通常被称为算法红宝书，浅显易懂是一本不可多得的算法入门书。如果你更喜欢观看视频课程，普林斯顿大学（本书作者任教的学校）在Coursera 上 慷慨地提供了配套课程 [Algorithms I](https://www.coursera.org/learn/algorithms-part1) [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+如果你不太喜欢太多的证明过程，和大量的数学公式，偏向于以解决问题为向导的学习 [《the algorithm design manual》](https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf)（中文译本《算法设计手册》是你的不二之选。这本书给人一种焕然一新的体验，完全不同于以上两本书。如果你喜欢观看视频课程[Skiena 慷慨地提供了他的课程](https://www.youtube.com/watch?v=dphSwq5jP1A&list=PLOtl7M3yp-DXbHTFe_w9zFPXeau28CDao)
+
+#### 推荐课程
+##### cs 61B
+伯克利 CS61 系列的第二门课程，深入到更为细致（一定程度上也更基础）的编程层面，专注于编写程序的设计效率以及运行时的性能优化,注重数据结构与算法的设计。课程使用JAVA语言授课，并假设您没有任何Java经验，课程中会迅速讲解基础的Java语法。
+课程资源包括：
+- [课程网站](https://sp24.datastructur.es/)
+- Videos | 由Josh Hug 录制的授课的课程视频
+- Recordings | 课堂实录（内容跟video一样，需要登陆 bcourses.berkeley.edu 账号才能观看）
+- slides | 课程PPT
+- Textbook | 阅读教材
+- Lab | 实验
+- Discussions | 讨论环节的问题集
+- Homework | 作业
+- Projects | 项目
