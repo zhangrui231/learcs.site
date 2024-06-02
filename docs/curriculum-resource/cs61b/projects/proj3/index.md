@@ -1,6 +1,6 @@
 ---
-title: "Project 3: BYOW"
-description:   Project 3 spec.
+title: Project 3 BYOW
+description: Project 3 spec.
 ---
 
 ## [FAQ](faq.md)

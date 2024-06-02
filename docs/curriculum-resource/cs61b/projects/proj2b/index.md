@@ -1,5 +1,5 @@
 ---
-title: Project 2B: Ngordnet (Wordnet)
+title: Project 2B Ngordnet (Wordnet)
 description: Project 2B spec
 ---
 
