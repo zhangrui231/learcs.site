@@ -67,11 +67,5 @@ On the queue, public tickets will be highlighted in yellow and denoted with a st
 
 ![public ticket](/img/cs61b/public_ticket.png)
 
-<!-- ### Concierge System
-
-On some days, we might use a concierge system. You will still create a ticket in the same way, but your ticket will first be placed on the "concierge queue". When your ticket gets to the front of the concierge queue, a member of course staff, the concierge, will take your ticket. During this meeting, course staff will help refine your question, provide guidance on what to work on while waiting, and possibly group your ticket with others who have similar questions.
-
-:::warning
-The concierge will not help you directly with your question. The goal is to focus and improve your question so that you will receive higher quality help on the main queue.
 
 After this meeting, you will be placed on the main queue where more course staff will be taking and helping answer your question. -->
