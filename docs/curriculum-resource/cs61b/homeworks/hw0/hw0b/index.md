@@ -622,7 +622,7 @@ When you have completed `Dessert.java`, uncomment the appropriate lines in `test
 <summary>
 How to create a new class in IntelliJ
 </summary>
-<br>
+<br/>
 
 1. Right-click on the `src/` folder on the left-hand side of the screen, then go to `New` > `Java Class`.
    ![New Java Class](/img/cs61b/new-java-class.png){:style="display:block; margin-left:auto; margin-right:auto"}
@@ -639,7 +639,7 @@ How to create a new class in IntelliJ
 <summary>
 {{ "`Dessert` class implemented in Python" | markdownify }}
 </summary>
-<br>
+<br/>
 
 ```python
 class Dessert:

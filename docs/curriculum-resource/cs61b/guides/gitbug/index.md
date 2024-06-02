@@ -44,7 +44,7 @@ GitHub). We will automatically reject Gitbugs without thorough explanations.
 7. Make sure you’ve made your post **private**
 8. Post your Gitbug!
 
-![Example templpate](gitbug-template.png)
+![Example templpate](/img/cs61b/gitbug-template.png)
 
 It’s important that you fill out the Gitbug template exactly and put in
 reasonable effort here, otherwise we won’t have all the important information to
@@ -66,7 +66,7 @@ It's really important that you have a good description of what the bug is and
 what you've done to try and solve it so far. Here is an example of Omar doing a
 bad job:
 
-![Bad Gitbug](bad-gitbug.png)
+![Bad Gitbug](/img/cs61b/bad-gitbug.png)
 
 Notice how Omar doesn't even address the question. He should add to his response
 the specific test that failed (i.e. number) and maybe even what the error
@@ -78,7 +78,7 @@ ton of time. Sorry for Omar, but this Gitbug gets rejected.
 
 Now let's look at what a good Gitbug looks like:
 
-![Good Gitbug](good-gitbug.png)
+![Good Gitbug](/img/cs61b/good-gitbug.png)
 
 Omar did a great job here! There is a clear test that he is failing and he has
 even provided the error message for us. There is also ample evidence that he has
