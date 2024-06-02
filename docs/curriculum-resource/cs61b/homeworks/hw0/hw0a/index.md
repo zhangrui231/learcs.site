@@ -375,7 +375,7 @@ for letter in s:
 </td>
 <td markdown="block">
 
-```java
+```
 String s = "hello";
 s += " world";
 s += 5;
@@ -526,7 +526,7 @@ def stutter(s):
 
 </summary>
 
-```python
+```
 def quadrant(x, y):
     if x == 0 or y == 0:
         return 0
