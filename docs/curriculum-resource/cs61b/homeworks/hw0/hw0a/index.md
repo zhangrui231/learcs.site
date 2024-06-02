@@ -389,6 +389,7 @@ for (int i = 0; i < s.length(); i++) {
     char letter = s.charAt(i);
     System.out.println(letter);
 }
+
 ```
 
 </td>
@@ -422,7 +423,7 @@ print("Hello World")
 
 </td>
 <td markdown="block">
-```java
+```
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -473,7 +474,7 @@ like to reference Python solutions, see the dropdowns below.
 
 </summary>
 
-```python
+```
 for i in range(5):
     line = ""
     for j in range(i + 1):
@@ -490,7 +491,7 @@ for i in range(5):
 
 </summary>
 
-```python
+```
 def printIndexed(s):
     output = ""
     for i in range(len(s)):
@@ -508,7 +509,7 @@ def printIndexed(s):
 
 </summary>
 
-```python
+```
 def stutter(s):
     output = ""
     for i in range(len(s)):
