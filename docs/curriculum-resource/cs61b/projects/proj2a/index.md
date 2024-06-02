@@ -1,7 +1,6 @@
 ---
-title: Project 2A: Ngordnet (NGrams)
+title: Project 2A Ngordnet (NGrams)
 description: Project 2A spec.
-
 ---
 
 
