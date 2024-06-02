@@ -9,14 +9,14 @@ arise.
 
 ## I can't run my Java file/Files don't show up as java files
 
-![IntelliJ Import Error](/img/cs61b/img/intellij-import-error.png)
+![IntelliJ Import Error](/img/cs61b/intellij-import-error.png)
 
 If your files look like this then you haven't properly imported the project.
 To fix this, you must simply right-click the outer-most folder which will be your
 assignment folder, in this case, `proj2ab`, and scroll down to "Mark directory as ..."
 and hit "Sources Root". It'll look like this:
 
-![IntelliJ Mark directory as](/img/cs61b/img/intellij-mark-dir-as.png)
+![IntelliJ Mark directory as](/img/cs61b/intellij-mark-dir-as.png)
 
 You may need to do this with the `src` folder for most assignments, and mark the
 `tests` folder as a **Test Sources Root**. Your `src` folder should be blue and
@@ -27,7 +27,7 @@ instructions on importing a new project.
 
 ## JUnit things show up as red in IntelliJ
 
-![IntelliJ Missing Javalib](/img/cs61b/img/intellij-missing-javalib.png)
+![IntelliJ Missing Javalib](/img/cs61b/intellij-missing-javalib.png)
 
 This means that you forgot to add the CS 61B `javalib` as a library for this project!
 IntelliJ cannot find the JUnit specific things like `@Test` or `assertEquals`
@@ -40,7 +40,7 @@ for additional instructions on adding Java libraries.
 
 ## package org.junit does not exist
 
-![IntelliJ package org.junit doesn't exist](/img/cs61b/img/intellij-junit-dnt-exist.png)
+![IntelliJ package org.junit doesn't exist](/img/cs61b/intellij-junit-dnt-exist.png)
 
 This sometimes happens with IntelliJ where you've added the correct libraries,
 but cannot run the code. To fix this, you need to add the libraries as a direct
@@ -50,7 +50,7 @@ dependency to the module. To do that, go to "File" -> "Project Structure" ->
 and add them. This is what the setting should look like right before you add
 the JARs:
 
-![IntelliJ adding deps](/img/cs61b/img/intellij-adding-deps.png)
+![IntelliJ adding deps](/img/cs61b/intellij-adding-deps.png)
 
 ## Output path is not specified
 
