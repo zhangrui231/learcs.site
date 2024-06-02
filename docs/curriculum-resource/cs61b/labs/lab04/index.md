@@ -1,5 +1,5 @@
 ---
-title: Lab 04: Git
+title: Lab 04 Git
 ---
 
 ## FAQ
