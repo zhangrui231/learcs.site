@@ -26,7 +26,7 @@ in this lab, but we'll talk more about it in a later lab.
 ### Setup
 
 Follow the
-[assignment workflow](../../guides/assignment-workflow/index.md#opening-in-intellij)
+[assignment workflow](../../guides/assignment-workflow#opening-in-intellij)
 to get the assignment and open it in IntelliJ.
 
 ### Goals and Outcomes
@@ -314,9 +314,9 @@ Just as you did in Lab 1, add, commit, then push your Lab 2 code to GitHub.
 Then, submit to Gradescope to test your code. If you need a refresher, check
 out the instructions in the
 [Lab 1 spec](../lab01/index.md#submitting-to-gradescope) and the
-[Assignment Workflow Guide][workflow].
+[Assignment Workflow Guide][../../guides/assignment-workflow].
 
-[workflow]: ../../resources/guides/assignment-workflow/index.md#opening-in-intellij
+[workflow]: ../../guides/assignment-workflow#opening-in-intellij
 
 ## Acknowledgements
 

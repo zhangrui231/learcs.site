@@ -61,7 +61,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class="is-even border-hack">Fri <br/>Jan 26</td>
-            <td class="is-even " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 5 - Lists III_ DLLists and Arrays.pdf" class="schedule-title">5. Lists III: DLLists and Arrays</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRpPjLuN6-QJUFeK_mBZPve4">Video</a> | <a href="https://www.youtube.com/watch?v=rf8beYo231Q">Recording</a> </td>
+            <td class="is-even " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 5 - Lists 3_ DLLists and Arrays.pdf" class="schedule-title">5. Lists III: DLLists and Arrays</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRpPjLuN6-QJUFeK_mBZPve4">Video</a> | <a href="https://www.youtube.com/watch?v=rf8beYo231Q">Recording</a> </td>
             <td class="is-even" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/5.-dllists">Ch 5</a>, <a href="https://cs61b-2.gitbook.io/cs61b-textbook/6.-arrays">Ch 6</a></td>
         </tr>
         <tr>

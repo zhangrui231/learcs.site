@@ -194,7 +194,7 @@ repository. Make sure you don't initialize a repository in your `SP24-s***`!
 
 :::info
 > If you need help with creating directories, creating files, changing
-> directories, etc., refer back to [_How to Use the Terminal_](./terminal).
+> directories, etc., refer back to [_How to Use the Terminal_](./terminal.md).
 
 1.  Create a directory called `lab04-checkoff`. You can put this directory
     anywhere on your computer **(but not in your `{{ site.semester }}-s***` repo)**.
