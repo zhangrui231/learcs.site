@@ -31,7 +31,7 @@ Out of the guide and tutorial videos, we have found the following pages / videos
 
 * Finally this video discusses some of the Git (or other version control) integration with the IntelliJ IDE. Throughout this course we will be expecting you to understand the Git CLI (command line interface), but sometimes it may be useful to use some kind of GUI (graphical user interface) to visualize changes to your Git repositories. Again, this is not something we expect students to be using as their primary method of interacting with Git but it is helpful to know that it exists.
 
-<div style="{{position: "relative", width: "100%", paddingTop: "56.25%"}}"><iframe style="{{position: "absolute", top:" 0px", left: "0px",bottom: "0px", right: "0px", height: "100%", width:" 100%", margin: "auto"}}" src="https://www.youtube.com/embed/MaQnpCaiop0"
+<div style={{position: "relative", width: "100%", paddingTop: "56.25%"}}><iframe style={{position: "absolute", top:" 0px", left: "0px",bottom: "0px", right: "0px", height: "100%", width:" 100%", margin: "auto"}} src="https://www.youtube.com/embed/MaQnpCaiop0"
  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Using the CS 61B Plugins ##
