@@ -46,11 +46,11 @@ To set this up:
 
 1.  Click on the drop-down arrow next to the plus "+" sign at the top and open the settings page.
 
-    ![Terminal Setup 1](/img/cs61b/img/windows/win_settings.png)
+    ![Terminal Setup 1](/img/cs61b/windows/win_settings.png)
 
 2. Set the default profile to Git bash, default terminal application to windows terminal and hit save.
 
-    ![Terminal Setup 2](/img/cs61b/img/windows/win_default_profile.png)
+    ![Terminal Setup 2](/img/cs61b/windows/win_default_profile.png)
 
 3. If you completed the previous steps correctly,
     when you click on the plus sign, you should see a Git Bash shell window open.

@@ -115,7 +115,7 @@ This method should return true if any of the tiles on the board are null.
 ### Starter code: Board coordinates
 
 Our implementation uses xy-coordinates with (0, 0) at the _bottom-left_ corner:
-![Board coordinates](//img/cs61b/cs61b/board-coordinates.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![Board coordinates](/img/cs61b/board-coordinates.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ### Starter code: `Board` class
 
@@ -148,7 +148,7 @@ To test your method, run the tests in `TestEmptySpace.java` by right-clicking th
 
 Alternatively, you may open the `TestEmptySpace.java` file and click the green arrow next to `public class TestEmptySpace` to run the tests (yours may look a little different):
 
-![run-test-empty-space-2](//img/cs61b/cs61b/run-test-empty-space-2.gif){:style="display:block; margin-left:auto; margin-right:auto"}
+![run-test-empty-space-2](/img/cs61b/run-test-empty-space-2.gif){:style="display:block; margin-left:auto; margin-right:auto"}
 
 You may also run individual tests in the same manner.
 
@@ -298,7 +298,7 @@ Now, it's time to implement the logic for tilting the board. We recommend finish
 
 ### Rules: Tilting
 
-![2048 Examples](//img/cs61b/cs61b/example-2048.gif){:style="display:block; margin-left:auto; margin-right:auto"}
+![2048 Examples](/img/cs61b/example-2048.gif){:style="display:block; margin-left:auto; margin-right:auto"}
 
 The animation above shows a few tilt operations. Here are the full rules for when merges occur that are shown in the image above.
 

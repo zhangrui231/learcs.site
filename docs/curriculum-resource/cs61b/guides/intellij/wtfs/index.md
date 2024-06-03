@@ -54,7 +54,7 @@ the JARs:
 
 ## Output path is not specified
 
-![IntelliJ output path not specified](/img/cs61b/img/intellij-out-not-specified.png)
+![IntelliJ output path not specified](/img/cs61b/intellij-out-not-specified.png)
 
 IntelliJ puts all the compiled Java `.class` files in a special folder called
 `out`. You may have seen it before. Usually, IntelliJ will be able to determine
@@ -66,7 +66,7 @@ add the output path. The output path should be of the form `path/to/assignment/o
 where the prefix is dependent on the path to your assignment (hw, lab, proj, etc)
 and the suffix must be `/out`. Example for homework 2:
 
-![IntelliJ output path not specified](/img/cs61b/img/intellij-specifying-out.png)
+![IntelliJ output path not specified](/img/cs61b/intellij-specifying-out.png)
 
 ## Everything looks right but it still doesn't work!
 

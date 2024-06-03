@@ -64,7 +64,7 @@ will be easier to break down your logic for unit testing.
 
 By the end of the lab, you'll have something that functions like the below: 
 
-![Tetris Game Example](/img/cs61b/cs61b/tetris.gif)
+![Tetris Game Example](/img/cs61b/tetris.gif)
 
 If you would like to play the game yourself, you can find it [here](https://tetris.com/play-tetris).
 

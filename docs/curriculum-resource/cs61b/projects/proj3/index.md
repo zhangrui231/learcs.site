@@ -536,7 +536,7 @@ You are not restricted to the features we list below! We strongly encourage you 
 
 - Add the ability for light sources to affect how the world is rendered, with at least one light source that can be turned on and off with a keypress. The intensity of the light must diminish in a gradient as the distance from the source increases. Light should also not pass through walls.
 
-[![toggle-lights](/img/cs61b/toggle-lights.gif)](/img/cs61b/toggle-lights.gif)
+[![toggle-lights](/img/cs61b/proj3/toggle-lights.gif)](/img/cs61b/proj3/toggle-lights.gif)
 
 - Add entities which chase the avatar/other entities by use of a search algorithm from class, with a toggle to display their projected path.
 

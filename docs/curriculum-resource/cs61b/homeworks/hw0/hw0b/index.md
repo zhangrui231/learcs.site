@@ -637,7 +637,7 @@ How to create a new class in IntelliJ
 
 <details markdown="block">
 <summary>
-{{ "`Dessert` class implemented in Python" | markdownify }}
+ `Dessert` class implemented in Python"
 </summary>
 <br/>
 

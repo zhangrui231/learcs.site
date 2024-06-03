@@ -20,7 +20,7 @@ A video introduction to this project can be
 found below (or [at this link](https://www.youtube.com/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1)).
 
 <p align="center">
-    <iframe width=600 height=400 src="https://www.youtube.com/embed/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1" title="Project 2A Intro"></iframe>
+    <iframe width="600px" height="400px" src="https://www.youtube.com/embed/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1" title="Project 2A Intro"></iframe>
 </p>
 
 To support this tool, you will write a series of Java packages that will allow for data analysis. Along the way we'll

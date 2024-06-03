@@ -17,7 +17,7 @@ running the automated style checker. You can run the style checker in IntelliJ b
 > This will generate a list of style errors in the selected file.
 > Be sure to save or recompile your file before running the style checker again.
 
-![screenshot of intellij with right-click menu open](intellij_style_checker.png)
+![screenshot of intellij with right-click menu open](/img/cs61b/intellij_style_checker.png)
 
 This style guide may also be incomplete. I've attempted to make it as
 comprehensive as possible, but I may have missed describing some newly added

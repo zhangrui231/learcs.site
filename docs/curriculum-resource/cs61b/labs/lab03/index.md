@@ -92,7 +92,7 @@ in `AdventureGameTests`.
 Fix the `NullPointerException` that occurs in `BeeCountingStage` by
 analyzing the stack trace. You can ignore the lines with `<XX internal lines>`;
 these are from test framework or library code and usually won't help you find
-errors. <br><br> Expected lines modified: 1
+errors. <br/><br/> Expected lines modified: 1
 
 <details markdown="block">
 <summary markdown="block">
