@@ -16,7 +16,7 @@ You likely installed the ultimate edition instead of the community edition. Make
 If you see a hint that says "Updates were rejected because the tip of your
 current branch was behind its remote counterpart", then read
 [this section of the Git
-WTFS](../../../resources/guides/git/wtfs/#error-failed-to-push-some-refs).
+WTFS](../../guides/git/wtfs/#error-failed-to-push-some-refs).
 
 ### I set up SSH for GitHub, but I get the error "Connection timed out"
 

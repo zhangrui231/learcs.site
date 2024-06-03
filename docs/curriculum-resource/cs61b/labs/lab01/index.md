@@ -145,7 +145,7 @@ significant frustration as you learn to use it.
 
 {: .task}
 Before you proceed, **read up to the Remote Repositories
-section of the [Using Git Guide](../../resources/guides/git/index.md)**. You do not need
+section of the [Using Git Guide](../../guides/git/index.md)**. You do not need
 to read past that. This is to help you get a rough idea of what Git is. 
 
 ### Task: Setting Up Git
@@ -193,7 +193,7 @@ editor.
 ### Git and Remote Repos
 
 First, read the **Remote Repositories** section of the
-**[Using Git Guide](../../resources/guides/git/index.md#d-remote-repositories)**.
+**[Using Git Guide](../../guides/git/index.md#d-remote-repositories)**.
 
 In this course, you'll be required to submit your code using git to your course
 GitHub repository that you created in [Account Setup](#task-setting-up-accounts).
@@ -390,7 +390,7 @@ IntelliJ is a real world, industrial software development application. There are
 many features that we will not use, and you will sometimes encounter situations
 that do not make sense. **Ask for help if you are stuck or something seems
 broken!** It can be very hard to guess the right thing to do in IntelliJ. Check
-out the [IntelliJ WTFS Guide](../../resources/guides/intellij/wtfs/index.md) for solutions
+out the [IntelliJ WTFS Guide](../../guides/intellij/wtfs/index.md) for solutions
 to some common problems.
 
 **Before continuing, make sure that you have completed all above tasks besides
@@ -422,7 +422,7 @@ the git exercise:**
 
 :::info
 While IntelliJ downloads, you can read / skim our
-[Using IntelliJ Guide](../../resources/guides/intellij/index.md).
+[Using IntelliJ Guide](../../guides/intellij/index.md).
 You don't need to read or internalize all of this to complete the lab.
 IntelliJ is complicated, but the core features should feel somewhat familiar
 to text editors you have used in the past.
@@ -463,7 +463,7 @@ relatively consistent.
 1.  Restart (close and reopen) IntelliJ.
 
 For more information on using the plugins, read
-[the plugin guide](../../resources/guides/intellij/plugins.md).
+[the plugin guide](../../guides/intellij/plugins.md).
 You don't have to read this right now.
 
 ### Installing Java
@@ -486,7 +486,7 @@ With IntelliJ and the plugins installed, we can install the JDK. Follow the step
 ### Setting Up Assignments
 
 Follow the instructions in
-[Opening in IntelliJ section of the Assignment Workflow guide](../../resources/guides/assignment-workflow/index.md#opening-in-intellij)
+[Opening in IntelliJ section of the Assignment Workflow guide](../../guides/assignment-workflow/index.md#opening-in-intellij)
 to open `lab01` (if you haven't exited from the previous section, you can start on step 3).
 
 **Everytime you open up an assignment, you will need to ensure that your Project Structure is set up and that you've 
@@ -672,7 +672,7 @@ passed all the tests in `ArithmeticTest.java`.
 **Congratulations on finishing your first CS 61B lab!**
 
 If you ever need a refresher on how to submit an assignment, you can refer back to the 
-[assignment workflow guide](../../resources/guides/assignment-workflow/index.md#opening-in-intellij). 
+[assignment workflow guide](../../guides/assignment-workflow/index.md#opening-in-intellij). 
 
 ## Optional: Josh Hug's Color Schemes
 

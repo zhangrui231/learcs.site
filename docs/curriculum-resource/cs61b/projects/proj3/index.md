@@ -189,7 +189,7 @@ As mentioned above, the first goal of the project will be to write a world gener
 **sufficiently random** The requirements for these criteria are listed below:
 
 **Valid**
-- The world must be a 2D grid, drawn using our tile engine. The tile engine is described in [lab 9](../../labs/lab09).
+- The world must be a 2D grid, drawn using our tile engine. The tile engine is described in [lab 9](../labs/lab09).
 - The generated world must include distinct rooms and hallways, though it may also include outdoor spaces.
 - At least some rooms should be rectangular, though you may support other shapes as well.
 - Your world generator must be capable of generating hallways that include turns (or equivalently, straight hallways
@@ -686,7 +686,7 @@ To get credit for the checkoff demo, you **must** submit [this form](https://for
 ## Checkoff Script and Form
 
 In the hopes of keeping this process as transparent as possible, click
-[here](proj3checkoff) for the exact script the instructor will use when checking your project. Though checkoffs are
+[here](./proj3checkoff.md) for the exact script the instructor will use when checking your project. Though checkoffs are
 synchronous, we want to have a record of everyone's project on file in case there are technical difficulties during the
 checkoff, or if we need to look at your project for whatever reason. Please be clear and concise so the grader knows exactly
 how to use your feature. If you find that explaining how to use your feature is too complicated, then consider

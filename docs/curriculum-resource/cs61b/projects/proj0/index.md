@@ -19,7 +19,7 @@ Prerequisites:
 - [Lab 1](../../labs/lab01/index.md) (required for setup)
 - [HW0](../../homeworks/hw0/hw0b/index.md) (recommended, for Java syntax)
 - Lectures 1-2
-- [61B Style Guide](../../resources/guides/style/index.md) (we are checking your style in autograder!)
+- [61B Style Guide](../guides/style/index.md) (we are checking your style in autograder!)
 - Lab 2 (optional but recommended prerequisite - helpful for debugging)
 
 [See here for a video overview of the project.](https://www.youtube.com/playlist?list=PL8FaHk7qbOD7WwTongMI3rfNbnkCE9NPb) This video is from an earlier version of the project, so there are some slight differences.
@@ -66,10 +66,10 @@ The game ends when the current player has no available moves (no tilt can change
 
 ### Getting the Skeleton Files
 
-Follow the instructions in the [Assignment Workflow Guide](../../resources/guides/assignment-workflow/index.md) to get the skeleton code and open it in IntelliJ. For this project, we will be working in the `proj0/` directory.
+Follow the instructions in the [Assignment Workflow Guide](../guides/assignment-workflow/index.md) to get the skeleton code and open it in IntelliJ. For this project, we will be working in the `proj0/` directory.
 
 :::danger
-> If you get some sort of error, STOP and either figure it out by carefully reading the [git WTFs](../../resources/guides/git/wtfs.md) or seek help at OH or Ed. You’ll save yourself a lot of trouble vs. guess-and-check with git commands. If you find yourself trying to use commands recommended by Google like force push, [don’t](https://twitter.com/heathercmiller/status/526770571728531456). **Don’t use `git push -f`, even if a post you found on Stack Overflow says to do it!**
+> If you get some sort of error, STOP and either figure it out by carefully reading the [git WTFs](../guides/git/wtfs.md) or seek help at OH or Ed. You’ll save yourself a lot of trouble vs. guess-and-check with git commands. If you find yourself trying to use commands recommended by Google like force push, [don’t](https://twitter.com/heathercmiller/status/526770571728531456). **Don’t use `git push -f`, even if a post you found on Stack Overflow says to do it!**
 >
 > If you can't get Git to work, watch [this video](https://www.youtube.com/watch?v=Squ8TmG5mX0) as a last resort to submit your work.
 
@@ -712,7 +712,7 @@ To fix this bug, make sure that your code never calls `move` when the tile isn't
 
 ## Style
 
-Starting with this project, **we will be enforcing style**. You must follow the [style guide](../../resources/guides/style/index.md), or you will be penalized on the autograder.
+Starting with this project, **we will be enforcing style**. You must follow the [style guide](../guides/style/index.md), or you will be penalized on the autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will not remove the velocity limit for failing to check style.**
 

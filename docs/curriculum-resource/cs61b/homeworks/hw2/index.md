@@ -25,7 +25,7 @@ FAQ for Homework 2 is located
 
 ## Getting the Skeleton Files
 
-Please follow the [Assignment Workflow Guide](../../resources/guides/assignment-workflow/index.md) to get started with this assignment. This assignment is `hw2`.
+Please follow the [Assignment Workflow Guide](../../guides/assignment-workflow/index.md) to get started with this assignment. This assignment is `hw2`.
 
 ## Introduction
 

@@ -481,7 +481,7 @@ command into your terminal _while in the directory whose history you want to
 store in a local repository_. If you're using Windows, you should be using a Git
 Bash terminal window while you type these commands. Reminder: If you're unsure
 of how to use a terminal window, consider checking out the "Learning to Use the
-Terminal" section of [Lab 1 setup](../../../labs/lab01/index.md).
+Terminal" section of [Lab 1 setup](../../labs/lab01/index.md).
 
 ```sh
 $ git init

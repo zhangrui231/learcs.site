@@ -24,5 +24,5 @@ First, be sure you've imported the libraries correctly. Refer back to step 5 of 
 if you need a refresher on how to do this.
 
 If that doesn't work, be sure that `src` is blue and `tests` is green. Refer to
-the [IntelliJ WTFS](../../resources/guides/intellij/wtfs/index.md)
+the [IntelliJ WTFS](../../guides/intellij/wtfs/index.md)
 to mark your `src` and `tests` folders appropriately.

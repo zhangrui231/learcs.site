@@ -350,7 +350,7 @@ After pulling, our remote commits are now in our local repository:
 
 In this section, we'll cover some common issues you might see with Git. This is not
 comprehensive of all issues you may see. You can read more about git issues in our
-guide [here](../../resources/guides/git/index.md).
+guide [here](../guides/git/index.md).
 
 :::danger
 While this is meant to help diagnose a Git issue and go through the common ways to
@@ -396,8 +396,8 @@ Everything between `<<<<<<< HEAD` and `=======` is from your local version. Ever
 choose the modifications that you would like to keep. Once you have resolved all conflicts,
 add and commit your changes. Run git status to check the state of your repo.
 
-We've provided more reading on merge conflicts [here](../../resources/guides/git/index.md/#merging)
-and [here](../../resources/guides/git/wtfs.md/#error-you-have-not-concluded-your-merge-merge_head-exists).
+We've provided more reading on merge conflicts [here](../guides/git/index.md/#merging)
+and [here](../guides/git/wtfs.md/#error-you-have-not-concluded-your-merge-merge_head-exists).
 
 ### Your branch is ahead of 'origin/main' by X commits.
 This occurs when the local repo is no longer in sync with its remote counterpart.
