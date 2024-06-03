@@ -57,7 +57,7 @@ On this project, you will have a max of 4 submission tokens to the autograder, e
 ### Style
 
 On this project, **we will be enforcing style**. You must follow the
-[style guide](../guides/style/index.md), or you will be penalized on the
+[style guide](../guides/style), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
@@ -68,7 +68,7 @@ not remove the velocity limit for failing to check style.**
 ### Getting the Skeleton Files
 
 Follow the instructions in the
-[Assignment Workflow guide](../guides/assignment-workflow/index.md/#assignment-workflow)
+[Assignment Workflow guide](../guides/assignment-workflow#assignment-workflow)
 to get the skeleton code and open it in IntelliJ. For this project, we will be
 working in the **`proj1a`** directory.
 

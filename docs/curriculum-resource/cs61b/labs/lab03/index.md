@@ -422,5 +422,5 @@ refresher, check out the instructions in the
 and the
 [Assignment Workflow Guide][workflow].
 
-[workflow]: ../guides/assignment-workflow/index.md#opening-in-intellij
+[workflow]: ../guides/assignment-workflow#opening-in-intellij
 

@@ -365,7 +365,7 @@ above a method, including any edge cases you are accounting for.
 You should only tackle this section after you are done with 3A. This section should describe how you are going to
 save the state of a world, and load it again, following the requirements in the spec. Again, try to keep your
 explanations clear and short. Include all the components your program interacts with - classes, specific methods, and
-files you may create. You can check out [lab 9](../../labs/lab09).
+files you may create. You can check out [lab 9](../labs/lab09).
 
 ## 3B: Interactivity
 

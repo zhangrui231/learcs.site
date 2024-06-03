@@ -463,7 +463,7 @@ relatively consistent.
 1.  Restart (close and reopen) IntelliJ.
 
 For more information on using the plugins, read
-[the plugin guide](../../guides/intellij/plugins.md).
+[the plugin guide](../guides/intellij/plugins.md).
 You don't have to read this right now.
 
 ### Installing Java

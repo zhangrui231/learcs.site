@@ -189,12 +189,12 @@ git workflow by setting up a repository and making a couple commits. At the end,
 you will need to be checked off by filling out the form linked on Beacon.
 
 :::danger
-This is meant to be done on your local computer, but **outside your `{{ site.semester }}-s***`**
-repository. Make sure you don't initialize a repository in your `{{ site.semester }}-s***`!
+This is meant to be done on your local computer, but **outside your `SP24-s***`**
+repository. Make sure you don't initialize a repository in your `SP24-s***`!
 
 :::info
 > If you need help with creating directories, creating files, changing
-> directories, etc., refer back to [_How to Use the Terminal_](terminal).
+> directories, etc., refer back to [_How to Use the Terminal_](./terminal).
 
 1.  Create a directory called `lab04-checkoff`. You can put this directory
     anywhere on your computer **(but not in your `{{ site.semester }}-s***` repo)**.
@@ -350,7 +350,7 @@ After pulling, our remote commits are now in our local repository:
 
 In this section, we'll cover some common issues you might see with Git. This is not
 comprehensive of all issues you may see. You can read more about git issues in our
-guide [here](../guides/git/index.md).
+guide [here](../guides/git).
 
 :::danger
 While this is meant to help diagnose a Git issue and go through the common ways to
@@ -396,8 +396,8 @@ Everything between `<<<<<<< HEAD` and `=======` is from your local version. Ever
 choose the modifications that you would like to keep. Once you have resolved all conflicts,
 add and commit your changes. Run git status to check the state of your repo.
 
-We've provided more reading on merge conflicts [here](../guides/git/index.md/#merging)
-and [here](../guides/git/wtfs.md/#error-you-have-not-concluded-your-merge-merge_head-exists).
+We've provided more reading on merge conflicts [here](../guides/git#merging)
+and [here](../guides/git/wtfs.md#error-you-have-not-concluded-your-merge-merge_head-exists).
 
 ### Your branch is ahead of 'origin/main' by X commits.
 This occurs when the local repo is no longer in sync with its remote counterpart.

@@ -22,7 +22,7 @@ You may need to do this with the `src` folder for most assignments, and mark the
 `tests` folder as a **Test Sources Root**. Your `src` folder should be blue and
 your `tests` folder should be green.
 
-See [Assignment Workflow](../assignment-workflow/index.md) for additional
+See [Assignment Workflow](../assignment-workflow) for additional
 instructions on importing a new project.
 
 ## JUnit things show up as red in IntelliJ
@@ -35,7 +35,7 @@ since you forgot to import them.
 
 Every time you start a new assignment (unfortunately, EVERY TIME) you must readd
 the `javalib`. To do this, simply go to "File" -> "Project Structure" -> "Libraries"
-and add the javalib inside your repo. See [Lab 2 Setup](../lab/lab2setup/lab2setup.html#getting-java-libraries)
+and add the javalib inside your repo. See [Lab 2 Setup]
 for additional instructions on adding Java libraries.
 
 ## package org.junit does not exist
