@@ -5,7 +5,7 @@ title: Using Git
 
 Preface: This guide assumes a basic understanding of the command line on your
 computer. If you've never used the command line, consider reading the section "the Terminal"
-of [Lab 1](../../../labs/lab01/index.md#the-terminal).
+of [Lab 1](../../labs/lab01/index.md#the-terminal).
 
 This guide will primarily serve as an intro to and surface-level reference for 
 Git. If you're looking for something more like "oh no, something happened 
@@ -44,7 +44,7 @@ our ability to use Git locally on our own computers, even without an internet
 connection.
 
 The lab computers already have Git installed on the command line, and the [Lab 1
-setup](../../../labs/lab01/index.md) guide explains how to install git on your own
+setup](../../labs/lab01/index.md) guide explains how to install git on your own
 computer. In addition to the text based interface that we'll learning to use in
 this guide, there is also a [Git GUI (Graphical User
 Interface)](http://git-scm.com/downloads/guis). We will not officially support

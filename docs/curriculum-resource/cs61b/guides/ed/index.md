@@ -1,15 +1,5 @@
 ---
-layout: page
 title: Ed Policies and Guidelines
-categories: guides
-author: Ethan Ordentlich, Jedidiah Tsang
-parent: Guides
-grand_parent: Resources
-has_children: true
-toc:
-  h_max: 4
-released: true
-has_right_toc: true
 ---
 
 ## Introduction
@@ -206,7 +196,7 @@ us helps you get a better answer and address any misconceptions you may have.
 #### Private Debugging Help, or Gitbugs
 
 Sometimes, you may run into a problem where you need to show course staff your
-code. However, per our [collaboration policy](/policies#project-collaboration),
+code. However, per our [collaboration policy],
 you may not post code publicly, including on public Ed posts. Instead, you
 can use the Gitbugs category for each assignment to make a private debugging
 post.
