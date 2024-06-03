@@ -26,7 +26,7 @@ in this lab, but we'll talk more about it in a later lab.
 ### Setup
 
 Follow the
-[assignment workflow](../../guides/assignment-workflow#opening-in-intellij)
+[assignment workflow](../guides/assignment-workflow#opening-in-intellij)
 to get the assignment and open it in IntelliJ.
 
 ### Goals and Outcomes

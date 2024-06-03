@@ -397,7 +397,7 @@ choose the modifications that you would like to keep. Once you have resolved all
 add and commit your changes. Run git status to check the state of your repo.
 
 We've provided more reading on merge conflicts [here](../guides/git#merging)
-and [here](../guides/git/wtfs.md#error-you-have-not-concluded-your-merge-merge_head-exists).
+and [here](../guides/git/wtfs#error-you-have-not-concluded-your-merge-merge_head-exists).
 
 ### Your branch is ahead of 'origin/main' by X commits.
 This occurs when the local repo is no longer in sync with its remote counterpart.
