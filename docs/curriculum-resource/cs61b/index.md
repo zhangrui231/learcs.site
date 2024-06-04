@@ -38,5 +38,11 @@ sp24的课程采用Java 17及以上版本（因此至少需要IntelliJ 2021.2.1�
 - 编程作业 （HW0，HW2）类似于实验，可以通过官网查看作业内容。
 - HW1 是关于课程规范的作业，需要登陆才能查看。
 - HW2 HW4 辅助复习备考。这些作业将发布在Gradescope平台上，包含选择题与填空题的组合，不登录不能查看。
-
+## 课程相关资源
+- [Skeleton files for Spring 2024 assignments](https://github.com/Berkeley-CS61B/skeleton-sp24)
+- [proj3-skeleton-sp24](https://github.com/Berkeley-CS61B/proj3-skeleton-sp24)
+- 用于cs61b课程的自动评分工具 [jh61b for BSAG](https://github.com/Berkeley-CS61B/bsag-jh61b)，[BSAG A Better Simple AutoGrader](https://github.com/Berkeley-CS61B/BSAG)
+- [intellij-plugin](https://github.com/Berkeley-CS61B/intellij-plugin)
+- [Library for Spring 2024 semester](https://github.com/Berkeley-CS61B/library-sp24)
+- 
 <DocCardList />

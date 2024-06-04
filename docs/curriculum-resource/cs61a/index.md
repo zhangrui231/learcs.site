@@ -54,5 +54,9 @@ CS 61A 没有正式的编程相关的先决条件，因为没有先前经验的�
 ## 教材
 本课程的在线教材是[《Composing Programs》](https://www.composingprograms.com/)，这是专为本课程，基于经典教材[《Structure and Interpretation of Computer Programs》](https://web.mit.edu/6.001/6.037/sicp.pdf) 编写的。每次讲座的阅读材料都在课程日程中列出。我们建议你在观看讲座视频之前完成这些阅读。
 
+## 课程相关项目资源
+  - [Web-based IDE for Python, Scheme, and SQL intended for students taking CS 61A.](https://github.com/Cal-CS-61A-Staff/61a-code)
+  - [Web-based debugging tool for Scheme, written in Python and JavaScript.](https://github.com/Cal-CS-61A-Staff/scheme_editor)
+  - 为课程编写的 自动评分框架[okpy](https://github.com/okpy/ok)
 
 <DocCardList />
