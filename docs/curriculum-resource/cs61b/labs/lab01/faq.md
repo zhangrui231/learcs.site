@@ -56,7 +56,7 @@ your repository on GitHub.
 Secondly, the expected file structure is
 
 ```text
-{{ site.semester }}-***
+sp24-***
 └── lab01
     ├── src
     │   └── Arithmetic.java
@@ -67,7 +67,7 @@ Secondly, the expected file structure is
 Note that the files are inside the `lab01` directory. If the files aren't
 inside `lab01`, then the autograder won't be able to find them.
 
-If you’re sure you’ve done the above correctly, you may have two copies of your `{{ site.semester }}-s*` 
+If you’re sure you’ve done the above correctly, you may have two copies of your `sp24-s*` 
 folder (with differing locations on your computer). Be sure that the one in your terminal 
 and the one in IntelliJ match, otherwise your changes won’t be recorded! You can see the 
 current working directory of your terminal by running `pwd`.
@@ -86,7 +86,7 @@ In some cases, you might get something like this:
 
 ![Library Import Issue](/img/cs61b/import_algs4.png){: style="max-height: 200;" }
 
-IntelliJ can be very weird - if you've already ensured that your `library-{{ site.semester }}` is 
+IntelliJ can be very weird - if you've already ensured that your `library-sp24` is 
 there (navigate to File --> Project Structure --> Libraries) to check everything seems okay),
 then try deleting the library, reimporting it and clicking "Apply". Make sure to hit "OK" before 
 exiting the window.

@@ -50,7 +50,7 @@ commit/latest snapshot is the green circle above.
 ### Github
 
 Github is an online hosting service for git repositories. Git repositories are central locations
-where any changes made to our files and directories are tracked and managed (this is your `{{ site.semester }}-s***`
+where any changes made to our files and directories are tracked and managed (this is your `sp24-s***`
 repository). Repositories can be made locally on your computer as well as on Github.
 
 Github allows for easier collaboration with other developers, as you can more easily share code, and
@@ -197,7 +197,7 @@ repository. Make sure you don't initialize a repository in your `SP24-s***`!
 > directories, etc., refer back to [_How to Use the Terminal_](./terminal.md).
 
 1.  Create a directory called `lab04-checkoff`. You can put this directory
-    anywhere on your computer **(but not in your `{{ site.semester }}-s***` repo)**.
+    anywhere on your computer **(but not in your `sp24-s***` repo)**.
 2.  Move into the `lab04-checkoff` directory, and initialize a git repository.
 3.  Create a file called `61b.txt` in any way you'd like. In this text file,
     add the text "Created 61b.txt".
@@ -244,11 +244,11 @@ For example, in Lab01, we used the following command to add the skeleton
 repository in our personal repository:
 
 ```shell
-git remote add skeleton https://github.com/Berkeley-CS61B/skeleton-{{ site.semester }}.git
+git remote add skeleton https://github.com/Berkeley-CS61B/skeleton-sp24.git
 ```
 
 Let's break this down. When we want to add a remote, we specify the name of the remote, as well as the remote URL.
-In this example, the name is `skeleton` and the url is `https://github.com/Berkeley-CS61B/skeleton-{{ site.semester }}.git`. We can
+In this example, the name is `skeleton` and the url is `https://github.com/Berkeley-CS61B/skeleton-sp24.git`. We can
 then refer to the remote repository with its name when we want to [pull](#pull) or [push](#push) from it.
 
 So, to add a remote, we can run the following command:
@@ -418,18 +418,18 @@ you should be able to obtain a **magic word**. Place this magic word on the
 
 In this exercise, we'll have you clone a git repository, and you'll be using some of the commands you've learned to find
 the passwords that are hidden away in the repository. Copy and paste the following command to clone your repository, **outside
-your `{{ site.semester }}-s***` repository**. The exact location is up to you, as long as it's not in another repository.
+your `sp24-s***` repository**. The exact location is up to you, as long as it's not in another repository.
 
 :::danger
 Before running the command, **double check that you are not in your personal repository.** If you are, a message will show
-up preventing you from cloning the repository inside your `{{ site.semester }}-s***` repository.
+up preventing you from cloning the repository inside your `sp24-s***` repository.
 
 ```shell
-curl -sS https://{{ site.semester }}.datastructur.es/labs/lab04/lab04.sh | bash
+curl -sS https://sp24.datastructur.es/labs/lab04/lab04.sh | bash
 ```
 
-Check that a repository called `git-exercise-{{ site.semester }}` shows up. If it's there, `cd` into it, open up
-`git-exercise-{{ site.semester }}` in IntelliJ, and you're ready to continue on with the exercise!
+Check that a repository called `git-exercise-sp24` shows up. If it's there, `cd` into it, open up
+`git-exercise-sp24` in IntelliJ, and you're ready to continue on with the exercise!
 
 ### Part 2.1
 
@@ -461,7 +461,7 @@ It doesn't seem like the third password is in this repository, but in another on
 git@github.com:Berkeley-CS61B/git-exercise-remote.git
 ```
 
-We want to try pulling from it, so first, add this repository as a remote in our `git-exercise-{{ site.semester }}` repository. You may
+We want to try pulling from it, so first, add this repository as a remote in our `git-exercise-sp24` repository. You may
 give the remote a name of your choosing. Once it's added, run the following command (without the brackets around the remote's
 name):
 

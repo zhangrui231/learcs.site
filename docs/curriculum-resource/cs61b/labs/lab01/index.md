@@ -119,8 +119,8 @@ connect them.
 ### Your Repository
 
 Your repository will have a name containing a number that is unique to you.
-For instance, if your repo is called "`{{ site.semester }}-s1`", you'll be able to visit your
-private repository at <https://github.com/Berkeley-CS61B-Student/{{ site.semester }}-s1>
+For instance, if your repo is called "`sp24-s1`", you'll be able to visit your
+private repository at <https://github.com/Berkeley-CS61B-Student/sp24-s1>
 (when logged into GitHub). **Your student number is not "1", so this
 link will not work for you. Replace "1" with your own number to see your repo on
 GitHub.**
@@ -229,16 +229,16 @@ creating the `cs61b` directory, and going into it (`cd cs61b` in this example):
 Once inside the folder, run:                                                                                        
                                                                                                   
 ```shell                                                                                          
-git clone https://github.com/Berkeley-CS61B/library-{{ site.semester }}
+git clone https://github.com/Berkeley-CS61B/library-sp24
 ```
                                                                                                   
-Below is the directory structure of `library-{{ site.semester }}`. Look inside the folder using 
-`ls library-{{ site.semester }}` and make sure you see the `.jar` files listed below. There are many more, 
+Below is the directory structure of `library-sp24`. Look inside the folder using 
+`ls library-sp24` and make sure you see the `.jar` files listed below. There are many more, 
 but we only list the first few. If you're using your operating system's file explorer, 
 the `jar` part might not show up in the filenames, and that's OK.                                                                  
                                                                                                   
 ```console                                                                                        
-library-{{ site.semester }}
+library-sp24
 ├── algs4.jar
 ├── animated-gif-lib-1.4.jar
 ├── antlr4-runtime-4.11.1.jar
@@ -302,8 +302,8 @@ folder where you would like to keep your repository. We recommend that it's the 
 you stored your Java libraries (for example, `cs61b`).
 
 :::danger
-Do not place your repository inside the `library-{{ site.semester }}` folder. This will cause headaches
-in the future. For example, it would be inside of the `cs61b` folder but not in the `library-{{ site.semester }}`
+Do not place your repository inside the `library-sp24` folder. This will cause headaches
+in the future. For example, it would be inside of the `cs61b` folder but not in the `library-sp24`
 folder (possibly on the same level as the library).
 
 **Make sure to replace the `***` with your
@@ -321,7 +321,7 @@ that there are no files in the repo.
 Move into your newly created repo!
 
 ```shell
-cd {{ site.semester }}-s***
+cd sp24-s***
 ```
 
 Make sure that we're working with the branch name we expect, `main`:
@@ -335,7 +335,7 @@ to `skeleton`, and you will pull from it (please make sure you're in your newly 
 before running this command!). 
 
 ```shell
-git remote add skeleton https://github.com/Berkeley-CS61B/skeleton-{{ site.semester }}.git
+git remote add skeleton https://github.com/Berkeley-CS61B/skeleton-sp24.git
 ```
 
 Listing the remotes should now show both the `origin` and `skeleton` remotes.
@@ -346,7 +346,7 @@ git remote -v
 
 :::info
 If you see an error like `fatal: not a git repository` make sure you have
-properly moved into the `{{ site.semester }}-s***` directory using `cd`.
+properly moved into the `sp24-s***` directory using `cd`.
 
 {: .task}
 Follow the steps above to clone and configure your repository.
@@ -355,7 +355,7 @@ Follow the steps above to clone and configure your repository.
 
 The skeleton remote repository contains the skeleton code for all assignments.
 Whenever a new assignment is released, or if we need to update an assignment, you will
-pull from the skeleton. First ensure that you are in your `{{ site.semester }}-s***` repository directory. 
+pull from the skeleton. First ensure that you are in your `sp24-s***` repository directory. 
 
 Next, run the following command to get the skeleton code for Lab 1: 
 
@@ -397,7 +397,7 @@ to some common problems.
 the git exercise:**
 
 1.  You have successfully created your local repo for the class on your own
-    machine. This is the `{{ site.semester }}-s***` repository you earlier.
+    machine. This is the `sp24-s***` repository you earlier.
 1.  You have pulled from the skeleton, and you have a `lab01` directory.
 
 ### Installing IntelliJ
@@ -476,7 +476,7 @@ With IntelliJ and the plugins installed, we can install the JDK. Follow the step
 1. Start up IntelliJ. If you have no projects open, click the “Open” button. If you have a project currently open,
    navigate to “File –> Open”.
 2. Find and choose the directory of your current assignment. For example, for Lab 1, you would select the 
-   lab01 directory inside your `{{ site.semester }}-s***`. 
+   lab01 directory inside your `sp24-s***`. 
 3. Navigate to the “File -> Project Structure” menu, and make sure you are in the Project tab. Then, follow 
    the instructions [Set up the project JDK](https://www.jetbrains.com/help/idea/sdk.html#set-up-jdk)
    to download your JDK version. **Choose a version that is 17 or greater!** Depending on which
@@ -490,7 +490,7 @@ Follow the instructions in
 to open `lab01` (if you haven't exited from the previous section, you can start on step 3).
 
 **Everytime you open up an assignment, you will need to ensure that your Project Structure is set up and that you've 
-added the `library-{{ site.semester }}` package**.
+added the `library-sp24` package**.
 
 ### Creating Projects
 
@@ -638,7 +638,7 @@ If you haven't already, make sure you've added, committed and pushed your change
 are repeated below for your convenience. 
 
 1. Add your assignment directory using `git add`. For example, for Lab 1, from your 
-   repo root (`{{ site.semester }}-s***`) you would use `git add lab01`. 
+   repo root (`sp24-s***`) you would use `git add lab01`. 
 
 2. Commit the files using `git commit -m "<commit message here>"`. The commit message 
    is required. For example, `git commit -m "Finished Lab 1"`.
@@ -647,7 +647,7 @@ are repeated below for your convenience.
    have been pushed by navigating to your personal repository on Github and checking if your changes 
    have been reflected. 
 
-4. Open the assignment on Gradescope. Select Github, then your `{{ site.semester }}-s***` 
+4. Open the assignment on Gradescope. Select Github, then your `sp24-s***` 
    repository and the main branch, then submit your assignment. You will receive a 
    confirmation email, and the autograder will run automatically. Gradescope will use 
    the latest version of your code from Github. **If you think that Gradescope isn’t grading 
