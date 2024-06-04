@@ -665,6 +665,7 @@ your restoration!
 
 :::warning
 > **If you're working on lab 1, it's time to return and do the git exercise.**
+:::
 
 ## D. Remote Repositories
 

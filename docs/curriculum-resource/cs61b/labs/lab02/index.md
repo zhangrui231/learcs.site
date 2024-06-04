@@ -45,6 +45,7 @@ By the end of this lab, you will…
 For this lab and course in general, we highly encourage that you try things out on your own first,
 including looking things up if you're unsure what something is. In this lab, this might be about what a certain
 error means or the exception that is thrown - google it!
+:::
 
 ## `Bomb`
 
@@ -61,6 +62,7 @@ this lab, you are **forbidden** from editing the `Bomb` and `BombTest` code, whe
 print statements or otherwise modify it. The point of this exercise is to get comfortable 
 using tools that will help you a lot down the road. Please take it seriously! **If you modify those
 files, you will not pass the tests on the autograder!**
+:::
 
 As mentioned, you'll be running your code from `BombTest.java` in the testing folder 
 and you can use those tests to help you debug, as on other assignments, you will
@@ -152,13 +154,14 @@ In the debugger, you have a few options:
 :::info
 For this lab, we will be providing method breakdowns if you want an 
 overview of the method/phase that you're debugging.
+:::
 
-{: .task}
+:::task
 Set a breakpoint at `phase0` and use the debugger to find the password
 for `phase0` and replace the `phase0` argument accordingly in
 `bomb/BombMain.java`. You can start the program from `testBombPhase0` in 
 `tests/bomb/BombTest.java`.
-
+:::
 Once you've found the correct password, running the code (not in debug mode)
 should output `You passed phase 0 with the password \<password\>!` instead of
 `Phase 0 went BOOM!`
@@ -219,11 +222,12 @@ the "Java Visualizer" tab. The tab is outlined in red below.
 **The password for phase 1 is an `IntList`, not a `String`. You may find the
 `IntList.of` method helpful.**
 
-{: .task}
+:::task
 Set a breakpoint at `phase1` and use the Java Visualizer
 to find the password for `phase1` and replace the `phase1` argument accordingly
 in `bomb/BombMain.java`. You can start the program from `testBombPhase1` in
 `tests/bomb/BombTest.java`.
+:::
 
 <details markdown="block">
 <summary markdown="block">
@@ -241,6 +245,7 @@ find the structure and value of the `correctIntListPassword`'s IntList and pass
 in a `password` that matches it!
 
 </details>
+
 
 ### Conditional Breakpoints (Phase 2)
 
@@ -262,15 +267,17 @@ in the debugger window and press the plus icon to create a "Java Exception
 Breakpoint". In the window that should appear, enter the name of the exception
 that your program is throwing.
 
-{: .task} 
+:::task
 Set a breakpoint at `phase2` and use the debugger to find the password
 for `phase2` and replace the `phase2` argument accordingly in
 `bomb/BombMain.java`. Remember, don't edit `Bomb.java`! You can start the program 
 from `testBombPhase2` in `tests/bomb/BombTest.java`.
+:::
 
 :::info
 **NOTE**: The password isn't given explicitly like in the previous phases.
 Rather, your task is to "try to find it" using a conditional breakpoint.
+:::
 
 <details markdown="block">
 <summary markdown="block">
@@ -302,6 +309,7 @@ on the autograder that check if you edited those files and you will not pass
 if there are changes in the file (this includes adding comments). **The 
 local tests prevent you from editing `Bomb.java`, but not `BombTest.java`
 (this is only on the autograder), so do not touch those files!** 
+:::
 
 The lab is out of 5 points. 
 

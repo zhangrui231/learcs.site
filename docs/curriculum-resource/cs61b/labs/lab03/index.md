@@ -71,13 +71,14 @@ so you can use that to isolate where the bug is. Depending on how the program is
 it's designed and what code you've written/contributed, you would navigate to the appropriate
 line in the stack trace and click on the **`blue text`**{: .blue} to go that line and start 
 debugging.
-
+:::
 ---
 
 :::warning
 For each of the following stages, **only change what is necessary**! You should
 not be rewriting entire blocks of code unless otherwise specified. We've
 included how many lines we changed as a guideline.
+:::
 
 :::info
 You can run through the adventure game each time if you'd like to
@@ -85,14 +86,15 @@ validate correctness, but you don't need to - feel free to debug through the
 tests directly. For each file you'll be working in, it contains a `playStage` method,
 and you can set a breakpoint in that method. From there, you can start debugging 
 in `AdventureGameTests`.
-
+:::
 ### Debug `BeeCountingStage`
 
-{: .task}
+
 Fix the `NullPointerException` that occurs in `BeeCountingStage` by
 analyzing the stack trace. You can ignore the lines with `<XX internal lines>`;
 these are from test framework or library code and usually won't help you find
 errors. <br/><br/> Expected lines modified: 1
+
 
 <details markdown="block">
 <summary markdown="block">
@@ -123,15 +125,16 @@ is instantiated.
 
 It turns out that this isn’t the only error in `BeeCountingStage`!
 
-{: .task}
+:::task
 Fix the `IndexOutOfBoundsError` that occurs in `BeeCountingStage`.
+:::
 
 :::info
 Ignore the grey links to `Objects.java` and `ArrayList.java` at the
 top of the stack trace. The error may have _occurred_ in code that was not
 yours, but the root cause was probably something _your code_ tried to do. 
 <br/><br/> Expected lines modified: 1
-
+:::
 ---
 
 <details markdown="block">
@@ -147,13 +150,13 @@ Don't forget, Java is 0-indexed!
 
 ### Debug `SpeciesListStage`
 
-{: .task}
+:::task
 Fix the error(s) in `SpeciesListStage`. If you don't see what the
 issue is inside the method where the exception occurred (the top line of the
 stack trace), it's often a good idea to look at the second line to see where the
 method is being called from, and with what arguments. 
 <br/><br/> Expected lines modified: 3-4
-
+:::
 ---
 
 <details markdown="block">
@@ -173,24 +176,27 @@ context on what the method does.
 
 ### Debug `PalindromeStage`
 
-{: .task}
+:::task
 Sometimes, IntelliJ will tell you something that it thinks is wrong.
 Hover over the yellow / orange highlights in the method with the bug (in the
 `digitsToIntList` method in `PalindromeStage` - you can navigate to it 
 through the stack trace). Does that give you any useful information?
 <br/><br/> Use this feature to address the error in `PalindromeStage`.
+:::
 
 :::info
 If the debugger feels unresponsive, it is usually due to an infinite
 loop somewhere in your code. If you set a breakpoint and it is never reached,
 then you know an infinite loop occurs before the breakpoint! Use this in
 combination with stepping to isolate the problem.
+:::
 
 :::warning
 **There are two bugs in this part that you'll need to fix. Fix the most obvious one 
 first and then try to isolate and solve the second one. The hint for this part of the 
 lab applies to the second bug that needs to be resolved.** 
 <br/><br/> Expected lines modified: 3
+:::
 
 <details markdown="block">
 <summary markdown="block">
@@ -231,11 +237,12 @@ they have a bug or not. That’s the glory of abstraction! Even if I don’t kno
 how a fish works at a molecular level, there are some cases where I can clearly
 tell that a fish is dead.
 
-{: .task}
+:::task
 Fix the two bugs so that `sumOfElementwiseMax` returns a correct
 result. If you find a bug in `mysteryMax` or `mysteryAdd`, rewrite the method entirely
 instead of trying to fix it. Don't rewrite code unnecessarily, though -- be
 sure that it's broken first! <br/><br/> Expected lines modified: 2-5
+:::
 
 ---
 
@@ -269,12 +276,14 @@ exception breakpoints and expressions and watches.
 
 :::danger
 Do not modify `Puzzle.java`!
+:::
 
 :::warning 
 These exercises will involve working
 with code that may seem quite cryptic and unfamiliar. Enforce the abstraction
 barriers and try to find the answers without having to understand exactly what
 is going on!
+:::
 
 ### Exception Breakpoints
 
@@ -335,9 +344,10 @@ From this, we can see that IntelliJ is hinting that the problem may be in
 and using other debugging techniques you learned in Lab 02 and this lab, can 
 you figure out what's going on?
 
-{: .task}
+:::task
 Fix `answer.txt` so that `Puzzle` no longer throws a `RuntimeException`. 
 Feel free to look at the hint if you're stuck!
+:::
 
 <details markdown="block">
 <summary markdown="block">
@@ -361,8 +371,9 @@ Read the error message and see if you can find the answer! If you've got it
 correct, `Puzzle.java` will no longer error and you should pass `testPuzzle`
 inside of `tests/puzzle/PuzzleTest`.
 
-{: .task}
+:::task
 Replace the value in `answer.txt` so that `Puzzle` no longer errors.
+:::
 
 ### Expressions and Watches
 

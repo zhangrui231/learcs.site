@@ -59,9 +59,9 @@ Project 3 is worth 125 points. There are several key deadlines for this assignme
 > Ambition Demos will be held in person during lab sections the week that Project 3BC is due.
 > All group members must arrive on time, otherwise a 20% late penalty will be applied to the group.
 
-:::danger
 > **Beware: you cannot submit Project 3B & 3C late without extenuating circumstances**. We do not have the same 
 > extension policy as previous assignments, so get started early.
+:::
 
 Notice that Project 3B & 3C are due on the same day. However, since you need to be manually checked off for the "Ambition" 
 part, we made a division between "Interactivity" and "Ambition & Demos". In your Gradescope submission for 3B, your code 
@@ -103,6 +103,7 @@ the worlds you generate might even be beautiful.
 
 :::warning
 THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!
+:::
 
 ### Group Repository Setup
 
@@ -116,6 +117,7 @@ You'll be working exclusively in a group repository for this portion of the proj
 :::info
 > We recommend cloning with `ssh` instead of `https`. The image below uses `https`, which might not mesh well with the Github
 > authentication from Lab 1. To swap, you should click the `ssh` button and use the link that appears.
+:::
 
 ![group-repo](/img/cs61b/proj3/project-repo.png)
 
@@ -123,6 +125,7 @@ You'll be working exclusively in a group repository for this portion of the proj
 
 :::warning
 **IMPORTANT:** Do not cd into your `sp24-s****` repo! You should not be cloning the group repo inside of your personal 61b one.
+:::
 
 - Type the following commands into your terminal, and hit Enter after each one:
 
@@ -151,6 +154,7 @@ as basic code structure for tiles, and contains:
 > Do NOT change TETile.java's `character` field or `character()` method as it may lead to bad autograder results. 
 > Additionally, if you add new floor or wall tiles, make sure to modify `isBoundaryTile` and `isGroundTile` so that the 
 > autograder recognizes your tiles.
+:::
 
 The other package `Core` contains everything unrelated to tiles. We recommend that you put all of your code for
 this project in the `Core` package, though this is not required. The `Core` package comes with the following
@@ -182,6 +186,7 @@ skeleton.
 > debugging issues by trying to use static variables. Static non-final variables add a huge amount of complexity to a
 > system. Additionally, do not call `System.exit()` in `getWorldFromInput` as this will cause the autograder to exit
 > and fail.
+:::
 
 ## 3A: World Generation
 
@@ -320,6 +325,7 @@ Worlds should be visibly different for different seeds provided to the program.
 
 :::info
 For 3A, you do not need to have a Main Menu screen.
+:::
 
 ## Design Document
 
@@ -336,6 +342,7 @@ You may find the software engineering lectures helpful for learning how to manag
 
 :::warning
 **We will not be grading this document, but you will need to complete it in order to receive help online and in office hours.**
+:::
 
 ### Design Document Guidelines
 
@@ -656,6 +663,7 @@ You will be able to recover any points you did not get on the 3A Asynchronous Ma
 > Asynchronous reviews will take place 3-5 days after the 3A deadline and we will not reviewing 3A submissions after this point. 
 > This means that extensions are capped for this part of the project. If you do not make a submission by the time we begin reviews,
 > you will have to rely on the 3C Checkoff clobber to recover points.
+:::
 
 ### Partner Reflection: 20 points
 

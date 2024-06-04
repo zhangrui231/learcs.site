@@ -20,11 +20,13 @@ As this is a quite new project, there may be occasional bugs or confusion with t
 
 :::danger
 **Please read through the [2B spec](../proj2b/index.md) before starting 2C.**
+:::
 
 ## Project Setup
 
 :::danger
 **THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!**
+:::
 
 ### Skeleton Setup
 
@@ -57,11 +59,13 @@ proj2c
 
 :::warning
 >While you can (and should!) certainly *design* for 2C in advance, we suggest only starting to *code* **after you get a full score on Project 2B** just in case your implementation has any subtle bugs in it.
+:::
 
 ## Getting Started
 
 :::warning
 **IMPORTANT NOTE:** You should *really* complete **Project 2B/C: [Checkpoint](https://www.gradescope.com/courses/708063/assignments/4133684)** first before starting coding, or even designing your project. It will be helpful for your understanding of the project. We will also require you to submit a [design document](https://docs.google.com/document/d/1Vx7QAz4HFN0rEFFEt5rocY2X5AWVcIFFpRmD8vhegOM/edit?usp=sharing) to Gradescope. More details about the design document can be found in [Deliverables and Scoring](#deliverables-and-scoring).
+:::
 
 This part of the project is designed for you to come up with an efficient and correct design for your implementation. The design you come up with will be very important to handle these cases. Please read the 2B & 2C spec carefully before starting your design document.
 
@@ -77,10 +81,11 @@ We'll link them here, as well as in other relevant parts of the spec.
 - [Staff Solution Webpage](https://ngordnet.datastructur.es/): Useful for generating expected outputs for different test
   case inputs. Use this to write your unit tests!
 
-{: .task}
+:::task
 >Read through the entire 2B/C spec and complete **Project 2B/C: [Checkpoint](https://www.gradescope.com/courses/708063/assignments/4133684)**
 >
 >After finishing the checkpoint, complete **[Design Document](https://www.gradescope.com/courses/708063/assignments/4187810)**
+:::
 
 ## Handling `k != 0`
 
@@ -100,6 +105,7 @@ using `top_14377_words.csv`, `total_counts.csv`,
 
 :::danger
 Be sure you are getting the words that appear with the highest *counts*, not the highest *weights*. Otherwise, you will run into issues that are very difficult to debug!
+:::
 
 Note that if the frontend doesn't supply a year, default values of startYear = 1900 and endYear = 2020 are provided by
 `NGordnetQueryHandler.readQueryMap`.
@@ -119,11 +125,13 @@ If there are fewer than `k` words with non-zero counts, return only those words.
 
 This task will be a little trickier since you'll need to figure out how to pass information around so that the `HyponymsHandler` knows how to access a useful `NGramMap`.
 
-{: .task}
+:::task
 >Modify your `HyponymsHandler` and the rest of your implementation to deal with the `k != 0` case.
+:::
 
 :::warning
 EECS-course guide is not available on the interactive web staff solution so it won't return anything if you give the input `CS61A`.
+:::
 
 :::danger
 >**DO NOT MAKE A STATIC NGRAMMAP FOR THIS TASK!** It might be tempting to simply make some sort of
@@ -132,6 +140,7 @@ EECS-course guide is not available on the interactive web staff solution so it w
 >We strongly discourage this way of thinking about programming, and instead suggest that you should be passing an
 >NGramMap to either constructors or methods. We'll come back to talking about this during the software engineering
 lectures.
+:::
 
 ### Tips
 
@@ -178,14 +187,16 @@ Note that the outputs are in alphabetical order, and keep in mind that `k != 0` 
 
 Your query handling needs to remain efficient for common ancestors (i.e., the timeouts applied to 2B still apply here). This means that going through every single word and checking if it contains all the words in the query as hyponyms will be too slow on the larger datasets!
 
-{: .task}
+
 
 ### `NgordnetQueryType`
-
+:::task
 You will need to modify your `HyponymsHandler` class to account for the *type* of query, i.e., hyponyms or common ancestors. This should look similar to how you found `startYear`, `endYear`, or `k`, and this will be specified for you with `NgordnetQueryType.HYPONYMS` or `NgordnetQueryType.ANCESTORS`, respectively.
+:::
 
-{: .task}
+:::task
 >Modify your `HyponymsHandler` and the rest of your implementation to handle common ancestor queries in addition to hyponym queries.
+:::
 
 ### Design Tips
 

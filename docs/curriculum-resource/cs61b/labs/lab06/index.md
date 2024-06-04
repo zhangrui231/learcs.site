@@ -82,6 +82,7 @@ parameters, `extends` can mean `extends` or `implements`
 ([docs](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html)). Don't ask us why - we don't know either. <br/><br/>
 (The syntax also implies you can "extend" `final` classes such as `Integer`,
 which is impossible. Go Java!)
+:::
 
 :::warning
 Remember, the code snippet above emulates a `Set` - you'll need to implement a
@@ -89,6 +90,7 @@ Remember, the code snippet above emulates a `Set` - you'll need to implement a
 class to help facilitate your implementation. Your `BSTMap` should have two
 generic parameters `K` and `V`, representing the generic types of the keys and
 values in your `BSTMap`, respectively.
+:::
 
 IntelliJ has a nice feature that will generate the method signatures for you. If
 you're implementing an interface and haven't implemented all the methods,
@@ -137,6 +139,7 @@ and the associated, non-optional methods. You should ensure that the keys in
 your `BSTMap` are `Comparable` by using a bounded type parameter. <br/><br/>
 We _strongly recommend_ you create helper methods to facilitate your implementation
 (specifically, recursive helper methods are strongly encouraged).
+:::
 
 :::info
 Unfortunately, most methods you need to implement rely on others for testing 
@@ -144,6 +147,7 @@ purposes (`get` requires `put`, etc.). This makes it difficult to test most meth
 you implement `put`. We recommend you implement the methods in the order
 specified in `Map61B`. <br/><br/> You can test your implementation
 using `TestBSTMap.java`.
+:::
 
 **There is an optional part of `BSTMap`. These methods are optional to implement:
 `iterator`, `remove`, `keySet`.** They are not required for the timing portion, described in this 
@@ -196,6 +200,7 @@ in a file named `speedTestResults.txt`.
 Run the speed tests and record your results in `speedTestResults.txt`.
 There is no standard format required for your results, but at a minimum, you
 should include what you did and what you observed.
+:::
 
 ## Scoring
 

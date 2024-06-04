@@ -5,6 +5,7 @@ description: 61B style guide.
 
 :::danger
 We will **not reinstate submission tokens** for failing to check style. Plan and use correct style accordingly! You have been warned.
+:::
 
 Some notes on this style guide: we have attempted to bring it as close to the
 default IntelliJ style checker as possible. The style checker also includes
@@ -16,6 +17,7 @@ running the automated style checker. You can run the style checker in IntelliJ b
 > right-clicking on a file in the left sidebar, and selecting "Check Style".
 > This will generate a list of style errors in the selected file.
 > Be sure to save or recompile your file before running the style checker again.
+:::
 
 ![screenshot of intellij with right-click menu open](/img/cs61b/intellij_style_checker.png)
 

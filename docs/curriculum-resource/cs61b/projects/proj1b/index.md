@@ -6,7 +6,6 @@ description: Project 1B.
 
 ## Due: Monday, February 12th, 11:59 PM PT 
 
-{: .no_toc}
 
 ## [FAQ](faq.md)
 
@@ -31,29 +30,31 @@ By the end of Project 1B, you will...
 
 :::info
 Check out the [Project 1B slides](https://docs.google.com/presentation/d/1kjbO8X7-i63NwQ_9wIt4HXr6APp2qc9PkghD-GO7_is/edit#slide=id.g1094ff4355_0_466) for some additional visually oriented tips.
-
+:::
 
 :::info
 Check out the [Getting Started Video](https://youtu.be/Ow2QH1mpN34) for overview of spec.
-
+:::
 We will provide relatively little scaffolding. In other words, we'll say what
 you should do, but not how.
 
 :::info
 >This section assumes you have watched and fully digested the lectures up till
 >the `ArrayList` lecture, Lecture 7.
+:::
 
-
-{: .task}
+:::task
 >For this project, you must work alone! Please carefully read the
 >[Policy on Collaboration and Cheating]
 >to see what this means exactly. In particular, do not look for solutions online.
+:::
 
 :::danger
 >It should (still) go without saying that you may not use any of the built-in
 >`java.util` data structures in your implementation! The whole point is to build
 >your own versions! There are a few places where you may use specific data
 >structures outside of tests, and we will clearly say where.
+:::
 
 ### Style
 
@@ -170,7 +171,7 @@ approaches.
 >for more details. In particular, note that
 >while the conceptual deque and the array contain the same elements, they do not
 >contain them in the same order.
-
+:::
 We recommend using the `floorMod(int a, int b)` method from Java's built-in `Math` class to assist you in 
 designing a circular approach. Whereas `a % b` might return negative numbers when a is negative, `floorMod(int a, int b)` always return non-negative numbers. In practice, this means that the output will have the same sign as the divisor. Here are a few examples
 using the `floorMod(int a, int b)` method:
@@ -186,12 +187,13 @@ You can use the `floorMod(int a, int b)` method by adding the following import s
 
 :::warning
 You cannot create an array of generics (e.g. `new T[1000]`) in Java for [reasons beyond the scope of this course](https://openjdk.org/projects/valhalla/). You will instead need to use the syntax `(T[]) new Object[1000]`.
+:::
 
-{: .task}
+:::task
 >Declare the necessary instance variables, and implement the constructor.
 >
 >The starting size of your backing array **must** be `8`.
-
+:::
 ### `addFirst` and `addLast`
 
 As before, implement `addFirst` and `addLast`. These two methods **must not**
@@ -204,6 +206,7 @@ use loops that iterate through all / most elements of the deque.
 
 :::warning
 We recommend you complete the other methods first, verify that they are working correctly without resizing, and come back to resizing later.
+:::
 
 The exception to the "constant time" requirement is when the array fills, and
 you need to "resize" to have enough space to add the element. In this case, you
@@ -224,11 +227,13 @@ Make sure to resize by a geometric factor.
 >
 >Instead, we suggest thinking forward to how you might implement `get` and using
 >a `for` loop in some way.
+:::
 
-{: .task}
+:::task
 >Implement `addFirst` and `addLast`, and write tests to verify that 
 >they are correct. Make sure to add enough elements so that
 >your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
+:::
 
 ### `get`
 
@@ -238,10 +243,10 @@ As before, `get` should return `null` when the index is invalid (too large or
 negative). You should disregard the skeleton code comments for `Deque61B.java`
 for this case.
 
-{: .task}
+:::task
 >**After you've written tests and verified that they fail**, implement
 >`get`.
-
+:::
 
 ### `isEmpty` and `size`
 
@@ -249,9 +254,10 @@ These two methods must take **constant time**. That is, the time it takes to for
 either method to finish execution should not depend on how many elements are in
 the deque.
 
-{: .task}
+:::task
 >**Write tests** for the `isEmpty` and `size` methods, and check that
 >they fail. Then, implement the methods.
+:::
 
 ### `toList`
 
@@ -265,15 +271,17 @@ are allowed to use a Java data structure.**
 >Some later methods might seem easy if you use `toList`.
 >**You may not call `toList` inside `ArrayDeque61B`**; there is a test that
 >checks for this.
+:::
 
 :::info
 >**Hint** One of the other methods may be helpful for implementing this method.
 >
+:::
 
-{: .task}
+:::task
 >Implement `toList`. You are not given tests this time, so you will
 >need to write them!
-
+:::
 
 
 All that's left is to test and implement all the remaining methods. For the
@@ -313,15 +321,17 @@ length 15 or less, your usage factor can be arbitrarily low.
 >implementation. If you followed our advice above to use a `for` loop to resize
 >up, resizing down should look **very similar** to resizing up (perhaps a helper
 >method?).
+:::
 
-{: .task}
+:::task
 >**After you've written tests and verified that they fail**, implement
 >`removeFirst` and `removeLast`.
+:::
 
 :::danger
 >For the intended experience, follow these steps in order. If you do something
 >else and ask us for help, we will refer you back to these steps.
-
+:::
 
 
 ### `getRecursive`
@@ -336,9 +346,9 @@ This method technically shouldn't be in the interface, but it's here to make tes
     }
 ```
 
-{: .task}
+:::task
 "Implement" `getRecursive`.
-
+:::
 
 
 ### Writing Tests

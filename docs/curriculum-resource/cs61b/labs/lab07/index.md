@@ -51,6 +51,7 @@ We recommend that you review the relevant lecture slides before getting started 
 **Please do not skip this section. This is important for you to
 read before you continue on with the rest of the lab.** It will be much harder for you
 if you do not read this section.
+:::
 
 In lecture, we've introduced the concept of LLRBs with **links**. However, for this lab,
 we will not be representing our LLRBs with links. Instead, we'll be using **nodes**. The main
@@ -73,6 +74,7 @@ how a red link would map to a colored node, so please keep this mind for the res
 **Be aware of the relationship between the colored link and 
 the corresponding colored node, as for the rest of the lab, we'll be using colored nodes 
 in our examples and descriptions to make the lab implementation easier.**
+:::
 
 ## Left-Leaning Red-Black Trees
 
@@ -121,6 +123,7 @@ insertion algorithm**, where we search to find the appropriate leaf location.
 
 :::info 
 **Whenever we insert a node into a LLRB, we insert it as a red node.**
+:::
 
 However, once we've placed the node, this can can break the LLRB
 invariants, so we need additional operations that can "restore" LLRB properties. 
@@ -211,6 +214,7 @@ in more operations. As we try to resolve these cases, these transformations
 effectively work up the LLRB tree until we've resolved them according to the 
 conditions above. <br/><br/> In some cases, we must remember to flip the 
 root back to black in our representation.
+:::
 
 ### LLRB Insertion Summary
 
@@ -219,6 +223,7 @@ This section will the most helpful for lab, as you can refer to the diagrams bel
 on how you would perform the three operations. Consider how you can translate the
 rotation operations and color flip operations to a problem involving nodes 
 and pointer reassignments.
+:::
 
 We discussed three operations that we can use to "fix" the LLRB invariants
 after inserting a node. Because it's possible to have upward propagation as mentioned above, 
@@ -251,6 +256,7 @@ We also have the color flip operation:
 :::warning
 **Have you read this [section](#links-vs-nodes) yet? If you haven't
 done so, please do before you start implementing this lab.**
+:::
 
 Before starting, make sure to read through the entire class, `RedBlackTree.java`, especially 
 the provided nested node class. Make sure to also read the comments for each method! 
@@ -261,8 +267,9 @@ Let's first consider the color flip operation that is essential to LLRB tree
 implementation. Given a node, this operation simply flips its color and
 the children's colors.
 
-{: .task}
+:::task
 Implement the `flipColors` method in `RedBlackTree.java`.
+:::
 
 ### Exercise: Rotations
 
@@ -274,9 +281,11 @@ binary search tree invariants. Now, will implement it ourselves!
 and the new root!** <br/><br/> Hint: The two operations are symmetric.
 Should the code significantly differ? If you find yourself stuck, take
 a look at the examples that are shown above!
+:::
 
-{: .task}
+:::task
 In `RedBlackTree.java`, implement `rotateRight` and `rotateLeft`.
+:::
 
 ### Exercise: `insert`
 
@@ -293,9 +302,11 @@ Make sure to use the methods you've already implemented (`rotateRight`, `rotateL
 :::info 
 **The helper method `isRed` has already been provided to you in
 the skeleton code so make sure to use it!**
+:::
 
-{: .task}
+:::task
 Implement the `insert` method in `RedBlackTree.java`. 
+:::
 
 ## Testing 
  

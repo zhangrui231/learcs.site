@@ -31,6 +31,7 @@ attend office hours.
 > 
 > In general, while you are waiting, you should **move on to the next step of the
 assignment**, whenever possible.
+:::
 
 ### Partners
 
@@ -50,7 +51,7 @@ small Java program to get situated with the Java language!
 
 :::info
 > This lab will be long! **Do not skip steps!** 
-
+:::
 ## Personal Computer Setup
 
 ### Task: Installing Git
@@ -66,8 +67,9 @@ Installation will vary, depending on your operating system.
 - [macOS instructions](mac.md)
 - [Linux instructions](linux.md)
 
-{: .task}
+:::task
 Follow the guide for your operating system to install the software.
+:::
 
 ## The Terminal
 
@@ -81,9 +83,10 @@ In the terminal, you can move through different directories, create new files, l
 etc. with the specified commands in the guide. You will be using the terminal throughout this lab and most likely 
 in future assignments, especially for assignment submissions.
 
-{: .task}
+:::task
 Please read through the terminal guide and familiarize yourself with the commands! Feel free to also bookmark 
 the page for future reference.
+:::
 
 ## GitHub and Beacon Accounts
 
@@ -111,10 +114,12 @@ repository ("repo"), which you will need to submit all coding assignments.
 :::warning
 > Don't follow the instructions that GitHub says you might want to do.
 > We have our own set of instructions later in this lab.
+:::
 
-{: .task}
+:::task
 Follow the steps above to create your GitHub and Beacon accounts, and
 connect them.
+:::
 
 ### Your Repository
 
@@ -133,7 +138,7 @@ No other students will be able to view your repository.
 As a reminder, you may not post code from this course publicly, even after
 completing the course. Doing so is a violation of our course policies and you
 might be subject to disciplinary action.
-
+:::
 ## Git
 
 ### Git Basics
@@ -143,10 +148,11 @@ is nearly universal out in the real world. Since the abstractions behind
 it are fairly tricky to understand, don't be worried if you encounter
 significant frustration as you learn to use it.
 
-{: .task}
+:::task
 Before you proceed, **read up to the Remote Repositories
 section of the [Using Git Guide](../../guides/git/index.md)**. You do not need
 to read past that. This is to help you get a rough idea of what Git is. 
+:::
 
 ### Task: Setting Up Git
 
@@ -186,9 +192,10 @@ We recommend `nano` for this course, but you're free to use whatever you'd like.
 This will configure Git's default editor (make sure that you follow the correct
 instructions for your operating system).
 
-{: .task}
+:::task
 Configure git by following the above instructions, and set your preferred
 editor.
+:::
 
 ### Git and Remote Repos
 
@@ -246,8 +253,8 @@ library-sp24
 └── ...
 ```          
                                                                                                   
-{: .task}
-Follow the instructions above to get the course libraries.                                                                                                                                                                                
+:::task
+Follow the instructions above to get the course libraries.                                                                              :::                                                                                                
 
 ### Authenticate With Github
 
@@ -260,6 +267,7 @@ curl -sS https://sp24.datastructur.es/labs/lab01/get-ssh-key.sh | bash
 
 :::info
 If you get an error message such as `bash: line 1: syntax error near unexpected token 'newline'`, try refreshing this page and run the updated command.
+:::
 
 With the location that is provided, go ahead and run the following 
 command, ensuring to replace `<path_to_ssh_key>` with the location of the SSH key
@@ -305,6 +313,7 @@ you stored your Java libraries (for example, `cs61b`).
 Do not place your repository inside the `library-sp24` folder. This will cause headaches
 in the future. For example, it would be inside of the `cs61b` folder but not in the `library-sp24`
 folder (possibly on the same level as the library).
+:::
 
 **Make sure to replace the `***` with your
 class repository number (you can find this repo number on Beacon).** Then run the command below:
@@ -317,6 +326,7 @@ git clone git@github.com:Berkeley-CS61B-Student/{{site.semester}}-s***.git
 After cloning your terminal will report `warning: You appear to have cloned
 an empty repository.` This is not an issue, it is just git letting you know
 that there are no files in the repo.
+:::
 
 Move into your newly created repo!
 
@@ -347,9 +357,11 @@ git remote -v
 :::info
 If you see an error like `fatal: not a git repository` make sure you have
 properly moved into the `sp24-s***` directory using `cd`.
+:::
 
-{: .task}
+:::task
 Follow the steps above to clone and configure your repository.
+:::
 
 ### Getting the Skeleton
 
@@ -368,6 +380,7 @@ At this point, you should have a `lab01` folder, with the contents
 `src/Arithmetic.java` and `tests/ArithmeticTests.java`. If you **do not have
 these contents**, don't make it manually! Instead, pull from the skeleton or
 ask a staff member.
+:::
 
 ## Task: IntelliJ Setup
 
@@ -392,6 +405,7 @@ that do not make sense. **Ask for help if you are stuck or something seems
 broken!** It can be very hard to guess the right thing to do in IntelliJ. Check
 out the [IntelliJ WTFS Guide](../../guides/intellij/wtfs/index.md) for solutions
 to some common problems.
+:::
 
 **Before continuing, make sure that you have completed all above tasks besides
 the git exercise:**
@@ -413,7 +427,7 @@ the git exercise:**
    :::info
    If you have an M1 or M2 Mac,
    select ".dmg (Apple Silicon)". Otherwise, select ".dmg (Intel)."
-
+   :::
 2. After selecting the appropriate version for your OS, click download and wait
    a few minutes for the file to finish downloading.
 3. Run the installer. If you have an older version of IntelliJ, you should
@@ -426,6 +440,7 @@ While IntelliJ downloads, you can read / skim our
 You don't need to read or internalize all of this to complete the lab.
 IntelliJ is complicated, but the core features should feel somewhat familiar
 to text editors you have used in the past.
+:::
 
 ### Installing Plugins
 
@@ -470,6 +485,7 @@ You don't have to read this right now.
 
 :::warning
 **This step is important!!**
+:::
 
 With IntelliJ and the plugins installed, we can install the JDK. Follow the steps below: 
 
@@ -555,8 +571,9 @@ tests that you have passed, while the yellow X
 failed. Don't worry about the doubled output; this is a strange quirk of
 IntelliJ.
 
-{: .task}
+:::task
 Fix the bug in `Arithmetic.java` so that the tests pass.
+:::
 
 ## Task: Saving Your Work using Git and GitHub
 
@@ -614,6 +631,7 @@ Get into the habit of saving your files and doing the `git commit` step *often*
 (i.e. every 15 minutes). It will be incredibly helpful when you mess things up,
 since it allows you to back out of changes and to see what you have changed
 recently.
+:::
 
 Basically, right when you sit down to work in your repository, first `git pull`
 to make sure you are starting with the most recent code. While you are working,
@@ -632,8 +650,9 @@ which we use to autograde programming assignments.
 >
 > If you're having trouble accessing the course on Gradescope or would like to use
 > a different email address, ask your TA!
+:::
 
-{: .task}
+:::task
 If you haven't already, make sure you've added, committed and pushed your changes. The steps 
 are repeated below for your convenience. 
 
@@ -652,6 +671,7 @@ are repeated below for your convenience.
    confirmation email, and the autograder will run automatically. Gradescope will use 
    the latest version of your code from Github. **If you think that Gradescope isn’t grading 
    the right code, check that you have added, committed, and pushed with** `git status`.
+:::
 
 ## Deliverables
 
@@ -663,11 +683,12 @@ There is one required file, all inside the `lab01` directory:
 with an autograder! For this lab, the autograder tests are the same as the
 ones you have on your computer.
 
-{: .task}
+:::task
 If you haven't already,
 make sure that you've added, committed and pushed your changes to Github (based on the
 workflow that's specified above). You should receive a full score on the lab if you've
 passed all the tests in `ArithmeticTest.java`.
+:::
 
 **Congratulations on finishing your first CS 61B lab!**
 

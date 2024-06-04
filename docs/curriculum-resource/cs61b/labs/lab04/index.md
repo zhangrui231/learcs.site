@@ -18,10 +18,12 @@ this lab to help reinforce your understanding of Git.
 Please don't skip around in this lab and **do not run commands you find online**
 if you get stuck (this could lead to potential issues in the lab). When going
 through this lab, read through the commands and instructions and make sure you understand them!
+:::
 
 :::info
 Please make sure to pull from the skeleton in your `sp24-s***` repository to obtain
 the required files. In this lab, we will only have one file, `magic_word.txt`. 
+:::
 
 ## Git vs Github
 
@@ -191,10 +193,12 @@ you will need to be checked off by filling out the form linked on Beacon.
 :::danger
 This is meant to be done on your local computer, but **outside your `SP24-s***`**
 repository. Make sure you don't initialize a repository in your `SP24-s***`!
+:::
 
 :::info
 > If you need help with creating directories, creating files, changing
 > directories, etc., refer back to [_How to Use the Terminal_](./terminal.md).
+:::
 
 1.  Create a directory called `lab04-checkoff`. You can put this directory
     anywhere on your computer **(but not in your `sp24-s***` repo)**.
@@ -227,9 +231,10 @@ repository. Make sure you don't initialize a repository in your `SP24-s***`!
 Be sure to save this repository and directory until you complete the
 form on [Beacon]({{ site.links.beacon }}).
 
-{: .task}
+:::task
 Do the steps above, and complete the first google form. There is a second
 google form to fill out before you get the magic word.
+:::
 
 ## Git Commands Continued
 
@@ -259,6 +264,7 @@ git remote add [remote-name] [remote-url]
 
 :::info
 You can run `git remote -v` in your repository to check what remotes have been added.
+:::
 
 ### `switch`
 
@@ -292,6 +298,7 @@ the latest commit on `master`.
 
 :::info
 We won't cover it here, but feel free to look up how you might create a branch.
+:::
 
 ### `restore` Revisited
 
@@ -355,6 +362,7 @@ guide [here](../guides/git).
 :::danger
 While this is meant to help diagnose a Git issue and go through the common ways to
 resolve them, always ask for help if you aren't too sure!
+:::
 
 ### Fatal: refusing to merge unrelated histories
 
@@ -423,6 +431,7 @@ your `sp24-s***` repository**. The exact location is up to you, as long as it's 
 :::danger
 Before running the command, **double check that you are not in your personal repository.** If you are, a message will show
 up preventing you from cloning the repository inside your `sp24-s***` repository.
+:::
 
 ```shell
 curl -sS https://sp24.datastructur.es/labs/lab04/lab04.sh | bash
@@ -437,9 +446,10 @@ When you open up the repository, you'll notice a `password.txt` file. This is wh
 be in. It doesn't seem to be here, but it might be in a previous commit... See if you can find that commit and revert
 back to the commit with some of the commands we've learned (you may need to scroll using the arrow keys!).
 
-{: .task}
+:::task
 Find the password for Task 1. When you do, you can store the password on the **second line** of `magic_word.txt` file in your
 lab04 directory. **You will also want to restore your file to the most recent commit before moving on.**
+:::
 
 ### Part 2.2
 
@@ -447,10 +457,11 @@ Once you've completed Task 1, let's try to figure out where the second password 
 has multiple branches, but the branch called `erik` might have something we want. Let's try switching to the branch
 and seeing if the password is in there.
 
-{: .task}
+:::task
 Find the password for Task 2. You can verify that it is the password by checking the commit message of the commit
 that you are on. When you do, you can store the password on the **third line** of `magic_word.txt` file in your
 lab04 directory. When you find the password, **switch back to the `main` branch.**
+:::
 
 ### Part 2.3
 
@@ -477,10 +488,12 @@ Do not add the flags if you are not sure if it should be used. If you do use the
 end up putting yourself into an interactive rebase and destroying some of your work. In most, if not all cases of pulling
 from the skeleton in your personal repository, this flag should not be added, and running `git pull skeleton main` is
 enough.
+:::
 
-{: .task}
+:::task
 Once you've pulled, you'll see Git trying to merge the branches. Go ahead and merge it and the final password should show
 up in your IntelliJ. You can store the password on the **fourth line** of `magic_word.txt`.
+:::
 
 ### Submission
 

@@ -16,6 +16,7 @@ released: true
 
 :::danger
 In contrast with previous homework assignments, this homework is comparable to a project in length. Start early. You have been warned. We will **not grant extensions for failing to understand the depth of this homework**.
+:::
 
 ## [FAQ](./faq.md)
 
@@ -110,8 +111,9 @@ almost never percolates, and when $p > p^&#42;$, a random N-by-N grid almost alw
 for determining the percolation threshold $p^&#42;$ has yet been derived. Your task is to write a computer program to
 estimate $p^&#42;$.
 
-{: .task}
+:::task
 Fill out `Percolation.java` by implementing all the methods given in the above API.
+:::
 
 ### The `WeightedQuickUnionUF` class
 
@@ -130,6 +132,7 @@ public class WeightedQuickUnionUF {
 :::warning
 >**Your code must use the [`WeightedQuickUnionUF`](https://algs4.cs.princeton.edu/15uf/WeightedQuickUnionUF.java.html) class!**
 >It has already been implemented for you, so do not reimplement the Union Find ADT.
+:::
 
 ### Tips and Corner Cases
 
@@ -159,6 +162,7 @@ how to cast one problem (Percolation) in terms of an already solved problem (Dis
 >If you are at this part of the spec and are still unsure of how to start, go through
 >these [slides](https://docs.google.com/presentation/d/12mvVbdoq7SKZy02u_i7Z7LCyrDCpbYmUhl_qqW95T_4/edit?usp=sharing) and
 >watch this [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6XVXEbZUuF1MIO7g).
+:::
 
 ## `PercolationStats.java`
 
@@ -208,13 +212,14 @@ The constructor takes two arguments `N` and `T`, and performs `T` independent co
 discussed above) on an `N`-by-`N` grid. Using this experimental data, it calculates the mean, standard deviation,
 and the 95% confidence interval for the percolation threshold.
 
-{: .task}
+:::task
 >Open `PercolationStats.java` and take a look at the provided constructor and methods.
 >Then, run the `main` method, and interpret the results. What do these numbers tell you about the solution to the
 >Percolation Problem?
 >
 >There's no deliverable for this portion of the assignment; if you've implemented `Percolation.java`
 >correctly, you should now have a 95% confidence interval for the percolation threshold `p`.
+:::
 
 ## Runtime Analysis (Ungraded)
 
@@ -268,9 +273,10 @@ program's `Run -> Edit Configurations -> + -> Application` tab. Here, set the "M
 and set the "Program arguments" to an input file (for example, `inputFiles/input20.txt`). Finally, hit the "Run" button
 to begin running the visualizer.
 
-{: .task}
+:::task
 >Open `PercolationPicture.java` and follow the steps above to run the visualizer.
 >Use this tool to help you debug your `Percolation.java` methods!
+:::
 
 ### Interactive Visualization Client
 
@@ -280,13 +286,15 @@ bonus, it prints out the sequence of sites opened in the same format used by `Pe
 so you can use it to prepare interesting files for testing. If you design an interesting data file, feel free to share
 it on Ed.
 
-{: .task}
+:::task
 >Open `InteractivePercolationVisualizer.java` and follow the same steps as `PercolationPicture` to run the interactive visualizer. Note that for the interactive version, you **do not** need to provide a program argument.
 >
 >Use this tool to help you debug your `Percolation.java` methods!
+:::
 
 _Note: If you are using IntelliJ, you can choose which class to run (i.e. choose whose main method you want to run) in
 Run -> Edit Configurations. For more information, please check the FAQ_
+
 
 ## Testing
 

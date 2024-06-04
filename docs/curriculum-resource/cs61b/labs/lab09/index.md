@@ -89,6 +89,7 @@ $(0, 0)$ is the bottom-left corner of the world (not the top-left
 as you may be used to). For example, for position (5, 4), we would go 
 5 units to the right and then 4 units up. We will work with this orientation
 in the lab.
+:::
 
 The last step in rendering is to call `ter.renderFrame(world)`, where
 `ter` is a `TERenderer` object. Changes made to the tiles array will not appear
@@ -102,12 +103,14 @@ how the world changes.
 :::warning 
 Tiles themselves are immutable! You cannot do something like
 `world[x][y].character = 'X'`. **Look at `TETile` to help understand!**
+:::
 
 :::info
 Why do we initialize the world to `Tileset.NOTHING`, rather than just leaving it
 untouched? The reason is that the `renderFrame` method will not draw any tiles
 that are `null`. If you don't initialize the world to `Tileset.NOTHING`, you'll
 get a `NullPointerException` when you try to call `renderFrame`.
+:::
 
 ### Random World
 
@@ -189,6 +192,7 @@ and `RandomWorldDemo` (important!) and that you understand roughly how to work w
 `TERenderer`, `TETile`, and `Tileset`. It'll be expected for the next parts that you 
 have a rough idea of how the first two demo classes work and how to work with the tile 
 rendering classes. 
+:::
 
 ## Part II: Conway's Game of Life
 
@@ -232,6 +236,7 @@ Here are also a couple of reminders and tips before you begin:
 :::warning 
 Make sure you've read through the tips and reminders above! We'll assume you understand them 
 in the next sections.
+:::
 
 ### Constructors 
 
@@ -257,6 +262,7 @@ are its neighbors:
 :::info 
 When you are checking how the status of a cell will be changed, you only need to be 
 concerned with its direct 8 neighbors as shown above.
+:::
 
 **At each timestep, the status of a cell will change based on the following rules:**
 1. Any live cell with fewer than two live neighbors dies, as if by underpopulation.
@@ -270,8 +276,9 @@ that are provided above. The current state of the board is represented by
 is **initially filled with `Tileset.NOTHING`**. We want to take the current state 
 of the board, store the next generation/state in `newGen` and return it. 
 
-{: .task} 
+:::task
 Implement the method `nextGeneration` according to the rules above. 
+:::
 
 ## Persistence 
 Before we get into the other two methods you'll need to implement, let's talk a little about Project 3. 
@@ -290,6 +297,7 @@ This is called persistence.
 For this part of the lab, we've provided a class, `FileUtils`, to help you save and load 
 information into a file. **Please use the provided class in your implementation and read 
 through the class before moving on.**
+:::
 
 ### `saveBoard`
 
@@ -346,6 +354,7 @@ the assumption that the bottom left is (0, 0).**
 :::danger 
 To repeat, you don't need to be transposing or flipping any board in your implementation 
 in any parts of the lab. 
+:::
 
 There are three additional requirements: 
 - Make sure the orientation in the text file represents the same orientation as the board. The top 
@@ -362,8 +371,9 @@ There are three additional requirements:
 In the skeleton, we've provided `TODO` comments. You can access the current state of
 the board through the instance variable `currentState`.
 
-{: .task}
+:::task
 Implement the method `saveBoard`. 
+:::
 
 ### `loadBoard`
 
@@ -378,9 +388,10 @@ by "\n" and that the orientation of the board is correct, that is treat the bott
 it might affect your `loadBoard`). For this part, you might find the `split` and
 `charAt` function from the `String` class useful. 
 
-{: .task}
+:::task
 Implement the method `loadBoard`. **Since we're loading in the game, make sure to initialize 
 the instance variables `width` and `height`.**
+:::
 
 ## Testing and Running the Game
 
@@ -393,6 +404,7 @@ pass in. **DO NOT MODIFY THEM.** They should not be modified as they are used in
 tests and it is expecting them to be untouched - the local tests will check if they are modified 
 and the tests will not run if the files are edited. Some test text files are also provided - 
 as with the ones in `patterns`, do not modify them. 
+:::
 
 To run the game, you can run it through the main method at the bottom of `GameOfLife.java`.
 If an initial state is not provided (a text file), it will generate a random one
@@ -416,6 +428,7 @@ Then, go ahead and run the application.
 If you're writing your own test cases, please make sure to use **square matrices**, specifically if you're working 
 with the `nextGeneration` method. The provided local tests and the ones on the autograder will still
 run as intended, but local tests written for `nextGeneration` should still be done with an n x n board. 
+:::
 
 ## Project 3 Saving and Loading
 After finishing `saveBoard` and `loadBoard`, notice that we ended up saving the entire board 
@@ -441,7 +454,7 @@ there is an aspect of determinism to it if a seed is given to the generator.
 generators: "This **_will be super helpful_** in Project 3, as it will give
 us deterministic randomness: your worlds look totally random,
 but you can recreate them consistently for debugging (and grading) purposes."
-
+:::
 
 ## Submission
 

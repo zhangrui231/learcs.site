@@ -5,7 +5,6 @@ description: Project 1A Spec.
 
 Due: Monday, February 5 at 11:59 PM PT
 
-{: .no_toc}
 
 ## [FAQ](faq.md)
 
@@ -34,6 +33,7 @@ much less scaffolding.
 :::info
 >This section assumes you have watched and fully digested the lectures up till
 >the DLList lecture, Lecture 5.
+:::
 
 :::warning
 >For this project, you must work alone! Please carefully read the
@@ -45,6 +45,7 @@ much less scaffolding.
 >`java.util` data structures in your implementation! The whole point is to build
 >your own versions! There are a few places where you may use specific data
 >structures outside of tests, and we will clearly say where.
+:::
 
 ### Velocity Limiting
 
@@ -53,6 +54,7 @@ On this project, you will have a max of 4 submission tokens to the autograder, e
 :::danger
 
 **We will not grant extensions for failing to understand the token limiting policy.** If you have questions, please ask!
+:::
 
 ### Style
 
@@ -126,21 +128,24 @@ If you hover over the method name in IntelliJ, you'll see a popup that looks lik
 
 ![get-javadoc](/img/cs61b/proj1a/get-javadoc.png)
 
-{: .task}
+:::task
 >Begin by opening the `Deque61B.java` file and **reading** the
 >documentation in it. We **will not** repeat information that is in the
 >interface file in the specification -- so, it is _on you_ to make sure that you
 >are reading it as you complete the project.
+:::
 
 :::danger
 **You should not edit `Deque61B.java`.**
+:::
 
 **It is on you to read the descriptions of the other methods.**
+
 
 :::danger
 >Seriously. Do not skip this. You will spend **hours** confused if you skip this
 >step. Please save yourself the time and stress!
-
+:::
 ## `LinkedListDeque61B`
 
 ### Assignment Philosophy
@@ -161,6 +166,7 @@ this spec.
 :::info
 >For the intended experience, follow these steps in order. If you do something
 >else and ask us for help, we will refer you back to these steps.
+:::
 
 ### Creating the File
 
@@ -234,10 +240,10 @@ In this test file, we've provided a few tests that check that your `LinkedListDe
 
 ### Writing and Verifying the Constructor
 
-{: .task}
+:::task
 >This section assumes you have watched and fully digested the lectures up to
 >**and including** the `DLList` lecture, Lecture 5.
-
+:::
 A "topology" is a structure that you can use to represent the linked list. Though there are numerous choices as discussed in lecture, for this project, you are **required** to implement a circular, doubly-linked topology with a sentinel:
 
   The empty list is represented by a single sentinel
@@ -253,6 +259,7 @@ Implement the constructor for `LinkedListDeque61B` to match the appropriate topo
 :::info
 >Along the way you'll need to create a `Node` class and introduce one or more
 >instance variables. This may take you some time to understand fully.
+:::
 
 Your nodes should be doubly-linked, and have exactly the
 necessary fields (instance variables) for a doubly-linked node. Additionally, you should only have
@@ -263,13 +270,14 @@ inside `LinkedListDeque61B`.
 >The design of your `Node` class is a **strict requirement**. If your `Node` class
 >does not meet the specfication listed above (nested class, with the fields of a
 >doubly linked node) you will not pass the autograder.
+:::
 
 When you're done, set a breakpoint on the first line of `addFirstTestBasic`.
 Run the test in debug mode, and use
 the Step Over (![step-over](/img/cs61b/proj1a/step-over.png){: .inline}) feature. Use the
 Java Visualizer to verify that your created object matches the expected topology.
 
-{: .task}
+:::task
 >**Task**: Implement the constructor. Your LinkedListDeque61B` constructor **must** take 0 arguments. Implement a node class. (You would 
 >also probably need some instance variables.)
 >
@@ -289,7 +297,7 @@ Java Visualizer to verify that your created object matches the expected topology
 >---
 >
 >The other tests may not work until you complete `toList`.
-
+:::
 
 ### Writing and Verifying `addFirst` and `addLast`
 
@@ -303,13 +311,14 @@ Fill in the `addFirst` and `addLast` methods. Then, debug
 `toList` yet, but you can use the debugger and visualizer to verify that
 your code is working correctly.
 
-{: .task}
+:::task
 >**Task**: Implement `addFirst` and `addLast`, and verify that they are correct
 >using `addFirstAndAddLastTest` and the Java visualizer.
 >
 >---
 >
 >The tests will not work until you complete the next section, `toList`.
+:::
 
 ### Writing and Verifying `toList`
 
@@ -353,10 +362,12 @@ method. If you get really stuck, go back and verify that your `addFirst` and
 >Some later methods might seem easy if you use `toList`.
 >**You may not call `toList` inside `LinkedListDeque61B`**; there is a test that
 >checks for this.
+:::
 
-{: .task}
+:::task
 >**Task**: Implement `toList`, and verify that it is correct with the tests
 >in `LinkedListDeque61BTest`.
+:::
 
 ### The Testing Component
 
@@ -377,6 +388,7 @@ should only use a constructor that takes 0 arguments.
 :::danger
 >Sharing tests are considered **academic misconduct** and **cheating**.
 >Please don't. This is for you to develop testing skills.
+:::
 
 ### Writing Tests
 
@@ -403,9 +415,11 @@ You should write your tests in `LinkedListDeque61BTest.java`.
 >**Note**: The tests that you write in this project will be checked for the
 >different \"scenarios\" they cover. You will need to cover sufficiently many
 >scenarios, including a few edge cases.
+:::
 
 :::warning
 > **Passing the coverage checker does not mean that your tests are perfect**! There might still be edge cases that you are missing, as we do not require 100% coverage, and we cannot possibly test every single case. We recommend that you write your own tests to check your code in cases that fail, and not just rely on the coverage checker.
+:::
 
 :::danger
 >While the coverage checker can check how much you *do* to the
@@ -414,6 +428,7 @@ You should write your tests in `LinkedListDeque61BTest.java`.
 >is to add additional assertions to your own tests. Examples include verifying
 >the result of every call, checking the entire deque between every call, or
 >checking the results of other deque methods.
+:::
 
 #### Truth Assertions
 
@@ -475,6 +490,7 @@ you suggestions for which assertion you can use.
 > ```
 >
 > The last line of the above test should instead be `assertThat(lld.isEmpty()).isTrue();`.
+:::
 
 #### Example Test
 
@@ -529,10 +545,10 @@ Your tests can range from very fine-grained, e.g. `testIsEmpty`, `testSizeZero`,
 `testSizeOne` to very coarse grained, e.g. `testSizeAndIsEmpty`. It's up to you
 to explore and find what granularity you prefer.
 
-{: .task}
+:::task
 >**Task**: **Write tests** for the `isEmpty` and `size` methods, and check that
 >they fail. Then, implement the methods.
-
+:::
 
 #### `get`
 
@@ -542,9 +558,10 @@ item, or a negative index. In these cases `get` should return `null`.
 
 `get` must use iteration.
 
-{: .task}
+:::task
 >**Task**: **After you've written tests and verified that they fail**, implement
 >`get`.
+:::
 
 #### `getRecursive`
 
@@ -556,9 +573,10 @@ they call `getRecursive`. (While there is a way to avoid having copy and pasted
 tests, though the syntax is not worth introducing -- passing around functions
 in Java is a bit messy.)
 
-{: .task}
+:::task
 >**Task**: **After you've copy-pasted tests and verified that they fail**,
 >implement `getRecursive`.
+:::
 
 #### `removeFirst` and `removeLast`
 
@@ -579,9 +597,10 @@ If `Deque61B` is empty, removing should return `null`.
 these operations must take \"constant time.\" Refer to the section on writing `addFirst` and `addLast` 
 for more information on what this means.
 
-{: .task}
+:::task
 >**Task**: **After you've written tests and verified that they fail**, implement
 >`removeFirst` and `removeLast`.
+:::
 
 ### Submit to the Autograder
 

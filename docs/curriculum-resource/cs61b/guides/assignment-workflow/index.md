@@ -30,6 +30,7 @@ them into your current folder.
 > ```shell
 > git pull --no-rebase --allow-unrelated-histories skeleton main
 > ```
+:::
 
 (If you're working on Lab 1, go back to the lab spec at this point.)
 

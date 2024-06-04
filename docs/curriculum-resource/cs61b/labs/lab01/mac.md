@@ -15,12 +15,13 @@ title: Mac OS
     This might take a while. If you are on an older system, you may have to update your software. If you run 
     into any error regarding not enough free space, please double check how much free storage you have left (a
     rough estimate of what is needed is at least 40GB of free space). You may need to also restart your laptop. 
-    
+    :::
+
     :::warning
     There is also a StackOverflow post that you can reference
     [here](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools) if  
     it's a similar issue. **If you are having trouble though, please come find a staff member to help you!**
-
+    :::
 2. At this point, verify that `git` is installed with 
 
     ```shell

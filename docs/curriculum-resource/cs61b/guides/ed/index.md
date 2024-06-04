@@ -256,4 +256,4 @@ nice. Syntax-highlighted code is much easier to read than code as text.
 If you have a question about a personal matter that you don’t want other
 students to see, please make a private post. Private posts are only seen
 by the course staff. If you want only the head TAs and Josh to see your
-question, please email `cs61b [at] berkeley.edu`{: .blue}
+question, please email `cs61b [at] berkeley.edu`

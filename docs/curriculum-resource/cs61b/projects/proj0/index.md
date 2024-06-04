@@ -72,6 +72,7 @@ Follow the instructions in the [Assignment Workflow Guide](../guides/assignment-
 > If you get some sort of error, STOP and either figure it out by carefully reading the [git WTFs](../guides/git/wtfs) or seek help at OH or Ed. You’ll save yourself a lot of trouble vs. guess-and-check with git commands. If you find yourself trying to use commands recommended by Google like force push, [don’t](https://twitter.com/heathercmiller/status/526770571728531456). **Don’t use `git push -f`, even if a post you found on Stack Overflow says to do it!**
 >
 > If you can't get Git to work, watch [this video](https://www.youtube.com/watch?v=Squ8TmG5mX0) as a last resort to submit your work.
+:::
 
 ### File Structure
 
@@ -93,6 +94,7 @@ proj0
 > For the entirety of this project, you will only need to modify the `game2048logic/Model.java` file. Changes to other files will not be recognized by Gradescope.
 >
 > You will, however, need to look through and use (but not modify!) some of the methods in the other files. We will provide descriptions of these methods in the spec.
+:::
 
 ### Running the Game
 
@@ -137,6 +139,7 @@ Example of syntax: If `t` is a variable of type `Tile`, representing a tile with
 
 :::warning
 > If you try to call `value()` on a `Tile` object that is `null`, you will get a `NullPointerException`. You can avoid this by checking if the tile is `null` before calling `value()`on it.
+:::
 
 ### Testing and Debugging
 
@@ -720,6 +723,7 @@ You can and should check your style locally with the CS 61B plugin. **We will no
 
 :::danger
 We will **not remove the velocity limit** for failing to submit the correct files because you didn't add, commit, or push. You have been warned.
+:::
 
 ### Velocity Limiting
 

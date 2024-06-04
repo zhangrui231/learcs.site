@@ -572,6 +572,7 @@ import java.util.TreeMap;
 - `takeOrder`: This method takes in a `String` and returns a _new_ array containing the orders of the customer. If the customer is `Ergun`, you should return an array of Strings `["beyti", "pizza", "hamburger", "tea"]` in that order. If the customer is `Erik`, you should return an array of Strings `["sushi", "pasta", "avocado", "coffee"]`. In any other case, return an empty String array of size 3.
   :::info
   > **NOTE:** `==` behaves strangely with `String`s for reasons we'll see later in the course. You should check strings `s1` and `s2` for equality using `s1.equals(s2)` in Java.
+  :::
 - `findMinMax`: This method takes an `int[] array` and returns the the positive difference between the maximum element and minimum element of the given array. You may assume the input array is nonempty.
 - `hailstone`: This method takes an `int n` as input and returns its hailstone sequence as a list of integers. The hailstone sequence is defined by the following procedure: pick a positive integer n as the start. If n is even, divide n by 2. If n is odd, multiply n by 3 and add 1. Continue this process until n is 1.
   - You should compute this using recursion with the provided helper method `hailstoneHelper`.
@@ -603,7 +604,7 @@ For this part, you can import `TreeMap`.
 
 :::info
 Compared to your previous classes, 61B may leave a lot of wiggle room for you on assignments. For example, there's no skeleton code for this exercise - don't be alarmed!
-
+:::
 Create a class called `Dessert` (you'll need to create a new file and **add it to Git**) inside of the `src/` folder. This class should have the following characteristics:
 
 - Two instance variables: `int flavor` and `int price`.

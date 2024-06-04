@@ -4,7 +4,6 @@ description: Project 1C.
 ---
 
 
-{: .no_toc}
 
 ## Due: Tuesday, February 20th, 11:59 PM PT
 
@@ -29,6 +28,7 @@ By the end of Project 1C, you will complete the following:
 :::warning
 >This section assumes you have watched and fully digested the lectures up till
 >the Iterators, Object Methods lecture, Lecture 11.
+:::
 
 ### Style
 
@@ -77,6 +77,7 @@ You see a `proj1c` directory appear in your repo with the following structure:
 >[don't](https://twitter.com/heathercmiller/status/526770571728531456).
 >
 >**Don't use force push, even if a post you found on Stack Overflow says to do it!**
+:::
 
 You can also watch Professor Hug's [demo](https://www.youtube.com/watch?v=tABtNcN5y0A)
 about how to get started and this [video](https://www.youtube.com/watch?v=Squ8TmG5mX0)
@@ -92,6 +93,7 @@ implementations of `LinkedListDeque61B` and `ArrayDeque61B` into the relevant fi
 
 :::warning
 Please keep `package deque;` at the top of both files. Otherwise, your code will not compile.
+:::
 
 
 #### `iterator()`
@@ -132,12 +134,14 @@ public interface Deque61B<T> extends Iterable<T> {
 
 Next, implement the `iterator()` method using the techniques described in lecture 11.
 
-{: .task}
+:::task
 >**Task**: Implement the `iterator()` method in both `LinkedListDeque61B` and
 >`ArrayDeque61B` according to lecture.
+:::
 
 :::danger
 You are not allowed to call `toList` here.
+:::
 
 #### `equals()`
 
@@ -186,22 +190,25 @@ Override the equals method in the `ArrayDeque61B` and `LinkedListDeque61B` class
 >see [https://stackoverflow.com/questions/24595266/why-is-it-not-allowed-add-tostring-to-interface-as-default-method](https://stackoverflow.com/questions/24595266/why-is-it-not-allowed-add-tostring-to-interface-as-default-method).
 >
 >However, one workaround for this is to provide a `default`, non-`Object` helper method in the `Deque61B` interface and have the implementing classes call it.
+:::
 
-{: .task}
+:::task
 Override the `equals()` method in the `LinkedListDeque61B` and `ArrayDeque61B` classes.
+:::
 
 :::warning
 >Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque61B) o`. Such `equals` methods are old fashioned and overly complex. Use `instanceof` instead.
 >
 >Note: The `instanceof` operator behaves a little strangely with generic types, for reasons beyond the scope of this course. For example, if you want to check if `lst` is an instance of a `List<Integer>`, you should use `lst instanceof List<?>` rather than `lst instanceof List<Integer>`. Unfortunately, this is not able to check the types of the elements, but it's the best we can do.
+:::
 
-:::danger
 
 :::warning
 Important: Make sure you use the `@Override` tag when overriding methods. A common mistake in student code is to try to override `equals(ArrayList<T> other)` rather than `equals(Object other)`. Using the optional `@Override` tag will prevent your code from compiling if you make this mistake. `@Override` is  a great safety net.
-
+:::
 :::danger
 You are not allowed to call `toList` here.
+:::
 
 #### `toString()`
 
@@ -227,8 +234,9 @@ This code outputs something like `deque.proj1a.LinkedListDeque61B@1a04f701`. Thi
 
 In turn the `hashCode` method, which you have also not overridden, simply returns the address of the object, which in the example above was `1a04f701`.
 
-{: .task}
+:::task
 **Task**: Override the `toString()` method in the `LinkedListDeque61B` and `ArrayDeque61B` classes, such that the code above prints out `[front, middle, back]`.
+:::
 
 :::warning
 >Hint: Java's implementation of the `List` interface has a `toString` method.
@@ -236,6 +244,7 @@ In turn the `hashCode` method, which you have also not overridden, simply return
 >Hint: There is a one line solution (see hint 1).
 >
 >Hint: Your implementation for `LinkedListDeque61B` and `ArrayDeque61B` should be exactly the same.
+:::
 
 #### Testing The Object Methods
 
@@ -275,9 +284,11 @@ MaxArrayDeque61B<Integer> m = new MaxArrayDeque61B<Integer>(Comparator.naturalOr
 >If you find yourself starting off by copying your entire `ArrayDeque61B`
 >implementation in a `MaxArrayDeque61B` file, then you're **not doing this assignment in the intended manner**. This is an exercise in clean code, and redundancy
 >is one our worst enemies when battling complexity! For a hint, re-read the second sentence of this section above.
+:::
 
-{: .task}
+:::task
 **Task**: Fill out the `MaxArrayDeque61B.java` file according to the API above.
+:::
 
 There are no runtime requirements on these additional methods, we only care about the correctness of your answer.
 Sometimes, there might be multiple elements in the `MaxArrayDeque61B` that are all equal and hence all the max: in in this
@@ -341,9 +352,11 @@ have to fill your `Deque61B` buffer with zeros in the `GuitarString` constructor
 :::danger
 >Do not call `StdAudio.play` in `GuitarString.java`. This will cause the
 >autograder to break. `GuitarPlayer.java` does this for you already.
+:::
 
 :::info
 Make sure to add the libraries, as usual, otherwise IntelliJ won't be able to find `StdAudio`.
+:::
 
 For example, the provided `TestGuitarString` class provides a sample test
 `testPluckTheAString` that attempts to play an A-note on a guitar string. If you run the test should hear an A-note when

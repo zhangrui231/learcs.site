@@ -23,6 +23,7 @@ As this is a quite new project, there may be occasional bugs or confusion with t
 >Before implementing ANY code for 2B, please read the 2C spec, as your design may change depending on 2C. You can find it [here](../proj2c/index.md).
 >
 >Then, complete the [Project 2B/C: Checkpoint](https://www.gradescope.com/courses/708063/assignments/4133684) and [Design Document](https://www.gradescope.com/courses/708063/assignments/4187810) before starting coding.
+:::
 
 ### Design Notes
 
@@ -34,6 +35,7 @@ If you find yourself copy-pasting or repeating a lot of the same code you've alr
 
 :::danger
 **THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!**
+:::
 
 ### Skeleton Setup
 
@@ -58,11 +60,13 @@ proj2b
 
 :::warning
 **IMPORTANT NOTE:** You should *really* complete **Project 2B/C: [Checkpoint](https://www.gradescope.com/courses/708063/assignments/4133684)** first before starting coding, or even designing your project. We think this would be helpful for your understanding of the project. We will also require you to submit a [design document](https://docs.google.com/document/d/1Vx7QAz4HFN0rEFFEt5rocY2X5AWVcIFFpRmD8vhegOM/edit?usp=sharing) to Gradescope. More details about the design document can be found in [Deliverables and Scoring.](#deliverables-and-scoring).
+:::
 
-{: .task}
+:::task
 >Complete **Project 2B/C: [Checkpoint](https://www.gradescope.com/courses/708063/assignments/4133684)**
 >
 >After finishing the checkpoint, complete **[Design Document](https://www.gradescope.com/courses/708063/assignments/4187810)**
+:::
 
 This part of the project is designed for you to come up with efficient and correct design for your implementation. The design you come up with will be very important to handle these cases. Please read 2B & 2C spec carefully before starting your design document.
 
@@ -79,10 +83,11 @@ We'll link them here, as well as in other relevant parts of the spec.
 - [Staff Solution Webpage](https://ngordnet.datastructur.es/): Useful for generating expected outputs for different test
   case inputs. Use this to write your unit tests!
 
-{: .task}
+:::task
 >Read through entire 2B/C spec and complete **Project 2B/C: [Checkpoint](https://www.gradescope.com/courses/708063/assignments/4133684)**
 >
 >Read through entire 2B/C spec and complete **[Design Document](https://www.gradescope.com/courses/708063/assignments/4187810)**
+:::
 
 ## Using the WordNet Dataset
 
@@ -128,6 +133,7 @@ nasal_decongestant", since "actifed" is both of these things.
 >If you're curious, you can browse the Wordnet database
 >by [using the web interface](http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&r=1&s=sturgeon&i=3&h=1000#c)
 >, though this is not necessary for this project.
+:::
 
 ## Hyponyms (Basic Case)
 
@@ -152,6 +158,7 @@ classes you need to support this task.
 
 :::info
 If you see some error like "Could not load file `some_file_here.txt`", it probably means that your project is not set up correctly. Be sure that you have the same structure as stated in the [Project Setup](#project-setup) section.
+:::
 
 ### Hyponyms Handler (Basic Case)
 
@@ -193,10 +200,11 @@ not** include:
 - Hyponyms of other definitions of hyponyms (e.g. does not include `"flashback"`, which is a hyponym of another
   definition of `"transition"`)
 
-{: .task}
+:::task
 >Implement `HyponymsHandler.java` and any helper classes.
 >
 >**Note:** Please read the tips below, since you shouldn't be writing all of your code in this class.
+:::
 
 :::warning
 >To complete this task, you'll need to decide what classes you need to create to support the `HyponymsHandler`. **DO NOT
@@ -205,11 +213,13 @@ not** include:
 >
 >You'll also need to understand the input format of the WordNet dataset. This description is
 >given in the section below.
+:::
 
 :::danger
 >For this part, you may NOT import any existing graph library into your code. That is you can't import, for example, the
 >graph implementations from the optional Princeton algorithms textbook. Instead, you should build your own graph class or
 >classes.
+:::
 
 #### Tips
 
@@ -343,11 +353,11 @@ Some example data processing operations:
 >Either find a simpler way or create a helper class to help manage the complexity. For example, if you find yourself
 >trying to use something like Map<Set<Set<..., you have started a walk down an unnecessarily difficult path.
 
-:::warning
+
 >As usual, if you have a design that is painful and with which you cannot make progress, don't be afraid to delete your
 >existing instance variables and try again. The hard part of this project is the design, not the programming. You can
 >always use git to recover your old design if you decide you actually liked it.
-
+:::
 ## Handling Lists of Words
 
 Your next task is to handle lists of words. As an example, if the user enters "change, occurrence" for the diagram
@@ -372,12 +382,14 @@ For some more examples which demonstrate the usefulness of this feature, let's s
 - Entering "pastry, tart" in the words box and then clicking "Hyponyms" should display
   `[apple_tart, lobster_tart, quiche, quiche_Lorraine, tart, tartlet ]`.
 
-{: .task}
+:::task
 Modify your `HyponymsHandler` and the rest of your implementation to deal with the List of Words case.
+:::
 
 :::warning
 To test this part of your code, we recommend manually constructing examples using `synsets16.txt` and `hyponyms16.txt`
 and using the provided front end to evaluate correctness.
+:::
 
 ## Deliverables and Scoring
 

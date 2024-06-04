@@ -26,6 +26,7 @@ You can click the red square to terminate the program.
 This exercise relies on some material from HW 0. If you have not written Java
 before, we strongly recommend reading HW 0 before this part. We encourage
 you to ask for help on HW 0 concepts during lab.
+:::
 
 ### Background
 
@@ -68,6 +69,7 @@ this distinction is that, because we require types in Java, it is useful to be
 able to specify that we’re working with a single letter. Unlike in Python,
 `String`s in Java must use double quotes (`\"`) and `char`s must use single
 quotes (`'`).
+:::
 
 ### Methods to Implement
 

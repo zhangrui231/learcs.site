@@ -80,6 +80,7 @@ See the following visual for some intuition on how this works:
 :::warning
 **The tie-breaking scheme in this example is that the smallest element becomes the root - note that this isn't
 always the case depending on the implementation.**
+:::
 
 Let's go over a example of what this all looks like for weighted quick union. When we initially 
 create our disjoint set, each item is in its own set, so we will initialize all of the 
@@ -152,6 +153,7 @@ An example of this is shown below, where we start out with the following
 This is only an example to demonstrate what path compression does. 
 **Note that you can't get this structure (the first image, 
 directly below) with a weighted quick union.**
+:::
 
 ![path_compression_before](/img/cs61b/path_compression_before.png)
 
@@ -168,6 +170,7 @@ around with disjoint sets.
 
 :::info 
 For `UnionFind`, you will be implementing a **weighted quick union with path compression.**
+:::
 
 We will now implement our own disjoint sets data structure, `UnionFind`. At this point, if you haven't already, 
 take a look at `UnionFind.java` file. In this file, you'll see that some skeleton code has been provided for
@@ -182,8 +185,9 @@ you - you'll have to fill in the implementation for the following methods:
 We recommend that you start with implementing the constructor and taking a look at `find`
 before the rest of the other methods.  
 
-{: .task} 
+:::task
 Complete the methods in `UnionFind`. **You'll want to use `find` in `union`.**
+:::
 
 ## Lab Notes
 
@@ -199,6 +203,7 @@ of some of the methods.
 :::warning 
 For this lab, you'll want to implement the following tie-breaking scheme: if the sizes 
 of the sets are equal, **tie break by connecting `v1'`'s root to `v2`'s root.**
+:::
 
 You should also correctly handle faulty inputs, e.g if invalid vertices are passed 
 into the functions, throw an `IllegalArgumentException`. You can throw an 
@@ -213,6 +218,7 @@ For this lab, we've provided some tests for you to check your implementation,
 but they are **not comprehensive.** Only 4 out of 6 tests on the autograder are 
 provided locally. Passing the tests locally do not mean you will pass the tests on 
 Gradescope and you will need to write your own tests to verify correctness. 
+:::
 
 If you find yourself failing the last two tests, ensure that you've 
 implemented path compression correctly and that you've tested the 

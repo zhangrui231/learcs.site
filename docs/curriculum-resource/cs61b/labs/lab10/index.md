@@ -24,6 +24,7 @@ does, but please be aware that you will have to call on some of them throughout 
 also end up using methods from a library. **Please make sure to read through the files to understand 
 what you're working with!** As a reminder, the coordinates (0, 0) represent the bottom left 
 of the board.
+:::
 
 ## Tetris
 
@@ -94,6 +95,7 @@ in this lab. While you don't necessarily need to understand how every helper
 method works (abstraction!), it is likely that some of them will be helpful for 
 your implementation, so please read through them carefully so that you are aware 
 of what is available to you.
+:::
 
 ### `updateBoard`
 
@@ -121,7 +123,7 @@ A `Movement` instance has also been provided for you to use.
 :::task
 Fill out the method according to the description above. As a reminder, make sure to read 
 through `Movement.java` and the `StdDraw` API!
-
+:::
 ### `incrementScore`
 
 This is a helper method to help update your score. The player's score increases based on the number of 
@@ -133,8 +135,9 @@ this can be broken down into, as listed below:
 - 3: 500 points
 - 4: 800 points
 
-{: .task}
+:::task
 Fill out `incrementScore` so the player's score increases as described above.
+:::
 
 ### `clearLines`
 
@@ -149,10 +152,11 @@ a piece is placed. Consider the following:
 - At the very end, we want to update our score based on the number of lines cleared. 
   Consider using a helper method that you've implemented to do this.
 
-{: .task}
+:::task
 Fill out `clearLines` to check for the amount of lines that are cleared and update the 
 board accordingly. **The board should be passed in as an argument, so please make sure to
 use the argument `tiles` (it might affect the autograder if you don't!).**
+:::
 
 ### `runGame`
 
@@ -175,8 +179,9 @@ Here are some relevant helper methods you may use, alongside the ones you've alr
 - `updateBoard`: checks for the player movement and updates the board based on the user's input
 - `renderBoard`: renders the state of the board (called on after user input and clearing lines)
 
-{: .task}
+:::task
 Fill out `runGame`.
+:::
 
 ### `renderScore`
 
@@ -199,8 +204,9 @@ them, but they are here for reference):
 - [`StdDraw.show`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#show())
 - [`StdDraw.pause`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#pause-int-)
 
-{: .task}
+:::task
 Fill out `renderScore` and run your game to check that the score shows up!
+:::
 
 ## Submission and Grading
 
