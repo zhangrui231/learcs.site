@@ -1,5 +1,5 @@
 ---
-title: "Checkoff - Project 3: BYOW"
+title: Checkoff - Project 3 BYOW
 description: Project 3 Checkoff Script.
 ---
 

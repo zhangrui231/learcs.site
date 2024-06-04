@@ -1,5 +1,5 @@
 ---
-title: "Coverage Tests - Project 1A: Linked List Deque 61B"
+title: Coverage Tests - Project 1A Linked List Deque 61B
 description: Project 1 Flags.
 
 ---

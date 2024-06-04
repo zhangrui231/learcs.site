@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Caesar Cipher (Old)"
+title: Lab 1 Caesar Cipher (Old)
 ---
 
 This lab was replaced due to a restructuring in the first couple weeks. The

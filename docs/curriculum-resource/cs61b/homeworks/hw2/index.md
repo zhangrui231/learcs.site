@@ -1,15 +1,6 @@
 ---
-layout: page
-title: >-
-  Homework 2: Percolation
-nav_order: 1
-parent: Homeworks
-has_children: true
-has_toc: false
-has_right_toc: true
-description: >-
-  Homework 2 spec.
-released: true
+title: Homework 2 Percolation
+description: Homework 2 spec.
 ---
 
 ## Due: 2/26/2024

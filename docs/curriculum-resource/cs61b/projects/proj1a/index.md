@@ -1,5 +1,5 @@
 ---
-title: "Project 1A: LinkedListDeque61B"
+title: Project 1A LinkedListDeque61B
 description: Project 1A Spec.
 ---
 

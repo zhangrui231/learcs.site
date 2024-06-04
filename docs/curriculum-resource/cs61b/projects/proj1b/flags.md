@@ -1,5 +1,5 @@
 ---
-title: Coverage Tests - Project 1B Array Deque 61B"
+title: Coverage Tests - Project 1B Array Deque 61B
 description: Project 1B Coverage Tests.
 ---
 

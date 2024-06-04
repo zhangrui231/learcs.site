@@ -1,5 +1,5 @@
 ---
-title: "Project 1C: Deque61B Enhancements"
+title: Project 1C Deque61B Enhancements
 description: Project 1C.
 ---
 

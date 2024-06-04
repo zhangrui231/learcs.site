@@ -1,5 +1,5 @@
 ---
-title: "Common UI Bugs - Project 3: BYOW"
+title: Common UI Bugs - Project 3 BYOW
 description: Project 3 Common UI Bugs.
 ---
 

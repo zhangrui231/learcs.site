@@ -1,12 +1,5 @@
 ---
-layout: page
-title: >-
-  Lab 08: Hashmaps
-has_children: true
-parent: Labs
-has_toc: false
-has_right_toc: true
-released: true
+title: Lab 08 Hashmaps
 ---
 
 ## FAQ

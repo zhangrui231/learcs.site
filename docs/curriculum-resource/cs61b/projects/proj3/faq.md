@@ -1,5 +1,5 @@
 ---
-title: "FAQ - Project 3: BYOW"
+title: FAQ - Project 3 BYOW
 description: Project 3 FAQ.
 ---
 

@@ -1,12 +1,5 @@
 ---
-layout: page
-title: >-
-  Lab 02: Debugging (Part 1)
-has_children: true
-parent: Labs
-has_toc: false
-has_right_toc: true
-released: true
+title: Lab 02 Debugging (Part 1)
 ---
 
 ## FAQ
