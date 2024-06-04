@@ -8,10 +8,10 @@ description: CS 61B syllabus | 课程大纲
     <thead>
         <tr>
             <th style={{widt:"3%"}}>Wk.</th>
-            <th style={{widt:"8%"}}>Date</th>
-            <th style={{widt:"24%"}}>Lecture <br/>(<a href="https://berkeley.zoom.us/j/96979950207">Zoom</a>)</th>
-            <th style={{widt:"13%"}}>Readings</th>
-            <th style={{widt:"20%"}}>Discussion <br/></th>
+            <th style={{widt:"7%"}}>Date</th>
+            <th style={{widt:"24%"}}>Lecture </th>
+            <th style={{widt:"10%"}}>Readings</th>
+            <th style={{widt:"24%"}}>Discussion <br/></th>
             <th style={{widt:"12%"}}>Lab</th>
             <th style={{widt:"10%"}}>Homework</th>
             <th style={{widt:"10%"}}>Project</th>
@@ -42,7 +42,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class="is-even week" rowspan="3" id="week-03">
-                2 <br/><a href="https://forms.gle/UDTAuPiFtDq3KyX68">Survey</a></td>
+                2 </td>
             <td class="is-even border-hack">Mon <br/>Jan 22</td>
             <td class="is-even " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 3 - Lists 1_ References, Recursion, and Lists.pdf" class="schedule-title">3. Lists I: References, Recursion, and Lists</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRpb4EQp0tOFJNZUXHnxTfXm">Video</a> | <a href="https://www.youtube.com/watch?v=33B7eyjSO58">Recording</a></td>
             <td class="is-even" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/3.-references-recursion-and-lists">Ch 3</a></td>
@@ -66,7 +66,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class=" week" rowspan="3" id="week-04">
-                3 <br/><a href="https://forms.gle/TJwT5T92pvDrgF7B9">Survey</a></td>
+                3 </td>
             <td class=" border-hack">Mon <br/>Jan 29</td>
             <td class=" " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 6 - Testing.pdf" target="_blank" class="schedule-title">6. Testing</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRqRR4OQx_I3YPkA87bO0whh">Video</a> | <a href="https://www.youtube.com/watch?v=rJ1gCk41lbo">Recording</a> </td>
             <td class="" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/7.-testing">Ch 7</a>, <a href="https://dhh.dk/2014/tdd-is-dead-long-live-testing.html">TDD is dead</a>, <a href="http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf">Unit Tests Are Waste</a>, <a href="http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/">Response</a></td>
@@ -91,7 +91,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class="is-even week" rowspan="3" id="week-05">
-                4 <br/><a href="https://forms.gle/RuHSy8Yw2awiKmHeA">Survey</a></td>
+                4 </td>
             <td class="is-even border-hack">Mon <br/>Feb 05</td>
             <td class="is-even " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 9 - Inheritance 2_ Extends, Casting, Higher Order Functions.pdf" class="schedule-title">9. Inheritance II: Extends, Casting, Higher Order Functions</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRrLnGlBmWCRXEuKF5Am09yB">Video</a> | <a href="https://www.youtube.com/watch?v=IreQ12TQiHk">Recording</a> </td>
             <td class="is-even" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/10.-inheritance-ii-extends-casting-higher-order-functions">Ch 10</a></td>
@@ -176,7 +176,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class=" week" rowspan="3" id="week-08">
-                7 <br/><a href="https://forms.gle/BqaqUBoX1b9tgxYa7">Survey</a></td>
+                7 </td>
             <td class=" border-hack">Mon <br/>Feb 26</td>
             <td class=" " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 17 - Data Structures 3_ B-Trees.pdf" class="schedule-title">17. B-Trees (2-3, 2-3-4 Trees)</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRoMUlGWsTyt-WHK-SuyXK_E">Video</a> | <a href="https://www.youtube.com/watch?v=B-uPNBrYotc">Recording</a></td>
             <td class="" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees">Ch 17</a></td>
@@ -199,7 +199,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class="is-even week" rowspan="3" id="week-09">
-                8 <br/><a href="https://forms.gle/Fs7jG1f6cRF2z9HY7">Survey</a></td>
+                8 </td>
             <td class="is-even border-hack">Mon <br/>Mar 04</td>
             <td class="is-even " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 20 - Hashing II.pdf" class="schedule-title">20. Hashing II</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_">Video</a> | <a href="https://youtu.be/cTzrgZ9aBR8">Recording</a> </td>
             <td class="is-even" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii">Ch 20</a></td>
@@ -331,7 +331,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class=" week" rowspan="3" id="week-14">
-                13 <br/><a href="https://forms.gle/pioAFX4dQRPZjRM57">Survey</a></td>
+                13 </td>
             <td class=" border-hack">Mon <br/>Apr 08</td>
             <td class=" " rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 32 - Sorting 3_ More Quicksort, Quick Select, Stability.pdf" class="schedule-title">32. Sorting III: Quicksort</a> <hr/><a href="https://www.youtube.com/playlist?list=PLnp31xXvnfRrHHQP93qqc_QBNBF_WEQLy">Video</a> | <a href="https://www.youtube.com/watch?v=-DSHhIIIoeM">Recording</a></td>
             <td class="" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary">Ch 32</a></td>
@@ -379,7 +379,7 @@ description: CS 61B syllabus | 课程大纲
         </tr>
         <tr>
             <td class=" week" rowspan="3" id="week-16">
-                15 <br/><a href="https://forms.gle/iWtVHYdbq735zLE38">Survey</a></td>
+                15</td>
             <td class=" border-hack">Mon <br/>Apr 22</td>
             <td class=" optional" rowspan="1"><a target="_blank" href="/resource/cs61b/lecture/[61B SP24] Lecture 38 - Compression.pdf" class="schedule-title">38. Compression</a> <hr/><a href="https://www.youtube.com/playlist?list=PL8FaHk7qbOD6kGO6F1uWKggr-Ie9TCMUZ&amp;disable_polymer=true">Video</a> | <a href="https://youtu.be/yq_besFUtIM">Recording</a></td>
             <td class="" rowspan="1"><a href="https://cs61b-2.gitbook.io/cs61b-textbook/38.-compression-and-complexity">Ch 38</a></td>
