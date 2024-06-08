@@ -32,3 +32,5 @@
 .hidden {
   display: none !important;
 }
+
+@import './bootstrap.min.css';

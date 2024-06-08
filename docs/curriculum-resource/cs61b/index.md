@@ -44,5 +44,7 @@ sp24的课程采用Java 17及以上版本（因此至少需要IntelliJ 2021.2.1�
 - 用于cs61b课程的自动评分工具 [jh61b for BSAG](https://github.com/Berkeley-CS61B/bsag-jh61b)，[BSAG A Better Simple AutoGrader](https://github.com/Berkeley-CS61B/BSAG)
 - [intellij-plugin](https://github.com/Berkeley-CS61B/intellij-plugin)
 - [Library for Spring 2024 semester](https://github.com/Berkeley-CS61B/library-sp24)
-- 
+- [通过动画可视化数据结构与算法](https://visualgo.net/zh)
+- [Java Visualizer](https://cscircles.cemc.uwaterloo.ca//java_visualize/)
+- 早期课程的阅读材料[《Data Structures (Into Java)》](https://inst.eecs.berkeley.edu//~cs61b/fa14/book2/data-structures.pdf)
 <DocCardList />
