@@ -19,7 +19,7 @@ CS61A 与 CS61B（或同等课程），或具备基于C语言的编程经验（�
 
 ## 教材
 课程采用的教材有：
-- ***P&H***： 课程将采用Patterson和Hennessy合著的《Computer Organization and Design RISC-V Edition book 》中文翻译《计算机组成与设计：RISC-V版》第一版（简称“P&H”）——fall 2020 的课 程推荐的是第一版目前最新版本是第二版。
+- ***P&H***： 课程将采用Patterson和Hennessy合著的[《Computer Organization and Design RISC-V Edition book 》](/book/Computer_Organization_RiscV_Edition_5th.pdf)中文翻译《计算机组成与设计：RISC-V版》第一版（简称“P&H”）——fall 2020 的课 程推荐的是第一版目前最新版本是第二版。
 - ***K&R***： 同时，我们要求使用Kernighan和Ritchie所著 [《The C Programming Language》](/book/c-programming-language-2nd-edition.pdf) 中文翻译[《C程序设计语言》第二版](/book/c-programming-language-2nd-edition-simple-chinese.pdf)（简称“K&R”），并在阅读作业中引用其章节。若你已熟悉其他书籍，也可选用，但我们的授课将基于K&R内容。
 - ***WSC***： 最后，我们将参考[《The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines》](/book/WSCBarrosoHolzle.pdf)中文翻译《数据中心即计算机：仓库级机器设计导论》（简称“WSC”）。
 
