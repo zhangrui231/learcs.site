@@ -36,7 +36,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=VJ6tuX5bBf4">
+                    <a href="https://www.youtube.com/watch?v=VJ6tuX5bBf4">
                         Live Video
                     </a>
                     ]
@@ -352,7 +352,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=osjc-T_MJ8E">
+                    <a href="https://www.youtube.com/watch?v=osjc-T_MJ8E">
                         Live Lecture
                     </a>
                     ]
@@ -500,7 +500,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=H3SVz0coKb4">
+                    <a href="https://www.youtube.com/watch?v=H3SVz0coKb4">
                         Live Video
                     </a>
                     ]
@@ -655,7 +655,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=1jplJRDB0TI">
+                    <a href="https://www.youtube.com/watch?v=1jplJRDB0TI">
                         Live Video
                     </a>
                     ]
@@ -808,7 +808,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=7vz0rQdIcu4">
+                    <a href="https://www.youtube.com/watch?v=7vz0rQdIcu4">
                         Live Video
                     </a>
                     ]
@@ -988,7 +988,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=45a_2P65Gmk">
+                    <a href="https://www.youtube.com/watch?v=45a_2P65Gmk">
                         Live Video
                     </a>
                     ]
@@ -1172,7 +1172,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=FuVD6CBdV98">
+                    <a href="https://www.youtube.com/watch?v=FuVD6CBdV98">
                         Live Video
                     </a>
                     ]
@@ -1333,7 +1333,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=G73OR2uF_Gs">
+                    <a href="https://www.youtube.com/watch?v=G73OR2uF_Gs">
                         Live Video
                     </a>
                     ]
@@ -1509,7 +1509,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=onXu1hSr6Hs">
+                    <a href="https://www.youtube.com/watch?v=onXu1hSr6Hs">
                         Live Video
                     </a>
                     ]
@@ -1676,7 +1676,7 @@ description: CS 61C syllabus | 课程大纲
                     ]
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=2kqe8O55EYQ">
+                    <a href="https://www.youtube.com/watch?v=2kqe8O55EYQ">
                         Live Video
                     </a>
                     ]
@@ -2333,7 +2333,7 @@ description: CS 61C syllabus | 课程大纲
                     GPU Guest Lecture with James Percy 
                     <br/>
                     [
-                    <a href="https://www.youtube.com/watch?list=xdcW52tEPfE">
+                    <a href="https://www.youtube.com/watch?v=xdcW52tEPfE">
                         Live Video
                     </a>
                     ]

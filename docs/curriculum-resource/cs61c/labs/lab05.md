@@ -1,6 +1,8 @@
-# CS 61C
+---
+title: Lab05
+---
 
-Deadline: Checkoff between Wednesday, October 7 to Friday, October 9.
+# Lab 5
 
 **IMPORTANT: Do not move staff-provided input and output pins. This will break the testing framework and harness. If your circuit doesn’t pass the tests and you think it is correct, ensure your circuit fits in the corresponding harness in `testing/circ_files/exX_test.circ`.**
 

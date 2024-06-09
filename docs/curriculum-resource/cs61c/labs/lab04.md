@@ -1,7 +1,9 @@
-# CS 61C
+---
+title: Lab04
+---
 
-Deadline: End of Lab Friday, September 25.
 
+# Lab 4
 ## Objectives
 
 -   TSWBAT practice debugging RISC-V assembly code.

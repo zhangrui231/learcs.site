@@ -1,6 +1,9 @@
-# CS 61C
+---
+title: Lab0
+---
 
-Deadline: Friday, September 4 (extended by 1 week for lab00 only)
+# Lab 0
+
 
 Hello! Welcome to CS61C! We’re excited to have you on board :D ~Please pay attention as we demonstrate the safety features of this aircraft.~
 

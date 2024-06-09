@@ -1,10 +1,10 @@
-# CS 61C
+---
+title: Lab06
+---
 
-The Wayback Machine - https://web.archive.org/web/20220121180645/https://inst.eecs.berkeley.edu/~cs61c/fa20/labs/lab06/
 
-## Lab 6
+# Lab 6
 
-Deadline: Friday, October 16th
 
 ## Objectives:
 

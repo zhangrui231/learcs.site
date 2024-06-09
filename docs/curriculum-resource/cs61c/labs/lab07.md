@@ -1,10 +1,10 @@
-# CS 61C
+---
+title: Lab07
+---
 
-The Wayback Machine - https://web.archive.org/web/20220121164754/https://inst.eecs.berkeley.edu/~cs61c/fa20/labs/lab07/
 
-## Lab 7
+# Lab 7
 
-Deadline: EOD (End of Day) Friday, October 30th.
 
 ## Objectives:
 

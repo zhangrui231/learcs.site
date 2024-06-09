@@ -1,6 +1,8 @@
-# CS 61C
+---
+title: Lab03
+---
 
-Deadline: Friday, September 18th
+# Lab 3
 
 ## Before you begin
 

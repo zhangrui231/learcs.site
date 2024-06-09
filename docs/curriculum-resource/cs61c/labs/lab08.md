@@ -1,8 +1,9 @@
-# CS 61C
+---
+title: Lab08
+---
 
-The Wayback Machine - https://web.archive.org/web/20220121182302/https://inst.eecs.berkeley.edu/~cs61c/fa20/labs/lab08/
 
-## Lab 08
+## Lab 8
 
 Deadline: EOD (End of Day) Friday, November 6th
 

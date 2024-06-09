@@ -1,10 +1,11 @@
-# CS 61C
+---
+title: Lab09
+---
 
-The Wayback Machine - https://web.archive.org/web/20230923035841/https://inst.eecs.berkeley.edu/~cs61c/fa20/labs/lab09/
+# Lab 9
 
 ## Lab 09
 
-Deadline: EOD Friday, November 13
 
 ## Objectives:
 

@@ -1,7 +1,8 @@
-# CS 61C
+---
+title: Lab02
+---
 
-Deadline: EOL (“**E**nd-**O**f-**L**abs”) Friday, September 11th
-
+# lab 2
 ## Setup
 
 To get the starter files for this lab, run the following command in your `labs` directory.

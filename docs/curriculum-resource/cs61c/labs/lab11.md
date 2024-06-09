@@ -1,6 +1,8 @@
-# CS 61C
+---
+title: Lab11
+---
 
-Deadline: End of lab Friday, December 4th
+# Lab 11
 
 ## Objectives:
 

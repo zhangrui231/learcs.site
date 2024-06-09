@@ -1,6 +1,8 @@
-# CS 61C
+---
+title: Lab01
+---
+# Lab 1
 
-Deadline: Friday, September 4
 
 ## Setup
 
