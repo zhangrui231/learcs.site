@@ -1,8 +1,9 @@
-# CS 61C
+---
+title: Project4
+---
 
-The Wayback Machine - https://web.archive.org/web/20230923041108/https://inst.eecs.berkeley.edu/~cs61c/fa20/projects/proj4/
 
-## Project 4: Numc
+# Project 4: Numc
 
 ## Overview
 

@@ -1,3 +1,7 @@
+---
+title: Project1 
+---
+
 # Project 1: Conway's Game of Life, in RGB! (Part A due 9/16, Part B due 9/19)
 
 _Project by Dan Garcia, Justin Yokota, Nikhil Pimpalkhare, and Ryan Thornton_

@@ -1,8 +1,10 @@
-# CS 61C
+---
+title: Project3 
+---
 
-The Wayback Machine - https://web.archive.org/web/20220121165045/https://inst.eecs.berkeley.edu/~cs61c/fa20/projects/proj3/
 
-## Project 3: CS61CPU
+
+# Project 3: CS61CPU
 
 ## Overview
 

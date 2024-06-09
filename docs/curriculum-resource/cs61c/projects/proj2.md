@@ -1,4 +1,6 @@
-# CS 61C
+---
+title: Project2
+---
 
 ## Background
 
