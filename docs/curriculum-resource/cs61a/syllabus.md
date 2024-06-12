@@ -524,7 +524,7 @@ description: CS 61A Spring 2024 | 课程大纲
 <td></td>
 <td>
 <span class="">
-<a href="./homework/hw04/">HW 04: Sequences, Trees</a> | <a href="./hw/sol-hw04/">Solutions</a>
+<a href="./homework/hw04/">HW 04: Sequences, Trees</a> | <a href="./homework/sol-hw04/">Solutions</a>
 <div class="badge due">
   Due
   Thu 2/29
