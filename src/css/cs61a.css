@@ -1,0 +1,57 @@
+table#calendar {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table#calendar th {
+    color: #0072c1;
+    text-align: center;
+    border-top: none;
+    vertical-align: middle;
+  }
+  
+  table#calendar td {
+    border: 1px solid #fff;
+    padding: 6px;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  table#calendar tr:not(:first-child) {
+    background-color: #c1d6e3;
+  }
+  
+  table#calendar td.weeknum {
+    text-align: center;
+  }
+  
+  table#calendar td.reading ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  table#calendar td.even {
+    background-color: #B0C4DE;
+  }
+  
+  table#calendar tr:hover td:not(.weeknum) {
+    background-color: #B0C4DE;
+  }
+
+  .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+  

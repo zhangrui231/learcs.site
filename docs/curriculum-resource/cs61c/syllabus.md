@@ -1,9 +1,10 @@
 ---
 title: syllabus-课程大纲
 sidebar_position: 1
-description: CS 61C syllabus | 课程大纲 
+description: CS 61C fall 2020 | 课程大纲 
 ---
 
+# CS 61C fall 2020 
 
 <div class="tab-pane fade active show" id="by-week" role="tabpanel" aria-labelledby="pills-by-week-tab">
     <div class="card-group py-0">

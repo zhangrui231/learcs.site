@@ -1,8 +1,10 @@
 ---
 title: syllabus-课程大纲
 sidebar_position: 1
-description: CS 61B syllabus | 课程大纲 
+description: CS 61B Spring 2024 | 课程大纲 
 ---
+
+# CS 61B Spring 2024
 
 <table>
     <thead>
