@@ -1042,7 +1042,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <span class="">
-<a href="/lab/lab10/">Lab 10: Interpreters</a> | <a href="/lab/sol-lab10/">Solutions</a>
+<a href="./lab/lab10/">Lab 10: Interpreters</a> | <a href="./lab/sol-lab10/">Solutions</a>
 <div class="badge due">
   Due
   Wed 4/10
@@ -1160,7 +1160,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <span class="">
-<a href="/lab/lab11/">Lab 11: Programs as Data, Macros</a> | <a href="/lab/sol-lab11/">Solutions</a>
+<a href="./lab/lab11/">Lab 11: Programs as Data, Macros</a> | <a href="./lab/sol-lab11/">Solutions</a>
 <div class="badge due">
   Due
   Wed 4/17
@@ -1260,7 +1260,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <span class="">
-<a href="/lab/lab12/">Lab 12: SQL</a> | <a href="/lab/sol-lab12/">Solutions</a>
+<a href="./lab/lab12/">Lab 12: SQL</a> | <a href="./lab/sol-lab12/">Solutions</a>
 <div class="badge due">
   Due
   Wed 4/24
