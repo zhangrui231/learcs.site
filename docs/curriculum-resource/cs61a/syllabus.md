@@ -1319,7 +1319,7 @@ description: CS 61A Spring 2024 | 课程大纲
 <td></td>
 <td>
 <span class="">
-<a href="./homework/hw11/">HW 11: Finale</a> | <a href="./homework/sol-hw11/">Solutions</a>
+<a href="./homework/hw11/">HW 11: Finale</a> 
 <div class="badge due">
   Due
   Sun 5/5
