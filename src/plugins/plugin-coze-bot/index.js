@@ -16,19 +16,18 @@ module.exports = function (context, options) {
             // 也可以直接插入内联JavaScript代码
             {
               tagName: 'script',
-              attributes: {
-                type: 'text/javascript',
-              },
+              
               innerHTML: `
-              new CozeWebSDK.WebChatClient({
-                config: {
-                  bot_id: '7380921096788590598',
-                },
-                componentProps: {
-                  title: 'Coze',
-                },
+              document.addEventListener('DOMContentLoaded', function() {
+                new CozeWebSDK.WebChatClient({
+                    config: {
+                    bot_id: '7380921096788590598',
+                    },
+                    componentProps: {
+                    title: '智能助手',
+                    },
+                });
               });
-    
               `,
             },
           ],
