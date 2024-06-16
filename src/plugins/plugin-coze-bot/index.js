@@ -19,6 +19,7 @@ module.exports = function (context, options) {
               
               innerHTML: `
               document.addEventListener('DOMContentLoaded', function() {
+                console.log('DOMContentLoaded coze');
                 new CozeWebSDK.WebChatClient({
                     config: {
                     bot_id: '7380921096788590598',
