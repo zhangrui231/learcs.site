@@ -67,7 +67,11 @@ const config = {
         trackingID: 'c106b2729592653e5e0c26db5e5d3142',
       },
     ],
-    ['./src/plugins/plugin-coze-bot'],
+    ['./src/plugins/plugin-coze-bot',
+      {
+        
+      }
+    ],
   ],
 
   themeConfig:
