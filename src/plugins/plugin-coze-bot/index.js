@@ -25,7 +25,7 @@ module.exports = function (context, options) {
                     bot_id: '7380921096788590598',
                     },
                     componentProps: {
-                    title: '智能助手',
+                    title: 'AI 指导',
                     },
                 });
               });
