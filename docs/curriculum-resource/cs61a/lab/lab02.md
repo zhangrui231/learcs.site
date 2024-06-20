@@ -1,5 +1,5 @@
 ---
-title: Higher-Order Functions, Lambda Expressions
+title: Lab 2 Higher-Order Functions, Lambda Expressions
 ---
 # Lab 2: Higher-Order Functions, Lambda Expressions
 
