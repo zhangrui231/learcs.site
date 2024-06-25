@@ -2,69 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.learncs.site/blog</id>
     <title>CS自学社区 Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2024-06-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.learncs.site/blog"/>
     <subtitle>CS自学社区 Blog</subtitle>
     <icon>https://www.learncs.site/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://www.learncs.site/blog/welcome</id>
-        <link href="https://www.learncs.site/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <title type="html"><![CDATA[Andrej的成功建议]]></title>
+        <id>https://www.learncs.site/blog/a-guide-by-Andrej-Karpathy</id>
+        <link href="https://www.learncs.site/blog/a-guide-by-Andrej-Karpathy"/>
+        <updated>2024-06-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如何在课程中取得好成绩]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="如何在课程中取得好成绩">如何在课程中取得好成绩<a href="#如何在课程中取得好成绩" class="hash-link" aria-label="Direct link to 如何在课程中取得好成绩" title="Direct link to 如何在课程中取得好成绩">​</a></h2><p>作者： Andrej Karpathy
+翻译：「科技文章翻译GTPS」<a href="https://cs.stanford.edu/people/karpathy/advice.html" target="_blank" rel="noopener noreferrer">原文地址</a></p><p>以下是我给年轻学生的一些建议，帮助他们在本科课程中取得好成绩。</p><p>经过多年的考试（结果还不错），以下是一些我觉得有效的经验法则：</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="一般建议">一般建议<a href="#一般建议" class="hash-link" aria-label="Direct link to 一般建议" title="Direct link to 一般建议">​</a></h2><p><strong>熬夜不值得</strong><br>
+<!-- -->充足的睡眠非常重要。对我来说，最佳的睡眠时间大约是7.5小时，最少也要睡4小时。我多次遇到过晚上卡在一个问题上，但早上却能在几分钟内解决。我感觉大脑在夜间会将不稳定的短期记忆转化为稳定的长期记忆。我尽量提前几天开始复习，即使每天只花一点时间，也能让大脑有更多时间吸收知识。</p><p><strong>参加辅导课或复习课</strong><br>
+<!-- -->即使它们很无聊。关键是它们能让你思考学习内容。如果实在太无聊，你可以做些其他事情。记住，你也可以选择不同的助教去参加其他的辅导课。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="考试准备">考试准备<a href="#考试准备" class="hash-link" aria-label="Direct link to 考试准备" title="Direct link to 考试准备">​</a></h2><p><strong>组织和整体规划是关键</strong><br>
+<!-- -->制定学习计划，即使你不完全遵循。对我来说，这通常包括了解所有需要学习的内容，并将它们以项目符号的形式列出来。仔细考虑每一点，并估计需要多长时间才能掌握。如果不这样做，你可能会在前面的内容上花费太多时间，而对后面的重要内容草草了事。</p><p><strong>在开始复习之前，先看看以前的考试题</strong><br>
+<!-- -->尤其是如果这些考试题是同一个教授出的。这会给你很好的提示，让你知道该如何复习。每个教授的出题风格都不同。刚开始时不要尝试完成问题，但要仔细观察问题的类型。</p><p><strong>阅读和理解与实际复述不同</strong><br>
+<!-- -->即使我自己也常犯这个错误：你在书中读到公式或推导，觉得完全理解。现在合上书，试着写下来。你会发现这个过程完全不同，很多时候你其实写不出来！这两者似乎使用了大脑的不同部分。确保你能真正写下最重要的部分，并且可以随时重新推导它们。费曼对此非常了解。</p><p><strong>尽量与他人合作，但要在复习的后期</strong><br>
+<!-- -->先独自学习，因为在复习的早期阶段，别人只会分散你的注意力。但在复习的最后阶段与他人一起学习：他们通常会指出重要的陷阱，提出好的问题，有时还会给你机会教别人。</p><p><strong>不要只和成绩好的学生在一起</strong><br>
+<!-- -->成绩稍差的学生会让你向他们解释，这会大大帮助你理解材料。</p><p><strong>期末考试前至少去找教授一次</strong><br>
+<!-- -->即使你没有问题（编一个也行！）教授有时会在一对一的情况下透露更多关于考试的信息，这些信息他们不会在全班面前说。不要期望，但当这种情况发生时，帮助很大。这会给你相对于其他学生的不公平优势吗？有时会。这有点可疑:)<br>
+<!-- -->但总的来说，让教授至少稍微了解你是个好主意。</p><p><strong>提前充分复习</strong><br>
+<!-- -->我提过这个了吗？也许我应该再强调一次。大脑真的需要时间来吸收材料。看起来很难的东西随着时间的推移会变得更容易。<br>
+<!-- -->你需要为期中考试分配大约3天，为期末考试分配大约6天。</p><p><strong>如果复习不顺利并且感到疲惫，在紧急情况下喝一罐能量饮料</strong><br>
+<!-- -->它们有效。这只是化学反应。</p><p><strong>对于数学这类科目：练习比阅读更重要</strong><br>
+<!-- -->最好学习到你差不多准备好开始做练习的程度，然后通过做练习填补空白，尤其是如果你有很多可用的练习题。这些练习还会让你回头阅读你不知道的东西。</p><p><strong>制作自己的复习笔记</strong><br>
+<!-- -->即使你不能带进考场。写东西有助于记忆。你想要的是将整个课程浓缩到一页或几页，最终可以摊开在你面前，并自信地说“这就是我必须知道的所有内容”</p><p><strong>在其他人也在学习的地方学习，即使不是同样的内容</strong><br>
+<!-- -->这会让你在自己不学习时感到难受。对我来说很有效:)<br>
+<!-- -->有大量背景噪音的地方不好，对学习有负面影响。图书馆和阅览室效果最好。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="考试当天">考试当天<a href="#考试当天" class="hash-link" aria-label="Direct link to 考试当天" title="Direct link to 考试当天">​</a></h2><p><strong>最佳饮食和饮水习惯是：考试前2小时喝咖啡和吃东西</strong><br>
+<!-- -->对我来说，考试前立即喝咖啡或吃东西总是不好<br>
+<!-- -->在任何潜在压力情境前喝咖啡总是不好<br>
+<!-- -->不喝咖啡也不好<br>
+<!-- -->我意识到咖啡这一点可能对我来说是主观的，但这是值得你考虑的事情。</p><p><strong>在考试前非常紧张地学习</strong><br>
+<!-- -->我看到很多人在考试前放弃并声称“休息一下”。短期记忆是美妙的，不要浪费它！在考试前尽可能紧张地学习。如果你真的觉得必须休息，在考试前大约一小时休息，但确保在考试前30-45分钟非常努力地学习。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="考试期间">考试期间<a href="#考试期间" class="hash-link" aria-label="Direct link to 考试期间" title="Direct link to 考试期间">​</a></h2><p><strong>考试总是用铅笔</strong><br>
+<!-- -->你想要能够擦掉你写的错误答案</p><p><strong>考试前快速浏览所有问题</strong><br>
+<!-- -->每个问题只需1-3秒的简单浏览。只要吸收所有关键词，了解整个考试的规模。</p><p><strong>考试时，先做简单的题目</strong><br>
+<!-- -->不要让自己在某个问题上卡太久。稍后再回来。我经常跳过问题……有时我第一次能完成的考试只有30%。有些问题在你“热身”后变得容易得多，我无法解释。</p><p><strong>考试时尽量整洁</strong><br>
+<!-- -->令人惊讶的是很少有人意识到这个明显的事实：一个人类会给你的考试打分。一个悲伤的人类会给低分。我在本科时怀疑这一点，并在当助教和实际打分时得到了强烈的证实。</p><p><strong>总是把答案圈起来</strong><br>
+<!-- -->尤其是当有推导时。这让评分者能快速打钩给满分并继续。进入评分者的思维模式。</p><p><strong>绝对不要提前交卷</strong><br>
+<!-- -->你犯了一个愚蠢的错误（我保证），找到它并修正。如果找不到，再努力直到时间用完。如果你非常确定没有错误，就努力使考试更易读，更容易打分。擦掉垃圾，圈出答案，添加步骤等。<br>
+<!-- -->我只能这么说——提前交卷的人是愚蠢的。这是一个潜在收益完全超过成本的明确例子。</p><p><strong>与评分者沟通</strong><br>
+<!-- -->向评分者展示你知道的不仅仅是你写下的内容。好吧，你不能做某个步骤，但要明确你知道如果做的话该怎么做。必要时不要害怕留笔记。信不信由你，评分者通常会试图给你</p><p>多找些分数——让他们容易做到这一点。</p><p><strong>考虑每个问题的分数</strong><br>
+<!-- -->很多考试会告诉你每个问题值多少分。当你做错时，这会给你强烈的暗示。这也给了你强烈的提示哪些问题你应该重点做。当然，在值很少分数的问题上花太多时间是愚蠢的，尤其是当这些问题对你来说仍然相对困难时。</p><p><strong>如果还有不到5分钟的时间，你还在某个问题上卡住，停下来</strong><br>
+<!-- -->你的时间更好地用来重新阅读所有问题，并确保你没有遗漏任何次要问题，并且你回答了所有问题。你不会相信有多少人因为这样丢掉了愚蠢的分数。</p><p>恭喜你读到这里！现在既然你在这里，我有最后一个（非常重要的建议）。这是我希望在本科时有人告诉我的。</p><p>本科生往往对他们的课程有隧道视野。他们想要取得好成绩等。重要的是要认识到，除非你的成绩很差，否则没有人会在意。例如，我总是说最聪明的学生会在所有课程中取得85%的成绩。这样，你的成绩会在4.0左右，但你不会过度学习，也不会学习不足。</p><p>你的时间是宝贵的，有限的资源。达到一个不在考试中犯错的程度，然后将注意力转向更重要的事情。它们是什么？</p><p>获得实际的，真实世界的经验，处理真实的代码库，项目或问题，而不是愚蠢的课程练习是非常重要的。教授/认识你的人并且可以给你写一封好的推荐信，说明你有主动性，激情和驱动力是非常重要的。你在考虑申请工作吗？找一个暑期实习。你在考虑攻读研究生吗？获得研究经验！报名参加你学校提供的任何项目。或者联系你喜欢的教授/研究生，要求参与他们的研究项目。如果他们认为你有动力和驱动力，这可能会奏效。不要低估这一点的重要性：一个著名教授在推荐信中写道你有驱动力，动力和独立思考的能力，会完全压倒其他一切，尤其是成绩这样的琐碎事情。如果你在申请之前发表至少一篇论文，这也会有很大帮助。你还应该知道，他们最大的烦恼是那些过于兴奋的本科生，他们报名参加一个项目，见几次面，问很多问题，然后在研究生或教授投入大量时间后突然放弃并消失。不要成为这样的人（这会损害你的声誉），也不要给出任何你可能是这样人的暗示。</p><p>除了研究项目，参与一些人的小组项目，或者更好，从头开始自己的项目。为开源做贡献，创建/改进一个库。走出去，创建（或帮助创建）一些酷的东西。记录好。写博客。这些是几年后人们会关心的事情。你的成绩？它们是你在这过程中必须处理的烦恼。好好利用你的时间，祝你好运。</p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Andrej Karpathy</name>
+            <uri>https://github.com/karpathy</uri>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://www.learncs.site/blog/mdx-blog-post</id>
-        <link href="https://www.learncs.site/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://www.learncs.site/blog/long-blog-post</id>
-        <link href="https://www.learncs.site/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://www.learncs.site/blog/first-blog-post</id>
-        <link href="https://www.learncs.site/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="Andrej" term="Andrej"/>
+        <category label="给本科生的建议" term="给本科生的建议"/>
     </entry>
 </feed>
