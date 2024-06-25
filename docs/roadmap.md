@@ -50,7 +50,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>计算机系统结构</td>
         <td>UC Berkeley CS61C</td>
         <td>CS61C，伯克利大学的计算机科学CS61系列的最后一门课程，同61A,61B一样声名远播，这门课程关注的是计算机架构中的重要概念。它以C语言和RISC-V汇编语言为基础，深入剖析数字电路和CPU硬件实现。课程还涵盖了计算机系统的抽象层面，包括cache、虚拟内存、I/O的原理，并且深入探讨了并行计算。</td>
-        <td>***P&H***,***K&R***,***WSC***，***CSAPP***</td>
+        <td>P&H,K&R,WSC，CSAPP</td>
         <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
