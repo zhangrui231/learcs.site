@@ -3,7 +3,7 @@ slug: a-guide-by-Andrej-Karpathy
 title: Andrej的成功建议
 authors:
   name: Andrej Karpathy
-  title: Doing well in your courses
+  title: I like to train Deep Neural Nets on large datasets.
   url: https://github.com/karpathy
   image_url: https://avatars.githubusercontent.com/u/241138?v=4
 tags: [Andrej, 给本科生的建议]
