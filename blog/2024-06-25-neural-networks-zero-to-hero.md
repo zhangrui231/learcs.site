@@ -1,11 +1,7 @@
 ---
 slug: neural-networks-zero-to-hero
 title: 神经网络——从零到英雄
-authors:
-  name: Andrej Karpathy
-  title: Andrej Karpathy是人工智能和深度学习领域的知名专家。斯坦福大学计算机科学博士，师从著名AI研究者李飞飞。曾在特斯拉担任人工智能高级总监，负责自动驾驶AI。在OpenAI担任过研究科学家。目前是自由职业者，专注于AI教育和研究。
-  url: https://github.com/karpathy
-  image_url: https://avatars.githubusercontent.com/u/241138?v=4
+authors: Karpathy
 tags: [Andrej, AI课程]
 ---
 
