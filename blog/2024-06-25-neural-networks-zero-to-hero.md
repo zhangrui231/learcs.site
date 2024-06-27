@@ -39,7 +39,7 @@ tags: [Andrej, AI课程]
 **持续更新中**
 
 ## 课程代码仓库
-[neural networks zero to hero:](https://github.com/karpathy/nn-zero-to-hero)
-[build-nanogpt GitHub仓库，包含本视频中所有变更的独立提交记录:](https://github.com/karpathy/build-nanogpt)
-[nanoGPT:](https://github.com/karpathy/nanoGPT)
-[llm.c repo:](https://github.com/karpathy/llm.c)
+- [neural networks zero to hero](https://github.com/karpathy/nn-zero-to-hero)
+- [build-nanogpt GitHub仓库，包含本视频中所有变更的独立提交记录](https://github.com/karpathy/build-nanogpt)
+- [nanoGPT](https://github.com/karpathy/nanoGPT)
+- [llm.c repo](https://github.com/karpathy/llm.c)
