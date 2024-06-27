@@ -1,6 +1,6 @@
 ---
 slug: a-guide-by-Andrej-Karpathy
-title: 赛博佛祖Andrej给计算机本科生的成功建议
+title: Andrej 给计算机本科生的成功建议
 authors: Karpathy
 tags: [Andrej, 给本科生的建议]
 ---
