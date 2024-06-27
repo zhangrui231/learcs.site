@@ -28,7 +28,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>Harvard CS50</td>
         <td>哈佛大学的CS50课程是一门面向所有学生的计算机科学导论课程，非常适合小白入门。该课程旨在教授计算机科学的基本概念和编程技能，并帮助学生理解计算机科学在当今世界的重要性。</td>
         <td>无</td>
-        <td><a href="https://www.bilibili.com/medialist/detail/ml3077042729?spm_id_from=333.1368.list.card_medialist.click">中文语音 </a> | <a href="https://www.bilibili.com/video/BV1Hr421F7VC?p=1">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1Rm421V7zw?p=1">中文语音 </a> | <a href="https://www.bilibili.com/video/BV1Hr421F7VC?p=1">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
