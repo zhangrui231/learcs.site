@@ -27,7 +27,7 @@ description: 用Kaboom.js进行JavaScript游戏开发,游戏开发教程
 
 无论你是经验丰富的开发者，想要扩展技能，还是游戏开发新手，这门课程都设计得既易于理解又内容全面。
 
-
+在freeCodeCamp.org YouTube频道上观看完整课程（5小时观看时间）。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iM1iSvloMlo?si=VNrm4ygW8pCAiBI-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

@@ -201,3 +201,5 @@ Steven Garcia 创建了这门课程。虽然我们频道上已经有很多 JavaS
 
 在 [freeCodeCamp.org 的 YouTube 频道](https://youtu.be/Zi-Q0t4gMC8) 上观看完整课程（4 小时观看）。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zi-Q0t4gMC8?si=km7HM3F-154FSFwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
