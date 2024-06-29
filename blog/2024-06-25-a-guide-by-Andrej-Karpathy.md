@@ -8,10 +8,9 @@ tags: [Andrej, 给本科生的建议]
 # Andrej的成功建议
 
 ## 如何在课程中取得好成绩
-
-作者： Andrej Karpathy  
-翻译：「科技文章翻译GTPS」
-原文：[https://cs.stanford.edu/people/karpathy/advice.html](https://cs.stanford.edu/people/karpathy/advice.html)
+ 
+- 翻译：「科技文章翻译GTPS」
+- 原文：[https://cs.stanford.edu/people/karpathy/advice.html](https://cs.stanford.edu/people/karpathy/advice.html)
 
 以下是我给年轻学生的一些建议，帮助他们在本科课程中取得好成绩。
 

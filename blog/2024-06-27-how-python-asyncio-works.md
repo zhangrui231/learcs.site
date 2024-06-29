@@ -7,8 +7,8 @@ tags: [python, asyncio, 项目实战]
 
 # 从零开始重建 Python Asyncio 并深入理解其工作原理
 
-翻译：「科技文章翻译GTPS」
-原文：[https://jacobpadilla.com/articles/recreating-asyncio](https://jacobpadilla.com/articles/recreating-asyncio)
+- 翻译：「科技文章翻译GTPS」
+- 原文：[https://jacobpadilla.com/articles/recreating-asyncio](https://jacobpadilla.com/articles/recreating-asyncio)
 
 目前，asyncio 是 Python 中一个非常热门的话题，这是有原因的——它是处理 I/O 密集型程序的好方法！当我学习 asyncio 时，花了很长时间才理解它的实际工作原理。后来，我发现它基本上只是 Python 生成器 (Generator) 之上的一个很好的抽象层。在本文中，我将使用 Python 生成器来创建一个简化版本的 asyncio。然后，我将通过 `__await__` 方法将示例重构为使用 `async` 和 `await` 关键字，最后再用真正的 asyncio 替换我的版本。通过构建一个简单版本的 asyncio，希望在本文结束时，你能更好地理解它的魔法！
 

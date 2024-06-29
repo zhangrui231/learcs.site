@@ -8,8 +8,8 @@ description: 用Kaboom.js进行JavaScript游戏开发,游戏开发教程
 
 # 用Kaboom.js进行JavaScript游戏开发
 
-翻译：「科技文章翻译GTPS」
-原文：[https://www.freecodecamp.org/news/javascript-gamedev-with-kaboomjs/](https://www.freecodecamp.org/news/javascript-gamedev-with-kaboomjs/)
+- 翻译：「科技文章翻译GTPS」
+- 原文：[https://www.freecodecamp.org/news/javascript-gamedev-with-kaboomjs/](https://www.freecodecamp.org/news/javascript-gamedev-with-kaboomjs/)
 
 ![JavaScript GameDev with Kaboom.js](/img/blog/4ba8f0f3-9662-480a-b1ee-682a49d5ed42.jpeg)
 
