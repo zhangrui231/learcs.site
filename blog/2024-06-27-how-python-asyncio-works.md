@@ -2,7 +2,7 @@
 slug: how-python-asyncio-works
 title: 从零开始重建 Python Asyncio 并深入理解其工作原理
 authors: Jacob
-tags: [python, asyncio]
+tags: [python, asyncio, 项目实战]
 ---
 
 # 从零开始重建 Python Asyncio 并深入理解其工作原理
