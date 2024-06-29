@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.learncs.site/blog</id>
     <title>CS自学社区 Blog</title>
-    <updated>2024-06-27T00:00:00.000Z</updated>
+    <updated>2024-06-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.learncs.site/blog"/>
     <subtitle>CS自学社区 Blog</subtitle>
     <icon>https://www.learncs.site/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[用Kaboom.js进行JavaScript游戏开发]]></title>
+        <id>https://www.learncs.site/blog/metroidvania-game-tutorial</id>
+        <link href="https://www.learncs.site/blog/metroidvania-game-tutorial"/>
+        <updated>2024-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[用Kaboom.js进行JavaScript游戏开发,游戏开发教程]]></summary>
+        <content type="html"><![CDATA[<p>翻译：「科技文章翻译GTPS」
+原文：<a href="https://www.freecodecamp.org/news/javascript-gamedev-with-kaboomjs/" target="_blank" rel="noopener noreferrer">https://www.freecodecamp.org/news/javascript-gamedev-with-kaboomjs/</a></p><p><img loading="lazy" alt="JavaScript GameDev with Kaboom.js" src="/assets/images/4ba8f0f3-9662-480a-b1ee-682a49d5ed42-08713bd61f68af983541a2875e7eda0a.jpeg" width="1920" height="1080" class="img_ev3q"></p><p>创建一款游戏是编程中最令人满意的体验之一，而构建类似《银河战士》和《恶魔城》风格的Metroidvania游戏更是令人激动不已。这种游戏以复杂的地图、具有挑战性的敌人和复杂的机制著称，能够让玩家长时间沉浸其中。如果你曾经想创建自己的Metroidvania游戏，那么现在是最佳时机。</p><p>我们刚刚在freeCodeCamp.org的YouTube频道上发布了一门课程，教授如何使用JavaScript和Kaboom.js从零开始构建Metroidvania风格的游戏。这门全面的教程由JSLegendDev创建，涵盖了从设置开发环境到实现复杂游戏机制（如敌人AI和Boss战）的所有内容。课程提供了所有需要的游戏资源，让你可以专注于学习和创作。</p><p>课程一开始会有一个介绍部分，概述你将要构建的游戏内容。然后，你将进行开发环境的设置，确保拥有编写代码所需的所有工具。接下来的步骤包括初始化Kaboom.js（一个JavaScript游戏编程库），并加载构成游戏世界的各种资源。</p><p>环境设置完毕，资源加载完成后，你将深入到定义游戏场景，这是构建游戏结构的关键部分。理解Kaboom.js中的游戏对象非常重要，因为这些是构成游戏的基础模块。你将学习如何编写逻辑来加载和显示游戏地图，并放置控制玩家与环境交互的碰撞器。</p><p>课程不仅限于基础内容。你还将实现玩家逻辑，管理全局状态，并设置一个动态相机系统，跟随玩家移动。敌人AI是使Metroidvania游戏具有挑战性的一个重要部分，因此你将学习如何实现一个无人机敌人和一个强大的Boss屏障。为了让你的游戏更具吸引力，教程还涵盖了Boss战的创建，包括健康卡和健康条来跟踪玩家状态。</p><p>此外，你将确保游戏在玩家掉出界外时能够正确处理重新生成，并链接多个房间以创建一个无缝的游戏世界。最后的润色将使你的游戏感觉完整而专业。最后，你还会获得项目部署的指导，以便与世界分享你的创作。</p><p>无论你是经验丰富的开发者，想要扩展技能，还是游戏开发新手，这门课程都设计得既易于理解又内容全面。</p><iframe width="560" height="315" src="https://www.youtube.com/embed/iM1iSvloMlo?si=VNrm4ygW8pCAiBI-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe><ul><li><a href="https://jslegend.itch.io/javascript-metroidvania" target="_blank" rel="noopener noreferrer">live demo</a></li><li><a href="https://github.com/JSLegendDev/JavaScript-Metroidvania" target="_blank" rel="noopener noreferrer">source code</a></li></ul>]]></content>
+        <author>
+            <name>Beau Carnes</name>
+            <uri>https://github.com/beaucarnes</uri>
+        </author>
+        <category label="freeCodeCamp" term="freeCodeCamp"/>
+        <category label="JavaScript" term="JavaScript"/>
+        <category label="游戏开发" term="游戏开发"/>
+        <category label="项目实战" term="项目实战"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用清晰的解释讲解 JavaScript]]></title>
+        <id>https://www.learncs.site/blog/learn-javascript-with-clear-explanations</id>
+        <link href="https://www.learncs.site/blog/learn-javascript-with-clear-explanations"/>
+        <updated>2024-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[javascript 简明教程。]]></summary>
+        <content type="html"><![CDATA[<p>翻译：「科技文章翻译GTPS」
+原文：<a href="https://www.freecodecamp.org/news/learn-javascript-with-clear-explanations/" target="_blank" rel="noopener noreferrer">https://www.freecodecamp.org/news/learn-javascript-with-clear-explanations/</a></p><p>JavaScript 是一种多功能且强大的编程语言，主要用于创建网站上的互动和动态内容。它是与 HTML 和 CSS 并列的万维网核心技术之一。HTML 提供网页的结构，CSS 控制其展示，而 JavaScript 则通过启用复杂的功能和行为使其生动起来。</p><p>我们刚刚在 freeCodeCamp.org 的 YouTube 频道发布了一门新的 JavaScript 课程，该课程旨在通过清晰的解释和测验部分带领初学者了解 JavaScript 的基础知识。</p><p>Steven Garcia 创建了这门课程。虽然我们频道上已经有很多 JavaScript 课程，但 Steven 是一位出色的老师，所以我们希望这门课程能帮助我们的社区成员。</p><p>以下是您可能想学习 JavaScript 的一些原因：</p><ol><li><p><strong>普遍性和需求</strong>：JavaScript 无处不在。所有现代网页浏览器都支持它，并且几乎每个网站都在使用它。学习 JavaScript 使您成为一名多才多艺的开发人员，能够通过 Node.js 等环境在客户端（前端）和服务器端（后端）工作。</p></li><li><p><strong>其他技术的基础</strong>：理解 JavaScript 对于使用各种流行的库和框架（如 React、Angular 和 Vue.js）非常重要。这些工具广泛应用于构建复杂的网络应用程序。</p></li><li><p><strong>职业机会</strong>：精通 JavaScript 可以显著提升您的就业前景。作为需求最旺盛的编程语言之一，JavaScript 技能在雇主中非常受欢迎，他们希望构建和维护现代的、动态的网站和应用程序。</p></li><li><p><strong>多功能性</strong>：JavaScript 不仅限于网页开发。它还用于游戏开发、移动应用开发（使用 React Native 框架）甚至桌面应用开发（使用 Electron 框架）。</p></li></ol><p>这门课程分为七个主要部分。以下是您将在每个部分中学到的内容：</p><p><strong>第1部分：入门</strong></p><ul><li><p>介绍</p></li><li><p>什么是 JavaScript？</p></li><li><p>设置开发环境</p></li><li><p>在社交媒体上关注</p></li></ul><p><strong>第2部分：JavaScript 变量</strong></p><ul><li><p>变量</p></li><li><p>常量</p></li><li><p>原始类型</p></li><li><p>动态类型</p></li><li><p>对象</p></li><li><p>数组</p></li><li><p>函数</p></li><li><p>函数类型</p></li><li><p>变量总结</p></li></ul><p><strong>第3部分：JavaScript 运算符</strong></p><ul><li><p>运算符简介</p></li><li><p>算术运算符</p></li><li><p>赋值运算符</p></li><li><p>比较运算符</p></li><li><p>等值运算符</p></li><li><p>三元运算符</p></li><li><p>逻辑运算符</p></li><li><p>带非布尔值的逻辑运算符</p></li><li><p>运算符优先级</p></li><li><p>运算符总结</p></li></ul><p><strong>第4部分：控制流</strong></p><ul><li><p>If-Else 语句</p></li><li><p>Switch-Case 语句</p></li><li><p>For 循环</p></li><li><p>While 循环</p></li><li><p>Do-while 循环</p></li><li><p>无限循环</p></li><li><p>For-in 循环</p></li><li><p>For-of 循环</p></li><li><p>Break 和 Continue</p></li><li><p>练习：两个数字的最大值</p></li><li><p>练习：FizzBuzz</p></li><li><p>练习：偶数和奇数</p></li><li><p>控制流总结</p></li></ul><p><strong>第5部分：JavaScript 对象</strong></p><ul><li><p>对象字面量</p></li><li><p>工厂函数</p></li><li><p>构造函数</p></li><li><p>对象是动态的</p></li><li><p>构造函数属性</p></li><li><p>函数是对象</p></li><li><p>值类型 vs 引用类型</p></li><li><p>枚举对象的属性</p></li><li><p>克隆对象</p></li><li><p>垃圾回收</p></li><li><p>内置的 Math 函数</p></li><li><p>字符串方法</p></li><li><p>模板字面量</p></li><li><p>Date 对象</p></li><li><p>对象总结</p></li></ul><p>**第</p><p>6部分：JavaScript 数组**</p><ul><li><p>数组简介</p></li><li><p>添加元素</p></li><li><p>查找元素（原始类型）</p></li><li><p>查找元素（引用类型）</p></li><li><p>箭头函数</p></li><li><p>删除元素</p></li><li><p>清空数组</p></li><li><p>合并和切片数组</p></li><li><p>扩展运算符</p></li><li><p>遍历数组</p></li><li><p>连接数组</p></li><li><p>排序数组</p></li><li><p>测试数组元素</p></li><li><p>过滤数组</p></li><li><p>映射数组</p></li><li><p>归并数组</p></li></ul><p><strong>第7部分：JavaScript 函数</strong></p><ul><li><p>函数声明 vs 表达式</p></li><li><p>提升</p></li><li><p>参数</p></li><li><p>剩余运算符</p></li><li><p>默认参数</p></li><li><p>Getter 和 Setter</p></li><li><p>Try 和 Catch</p></li><li><p>局部变量 vs 全局变量</p></li><li><p>Let vs Var</p></li><li><p>'this' 关键字</p></li></ul><p>在 <a href="https://youtu.be/Zi-Q0t4gMC8" target="_blank" rel="noopener noreferrer">freeCodeCamp.org 的 YouTube 频道</a> 上观看完整课程（4 小时观看）。</p>]]></content>
+        <author>
+            <name>Beau Carnes</name>
+            <uri>https://github.com/beaucarnes</uri>
+        </author>
+        <category label="freeCodeCamp" term="freeCodeCamp"/>
+        <category label="JavaScript" term="JavaScript"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从零开始重建 Python Asyncio 并深入理解其工作原理]]></title>
         <id>https://www.learncs.site/blog/how-python-asyncio-works</id>
@@ -21,6 +53,7 @@
         </author>
         <category label="python" term="python"/>
         <category label="asyncio" term="asyncio"/>
+        <category label="项目实战" term="项目实战"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Andrej 给计算机本科生的成功建议]]></title>
