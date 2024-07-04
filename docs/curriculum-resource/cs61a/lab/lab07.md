@@ -142,7 +142,7 @@ class Account:
 
 Add a `time_to_retire` method to the `Account` class. This method takes in an `amount` and returns how many years the holder would need to wait in order for the current `balance` to grow to at least `amount`, assuming that the bank adds the interest (calculated as the current `balance` multiplied by the `interest` rate) to the `balance` at the end of each year.
 
-    ```
+```
     def time_to_retire(self, amount):
         """Return the number of years until balance would grow to amount."""
         assert self.balance > 0 and amount > 0 and self.interest > 0
