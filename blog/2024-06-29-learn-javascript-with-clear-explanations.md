@@ -15,6 +15,8 @@ description: javascript 简明教程。
 
 JavaScript 是一种多功能且强大的编程语言，主要用于创建网站上的互动和动态内容。它是与 HTML 和 CSS 并列的万维网核心技术之一。HTML 提供网页的结构，CSS 控制其展示，而 JavaScript 则通过启用复杂的功能和行为使其生动起来。
 
+<!-- truncate -->
+
 我们刚刚在 freeCodeCamp.org 的 YouTube 频道发布了一门新的 JavaScript 课程，该课程旨在通过清晰的解释和测验部分带领初学者了解 JavaScript 的基础知识。
 
 Steven Garcia 创建了这门课程。虽然我们频道上已经有很多 JavaScript 课程，但 Steven 是一位出色的老师，所以我们希望这门课程能帮助我们的社区成员。
