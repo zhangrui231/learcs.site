@@ -2,8 +2,8 @@
 slug: 1000-lines-or-less-opensource-project
 title: 适合初学者阅读的小于1000行的小型开源项目
 authors: Learncs
-tags: [提升编程技能, 编程初学者进阶]
-description:  编程初学者项目练习，初学者进阶。
+tags: [提升编程技能, 源码阅读]
+description:  编程初学者项目练习,源码阅读。
 ---
 
 # 适合初学者阅读的小于1000行的小型开源项目
@@ -30,10 +30,10 @@ description:  编程初学者项目练习，初学者进阶。
    用4个函数实现的c编译器，整个项目大约500行。却已经具备了相当完备的功能，甚至可以自己编译自己。这个项目不仅展示了编译器的基本原理，还通过极简的实现让读者能够轻松理解其中的核心概念。对于初学者来说，这是一个宝贵的学习资源，通过这个项目，你可以深入了解编译器的工作机制，并在实践中掌握 C 语言的精髓。
 
 5. [cjson](https://sourceforge.net/p/cjson/code/HEAD/tree/)
+
    cJSON是C语言中的一个JSON编解码器，非常轻量级，C文件只有500多行，它仅由一个C文件和一个头文件组成，速度也非常理想
 
 6. [json-parser](https://github.com/Barenboim/json-parser)
-
 
     又一个C语言写的json 解析器，代码量只有代码量不超过1000行。
     这个用C语言编写的JSON解析器具有以下特点：
