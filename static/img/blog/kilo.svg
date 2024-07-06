@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="690.71333306" height="298.66659200000004" font-family="Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols'" font-size="14px">
+  <style>
+    .br { font-weight: bold }
+    .fa { fill-opacity: 0.5 }
+    .it { font-style: italic }
+    .un { text-decoration: underline }
+  </style>
+
+  <rect width="100%" height="100%" style="fill: #121314" rx="0" ry="0"></rect>
+
+  <svg x="8.42333333" y="9.333331000000001" class="default-text-fill">
+    <g style="shape-rendering: optimizeSpeed">
+
+
+    </g>
+
+    <text style="fill: #cccccc">
+      <tspan y="0.0">
+        <tspan dy="1em" x="0.0" style="fill: #dd3c69">
+src ➤ 
+        </tspan><tspan x="50.539999980000005">
+./redis-trib.rb info 127.0.0.1:30001
+        </tspan><tspan x="547.51666645" style="fill: #dd3c69">
+:unstable*: ??
+        </tspan>
+      </tspan><tspan y="18.666662000000002">
+        <tspan dy="1em" x="0.0">
+127.0.0.1:30001 (560aaa6e...) -&gt; 1197442 keys | 3246 slots | 1 slaves.
+        </tspan>
+      </tspan><tspan y="37.333324000000005">
+        <tspan dy="1em" x="0.0">
+127.0.0.1:30003 (9ca7c445...) -&gt; 1196725 keys | 3244 slots | 1 slaves.
+        </tspan>
+      </tspan><tspan y="55.99998600000001">
+        <tspan dy="1em" x="0.0">
+127.0.0.1:30008 (5669ebc2...) -&gt; 1255987 keys | 3406 slots | 0 slaves.
+        </tspan>
+      </tspan><tspan y="74.66664800000001">
+        <tspan dy="1em" x="0.0">
+127.0.0.1:30002 (1fa2f317...) -&gt; 1197948 keys | 3244 slots | 1 slaves.
+        </tspan>
+      </tspan><tspan y="93.33331000000001">
+        <tspan dy="1em" x="0.0">
+127.0.0.1:30007 (ef93b447...) -&gt; 1196926 keys | 3244 slots | 0 slaves.
+        </tspan>
+      </tspan><tspan y="111.99997200000001">
+        <tspan dy="1em" x="0.0" style="fill: #4ebf22">
+[OK] 6045028 keys in 5 masters.
+        </tspan>
+      </tspan><tspan y="130.66663400000002">
+        <tspan dy="1em" x="0.0">
+368.96 keys per slot on average.
+        </tspan>
+      </tspan><tspan y="149.33329600000002">
+        <tspan dy="1em" x="0.0" style="fill: #dd3c69">
+src ➤ 
+        </tspan><tspan x="50.539999980000005">
+./redis-trib.rb rebalance --verbose --weight 1fa2f317=0.8 --weight 9ca7c44
+        </tspan>
+      </tspan><tspan y="167.99995800000002">
+        <tspan dy="1em" x="0.0">
+5... 127.0.0.1:30001
+        </tspan>
+      </tspan>
+    </text>
+  </svg>
+
+  
+</svg>

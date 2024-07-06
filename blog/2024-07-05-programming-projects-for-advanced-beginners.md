@@ -3,7 +3,7 @@ slug: programming-projects-for-advanced-beginners
 title: 高级初学者的编程项目
 authors: ROBERT
 tags: [提升编程技能, 编程初学者进阶]
-description: javascript 简明教程。
+description: 编程初学者项目练习，初学者进阶。
 ---
 
 # 高级初学者的编程项目 
