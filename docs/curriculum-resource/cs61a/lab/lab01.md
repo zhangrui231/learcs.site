@@ -5,13 +5,13 @@ title:  Lab 1 Functions, Control
 
 ## Lab 1: Functions, Control
 
--   [lab01.zip](/resource/cs61a/lab01.zip)
+-   [lab01.zip](/resource/cs61a/lab/lab01.zip)
 
 _Due by 11:59pm on Wednesday, January 24._
 
 ## Starter Files
 
-Download [lab01.zip](/resource/cs61a/lab01.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab01/ok) autograder.
+Download [lab01.zip](/resource/cs61a/lab/lab01.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab01/ok) autograder.
 
 ## Required Questions
 

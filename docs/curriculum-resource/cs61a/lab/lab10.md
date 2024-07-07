@@ -5,13 +5,13 @@ title: Lab 10 Interpreters
 
 ## Lab 10: Interpreters
 
--   [lab10.zip](/resource/cs61a/lab10.zip)
+-   [lab10.zip](/resource/cs61a/lab/lab10.zip)
 
 _Due by 11:59pm on Wednesday, April 10._
 
 ## Starter Files
 
-Download [lab10.zip](/resource/cs61a/lab10.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab10/ok) autograder.
+Download [lab10.zip](/resource/cs61a/lab/lab10.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab10/ok) autograder.
 
 ## Topics
 

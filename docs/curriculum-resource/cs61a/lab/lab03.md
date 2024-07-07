@@ -7,7 +7,7 @@ _Due by 11:59pm on Wednesday, February 14._
 
 ## Starter Files
 
-Download [lab03.zip](/resource/cs61a/lab03.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab03/ok) autograder.
+Download [lab03.zip](/resource/cs61a/lab/lab03.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab03/ok) autograder.
 
 ## Topics
 

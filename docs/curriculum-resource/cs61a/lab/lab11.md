@@ -7,7 +7,7 @@ _Due by 11:59pm on Wednesday, April 17._
 
 ## Starter Files
 
-Download [lab11.zip](/resource/cs61a/lab11.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab11/ok) autograder.
+Download [lab11.zip](/resource/cs61a/lab/lab11.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab11/ok) autograder.
 
 ## Required Questions
 

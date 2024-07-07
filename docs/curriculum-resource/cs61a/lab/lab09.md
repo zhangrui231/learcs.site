@@ -5,13 +5,13 @@ title: Lab 9 Scheme
 
 ## Lab 9: Scheme
 
--   [lab09.zip](/resource/cs61a/lab09.zip)
+-   [lab09.zip](/resource/cs61a/lab/lab09.zip)
 
 _Due by 11:59pm on Wednesday, April 3._
 
 ## Starter Files
 
-Download [lab09.zip](/resource/cs61a/lab09.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab09/ok) autograder.
+Download [lab09.zip](/resource/cs61a/lab/lab09.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab09/ok) autograder.
 
 ## Scheme Introduction
 

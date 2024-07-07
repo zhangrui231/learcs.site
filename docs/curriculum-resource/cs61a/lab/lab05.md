@@ -5,13 +5,13 @@ title: Lab 5 Mutability, Iterators
 
 ## Lab 5: Mutability, Iterators
 
--   [lab05.zip](/resource/cs61a/lab05.zip)
+-   [lab05.zip](/resource/cs61a/lab/lab05.zip)
 
 _Due by 11:59pm on Wednesday, February 28._
 
 ## Starter Files
 
-Download [lab05.zip](/resource/cs61a/lab05.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab05/ok) autograder.
+Download [lab05.zip](/resource/cs61a/lab/lab05.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab05/ok) autograder.
 
 ## Required Questions
 

@@ -5,13 +5,13 @@ title: Lab 8 Mutable Trees
 
 ## Lab 8: Mutable Trees
 
--   [lab08.zip](/resource/cs61a/lab08.zip)
+-   [lab08.zip](/resource/cs61a/lab/lab08.zip)
 
 _Due by 11:59pm on Wednesday, March 20._
 
 ## Starter Files
 
-Download [lab08.zip](/resource/cs61a/lab08.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab08/ok) autograder.
+Download [lab08.zip](/resource/cs61a/lab/lab08.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab08/ok) autograder.
 
 ## Topics
 

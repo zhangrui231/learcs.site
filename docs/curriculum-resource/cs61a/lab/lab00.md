@@ -6,13 +6,13 @@ title: Lab 0 Getting Started
 
 ## Lab 0: Getting Started
 
--   [lab00.zip](/resource/cs61a/lab00.zip)
+-   [lab00.zip](/resource/cs61a/lab/lab00.zip)
 
 _Due by 11:59pm on Wednesday, January 24._
 
 ## Starter Files
 
-Download [lab00.zip](/resource/cs61a/lab00.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab00/ok) autograder.
+Download [lab00.zip](/resource/cs61a/lab/lab00.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab00/ok) autograder.
 
 **This lab is required for all students and counts toward your [lab score](https://cs61a.org/articles/about/#section)**, but try to complete it at home before you come to Lab 1.
 

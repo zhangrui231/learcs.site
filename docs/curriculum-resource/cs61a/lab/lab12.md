@@ -5,13 +5,13 @@ title: Lab 12 SQL
 
 ## Lab 12: SQL
 
--   [lab12.zip](/resource/cs61a/lab12.zip)
+-   [lab12.zip](/resource/cs61a/lab/lab12.zip)
 
 _Due by 11:59pm on Wednesday, April 24._
 
 ## Starter Files
 
-Download [lab12.zip](/resource/cs61a/lab12.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab12/ok) autograder.
+Download [lab12.zip](/resource/cs61a/lab/lab12.zip). Inside the archive, you will find starter files for the questions in this lab, along with a copy of the [Ok](https://cs61a.org//lab/lab12/ok) autograder.
 
 ## Required Questions
 
