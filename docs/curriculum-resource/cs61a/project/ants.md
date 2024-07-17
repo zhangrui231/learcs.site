@@ -149,6 +149,7 @@ If you get stuck while answering these questions, you can try reading through `a
 ### Problem 1 (1 pt)
 
 **Part A**: Currently, there is no cost for placing any type of `Ant`, and so there is no challenge to the game. The base class `Ant` has a `food_cost` of zero. Override this class attribute for `HarvesterAnt` and `ThrowerAnt` according to the "Food Cost" column in the table below.
+<table><tbody><tr><td><b>Class</b></td><td><b>Food Cost</b></td><td><b>Initial Health</b></td></tr><tr><td><img src="/img/cs61a/Harvester.gif"/><br/><code>HarvesterAnt</code></td><td>2</td><td>1</td></tr><tr><td><img src="/img/cs61a/Thrower.gif"/><br/><code>ThrowerAn</code></td><td>3</td><td>1</td></tr></tbody></table>
 
 **Part B**: Now that placing an `Ant` costs food, we need to be able to gather more food! To fix this issue, implement the `HarvesterAnt` class. A `HarvesterAnt` is a type of `Ant` that adds one food to the `gamestate.food` total as its `action`.
 
