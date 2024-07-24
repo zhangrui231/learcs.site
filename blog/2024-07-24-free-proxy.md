@@ -21,7 +21,7 @@ description:  免费科学上网的方案，免费节点
 - 通过cloudflare worker聚合免费节点源自建节点池（机场）
   使用 cloudflare worker 从多个免费节点收集源获取节点，然后通过订阅链接的形式供代理软件使用，优点是更新节点比较简单，一键更新订阅即可。详细使用教程[免费白嫖cloudflare内搭建众多机场节点](https://jdssl.top/index.php/2023/07/05/mfbpcloudfare/)
 - 直接使用建好的免费节点池
-  节点池就是将很多免费节点全放在一个订阅里面，直接导入到代理软件中即可。比如导入到clash中。通用订阅的转换为对应的客户端订阅就好。[机场订阅链接转换收集与教程，支持机场ss/ssr/v2ray订阅转clash\quantumultX订阅](/%E6%9C%BA%E5%9C%BA%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5%E8%BD%AC%E6%8D%A2%E6%95%99%E7%A8%8B.html)
+  节点池就是将很多免费节点全放在一个订阅里面，直接导入到代理软件中即可。比如导入到clash中。通用订阅的转换为对应的客户端订阅就好。[机场订阅链接转换收集与教程，支持机场ss/ssr/v2ray订阅转clash\quantumultX订阅](https://github.com/hwanz/SSR-V2ray-Trojan-vpn/blob/main/%E6%9C%BA%E5%9C%BA%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5%E8%BD%AC%E6%8D%A2%E6%95%99%E7%A8%8B.html)
 
     ### 1) pmsub
     100多条线路，ss+trojan+vmess等
