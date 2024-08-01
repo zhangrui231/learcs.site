@@ -14,3 +14,8 @@ hide_table_of_contents: true
   - 群号：556890917
   - 二维码 
   ![qrcode](/img/qrcode1.png)
+
+
+## CSTT CS自学社区翻译组
+为了实现课程翻译共建共创，社区已经翻译完成的字幕已经发布到 [CSTT CS自学社区翻译组](https://github.com/mengsun66/CSTT)，如果发现字幕有翻译错误的地方，欢迎提issue或者提交PR。
+同时CSTT 已经公布了新课程的翻译流程，社区路线图之外的课程可以通过 [CSTT CS自学社区翻译组](https://github.com/mengsun66/CSTT) 提交课程翻译请求。
