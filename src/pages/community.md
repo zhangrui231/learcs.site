@@ -50,6 +50,7 @@ hide_table_of_contents: true
 ## QQ群
 ### 一个人学习比较痛苦那就跟小伙伴们一起学习吧。
 - 社区一群（提问，课程作业，实验，项目交流群）
+  
   群号：556890917
   
   ![qrcode](/img/qrcode1.png)
