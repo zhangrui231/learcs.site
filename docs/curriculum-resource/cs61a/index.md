@@ -58,5 +58,6 @@ CS 61A 没有正式的编程相关的先决条件，因为没有先前经验的�
   - [Web-based IDE for Python, Scheme, and SQL intended for students taking CS 61A.](https://github.com/Cal-CS-61A-Staff/61a-code)
   - [Web-based debugging tool for Scheme, written in Python and JavaScript.](https://github.com/Cal-CS-61A-Staff/scheme_editor)
   - 为课程编写的 自动评分框架[okpy](https://github.com/okpy/ok)
+  - [@dream 的 CS 61A 学习笔记](https://github.com/shuo-liu16/CS61A)
 
 <DocCardList />
