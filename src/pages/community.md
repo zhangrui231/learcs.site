@@ -53,5 +53,8 @@ hide_table_of_contents: true
   
   ![qrcode](/img/qrcode1.png)
 
+## 学习笔记分享
+- [@Dream 同学的CS 61a 学习笔记](https://github.com/shuo-liu16/CS61A)
+  @Draem 的 CS 61a 学习笔记详细记录了环境设置中关于 ok 评分系统的使用。如果你刚开始学习并在 lab0 遇到困难，这份笔记将是你极有价值的参考资料。
 
 
