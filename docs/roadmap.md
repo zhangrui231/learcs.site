@@ -35,38 +35,38 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>UC Berkeley CS61A</td>
         <td>CS61A《Structure and Interpretation of Computer Programs》中文名称《计算机程序的结构与解释》 该课程是伯克利大学最受欢迎的课程之一，每年有超过 10,000 名学生注册。 该课程旨在帮助学生理解计算机程序的构造和解释，培养学生的编程能力和解决问题的能力。</td>
         <td><a href="https://www.composingprograms.com/"> 在线教材</a> | <a href="https://composingprograms.netlify.app/">在线教材中译版本</a> </td>
-        <td><a href="https://www.bilibili.com/medialist/detail/ml3074028229?spm_id_from=333.1368.list.card_medialist.click">中文语音</a> | <a href="https://www.bilibili.com/medialist/detail/ml3140015129?spm_id_from=333.1368.list.card_medialist.click">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV16J4m1u7xP">中文语音</a> | <a href="https://www.bilibili.com/video/BV1sy411z7nA">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
         <td>算法与数据结构</td>
         <td>UC Berkeley CS61B</td>
-        <td>CS 61系列是计算机科学的介绍，特别强调以程序员的视角来看软件和机器。CS 61A涵盖了高级问题解决方法，为您提供了将编程问题的解决方案组织为函数组合、对象集合或规则集的多种方式。在CS61B中，我们更详细地（在某种程度上更基础地）关注编程的效率，特别侧重于编写程序（设计）和运行程序（运行时）的效率。</td>
+        <td>CS61B: 《Data Structures and Algorithms》。 CS 61系列是计算机科学的介绍，特别强调以程序员的视角来看软件和机器。CS 61A涵盖了高级问题解决方法，为您提供了将编程问题的解决方案组织为函数组合、对象集合或规则集的多种方式。在CS61B中，更详细地（在某种程度上更基础地）关注编程的效率，特别侧重于编写程序（设计）和运行程序（运行时）的效率。</td>
         <td>本课程没有指定的教科书，但有推荐的阅读材料和书籍 </td>
-        <td><a href="https://space.bilibili.com/526939229/channel/collectiondetail?sid=2323057">中文语音</a> | <a href="https://space.bilibili.com/526939229/channelcollectiondetail?sid=2323065">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV132421Z7h2">中文语音</a> | <a href="https://www.bilibili.com/video/BV1hJ4m1M7ZA">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
         <td>计算机系统结构</td>
         <td>UC Berkeley CS61C</td>
-        <td>CS61C，伯克利大学的计算机科学CS61系列的最后一门课程，同61A,61B一样声名远播，这门课程关注的是计算机架构中的重要概念。它以C语言和RISC-V汇编语言为基础，深入剖析数字电路和CPU硬件实现。课程还涵盖了计算机系统的抽象层面，包括cache、虚拟内存、I/O的原理，并且深入探讨了并行计算。</td>
+        <td>CS61C：《Great Ideas in Computer Architecture》，伯克利大学的计算机科学CS61系列的最后一门课程，同61A,61B一样声名远播，这门课程关注的是计算机架构中的重要概念。它以C语言和RISC-V汇编语言为基础，深入剖析数字电路和CPU硬件实现。课程还涵盖了计算机系统的抽象层面，包括cache、虚拟内存、I/O的原理，并且深入探讨了并行计算。</td>
         <td>P&H,K&R,WSC，CSAPP</td>
-        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1tx4y1s7Jr">中文语音</a> | <a href="https://www.bilibili.com/video/BV17b42177VG">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
         <td rowspan="4">计算机科学中的数学</td>
         <td>MIT 18.01</td>
-        <td>微积分是麻省理工学院的基础课程；它在理解科学、工程、经济学和计算机科学等学科中扮演着重要角色。这门入门微积分课程涵盖了单变量函数的微分和积分，以及其应用。课程深入浅出，让你在解决问题的过程中，不仅学会计算，更能洞察微积分的本质魅力。</td>
+        <td>《Single Variable Calculus》单变量微积分是麻省理工学院的基础课程，它在理解科学、工程、经济学和计算机科学等学科中扮演着重要角色。这门入门微积分课程涵盖了单变量函数的微分和积分，以及其应用。</td>
         <td>无</td>
-        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1uYaUetE3Y">中文语音</a> | <a href="https://www.bilibili.com/video/BV1uavveaED9">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
         <td>MIT 18.02</td>
-        <td>继单变量函数的微分积分之后，这门课程涵盖了多元函数的微分、积分和矢量微积分。这些数学工具和方法在物理科学、工程学、经济学和计算机图形学中被广泛应用。它将带你走进微积分的世界，让你在解决问题的过程中，不仅学会计算，更能洞察微积分的本质魅力</td>
+        <td>《Multivariable Calculus》多变量微积分，继单变量函数的微分积分之后，这门课程涵盖了多元函数的微分、积分和矢量微积分。这些数学工具和方法在物理科学、工程学、经济学和计算机图形学中被广泛应用。</td>
         <td>无</td>
-        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="">中文语音</a> | <a href="https://www.bilibili.com/video/BV1PKaDe9ETw">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
@@ -199,7 +199,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
 
 ### 计算机系统结构
 如果你对于计算机如何工作没有具体的概念，那么你所做出的所有高级抽象都是空中楼阁。计算机系统结构——有时候又被称为「计算机系统」或者「计算机组成」——是了解软件底层的的重要视角。
-关于计算机系统结构，不得不提及一本书[「Computer Systems: A Programmer’s Perspective」](https://csapp.cs.cmu.edu/)——中文译本「深入理解计算机系统」，因为它太经典了，各种版本的“程序员必读书单”都有它，它还是卡内基梅隆大学计算机系主任 Bryant为镇系神课 [15-213/15-513](https://www.cs.cmu.edu/~213/) 而编写的教材。
+关于计算机系统结构，不得不提及一本书[「Computer Systems: A Programmer’s Perspective」](https://csapp.cs.cmu.edu/)——中文译本「深入理解计算机系统」，因为它太经典了，各种版本的“程序员必读书单”都要推荐它，它还是卡内基梅隆大学计算机系主任 Bryant 为镇系神课 [15-213/15-513](https://www.cs.cmu.edu/~213/) 而编写的教材。
 
 #### 推荐课程
 CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，项目难度巨大，自学需要坚定的决心和扎实的编程基础。为了避免在学习过程中信心受挫，我建议您考虑另一门同样经典且优秀，但难度稍微适中的课程：加州大学伯克利分校的CS61C。如果您希望对计算机系统有更全面的理解，我仍然强烈推荐您结合CMU 15-213/15-513课程，深入研读"深入理解计算机系统"这本大部头。
