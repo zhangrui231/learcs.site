@@ -9,7 +9,7 @@ description: MIT 18.01 fall 2006 | 课程大纲
 
 “Text”指的是课程教材在下表里称为**课本**：George F. Simmons 的《微积分与解析几何》（第二版）。纽约，NY: McGraw-Hill，1996年10月1日。ISBN: 9780070576421。
 
-“Notes”指的是课程阅读材料中的补充笔记在下表中称为**笔记**: 18.01/18.01A 补充笔记、练习和解答；由 D. Jerison 和 A. Mattuck 编写的《微积分1》。完整的阅读材料在[作业与考试](./assignments)中可以找到。
+“Notes”指的是课程[阅读材料(course reader)](./course-reader.md)中的补充笔记在下表中称为**笔记**: 18.01/18.01A 补充笔记、练习和解答；由 D. Jerison 和 A. Mattuck 编写的《微积分1》。
 
 “Lecture Notes”指的是课程对应的讲义在下表称为**讲义**
 
