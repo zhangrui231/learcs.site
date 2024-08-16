@@ -159,7 +159,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
   
 > 说到CS 61A，不得不提及一部与该课程同名的经典著作 [《Structure and Interpretation of Computer Programs》](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-4.html#%_toc_start)，中文译本 《计算机程序的构造和解释》也就是大名鼎鼎的SICP。很多大学的计算机专业本科程序设计「导论」课程都以SICP为教材，其中大> 家较为熟知的有
 > - [MIT6.001](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) 由SICP的作者之一 Hal Abelson 授课。以LISP的变体scheme为授课语言。
-> - UCB cs61a 
+> - UCB CS61A 
 >    [Brian Harvey 开设的 SICP 课程](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=title&tab=collection),该课程也是以scheme为授课语言。Spring 2011是该课 程的最后一版，后续的课程更新为以Python为授课语言。比起 MIT 的课程，它更加完善，更适用于初学者。
 > 
 > - [John DeNero 讲授的更新的 CS 61A 课程](https://inst.eecs.berkeley.edu/~cs61a/fa23/),升级后的课程继承了SICP但使用Python语言讲解。而且为课程重新编写了配套书籍 [Composing Programs] (https://www.composingprograms.com/)。
