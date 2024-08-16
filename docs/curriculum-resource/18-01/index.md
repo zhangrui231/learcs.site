@@ -41,7 +41,7 @@ import DocCardList from '@theme/DocCardList';
 
 Simmons, George F. 《解析几何与微积分》。第二版。纽约，NY: McGraw-Hill，1996 年 10 月 1 日。ISBN: 9780070576421。
 
-### 辅助阅读材料（Notes）
+### 阅读材料（Notes）
 
 18.01/18.01A [补充资料：笔记、习题与解答](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/readings/course-reader/); Jerison, D., 和 A. Mattuck. 《微积分 1》。
 
