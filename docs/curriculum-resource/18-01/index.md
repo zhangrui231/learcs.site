@@ -1,12 +1,13 @@
 ---
 title: MIT 18.01 | Fall 2006 
+description: MIT 18.01 | Fall 2006 | 单变量微积分 | single variable calculus
 
 ---
 
 import DocCardList from '@theme/DocCardList';
 
 
-# 单变量微积分 
+# MIT 18.01 Fall 2006 | 单变量微积分 
 
 ### 课程时间安排
 
