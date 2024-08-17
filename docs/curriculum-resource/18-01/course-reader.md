@@ -12,21 +12,21 @@ description: MIT 18.01 fall 2006 | 阅读材料 | 补充笔记
 
 | 部分 | 主题 |
 | --- | --- |
-| G | 函数作图（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/g_graphng_fnctns/)） |
-| C | 连续性与不连续性（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/c_cntnt_dscntnt/)） |
-| X | 指数与对数（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/xxpnentl_lgrthm/)） |
-| A | 近似（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/a_approximations/)） |
-| MVT | 平均值定理（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/mvt_mns_vluethrm/)） |
-| PI | 定积分的性质（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/pi_pr_dfntintgrl/)） |
-| FT | 微积分第二基本定理（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ft_scn_fnd_thorm/)） |
-| AV | 平均值（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/av_average_value/)） |
-| F | Heaviside 遮掩法（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/f_hscvr_up_methd/)） |
-| INT | 广义积分（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/int_imp_integrl/)） |
+| G | 函数作图（[PDF](/resource/18-01/g_graphng_fnctns.pdf)） |
+| C | 连续性与不连续性（[PDF](/resource/18-01/c_cntnt_dscntnt.pdf)） |
+| X | 指数与对数（[PDF](/resource/18-01/xxpnentl_lgrthm.pdf)） |
+| A | 近似（[PDF](/resource/18-01/a_approximations.pdf)） |
+| MVT | 平均值定理（[PDF](/resource/18-01/mvt_mns_vluethrm.pdf)） |
+| PI | 定积分的性质（[PDF](/resource/18-01/pi_pr_dfntintgrl.pdf)） |
+| FT | 微积分第二基本定理（[PDF](/resource/18-01/ft_scn_fnd_thorm.pdf)） |
+| AV | 平均值（[PDF](/resource/18-01/av_average_value.pdf)） |
+| F | Heaviside 遮掩法（[PDF](/resource/18-01/f_hscvr_up_methd.pdf)） |
+| INT | 广义积分（[PDF](/resource/18-01/int_imp_integrl.pdf)） |
 
 ### 练习、问题和解答
 
 | 部分 | 主题 |
 | --- | --- |
-| E | 练习部分1-7（带星号的练习未在S部分提供解答）（[PDF - 2.3 MB](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/e_exrcs_scsn_1_7/)） |
-| S | 练习解答（[PDF - 4.1 MB](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/s_solutns_exrcis/)） |
-| RP | 复习问题与解答RP1-RP5（[PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/rp_revw_prob_sol/)） |
+| E | 练习部分1-7（带星号的练习未在S部分提供解答）（[PDF - 2.3 MB](/resource/18-01/e_exrcs_scsn_1_7.pdf)） |
+| S | 练习解答（[PDF - 4.1 MB](/resource/18-01/s_solutns_exrcis.pdf)） |
+| RP | 复习问题与解答RP1-RP5（[PDF](/resource/18-01/rp_revw_prob_sol.pdf)） |
