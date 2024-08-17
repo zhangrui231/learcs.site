@@ -38,31 +38,31 @@ Notes G = [阅读材料](./course-reader.md) 的G章节
 
 ### 习题集
 
-习题集 1 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps1/))
+习题集 1 ([PDF](/resource/18-01/ps1.pdf))
 
-习题集 2 ([PDF 1](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps2a/)) ([PDF 2](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps2b/))
+习题集 2 ([PDF 1](/resource/18-01/ps2a.pdf)) ([PDF 2](/resource/18-01/ps2b.pdf))
 
-习题集 3 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps3/))
+习题集 3 ([PDF](/resource/18-01/ps3.pdf))
 
-习题集 4 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps4/))
+习题集 4 ([PDF](/resource/18-01/ps4.pdf))
 
-习题集 5 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps5/))
+习题集 5 ([PDF](/resource/18-01/ps5.pdf))
 
-习题集 6 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps6/))
+习题集 6 ([PDF](/resource/18-01/ps6.pdf))
 
-习题集 7 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps7/))
+习题集 7 ([PDF](/resource/18-01/ps7.pdf))
 
-习题集 8 ([PDF 1](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps8a/)) ([PDF 2](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/ps8b/))
+习题集 8 ([PDF 1](/resource/18-01/ps8a.pdf)) ([PDF 2](/resource/18-01/ps8b.pdf))
 
 考试在表格中所示的课程时段进行。
 
 | 课时编号 | 考试编号 | 考试信息 | 练习考试 | 正式考试 |
 | --- | --- | --- | --- | --- |
-| 8 | 1 | 涵盖第1-7课时<br/>复习资料 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/unit1_review/))<br/> | 练习题1 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam1a/))<br/>解答 ([PDF 1](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam1asolv1/)) ([PDF 2](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam1asolv2/))<br/>练习考试1 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam1b/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam1bsol/))<br/> | 正式考试 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam1/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam1sol/)) |
-| 17 | 2 | 涵盖第8-16课时<br/>复习资料 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/unit2_review/))<br/> | 练习题2 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam2a/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam2asol/))<br/>练习考试2 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam2b/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam2bsol/))<br/> | 正式考试 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam2/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam2sol/)) |
-| 26 | 3 | 涵盖第18-24课时<br/>复习资料 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam3review/))<br/> | 练习题3 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam3a/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam3asol/))<br/>练习考试3 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam3b/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam3bsol/))<br/> | 正式考试 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam3/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam3sol/)) |
-| 33 | 4 | 涵盖第26-32课时<br/>复习资料 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam4review/))<br/> | 提供在第4次考试中的公式表 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exm4formulasheet/))<br/>练习题4 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam4a/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam4asol/))<br/>练习考试4 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam4b/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prexam4bsol/))<br/> | 正式考试 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam4/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/exam4sol/)) |
-|   | 期末 | 涵盖整个学期的内容，包括第4次考试后的所有材料 | 学期末信息 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/endoftermf06/))<br/>期末练习考试 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prfinal/))<br/>解答 ([PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/prfinalsol/)) |
+| 8 | 1 | 涵盖第1-7课时<br/>复习资料 ([PDF](/resource/18-01/unit1_review/))<br/> | 练习题1 ([PDF](/resource/18-01/prexam1a/))<br/>解答 ([PDF 1](/resource/18-01/prexam1asolv1/)) ([PDF 2](/resource/18-01/prexam1asolv2/))<br/>练习考试1 ([PDF](/resource/18-01/prexam1b/))<br/>解答 ([PDF](/resource/18-01/prexam1bsol/))<br/> | 正式考试 ([PDF](/resource/18-01/exam1/))<br/>解答 ([PDF](/resource/18-01/exam1sol/)) |
+| 17 | 2 | 涵盖第8-16课时<br/>复习资料 ([PDF](/resource/18-01/unit2_review/))<br/> | 练习题2 ([PDF](/resource/18-01/prexam2a/))<br/>解答 ([PDF](/resource/18-01/prexam2asol/))<br/>练习考试2 ([PDF](/resource/18-01/prexam2b/))<br/>解答 ([PDF](/resource/18-01/prexam2bsol/))<br/> | 正式考试 ([PDF](/resource/18-01/exam2/))<br/>解答 ([PDF](/resource/18-01/exam2sol/)) |
+| 26 | 3 | 涵盖第18-24课时<br/>复习资料 ([PDF](/resource/18-01/exam3review/))<br/> | 练习题3 ([PDF](/resource/18-01/prexam3a/))<br/>解答 ([PDF](/resource/18-01/prexam3asol/))<br/>练习考试3 ([PDF](/resource/18-01/prexam3b/))<br/>解答 ([PDF](/resource/18-01/prexam3bsol/))<br/> | 正式考试 ([PDF](/resource/18-01/exam3/))<br/>解答 ([PDF](/resource/18-01/exam3sol/)) |
+| 33 | 4 | 涵盖第26-32课时<br/>复习资料 ([PDF](/resource/18-01/exam4review/))<br/> | 提供在第4次考试中的公式表 ([PDF](/resource/18-01/exm4formulasheet/))<br/>练习题4 ([PDF](/resource/18-01/prexam4a/))<br/>解答 ([PDF](/resource/18-01/prexam4asol/))<br/>练习考试4 ([PDF](/resource/18-01/prexam4b/))<br/>解答 ([PDF](/resource/18-01/prexam4bsol/))<br/> | 正式考试 ([PDF](/resource/18-01/exam4/))<br/>解答 ([PDF](/resource/18-01/exam4sol/)) |
+|   | 期末 | 涵盖整个学期的内容，包括第4次考试后的所有材料 | 学期末信息 ([PDF](/resource/18-01/endoftermf06/))<br/>期末练习考试 ([PDF](/resource/18-01/prfinal/))<br/>解答 ([PDF](/resource/18-01/prfinalsol/)) |
 
 
 
