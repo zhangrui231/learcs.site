@@ -9,6 +9,9 @@ import DocCardList from '@theme/DocCardList';
 
 # MIT 18.01 Fall 2006 | 单变量微积分 
 
+### 课程官网
+MIT 18.01 Fall 2006 | [课程官网](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
+
 ### 课程时间安排
 
 讲座：每周 3 次，每次 1 小时
@@ -44,7 +47,7 @@ Simmons, George F. 《解析几何与微积分》。第二版。纽约，NY: McG
 
 ### 阅读材料（Notes）
 
-18.01/18.01A [补充资料：笔记、习题与解答](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/readings/course-reader/); Jerison, D., 和 A. Mattuck. 《微积分 1》。
+18.01/18.01A [补充资料：笔记、习题与解答](./course-reader.md); Jerison, D., 和 A. Mattuck. 《微积分 1》。
 
 ### 作业
 
