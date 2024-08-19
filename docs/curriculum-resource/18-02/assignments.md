@@ -37,31 +37,31 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
 
 ### 作业
 
-问题集 1 ([PDF](/resource/18-0/ps1.pdf))
+问题集 1 ([PDF](/resource/18-02/ps1.pdf))
 
-问题集 2 ([PDF](/resource/18-0/ps2.pdf))
+问题集 2 ([PDF](/resource/18-02/ps2.pdf))
 
-问题集 3 ([PDF](/resource/18-0/ps3.pdf))
+问题集 3 ([PDF](/resource/18-02/ps3.pdf))
 
-问题集 4 ([PDF](/resource/18-0/ps4.pdf))
+问题集 4 ([PDF](/resource/18-02/ps4.pdf))
 
-问题集 5 ([PDF](/resource/18-0/ps5.pdf))
+问题集 5 ([PDF](/resource/18-02/ps5.pdf))
 
-问题集 6 ([PDF](/resource/18-0/ps6.pdf))
+问题集 6 ([PDF](/resource/18-02/ps6.pdf))
 
-问题集 7 ([PDF](/resource/18-0/ps7.pdf))
+问题集 7 ([PDF](/resource/18-02/ps7.pdf))
 
-问题集 8 ([PDF](/resource/18-0/ps8.pdf))
+问题集 8 ([PDF](/resource/18-02/ps8.pdf))
 
-问题集 9 ([PDF](/resource/18-0/ps9.pdf))
+问题集 9 ([PDF](/resource/18-02/ps9.pdf))
 
-问题集 10 ([PDF](/resource/18-0/ps10.pdf))
+问题集 10 ([PDF](/resource/18-02/ps10.pdf))
 
-问题集 11 ([PDF](/resource/18-0/ps11.pdf))
+问题集 11 ([PDF](/resource/18-02/ps11.pdf))
 
-问题集 12 ([PDF](/resource/18-0/ps12.pdf))
+问题集 12 ([PDF](/resource/18-02/ps12.pdf))
 
-MATLAB® 指南 ([PDF](/resource/18-0/matlab.pdf)) - 解释如何使用 MATLAB® 程序，学生必须在一些问题集中使用该程序。
+MATLAB® 指南 ([PDF](/resource/18-02/matlab.pdf)) - 解释如何使用 MATLAB® 程序，学生必须在一些问题集中使用该程序。
 
 
 ### 考试
@@ -70,11 +70,11 @@ MATLAB® 指南 ([PDF](/resource/18-0/matlab.pdf)) - 解释如何使用 MATLAB®
 
 | 模拟考试 | 解答 |
 | --- | --- |
-| 模拟考试 1A ([PDF](/resource/18-0/prac1a.pdf)) | ([PDF](/resource/18-0/prac1asol.pdf)) |
-| 模拟考试 1B ([PDF](/resource/18-0/prac1b.pdf)) | ([PDF](/resource/18-0/prac1bsol.pdf)) |
-| 模拟考试 2A ([PDF](/resource/18-0/prac2a.pdf)) | ([PDF](/resource/18-0/prac2asol.pdf)) |
-| 模拟考试 2B ([PDF](/resource/18-0/prac2b.pdf)) | ([PDF](/resource/18-0/prac2bsol.pdf)) |
-| 模拟考试 3A ([PDF](/resource/18-0/prac3a.pdf)) | ([PDF](/resource/18-0/prac3asol.pdf)) |
-| 模拟考试 3B ([PDF](/resource/18-0/prac3b.pdf)) | ([PDF](/resource/18-0/prac3bsol.pdf)) |
-| 模拟考试 4A ([PDF](/resource/18-0/prac4a.pdf)) | ([PDF](/resource/18-0/prac4asol.pdf)) |
-| 模拟考试 4B ([PDF](/resource/18-0/prac4b.pdf)) | ([PDF](/resource/18-0/prac4bsol.pdf)) |
+| 模拟考试 1A ([PDF](/resource/18-02/prac1a.pdf)) | ([PDF](/resource/18-02/prac1asol.pdf)) |
+| 模拟考试 1B ([PDF](/resource/18-02/prac1b.pdf)) | ([PDF](/resource/18-02/prac1bsol.pdf)) |
+| 模拟考试 2A ([PDF](/resource/18-02/prac2a.pdf)) | ([PDF](/resource/18-02/prac2asol.pdf)) |
+| 模拟考试 2B ([PDF](/resource/18-02/prac2b.pdf)) | ([PDF](/resource/18-02/prac2bsol.pdf)) |
+| 模拟考试 3A ([PDF](/resource/18-02/prac3a.pdf)) | ([PDF](/resource/18-02/prac3asol.pdf)) |
+| 模拟考试 3B ([PDF](/resource/18-02/prac3b.pdf)) | ([PDF](/resource/18-02/prac3bsol.pdf)) |
+| 模拟考试 4A ([PDF](/resource/18-02/prac4a.pdf)) | ([PDF](/resource/18-02/prac4asol.pdf)) |
+| 模拟考试 4B ([PDF](/resource/18-02/prac4b.pdf)) | ([PDF](/resource/18-02/prac4bsol.pdf)) |
