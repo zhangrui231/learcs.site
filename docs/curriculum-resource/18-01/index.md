@@ -47,11 +47,11 @@ MIT 18.01sc Fall 2010 | [课程官网](https://ocw.mit.edu/courses/18-01sc-singl
 
 ### 课本（Texbook）
 
-Simmons, George F. 《解析几何与微积分》。第二版。纽约，NY: McGraw-Hill，1996 年 10 月 1 日。ISBN: 9780070576421。
+Simmons, George F. Calculus with Analytic Geometry. 2nd ed. New York, NY: McGraw-Hill, October 1, 1996. ISBN: 9780070576421.
 
 ### 阅读材料（Notes）
 
-18.01/18.01A [补充资料：笔记、习题与解答](./course-reader.md); Jerison, D., 和 A. Mattuck. 《微积分 1》。
+18.01/18.01A [补充资料：笔记、习题与解答](./course-reader.md);  Jerison, D., and A. Mattuck. Calculus 1.
 
 ### 作业
 
