@@ -11,6 +11,9 @@ import DocCardList from '@theme/DocCardList';
 
 ### 课程官网
 MIT 18.01 Fall 2006 | [课程官网](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
+MIT 18.01sc Fall 2010 | [课程官网](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)  
+
+18.01sc 和 18.01 是同一个课程的不同组织形式。18.01 是传统的课堂授课形式，而 18.01sc 是 MIT OpenCourseWare 提供的自学课程，专为自学设计提供了更多的在线资源。
 
 ### 课程时间安排
 

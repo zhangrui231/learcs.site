@@ -72,7 +72,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>MIT 18.02</td>
         <td>《Multivariable Calculus》多变量微积分，继单变量函数的微分积分之后，这门课程涵盖了多元函数的微分、积分和矢量微积分。这些数学工具和方法在物理科学、工程学、经济学和计算机图形学中被广泛应用。</td>
         <td>无</td>
-        <td><a href="">中文语音</a> | <a href="https://www.bilibili.com/video/BV1PKaDe9ETw">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1PFWKerEtS">中文语音</a> | <a href="https://www.bilibili.com/video/BV1PKaDe9ETw">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
@@ -253,7 +253,7 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
 
 ##### 1. MIT 18.01 单变量微积分
 
-- **课程链接**：[Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/syllabus/)
+- **课程链接**：[Single Variable Calculus | MIT 18.01sc 2010](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/syllabus/) [Single Variable Calculus | MIT 18.01 2006](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
 - **课程介绍**：
   - 涵盖微积分基础概念：极限、连续性、导数、积分
   - 注重概念理解和实际应用
@@ -262,7 +262,7 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
 
 ##### 2. MIT 18.02 多变量微积分
 
-- **课程链接**：[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
+- **课程链接**：[Multivariable Calculus | MIT 18.02sc 2010](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/) [Multivariable Calculus | MIT 18.02 2007](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/)
 - **课程介绍**：
   - 扩展单变量微积分概念到多维空间
   - 内容包括：向量代数、偏导数、多重积分、向量场
