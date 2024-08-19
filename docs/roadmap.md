@@ -253,7 +253,10 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
 
 ##### 1. MIT 18.01 单变量微积分
 
-- **课程链接**：[Single Variable Calculus | MIT 18.01sc Fall 2010](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/syllabus/) [Single Variable Calculus | MIT 18.01 Fall 2006](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
+- **课程链接**：
+  - [Single Variable Calculus | MIT 18.01sc Fall 2010](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/syllabus/)
+  - [Single Variable Calculus | MIT 18.01 Fall 2006](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
+
 - **课程介绍**：
   - 涵盖微积分基础概念：极限、连续性、导数、积分
   - 注重概念理解和实际应用
@@ -262,7 +265,9 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
 
 ##### 2. MIT 18.02 多变量微积分
 
-- **课程链接**：[Multivariable Calculus | MIT 18.02sc FAll 2010](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/) [Multivariable Calculus | MIT 18.02 FALL 2007](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/)
+- **课程链接**：
+  - [Multivariable Calculus | MIT 18.02sc FAll 2010](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/) 
+  - [Multivariable Calculus | MIT 18.02 FALL 2007](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/)
 - **课程介绍**：
   - 扩展单变量微积分概念到多维空间
   - 内容包括：向量代数、偏导数、多重积分、向量场
