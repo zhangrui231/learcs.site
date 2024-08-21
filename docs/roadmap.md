@@ -71,14 +71,14 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
     <tr>
         <td>MIT 18.02</td>
         <td>《Multivariable Calculus》多变量微积分，继单变量函数的微分积分之后，这门课程涵盖了多元函数的微分、积分和矢量微积分。这些数学工具和方法在物理科学、工程学、经济学和计算机图形学中被广泛应用。</td>
-        <td>无</td>
+        <td>《Multivariable Calculus》第六版</td>
         <td><a href="https://www.bilibili.com/video/BV1PFWKerEtS">中文语音</a> | <a href="https://www.bilibili.com/video/BV1PKaDe9ETw">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
         <td>MIT 18.06</td>
         <td>这门课程涵盖了矩阵理论和线性代数，强调在其他学科中有用的主题。线性代数是数学的一个分支，研究线性方程组和矩阵的性质。线性代数的概念在物理学、经济学和社会科学、自然科学以及工程学中都非常有用。由于其广泛的应用范围，线性代数是大学数学中教学最广泛的学科之一（在高中也越来越受到重视）。</td>
-        <td>无</td>
+        <td>《线性代数导论》第四版 | 《线性代数导论》第五版</td>
         <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
@@ -239,11 +239,12 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
    - 理解线性代数有助于优化算法、处理高维数据和实现复杂的数学运算。
 
 3. 微积分：
-   - 作为高等数学的基础，理解函数、导数和积分是掌握其它许多数学概念的关键。
+   - 作为高等数学的入门课，理解函数、导数和积分是掌握其它许多数学概念的关键。
    - 在计算机图形学、物理模拟、优化算法（如梯度下降）等领域有重要应用。
    - 微积分思想有助于理解连续变化和优化问题。
 
 4. 概率论与统计：
+   - 同微积分一样，是高等数学的入门课程，也是一门非常好的工具学科。
    - 在机器学习、数据科学、网络安全等领域广泛应用。
    - 帮助理解和分析不确定性，对设计随机算法和评估系统性能很有帮助。
    - 统计学知识对于数据分析和决策制定至关重要。
@@ -276,7 +277,9 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
 
 ##### 3. MIT 18.06 线性代数
 
-- **课程链接**：[Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/final-1806-lecture-2023/)
+- **课程链接**：
+  - [Linear Algebra | 18.06sc Fall 2011](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)
+  - [Linear Algebra | MIT 18.06 spring 2010](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
 - **课程介绍**：
   - 深入浅出的线性代数课程
   - 涵盖：向量空间、矩阵运算、特征值和特征向量
