@@ -20,7 +20,7 @@ Strang教授关于该主题的最新课程是[_2020年线性代数展望_](https
 - Strang, Gilbert. _人人都能学的线性代数_。2020年。[Wellesley-Cambridge Press](http://www.wellesleycambridge.com/)。ISBN: 9781733146630。
 - Strang, Gilbert. _微分方程与线性代数_。2014年。[Wellesley-Cambridge Press](http://www.wellesleycambridge.com/)。ISBN: 9780980232790。
 - [微积分在线教材](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/)：该书首次出版于1991年，由 [Wellesley-Cambridge Press](http://www.wellesleycambridge.com/) 出版，更新后的第3版对教育者和自学者都是非常有用的资源。它包括完整的在线教材、讲师手册和学习指南。
-- [_线性代数的Zoom笔记_ (PDF)](/resource/18-06/mit18_06s10zoomnotes.pdf)：这些笔记是Strang教授在2020年和2021年大部分MIT课程因[COVID-19疫情](https://en.wikipedia.org/wiki/COVID-19_pandemic)而转为线上（使用Zoom）时创建的。他希望这些笔记能帮助计划教授线性代数课程的教师以及自学的学生。
+- [_线性代数的Zoom笔记_ (PDF)](/resource/18-06/MIT18_06s10zoomnotes.pdf)：这些笔记是Strang教授在2020年和2021年大部分MIT课程因[COVID-19疫情](https://en.wikipedia.org/wiki/COVID-19_pandemic)而转为线上（使用Zoom）时创建的。他希望这些笔记能帮助计划教授线性代数课程的教师以及自学的学生。
 - 每周OLSUME（本科数学教育在线研讨会）的嘉宾演讲，主题为[_线性代数与深度学习_ (MP4)](https://olsume.org/wp-content/uploads/2021/09/strang.mp4)
 - [“线性代数、教学与MIT OpenCourseWare” (YouTube)](https://www.youtube.com/watch?v=lEZPfmGCEk0&t=1s&ab_channel=LexFridman) 在 _Lex Fridman Podcast_
 
@@ -52,16 +52,16 @@ Strang教授关于该主题的最新课程是[_2020年线性代数展望_](https
 ### MATLAB® 信息
 
 - 最佳MATLAB®指南 ([PDF](/resource/18-06/01_matlab.pdf))
-- 简短MATLAB®教程 ([PDF](/resource/18-06/mit18_06s10_matlab.pdf)) 和 MathWorks提供的[MATLAB®酷炫演示](http://www.mathworks.com/products/demos/)
+- 简短MATLAB®教程 ([PDF](/resource/18-06/MIT18_06s10_matlab.pdf)) 和 MathWorks提供的[MATLAB®酷炫演示](http://www.mathworks.com/products/demos/)
 - [1997年的MATLAB®辅导演示](http://web.mit.edu/18.06/www/MATLAB/Recitation.html)
 - [MATLAB®教学代码](http://web.mit.edu/18.06/www/Course-Info/Tcodes.html)
 - MATLAB备忘单 ([PDF](/resource/18-06/matlab-cheatsheet.pdf))
 
 ### 论文
 
-- Pascal矩阵 ([PDF](/resource/18-06/mit18_06s10_pascal_work.pdf))
-- 3x3对称矩阵的基 ([PDF](/resource/18-06/mit18_06s10_symmbases/))
-- 9行MATLAB®代码实现Gram-Schmidt法 ([PDF](/resource/18-06/mit18_06s10_gramschmidtmat.pdf))
+- Pascal矩阵 ([PDF](/resource/18-06/MIT18_06s10_pascal_work.pdf))
+- 3x3对称矩阵的基 ([PDF](/resource/18-06/MIT18_06s10_symmbases/))
+- 9行MATLAB®代码实现Gram-Schmidt法 ([PDF](/resource/18-06/MIT18_06s10_gramschmidtmat.pdf))
 - 线性代数与音乐 ([PDF](/resource/18-06/linear-algebra-and-music.pdf))
 
 ### 关于线性代数教学的论文
