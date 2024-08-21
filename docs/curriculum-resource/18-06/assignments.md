@@ -191,8 +191,8 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         <td>(<a href="/resource/18-06/MIT18_06S10_exam3_s10_soln.pdf">PDF</a>)</td>
       </tr>
       <tr>
-        <td>期末考试 (<a href="/resource/18-06/MIT18_06S10_final_exam.pdf">PDF</a>)</td>
-        <td>(<a href="/resource/18-06/MIT18_06S10_final_answers.pdf">PDF</a>)</td>
+        <td>期末考试 (<a href="/resource/18-06/MIT18_06S10_Final_Exam.pdf">PDF</a>)</td>
+        <td>(<a href="/resource/18-06/MIT18_06S10_Final_Answers.pdf">PDF</a>)</td>
       </tr>
     </tbody>
   </table>
