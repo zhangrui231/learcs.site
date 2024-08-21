@@ -34,7 +34,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset1_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset1_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -49,7 +49,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset2_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset2_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset3_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset3_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset4_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset4_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset5_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset5_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -104,7 +104,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset6_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset6_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -120,7 +120,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset7_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset7_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset8_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset8_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset9_s10_soln.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset9_s10_soln.pdf">解答</a>)
       </td>
     </tr>
     <tr>
@@ -161,7 +161,7 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
         </ul>
       </td>
       <td>
-        (<a href="/resource/18-06/MIT18_06S10_pset10_s10_sol.pdf">解答</a>)
+        (<a target="_blank" href="/resource/18-06/MIT18_06S10_pset10_s10_sol.pdf">解答</a>)
       </td>
     </tr>
   </tbody>
@@ -179,20 +179,20 @@ description: MIT 18.02 fall 2007 | 作业 | 考试
     </thead>
     <tbody>
       <tr>
-        <td>第一次考试 (<a href="/resource/18-06/MIT18_06S10_exam1_s10.pdf">PDF</a>)</td>
-        <td>(<a href="/resource/18-06/MIT18_06S10_exam1_s10_sol.pdf">PDF</a>)</td>
+        <td>第一次考试 (<a target="_blank" href="/resource/18-06/MIT18_06S10_exam1_s10.pdf">PDF</a>)</td>
+        <td>(<a target="_blank" href="/resource/18-06/MIT18_06S10_exam1_s10_sol.pdf">PDF</a>)</td>
       </tr>
       <tr>
-        <td>第二次考试 (<a href="/resource/18-06/MIT18_06S10_exam2_s10.pdf">PDF</a>)</td>
-        <td>(<a href="/resource/18-06/MIT18_06S10_exam2_s10_soln.pdf">PDF</a>)</td>
+        <td>第二次考试 (<a target="_blank" href="/resource/18-06/MIT18_06S10_exam2_s10.pdf">PDF</a>)</td>
+        <td>(<a target="_blank" href="/resource/18-06/MIT18_06S10_exam2_s10_soln.pdf">PDF</a>)</td>
       </tr>
       <tr>
-        <td>第三次考试 (<a href="/resource/18-06/MIT18_06S10_exam3_s10.pdf">PDF</a>)</td>
-        <td>(<a href="/resource/18-06/MIT18_06S10_exam3_s10_soln.pdf">PDF</a>)</td>
+        <td>第三次考试 (<a target="_blank" href="/resource/18-06/MIT18_06S10_exam3_s10.pdf">PDF</a>)</td>
+        <td>(<a target="_blank" href="/resource/18-06/MIT18_06S10_exam3_s10_soln.pdf">PDF</a>)</td>
       </tr>
       <tr>
-        <td>期末考试 (<a href="/resource/18-06/MIT18_06S10_Final_Exam.pdf">PDF</a>)</td>
-        <td>(<a href="/resource/18-06/MIT18_06S10_Final_Answers.pdf">PDF</a>)</td>
+        <td>期末考试 (<a target="_blank" href="/resource/18-06/MIT18_06S10_Final_Exam.pdf">PDF</a>)</td>
+        <td>(<a target="_blank" href="/resource/18-06/MIT18_06S10_Final_Answers.pdf">PDF</a>)</td>
       </tr>
     </tbody>
   </table>
