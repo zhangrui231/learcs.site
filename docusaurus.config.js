@@ -33,10 +33,6 @@ const config = {
     locales: ['en'],
   },
 
-  themeConfig: {
-    metadata: [{ name: 'baidu-site-verification', content: 'codeva-hJyfN2UKgo' }],
-  },
-
   presets: [
     [
       'classic',
@@ -85,6 +81,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      metadata: [{ name: 'baidu-site-verification', content: 'codeva-hJyfN2UKgo' }],
       navbar: {
         title: 'TeachYourselfCS',
         logo: {
