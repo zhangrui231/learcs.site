@@ -56,6 +56,7 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          metadata: [{ name: 'baidu-site-verification', content: 'codeva-hJyfN2UKgo' }],
         },
       }),
     ],
