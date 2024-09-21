@@ -198,6 +198,10 @@ Let’s start with `segfault_ex`. You should have observed a segmentation fault 
 This C file is very small so you should be able to open the file and understand what is causing the segfault. Do so at this time, but do not change the file. Why does the segfault occur?
 
 Now let’s understand what to do if we have a very large file and need to find a segfault. Here is where Valgrind is our new friend. To run the program in Valgrind use the command:
+```
+$ valgrind ./segfault_ex
+
+```
 
 This should cause Valgrind to output where the illegal access occurred. Compare these results to what you determined by opening the file. How could Valgrind help you address a segfault in the future? Now try running Valgrind on `no_segfault_ex`. The program should not have crashed but there is still an issue with the file. Valgrind can help us find the (seemingly invisible) problem.
 
