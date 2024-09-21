@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const  rehypKatex = require('rehype-katex');
+const math = require('remark-math');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -40,6 +42,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [rehypKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -59,6 +63,13 @@ const config = {
         },
       }),
     ],
+  ],
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+      
+    },
   ],
 
   plugins: [
@@ -147,7 +158,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyleft © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
