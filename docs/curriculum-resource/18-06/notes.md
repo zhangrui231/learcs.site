@@ -49,4 +49,16 @@ description: MIT 18.06 学习笔记分享 | MIT 18.06 | 线性代数 学习方�
 
 #沉浸式线性代数 #线性代数学习 #互动教材 #数学学习
 
+## 图释 Gilbert Strang 的 “给每个人的线性代数”
+
+🌟 日本学者Kenji Hiranabe基于Gilbert Strang教授的《每个人的线性代数》制作的，整整368页巨著，浓缩成12页图解笔记。后被国内网友kf liu翻译成了中文 🌟
+
+📚 仅仅只有12页的内容，就把线性代数的重点全画完了，清晰明了：将 Gilbert Strang 在书籍 “Linear Algebra for Everyone” 中介绍的矩阵的重要概念进行可视化图释, 以促进从矩阵分解的角度对向量、矩阵计算和算法的理解. 它们包括矩阵分解 (Column-Row, CR)、高斯消去法 (Gaussian Elimination, LU)、格拉姆-施密特正交化 (Gram-Schmidt Orthogonalization, QR)、特征值和对角化 (Eigenvalues and Diagonalization, QΛQ')、和奇异值分解(Singular Value Decomposition, UΣV').
+
+💡 学渣的福音：看了这个文档，再也不用担心线性代数学不会了。
+
+👍 强烈推荐：教材看不进去先来看看这本12页全是图解的书吧。
+
+🔗 链接：[点击查看笔记](https://github.com/kf-liu/The-Art-of-Linear-Algebra-zh-CN/blob/main/README-zh-CN.md)
+
 
