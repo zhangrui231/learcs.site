@@ -24,11 +24,11 @@ CS 61A、CS 61B、CS 61C和CS 70，或同等课程。
 我们正在使用安德森和达林（A&D）编写的教材 《Operating Systems: Principles and Practice》。强烈推荐阅读此教材。此外，还将有一些非该教材的额外阅读材料，这些材料可在线免费获取，并将在课程网站的“阅读材料”栏目中提供链接供您查阅。
 
 **强烈推荐**
-- [Operating Systems: Principles and Practice (2nd Edition)]()
+- 《Operating Systems: Principles and Practice (2nd Edition)》
 值得推荐的
-- [Operating Systems: Three Easy Pieces]()
+- 《Operating Systems: Three Easy Pieces》
 补充的
-- [Linux Kernel Development (3rd Edition)]()
+- 《Linux Kernel Development (3rd Edition)》
 
 ## 作业
 本课程的作业和项目是获得系统构建实践经验的绝佳途径。授课老师们努力保持工作量可控，并专注于学习概念，而非繁琐的工作。
