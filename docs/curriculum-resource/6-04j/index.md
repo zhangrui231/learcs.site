@@ -1,6 +1,6 @@
 ---
-title: MIT 6.04J | Spring 2015
-description: MIT 6.04j | Spring 2015 | 计算机中的数学 | Mathematics for Computer Science
+title: MIT 6.042J | Spring 2015
+description: MIT 6.042j | Spring 2015 | 计算机中的数学 | Mathematics for Computer Science
 
 ---
 
@@ -10,9 +10,9 @@ import DocCardList from '@theme/DocCardList';
 # MIT 6.04J Spring 2015 | 计算机中的数学
 
 ### 课程官网
-[MIT 6.04J | Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
+[MIT 6.042J | Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
 
-[MIT 6.04J | Online Publications](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) 在线互动课程，注册账户登录后可以保存课程进度，提交前保存答案，以及其他更多功能！
+[MIT 6.042J | Online Publications](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) 在线互动课程，注册账户登录后可以保存课程进度，提交前保存答案，以及其他更多功能！
 
 
 ### 课程时间安排

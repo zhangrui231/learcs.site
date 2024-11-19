@@ -1,6 +1,6 @@
 ---
 title: cs61c
-
+description: UCB CS 61c | 计算机体系结构课程 | 计算机科学自学课程
 ---
 
 import DocCardList from '@theme/DocCardList';
