@@ -9,7 +9,7 @@ import DocCardList from '@theme/DocCardList';
 本课程旨在教授操作系统设计及在其他计算机系统中出现的操作系统概念。涵盖的主题包括操作系统概念、系统编程、网络与分布式系统以及存储系统，具体内容涉及多程序系统（进程、进程间通信与同步）、内存分配（分段、分页）、资源分配与调度、文件系统、基础网络（套接字、分层架构、API接口及可靠性）事务处理机制以及安全性与隐私保护等。
 
 ## 课程网站
-社区采用的是fall 2020 的课程，[课程网站](https://cs162.org)
+由于最新课程视频资源权限问题，采用资源最全的fall 2020 的课程，[课程网站](https://cs162.org)
 
 ## 先决条件
 CS 61A、CS 61B、CS 61C和CS 70，或同等课程。
@@ -25,9 +25,13 @@ CS 61A、CS 61B、CS 61C和CS 70，或同等课程。
 
 **强烈推荐**
 - 《Operating Systems: Principles and Practice (2nd Edition)》
+  
 值得推荐的
+
 - 《Operating Systems: Three Easy Pieces》
+  
 补充的
+
 - 《Linux Kernel Development (3rd Edition)》
 
 ## 作业
@@ -39,5 +43,6 @@ CS 61A、CS 61B、CS 61C和CS 70，或同等课程。
 
 ## 课程相关资源
 - [Pintos Docs](https://cs162.org/static/proj/pintos-docs/)
+- [ebook](https://github.com/thecuongthehieu/CS162-Operating-Systems-and-System-Programming/tree/master/Books)
 
 <DocCardList />
