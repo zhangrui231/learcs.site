@@ -64,7 +64,7 @@ Note that in order to pipeline the circuit, we need a register to hold the inter
 
 ## Exercise 3 - Mid Semester Survey
 
-As part of the semester, we ask that you provide feedback for how the course is going. While we keep answers anonymous, we require that all students fill out the survey to receive credit for this lab. You can find the survey at: [https://docs.google.com/forms/d/e/1FAIpQLSc9Bu1hf1SiLn06qhxLeI0vGuAQpZ4\_jFXtWblUlUcBwJCU2A/viewform](https://web.archive.org/web/20220121180645/https://docs.google.com/forms/d/e/1FAIpQLSc9Bu1hf1SiLn06qhxLeI0vGuAQpZ4_jFXtWblUlUcBwJCU2A/viewform). All you need to show is the “You’ve already responded” page to receive credit for this portion.
+As part of the semester, we ask that you provide feedback for how the course is going. While we keep answers anonymous, we require that all students fill out the survey to receive credit for this lab. You can find the survey at: [https://docs.google.com/forms/d/e/1FAIpQLSc9Bu1hf1SiLn06qhxLeI0vGuAQpZ4\_jFXtWblUlUcBwJCU2A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc9Bu1hf1SiLn06qhxLeI0vGuAQpZ4_jFXtWblUlUcBwJCU2A/viewform). All you need to show is the “You’ve already responded” page to receive credit for this portion.
 
 ## Checkoff
 

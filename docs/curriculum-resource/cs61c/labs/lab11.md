@@ -52,7 +52,7 @@ In lecture we’ve exposed you to cluster computing (in particular, the MapReduc
 
 In this lab, we will be introducing you to a cluster computing framework called Spark. Spark was developed right at Berkeley before being donated to the Apache Software Foundation in 2013. We will be writing Python code to run in Spark to give us some practice in writing Map and Reduce routines.
 
-[Spark](https://web.archive.org/web/20220121163039/https://spark.apache.org/) has its own website, so you are free to try to install it onto your local machines, although it may be easier to ssh into the lab computers to complete this lab.
+[Spark](https://spark.apache.org/) has its own website, so you are free to try to install it onto your local machines, although it may be easier to ssh into the lab computers to complete this lab.
 
 ### Avoid Global Variables
 
@@ -60,9 +60,9 @@ When using Spark, avoid using global variables! This defeats the purpose of havi
 
 ### Documentation, and Additional Resources
 
--   A quickstart programming guide for Spark (click the Python tab to see the Python code) is [available here](https://web.archive.org/web/20220121163039/https://spark.apache.org/docs/latest/rdd-programming-guide.html)!
+-   A quickstart programming guide for Spark (click the Python tab to see the Python code) is [available here](https://spark.apache.org/docs/latest/rdd-programming-guide.html)!
     
--   The version of Spark we will be using will be 1.1.0 and the link to the API documentation is [available here](https://web.archive.org/web/20220121163039/https://spark.apache.org/docs/latest/api/python/index.html) (Note that the docs likely say a different version, but the API should be compatible).
+-   The version of Spark we will be using will be 1.1.0 and the link to the API documentation is [available here](https://spark.apache.org/docs/latest/api/python/index.html) (Note that the docs likely say a different version, but the API should be compatible).
     
 
 ## Exercises
@@ -86,7 +86,7 @@ Although an exercise may not explicitly ask you to use it, we recommend testing 
 
 In this lab, we’ll be working heavily with textual data. We have some pre-generated datasets as indicated above, but it’s always more fun to use a dataset that you find interesting. This section of the lab will walk you through generating your own dataset using works from Project Gutenberg (a database of public-domain literary works).
 
-**Step 1:** Head over to [Project Gutenberg](https://web.archive.org/web/20220121163039/https://www.gutenberg.org/), pick a work of your choosing, and download the “Plain Text UTF–8” version into your lab directory.
+**Step 1:** Head over to [Project Gutenberg](https://www.gutenberg.org/), pick a work of your choosing, and download the “Plain Text UTF–8” version into your lab directory.
 
 **Step 2:** Open up the file you downloaded in your favorite text editor and insert `—END.OF.DOCUMENT—` by itself on a new line wherever you want Spark to split the input file into separate `(key, value)` pairs. The importer we’re using will assign an arbitrary key (like `doc_xyz`) and the value will be the contents of our input file between two `—END.OF.DOCUMENT—` markers. You’ll want to break the work into reasonably-sized chunks, but don’t spend too much time on this part (chapters/sections within a single work or individual works in a body of works are good splitting points).
 
@@ -129,7 +129,7 @@ Earlier, we used the `—END.OF.DOCUMENT—` token to split a text file into mul
 
 Open `perWordDocumentCount.py`. It currently contains code that will execute the same functionality as `wordCount.py`. Modify it to count the number of documents containing each word rather than the number of times each word occurs in the input and to sort that output in alphabetical order.
 
-To help you with understanding the code, we have added some comments, but you will also need to take a look at the list of Spark [transformations](https://web.archive.org/web/20220121163039/https://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations) for a more detailed explanation of the methods that can be used in Spark. There are methods that you can use to help sort an output or remove duplicate items. To help with distinguishing when a word appears in a document, you will want to make use of the document ID as well – this is mentioned in the comments of `flatMapFunc`. Just because we gave you an outline doesn’t mean you need to stick to it, feel free to add/remove transformations as you see fit. You’re also encouraged to rename functions to more useful titles.
+To help you with understanding the code, we have added some comments, but you will also need to take a look at the list of Spark [transformations](https://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations) for a more detailed explanation of the methods that can be used in Spark. There are methods that you can use to help sort an output or remove duplicate items. To help with distinguishing when a word appears in a document, you will want to make use of the document ID as well – this is mentioned in the comments of `flatMapFunc`. Just because we gave you an outline doesn’t mean you need to stick to it, feel free to add/remove transformations as you see fit. You’re also encouraged to rename functions to more useful titles.
 
 You can test `perWordDocumentCount.py` (with results in `spark-wc-out-perWordDocumentCount/part-00000`) with the following command:
 

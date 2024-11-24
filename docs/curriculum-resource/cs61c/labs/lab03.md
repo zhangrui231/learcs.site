@@ -47,11 +47,11 @@ and run the original command again.
 
 In this course, we have so far dealt mostly with C programs (with the `.c` file extension), used the `gcc` program to compile them to machine code, and then executed them directly on your computer or hive machine. Now, we’re shifting our focus to the RISC-V assembly language, which is a lower-level language much closer to machine code. We can’t execute RISC-V code directly because your computer and the hives are built to run machine code from other assembly languages - most likely x86 or ARM.
 
-In this lab, we will deal with several RISC-V assembly program files, each of which have a `.s` file extension. To run these, we will need to use **Venus**, a RISC-V simulator that you can find [here](https://web.archive.org/web/20230126061759/https://venus.cs61c.org/). There is also a `.jar` version of Venus that we have provided in the `tools` folder under your base lab repository.
+In this lab, we will deal with several RISC-V assembly program files, each of which have a `.s` file extension. To run these, we will need to use **Venus**, a RISC-V simulator that you can find [here](https://venus.cs61c.org/). There is also a `.jar` version of Venus that we have provided in the `tools` folder under your base lab repository.
 
 ### Assembly/Venus Basics
 
-To get started with Venus, please take a look at “The Editor Tab” and “The Simulator Tab” in the [Venus reference](https://web.archive.org/web/20230126061759/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference). We recommend that you read this whole page at some point, but these sections should be enough to get started.
+To get started with Venus, please take a look at “The Editor Tab” and “The Simulator Tab” in the [Venus reference](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference). We recommend that you read this whole page at some point, but these sections should be enough to get started.
 
 **For the following exercises, please make sure your completed code is saved on a file on your local machine. Otherwise, we will have no proof that you completed the lab exercises.**
 
@@ -170,13 +170,13 @@ Attempting to access uninitialized memory between the stack and heap. Attempting
 
 ```
 
-Find the source of each of the errors reported by the CC checker and fix it. Even though the output says `main.S`, the line number reported should still correspond to the correct line in `cc_test.s`: this is just an artifact of the way Venus works in order to support combining multiple assembly files together. You can find a list of CC error messages, as well as their meanings, in the [Venus reference](https://web.archive.org/web/20230126061759/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#calling-convention-checker).
+Find the source of each of the errors reported by the CC checker and fix it. Even though the output says `main.S`, the line number reported should still correspond to the correct line in `cc_test.s`: this is just an artifact of the way Venus works in order to support combining multiple assembly files together. You can find a list of CC error messages, as well as their meanings, in the [Venus reference](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#calling-convention-checker).
 
 Once you’ve fixed all the violations reported by the CC checker, the code might still fail: this is likely because there’s still some remaining calling convention errors that Venus doesn’t report. Since function calls in assembly language are ultimately just jumps, Venus can’t report these violations without more information, at risk of producing false positives.
 
 The fixes for all of these errors (both the ones reported by the CC checker and the ones it can’t find) should be added near the lines marked by the `FIXME` comments in the starter code.
 
-**Note:** Venus’s calling convention checker will not report all calling convention bugs; it is intended to be used primarily as a sanity check. Most importantly, it will only look for bugs in functions that are exported with the `.globl` directive - the meaning of `.globl` is explained in more detail in the [Venus reference](https://web.archive.org/web/20230126061759/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#working-with-multiple-files).
+**Note:** Venus’s calling convention checker will not report all calling convention bugs; it is intended to be used primarily as a sanity check. Most importantly, it will only look for bugs in functions that are exported with the `.globl` directive - the meaning of `.globl` is explained in more detail in the [Venus reference](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#working-with-multiple-files).
 
 ### Action Item
 
@@ -205,7 +205,7 @@ Found 0 warnings!
 
 This exercise uses the file `list_map.s`.
 
-In this exercise, you will complete an implementation of [`map`](https://web.archive.org/web/20230126061759/https://en.wikipedia.org/wiki/Map_(higher-order_function)) on linked-lists in RISC-V. Our function will be simplified to mutate the list in-place, rather than creating and returning a new list with the modified values.
+In this exercise, you will complete an implementation of [`map`](https://en.wikipedia.org/wiki/Map_(higher-order_function)) on linked-lists in RISC-V. Our function will be simplified to mutate the list in-place, rather than creating and returning a new list with the modified values.
 
 You will find it helpful to refer to the [RISC-V green card](/resource/cs61c/riscvcard.pdf) to complete this exercise. If you encounter any instructions or pseudo-instructions you are unfamiliar with, use this as a resource.
 
@@ -262,9 +262,9 @@ $ java -jar tools/venus.jar lab03/list_map.s
 
 In the future, we’ll be working with more complex RISC-V programs that require multiple files of assembly code. To prepare for this, we recommend looking over the following sections of the Venus reference:
 
--   [Writing Larger RISC-V Programs](https://web.archive.org/web/20230126061759/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#writing-larger-risc-v-programs)
--   [Using the Web Terminal](https://web.archive.org/web/20230126061759/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#the-venus-tab)
--   [Passing Command Line Arguments](https://web.archive.org/web/20230126061759/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#the-venus-tab)
+-   [Writing Larger RISC-V Programs](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#writing-larger-risc-v-programs)
+-   [Using the Web Terminal](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#the-venus-tab)
+-   [Passing Command Line Arguments](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#the-venus-tab)
 
 ## Checkoff
 

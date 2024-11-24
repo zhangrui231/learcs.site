@@ -18,7 +18,7 @@ At the end of this project you will have written all RISC-V assembly code necess
 
 ### Getting Started
 
-Please follow the directions here to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSe2JEIVWc1HMV-gadLvrL2jM42Zzf3\_S3BixjJluRWB2IToBA/viewform?usp=sf\_link](https://web.archive.org/web/20220121162944/https://docs.google.com/forms/d/e/1FAIpQLSe2JEIVWc1HMV-gadLvrL2jM42Zzf3_S3BixjJluRWB2IToBA/viewform?usp=sf_link).
+Please follow the directions here to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSe2JEIVWc1HMV-gadLvrL2jM42Zzf3\_S3BixjJluRWB2IToBA/viewform?usp=sf\_link](https://docs.google.com/forms/d/e/1FAIpQLSe2JEIVWc1HMV-gadLvrL2jM42Zzf3_S3BixjJluRWB2IToBA/viewform?usp=sf_link).
 
 Then, clone your repository locally and add the starter remote
 
@@ -38,20 +38,20 @@ $ git pull starter master
 
 ### Java and Python 3 Setup
 
-Your computer needs be able to run some Java and Python 3 scripts for this project. Most of your computers should be set up properly from 61A and 61B. If not, these [CS61A](https://web.archive.org/web/20220121162944/https://cs61a.org/lab/lab00/#install-python-3) and [CS61B](https://web.archive.org/web/20220121162944/http://www-inst.eecs.berkeley.edu/~cs61b/fa19/materials/lab/lab1b/lab1b.html) setup instructions should help. You are also welcome to work on the hives.
+Your computer needs be able to run some Java and Python 3 scripts for this project. Most of your computers should be set up properly from 61A and 61B. If not, these [CS61A](https://cs61a.org/lab/lab00/#install-python-3) and [CS61B](http://www-inst.eecs.berkeley.edu/~cs61b/fa19/materials/lab/lab1b/lab1b.html) setup instructions should help. You are also welcome to work on the hives.
 
 ## Part A: Mathematical Functions
 
 **Due Thursday, October 1st**
 
-In this part, you will implement some of the matrix operations used by neural networks These include a [dot product](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Dot_product), [matrix multiplication](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Matrix_multiplication), an element-wise [rectifier function (ReLU)](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Rectifier_(neural_networks)), and an [argmax function](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Arg_max) for vectors. But first we will start with a simple `abs` function which calculates the absolute value of a given integer.
+In this part, you will implement some of the matrix operations used by neural networks These include a [dot product](https://en.wikipedia.org/wiki/Dot_product), [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication), an element-wise [rectifier function (ReLU)](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)), and an [argmax function](https://en.wikipedia.org/wiki/Arg_max) for vectors. But first we will start with a simple `abs` function which calculates the absolute value of a given integer.
 
 ### General Advice and Grading
 
 -   Pay close attention to the function definition in the assembly template.
 -   Implement all argument checks required and call `exit2` to abort with the correct error code.
 -   Pay close attention to the [calling convention](/resource/cs61c/RISCV_Calling_Convention.pdf).
--   While the unit tests will run the [calling convention checker](https://web.archive.org/web/20220121162944/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#calling-convention-checker) there are many errors that the automated check might miss.
+-   While the unit tests will run the [calling convention checker](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference#calling-convention-checker) there are many errors that the automated check might miss.
 -   Try to write a unit test for every corner case in the specification that you can think of.
 -   While the unit tests display how much of your implementation is covered by your tests, 100% coverage of your implementation does **not** imply that all corner cases of the spec are covered.
 -   This semester you will be graded on the quality of your tests, for part A, your unit tests should cover 100% of your custom code.
@@ -66,7 +66,7 @@ In this part, you will implement some of the matrix operations used by neural ne
 
 The **Purpose** of this section is to get you acquainted with the recommended workflow using the unit testing framework and the Venus simulator to better prepare you to complete this project successfully. Follow along with the video linked below or continue reading the written spec.
 
-[Task 0: Getting Started with the Abs Function Video](https://web.archive.org/web/20220121162944/https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=Q4E8trPRJHk)
+[Task 0: Getting Started with the Abs Function Video](https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=Q4E8trPRJHk)
 
 #### Running Tests
 
@@ -90,7 +90,7 @@ python3 -m unittest unittests.TestAbs -v
 
 _Hint_: The command to run the unit tests has two options to keep in mind `unittests.<testName>` targets a specific suite of tests and `-v` triggers verbose output.
 
-_Note_: The unit tests are using the standard [Python unittest library](https://web.archive.org/web/20220121162944/https://docs.python.org/3/library/unittest.html).
+_Note_: The unit tests are using the standard [Python unittest library](https://docs.python.org/3/library/unittest.html).
 
 Notice that `test_one` fails while `test_zero` passes; now let’s debug this function using the Venus Web Interface!
 
@@ -194,13 +194,13 @@ Now all `Abs` Function tests should pass! Let this be a warning to write good te
 
 #### Matrix Format
 
-In this project, all two-dimensional matrices will be stored as one-dimensional arrays in [row-major order](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Row-_and_column-major_order). Row-major order stores all values in a row of a matrix consecutively and concatenates all row vectors into a single 1-D array starting from the top-most row. The alternative column-major order stores all values in a column of a matrix consecutively and concatenates all columns vectors into a single 1-D array starting from the left-most column. Our choice of row-major order follows the convention of most C/C++ programs.
+In this project, all two-dimensional matrices will be stored as one-dimensional arrays in [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order). Row-major order stores all values in a row of a matrix consecutively and concatenates all row vectors into a single 1-D array starting from the top-most row. The alternative column-major order stores all values in a column of a matrix consecutively and concatenates all columns vectors into a single 1-D array starting from the left-most column. Our choice of row-major order follows the convention of most C/C++ programs.
 
 ![](/img/cs61c/row_major.png)
 
 #### Array Strides
 
-The [stride of an array](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Stride_of_an_array) is the number of bytes between the beginning of consecutive array elements. So far all arrays we have worked with had unit stride, meaning that there is not gap between consecutive elements and the stride is `sizeof(element)`.
+The [stride of an array](https://en.wikipedia.org/wiki/Stride_of_an_array) is the number of bytes between the beginning of consecutive array elements. So far all arrays we have worked with had unit stride, meaning that there is not gap between consecutive elements and the stride is `sizeof(element)`.
 
 In this project, all strides will be given in _multiples of the element size_ instead of bytes. Thus the unit stride is just `1`.
 
@@ -215,7 +215,7 @@ To summarize: In C code, to access the `i`th element of a vector `int *a` with s
 
 ### Task 1: ReLU
 
-**Implement** the `relu` function in `src/relu.s` which takes in a 1D vector and applies the [rectifier function](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) on each element, modifying it in place. This is equivalent to setting every negative value in the vector to 0. Be careful to follow the specification in the header comment in the `relu.s` file.
+**Implement** the `relu` function in `src/relu.s` which takes in a 1D vector and applies the [rectifier function](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) on each element, modifying it in place. This is equivalent to setting every negative value in the vector to 0. Be careful to follow the specification in the header comment in the `relu.s` file.
 
 _Note_: Our `relu` function operates on a 1-D vector, not a 2-D matrix. Since `relu` works on an element by element basis, independent of the position of that element in the matrix, we are able to treat our 2-D matrix which is stored in row-major format as a 1-D vector.
 
@@ -230,7 +230,7 @@ _Hint_: to achieve 100% test coverage you will need to add your own tests to cov
 
 ### Task 2: ArgMax
 
-The [argmax](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Arg_max) function returns the index of the largest element in a vector. It will be used at the end of our neural network to select the most likely classification.
+The [argmax](https://en.wikipedia.org/wiki/Arg_max) function returns the index of the largest element in a vector. It will be used at the end of our neural network to select the most likely classification.
 
 **Implement** the `argmax` function in `src/argmax.s` which takes in a 1D vector and returns the index of the largest element. Be careful to follow the specification in the header comment in the `argmax.s` file.
 
@@ -243,7 +243,7 @@ python3 -m unittest unittests.TestArgmax -v
 
 ### Task 3.1: Dot Product
 
-The [dot product](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Dot_product) of two vectors and is defined as , where is the th element of .
+The [dot product](https://en.wikipedia.org/wiki/Dot_product) of two vectors and is defined as , where is the th element of .
 
 **Implement** the `dot` function in `src/dot.s` which takes in two vectors and returns their dot product. Be careful to follow the specification in the header comment in the `dot.s` file.
 
@@ -288,7 +288,7 @@ _Hint_: as before, you will need to add multiple test to achieve 100% coverage.
 
 ### Task 3.2: Matrix Multiplication
 
-The [matrix multiplication](https://web.archive.org/web/20220121162944/https://en.wikipedia.org/wiki/Matrix_multiplication) of two matrices and results in the output matrix , where is equal to the dot product of the -th row of and the -ith column of .
+The [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication) of two matrices and results in the output matrix , where is equal to the dot product of the -th row of and the -ith column of .
 
 _Note_: If the dimensions of are , and the dimensions of are , then the dimensions of must be .
 
@@ -355,7 +355,7 @@ You are probably wondering how the weights of the network were determined? This 
 
 ### Handwritten Digit Classification
 
-In this project we will implement a similar, but slightly more complex network which is able to classify handwritten digits. As inputs, we will use the [MNIST](https://web.archive.org/web/20220121162944/http://yann.lecun.com/exdb/mnist/) data set, which is a dataset of 60,000 28x28 images containing handwritten digits ranging from 0-9. We will treat these images as “flattened” input vectors of size 784 (`= 28 * 28`). In a similar way to the example before, we will perform matrix multiplications with pre-trained weight matrices `m_0` and `m_1`. Instead of thresholding we will use two different non-linearities: The `ReLU` and `ArgMax` functions. Details will be provided in descriptions of the individual tasks.
+In this project we will implement a similar, but slightly more complex network which is able to classify handwritten digits. As inputs, we will use the [MNIST](http://yann.lecun.com/exdb/mnist/) data set, which is a dataset of 60,000 28x28 images containing handwritten digits ranging from 0-9. We will treat these images as “flattened” input vectors of size 784 (`= 28 * 28`). In a similar way to the example before, we will perform matrix multiplications with pre-trained weight matrices `m_0` and `m_1`. Instead of thresholding we will use two different non-linearities: The `ReLU` and `ArgMax` functions. Details will be provided in descriptions of the individual tasks.
 
 ![](/img/cs61c/MNIST.png)
 
@@ -596,7 +596,7 @@ python tools/convert.py --to-ascii output.bin output.txt
 
 ```
 
-For verifying that the output file itself is correct, you can run the inputs through a matrix multiplication calculator like [this one](https://web.archive.org/web/20220121162944/https://m.matrix.reshish.com/multCalculation.php), which allows you to click “insert” and copy/paste directly from your plaintext matrix file. Make sure you manually set values to zero for the ReLU step.
+For verifying that the output file itself is correct, you can run the inputs through a matrix multiplication calculator like [this one](https://m.matrix.reshish.com/multCalculation.php), which allows you to click “insert” and copy/paste directly from your plaintext matrix file. Make sure you manually set values to zero for the ReLU step.
 
 _Note_: the provided files cover a variety of dimensions. For example the `simple2` inputs have more than one column in them, meaning that your “scores” matrix will also have more than one column. Your code should still work as expected in this case, writing the matrix of “scores” to a file, and printing a single integer that is the row-major index of the largest element of that matrix.
 

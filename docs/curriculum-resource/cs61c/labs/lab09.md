@@ -27,7 +27,7 @@ Many newer processors support SSE intrinsics, so it is certainly possible that y
 
 Given the large number of available SIMD intrinsics we want you to learn how to find the ones that you’ll need in your application.
 
-For this mini-exercise, we ask you to look at the [Intel Intrinsics Guide](https://web.archive.org/web/20230923035841/https://software.intel.com/sites/landingpage/IntrinsicsGuide/). Open this page and once there, click the checkboxes for everything that begins with “SSE”.
+For this mini-exercise, we ask you to look at the [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/). Open this page and once there, click the checkboxes for everything that begins with “SSE”.
 
 Look through the possible instructions and syntax structures, then try to find the 128-bit intrinsics for the following operations:
 
@@ -37,7 +37,7 @@ Look through the possible instructions and syntax structures, then try to find t
 
 Hint: Things that say “epi” or “pi” deal with integers, and those that say “**ps**” or “**pd**” deal with **s** ingle **p** recision and **d** ouble **p** recision floats.
 
-You can visualize how the vectors and the different functions work together by inputting your code into the code environment at this [link](https://web.archive.org/web/20230923035841/https://piotte13.github.io/SIMD-Visualiser/#/)! Another interesting tool that might help you understand the behavior of SIMD instructions is the [Compiler Explorer](https://web.archive.org/web/20230923035841/https://godbolt.org/z/J7HXBk) project. It can also provide a lot of insights when you need to optimize any code in the future.
+You can visualize how the vectors and the different functions work together by inputting your code into the code environment at this [link](https://piotte13.github.io/SIMD-Visualiser/#/)! Another interesting tool that might help you understand the behavior of SIMD instructions is the [Compiler Explorer](https://godbolt.org/z/J7HXBk) project. It can also provide a lot of insights when you need to optimize any code in the future.
 
 General advice on working with SIMD instructions:
 

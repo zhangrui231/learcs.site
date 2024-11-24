@@ -42,7 +42,7 @@ int main() {
 
 ```
 
-This program will fork off the default number of threads and each thread will print out “hello world” in addition to which thread number it is. You can change the number of OpenMP threads by setting the environment variable `OMP_NUM_THREADS` or by using the [`omp_set_num_threads`](https://web.archive.org/web/20220121173736/https://gcc.gnu.org/onlinedocs/libgomp/omp_005fset_005fnum_005fthreads.html) function in your program. The `#pragma` tells the compiler that the rest of the line is a directive, and in this case it is omp parallel. `omp` declares that it is for OpenMP and `parallel` says the following code block (what is contained in { }) can be executed in parallel. Give it a try: \` make hello && ./hello \`
+This program will fork off the default number of threads and each thread will print out “hello world” in addition to which thread number it is. You can change the number of OpenMP threads by setting the environment variable `OMP_NUM_THREADS` or by using the [`omp_set_num_threads`](https://gcc.gnu.org/onlinedocs/libgomp/omp_005fset_005fnum_005fthreads.html) function in your program. The `#pragma` tells the compiler that the rest of the line is a directive, and in this case it is omp parallel. `omp` declares that it is for OpenMP and `parallel` says the following code block (what is contained in { }) can be executed in parallel. Give it a try: \` make hello && ./hello \`
 
 If you run `./hello` a couple of times, you should see that the numbers are not always in numerical order and will most likely vary across runs. This is because within the parallel region, OpenMP does the code in parallel and as a result does not enforce an ordering across all the threads. It is also vital to note that the variable `thread_ID` is local to a specific thread and not shared across all threads. In general with OpenMP, variables declared inside the parallel block will be private to each thread, but variables declared outside will be global and accessible by all the threads.
 
@@ -81,7 +81,7 @@ Hints:
 
 -   Use the two functions we listed above somehow in the for loop to choose which elements each thread handles.
 -   You may need a special case to prevent going out of bounds for `v_add_optimized_chunks`. Don’t be afraid to write one.
--   Thinking about false sharing–read more [here](https://web.archive.org/web/20220121173736/https://software.intel.com/en-us/articles/avoiding-and-identifying-false-sharing-among-threads) and [here](https://web.archive.org/web/20220121173736/https://en.wikipedia.org/wiki/False_sharing).
+-   Thinking about false sharing–read more [here](https://software.intel.com/en-us/articles/avoiding-and-identifying-false-sharing-among-threads) and [here](https://en.wikipedia.org/wiki/False_sharing).
 
 For this exercise, we are asking you to manually split the work amongst threads since this is a common pattern used in software optimization. The designers of OpenMP actually made the `#pragma omp for` directive to automatically split up independent work. Here is the function rewritten using it. **You may NOT use this directive in your solution to this exercise**.
 
@@ -118,13 +118,13 @@ The key differences between multi-threading and multiprocessing is that in multi
 
 ![](/img/cs61c/process.png) ![](/img/cs61c/threads.png)
 
-(credit to [Julia Evans](https://web.archive.org/web/20220121173736/https://drawings.jvns.ca/))
+(credit to [Julia Evans](https://drawings.jvns.ca/))
 
 ### Background - Http Web Server and Multi-processing
 
 In the second part of this lab, we will have a very basic but fun practice on writing multi-processing programs.
 
-The `fork` syscall is used to create a new process by duplicating the calling process. If everything works fine, calling `fork` should return the process ID of the child process being created to the calling process, and 0 to the newly created process (which is usually refered to as the child process). A negative value is returned if the creation of a child process failed. [Read more](https://web.archive.org/web/20220121173736/http://man7.org/linux/man-pages/man2/fork.2.html).
+The `fork` syscall is used to create a new process by duplicating the calling process. If everything works fine, calling `fork` should return the process ID of the child process being created to the calling process, and 0 to the newly created process (which is usually refered to as the child process). A negative value is returned if the creation of a child process failed. [Read more](http://man7.org/linux/man-pages/man2/fork.2.html).
 
 For example, the following code:
 
@@ -170,7 +170,7 @@ If the requested filename refers to a directory, the server first looks for the 
 This server also offers two twists:
 
 -   If the request is `localhost:8000/report`, it will run the `dotp` program and serve the result in text. The `ARRAY_SIZE` parameter has a default value set in `omp_apps.h`, but you can change it from the command line: `./server_basic --dotp-size 10000000`.
--   It implements the routing feature. If the request is `/filter/[filename].bmp`, it will run a very simple image processing program (specifially, the [sobel edge detector](https://web.archive.org/web/20220121173736/https://homepages.inf.ed.ac.uk/rbf/HIPR2/sobel.htm) on the requested image, and return a html web page that display the original image and the filtered image together. A few sample bmp images are provided under files directory. For example, navigating to `localhost:8000/girl.bmp` should get the original picture, but if you navigate to `localhost:8000/filter/girl.bmp`, your browser should render the following:
+-   It implements the routing feature. If the request is `/filter/[filename].bmp`, it will run a very simple image processing program (specifially, the [sobel edge detector](https://homepages.inf.ed.ac.uk/rbf/HIPR2/sobel.htm) on the requested image, and return a html web page that display the original image and the filtered image together. A few sample bmp images are provided under files directory. For example, navigating to `localhost:8000/girl.bmp` should get the original picture, but if you navigate to `localhost:8000/filter/girl.bmp`, your browser should render the following:
 
 ![sample](/img/cs61c/sample_output.jpg)
 
@@ -195,7 +195,7 @@ Can we improve the server with some parallelism?
 
 Instead of serving a request with the main process running the server program, always fork a new child process to do that and let the parent process continue to greet new requests. The `fork` mechanics demonstrated in the sample code above should be adequate to help you finish the implementation.
 
-The created child process has its own set of system resources (address space, registers, a stack, open handles to system objects, security context, etc). You need to explicitly clean up and recycle upon finishing the computation task. Take a look at [the `exit` syscall](https://web.archive.org/web/20220121173736/https://linux.die.net/man/3/exit).
+The created child process has its own set of system resources (address space, registers, a stack, open handles to system objects, security context, etc). You need to explicitly clean up and recycle upon finishing the computation task. Take a look at [the `exit` syscall](https://linux.die.net/man/3/exit).
 
 To test your optimization, run `make server_process && ./server_process`, then make two consecutive requests to any file, verify that the second request is immediately served. We provide a simple timer script, `timer.sh`, to automate this process.
 

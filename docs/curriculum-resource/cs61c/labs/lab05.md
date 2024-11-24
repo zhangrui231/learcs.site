@@ -31,7 +31,7 @@ java -jar logisim-evolution.jar
 
 ## Introduction Video
 
-For this lab, we created an optional [intro video](https://web.archive.org/web/20220121163317/https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=yCyKAXPWGE4)! This video covers the introduction to logisim features described in exercises 0 to 3, so you can skip some of the introductory text in those sections if you watch it. You still have to do the action items in exercises 1 to 5 though!
+For this lab, we created an optional [intro video](https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=yCyKAXPWGE4)! This video covers the introduction to logisim features described in exercises 0 to 3, so you can skip some of the introductory text in those sections if you watch it. You still have to do the action items in exercises 1 to 5 though!
 
 ## Introduction
 
@@ -261,7 +261,7 @@ Complete the following steps to create the splitter circuit, and show this to yo
     
 4.  Route `In1` to the splitter. Attach a 2-input `AND` gate to fan arms `0` and `2` and route the output of the `AND` gate to `Out1`.
     
-5.  Now, interpret the input as a “sign and magnitude” number. Place logic gates and other circuits to prepare `Out2` to be the negative “sign and magnitude” value of the input. [Sign and magnitude](https://web.archive.org/web/20220121163317/https://en.wikipedia.org/wiki/Signed_number_representations#Signed_magnitude_representation) is an alternate way of representing signed values - like 2’s Complement, but simpler! The combinational logic should be straight-forward.
+5.  Now, interpret the input as a “sign and magnitude” number. Place logic gates and other circuits to prepare `Out2` to be the negative “sign and magnitude” value of the input. [Sign and magnitude](https://en.wikipedia.org/wiki/Signed_number_representations#Signed_magnitude_representation) is an alternate way of representing signed values - like 2’s Complement, but simpler! The combinational logic should be straight-forward.
     
 6.  We will need another splitter to recombine the fans into a single 8-bit bus. Place another splitter with the proper properties (Bit Width In: 8, Fan Out: 3, correct fan widths). Play with the `Facing` and `Appearance` properties to make your final circuit as clean-looking as possible. At this point, `Out2` should be the negation of the input (interpreting the input as a “sign and magnitude” value).
     

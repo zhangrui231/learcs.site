@@ -10,13 +10,13 @@ _Project by Dan Garcia, Justin Yokota, Nikhil Pimpalkhare, and Ryan Thornton_
 
 ![](/img/cs61c/conway.gif)
 
-_RIP John Conway (from [xkcd](https://web.archive.org/web/20211016093739/https://xkcd.com/2293/))_
+_RIP John Conway (from [xkcd](https://xkcd.com/2293/))_
 
-John Horton Conway, one of the world’s greatest mathematicians, [passed away this year due to the coronavirus](https://web.archive.org/web/20211016093739/https://www.nytimes.com/2020/04/15/technology/john-horton-conway-dead-coronavirus.html). One of his many contributions was the famous [Game of Life](https://web.archive.org/web/20211016093739/http://en.wikipedia.org/wiki/Conway%27s_game_of_life), which you will explore and ultimately implement in this project. Before we begin with that, we first need to introduce a few concepts.
+John Horton Conway, one of the world’s greatest mathematicians, [passed away this year due to the coronavirus](https://www.nytimes.com/2020/04/15/technology/john-horton-conway-dead-coronavirus.html). One of his many contributions was the famous [Game of Life](http://en.wikipedia.org/wiki/Conway%27s_game_of_life), which you will explore and ultimately implement in this project. Before we begin with that, we first need to introduce a few concepts.
 
 ### Getting Started
 
-Please follow the directions here to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSc\_DG6SfY-g9cFDkss7YNj9WoG-CKLMfk3wBCaStm-C8HRmJw/viewform](https://web.archive.org/web/20211016093739/https://docs.google.com/forms/d/e/1FAIpQLSc_DG6SfY-g9cFDkss7YNj9WoG-CKLMfk3wBCaStm-C8HRmJw/viewform)
+Please follow the directions here to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSc\_DG6SfY-g9cFDkss7YNj9WoG-CKLMfk3wBCaStm-C8HRmJw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc_DG6SfY-g9cFDkss7YNj9WoG-CKLMfk3wBCaStm-C8HRmJw/viewform)
 
 Then, clone your repository locally and add the starter remote
 
@@ -36,7 +36,7 @@ $ git pull starter master
 
 ### PPM Format
 
-In this project, we’ll be working with [PPM ASCII files (type P3) with maximum value 255](https://web.archive.org/web/20211016093739/https://en.wikipedia.org/wiki/Netpbm#PPM_example), a simple format for storing images. To understand the PPM format, let’s take a look at an example:
+In this project, we’ll be working with [PPM ASCII files (type P3) with maximum value 255](https://en.wikipedia.org/wiki/Netpbm#PPM_example), a simple format for storing images. To understand the PPM format, let’s take a look at an example:
 
 ```
 P3
@@ -86,7 +86,7 @@ typedef struct Image
 
 Each pixel in a given PPM file should be stored as a `Color`, and each overall image should be stored as an `Image`. The attributes (R, G, B) for `Color` should respectively be the red, green, and blue values for the stored pixel. For `Image`, the rows and cols attributes should store the dimensions of the image. The image attribute should be a list of `Color*`, where each `Color*` stores the color of a single pixel. You are free to choose any implementation that fits this, but we recommend storing pixels in row-major order. In row-major order, we store pixels in “reading order”, from top to bottom, left to right. This is effectively the same order that pixels are written in a .ppm file, so this will greatly simplify your code.
 
-For file I/O, we recommend using [fopen](https://web.archive.org/web/20211016093739/https://www.tutorialspoint.com/c_standard_library/c_function_fopen.htm) and [fclose](https://web.archive.org/web/20211016093739/https://www.tutorialspoint.com/c_standard_library/c_function_fclose.htm) for file management and [fscanf](https://web.archive.org/web/20211016093739/https://www.tutorialspoint.com/c_standard_library/c_function_fscanf.htm) for actually reading data from the file. Here is an annotated example of using these three functions:
+For file I/O, we recommend using [fopen](https://www.tutorialspoint.com/c_standard_library/c_function_fopen.htm) and [fclose](https://www.tutorialspoint.com/c_standard_library/c_function_fclose.htm) for file management and [fscanf](https://www.tutorialspoint.com/c_standard_library/c_function_fscanf.htm) for actually reading data from the file. Here is an annotated example of using these three functions:
 
 ```
 // fopen opens a file pointer to the "diary.txt" file.
@@ -138,7 +138,7 @@ For an example of a properly formatted PPM file, look at `testInputs/JohnConway.
 
 ## Part A2
 
-Now that we’ve written our imageloader, let’s use it for something! [Steganography](https://web.archive.org/web/20211016093739/https://en.wikipedia.org/wiki/Steganography) is the process of hiding a message in an image or similar file. In this exercise, we will explore one way in which we can hide a message. While most images have 8 bits worth of data for each RGB channel, the human eye can’t easily see differences in the bottom 4 bits. We can thus hide information in the bottom bits of an image. We’ve hidden a secret message in the test input `testInputs/JohnConway.ppm` by modifying the least significant bit of every pixel’s B value. If a pixel in our secret message is supposed to be black, we made that bit a 0. If a pixel is supposed to be white, we made that bit a 1. Here is an example:
+Now that we’ve written our imageloader, let’s use it for something! [Steganography](https://en.wikipedia.org/wiki/Steganography) is the process of hiding a message in an image or similar file. In this exercise, we will explore one way in which we can hide a message. While most images have 8 bits worth of data for each RGB channel, the human eye can’t easily see differences in the bottom 4 bits. We can thus hide information in the bottom bits of an image. We’ve hidden a secret message in the test input `testInputs/JohnConway.ppm` by modifying the least significant bit of every pixel’s B value. If a pixel in our secret message is supposed to be black, we made that bit a 0. If a pixel is supposed to be white, we made that bit a 1. Here is an example:
 
 ```
 P3
@@ -170,7 +170,7 @@ In `steganography.c`, implement `evaluateOnePixel`, `steganography`, and `main` 
 
 ### Submitting Your Code
 
-Please submit using [Gradescope to Project 1A](https://web.archive.org/web/20211016093739/https://www.gradescope.com/courses/150586/assignments/605101), using the GitHub submission option to ensure that your files are in the right place.
+Please submit using [Gradescope to Project 1A](https://www.gradescope.com/courses/150586/assignments/605101), using the GitHub submission option to ensure that your files are in the right place.
 
 **REMEMBER**: the grading will be done almost entirely by automated scripts. We will be only using your `imageloader.c` and `steganography.c` files when grading! Your output must exactly match the specified format, making correctness the primary goal of this project. Upon submission, the autograder will give you the result of a basic sanity test but **will not** give you your complete grade. Rather, you are responsible for developing any tests you need to make sure that you meet the requirements of the project. We deliberately did not include a more comprehensive test. We want you to practice writing your own tests!
 
@@ -178,7 +178,7 @@ Please submit using [Gradescope to Project 1A](https://web.archive.org/web/20211
 
 ### The Game of Life
 
-The Game of Life is usually played on a bitmap (black and white) image over many timesteps, in which each pixel (or bit) is either 1 (alive) or 0 (dead). The [original rules for the Game of Life](https://web.archive.org/web/20211016093739/https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules) are reprinted below:
+The Game of Life is usually played on a bitmap (black and white) image over many timesteps, in which each pixel (or bit) is either 1 (alive) or 0 (dead). The [original rules for the Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules) are reprinted below:
 
 1.  Any live cell with two or three live neighbours (in the surrounding 8 cells) survives to the next generation.
 2.  Any dead cell with three live neighbours becomes a live cell in the next generation.
@@ -197,7 +197,7 @@ Let’s make a table to clarify how we’re going to encode this rule as a hexad
 
  |
 
-By specifying a hexadecimal number between `0x0` and `0x3FFFF`, you can have your simulation run _any_ Game of Life variant, not just the usual rule of `0x1808`. Here is a table of [interesting Life-like rules](https://web.archive.org/web/20211016093739/https://en.wikipedia.org/wiki/Life-like_cellular_automaton#A_selection_of_Life-like_rules), converted to our rule format:
+By specifying a hexadecimal number between `0x0` and `0x3FFFF`, you can have your simulation run _any_ Game of Life variant, not just the usual rule of `0x1808`. Here is a table of [interesting Life-like rules](https://en.wikipedia.org/wiki/Life-like_cellular_automaton#A_selection_of_Life-like_rules), converted to our rule format:
 
 | Hex rule | Name | Description |
 | --- | --- | --- |
@@ -348,7 +348,7 @@ $ convert -delay 20 -loop 0 -scale 400% studentOutputs/GliderGuns/*.ppm GliderGu
 
 ### Submitting Your Code
 
-Please submit using [Gradescope to Project 1B](https://web.archive.org/web/20211016093739/https://www.gradescope.com/courses/150586/assignments/608091), using the GitHub submission option to ensure that your files are in the right place.
+Please submit using [Gradescope to Project 1B](https://www.gradescope.com/courses/150586/assignments/608091), using the GitHub submission option to ensure that your files are in the right place.
 
 **REMEMBER**: the grading will be done almost entirely by automated scripts. We will be only using your `imageloader.c` and `gameoflife.c` file when grading! Your output must exactly match the specified format, making correctness the primary goal of this project. Upon submission, the autograder will give you the result of a basic sanity test but **will not** give you your complete grade. Rather, you are responsible for developing any tests you need to make sure that you meet the requirements of the project. We deliberately did not include a more comprehensive test. We want you to practice writing your own tests!
 
@@ -360,4 +360,4 @@ explodingconway.mp4: 7.1MB
 
 (WARNING: This video may potentially trigger seizures for people with photosensitive epilepsy. Viewer discretion is advised)
 
- Your browser does not support [this video](https://web.archive.org/web/20221224143330/https://inst.eecs.berkeley.edu/~cs61c/fa20/projects/proj1/explodingconway.mp4)
+ Your browser does not support [this video](https://inst.eecs.berkeley.edu/~cs61c/fa20/projects/proj1/explodingconway.mp4)

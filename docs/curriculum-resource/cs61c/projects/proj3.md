@@ -24,7 +24,7 @@ In Part A (Tasks 1-3), you’ll be wiring up the ALU and RegFile for a basic RIS
 -   You are only allowed to use Logisim’s built-in blocks from the following libraries for all parts of this project: Wiring (**except Transistor, Transmission Gate, POR, Pull Resistor, Power, Ground, POR, Do not connect**), Gates, Plexers, Arithmetic (**except Divider**), Memory (**except RAM, Random Generator**) Note that the use of **ROM** is allowed.
 -   Save frequently and commit frequently! Try to save your code in Logisim every 5 minutes or so, and commit every time you produce a new feature, even if it is small.
 -   Sanity tests for most project tasks are included with the project starter code. More information is available under the Testing section of each task.
--   See [this video](https://web.archive.org/web/20220121165045/https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I) for a custom tests and debugging walkthrough video
+-   See [this video](https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I) for a custom tests and debugging walkthrough video
 -   Do not move the input and output pins in your circuit, since this could knock the pins out of alignment (in other words, autograder tests will fail)! Check the harness circuits, as well as `cpu.circ`, to make sure your circuits fit in the testing harnesses.
 -   You may make new subcircuits, but they must be located in the files given in the starter code. You may not make new `.circ` files; the autograder will fail you if you do this!
 -   You must use unique names for each subcircuit across all `.circ` files. Failing to do this will result in reduced autograder points. You may not change the names of any circuits provided in the starter files.
@@ -41,7 +41,7 @@ In Part A (Tasks 1-3), you’ll be wiring up the ALU and RegFile for a basic RIS
 
 For this project, the computer you’re working on needs be able to run Java and Python 3, which you should have set up in Project 2. This project specification will use `python3` for sample commands; depending on your system, you may need to use `python` or `py` instead. We will be using Logisim Evolution, a Java-based GUI program, so we strongly recommend working on a laptop or desktop with Java installed and **a monitor directly attached**. Using window forwarding over a Hive SSH session is discouraged, and may lead to instability and general headaches.
 
-Please follow the directions in this Google Form to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSf6m3CjVF1IxwM6l1dTRjeAtTqwk\_5974pOFvhdwCr0ZYrqDQ/viewform?usp=sf\_link](https://web.archive.org/web/20220121165045/https://docs.google.com/forms/d/e/1FAIpQLSf6m3CjVF1IxwM6l1dTRjeAtTqwk_5974pOFvhdwCr0ZYrqDQ/viewform?usp=sf_link). After completing the form, clone your GitHub Classroom repository and add the starter code repository as a remote:
+Please follow the directions in this Google Form to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSf6m3CjVF1IxwM6l1dTRjeAtTqwk\_5974pOFvhdwCr0ZYrqDQ/viewform?usp=sf\_link](https://docs.google.com/forms/d/e/1FAIpQLSf6m3CjVF1IxwM6l1dTRjeAtTqwk_5974pOFvhdwCr0ZYrqDQ/viewform?usp=sf_link). After completing the form, clone your GitHub Classroom repository and add the starter code repository as a remote:
 
 ```
 $ git clone YOUR_REPO_URL
@@ -110,7 +110,7 @@ You can make any modifications to `alu.circ` you want, but the outputs **must** 
 
 ### ALU Testing
 
-We’ve provided a group of ALU sanity tests in the `tests/part_a/alu` directory. Running the test runner for this group will run the ALU tests and produce output in the `tests/part_a/alu/student_output` directory. As a reminder you can find a debugging walkthrough at [this video](https://web.archive.org/web/20220121165045/https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I).
+We’ve provided a group of ALU sanity tests in the `tests/part_a/alu` directory. Running the test runner for this group will run the ALU tests and produce output in the `tests/part_a/alu/student_output` directory. As a reminder you can find a debugging walkthrough at [this video](https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I).
 
 ```
 $ python3 test_runner.py part_a alu
@@ -447,7 +447,7 @@ $ python3 binary_to_hex_cpu.py reference_output/CPU-addi-pipelined-ref.out
 
 ```
 
-As a reminder you can find a debugging walkthrough at [this video](https://web.archive.org/web/20220121165045/https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I).
+As a reminder you can find a debugging walkthrough at [this video](https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I).
 
 ---
 
@@ -827,7 +827,7 @@ Below are the **2 CSR instructions** that you will need to implement. Note that 
 
 The Control Status Register unit skeleton (`csr.circ`) is provided with the starter code. In this unit, you will need to implement the `tohost` CSR register along with the write logic. **Please do not change the given connections as it will interfere with the testbench results!**
 
-If you want to learn more about CSR, you can refer to Chapter 9 of the [RISC-V specification](https://web.archive.org/web/20220121165045/https://github.com/riscv/riscv-isa-manual/releases/tag/draft-20201002-db3eeaf).
+If you want to learn more about CSR, you can refer to Chapter 9 of the [RISC-V specification](https://github.com/riscv/riscv-isa-manual/releases/tag/draft-20201002-db3eeaf).
 
 Here’s a quick summary of its inputs and outputs:
 
@@ -889,7 +889,7 @@ The autograder tests fall into 3 main categories: **unit tests**, **integration 
 
 ### Creating Custom Tests
 
-We’ve included a script (`create-test.py`) that uses Venus to help you generate test circuits from RISC-V assembly! As a reminder you can find a debugging walkthrough at [this video](https://web.archive.org/web/20220121165045/https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I). The process for generating a custom test is as follows:
+We’ve included a script (`create-test.py`) that uses Venus to help you generate test circuits from RISC-V assembly! As a reminder you can find a debugging walkthrough at [this video](https://inst.eecs.berkeley.edu/~cs61c/fa20/lectures/videos?ytvid=qFIPWt9Pu7I). The process for generating a custom test is as follows:
 
 1.  Come up the RISC-V assembly instructions for the test, and save them in a file ending in `.s` in the `tests/part_b/custom/inputs` folder. The name of this file will be the name of your test. Note that your test **must** end in `.s`, and it **must** be located in the `tests/part_b/custom/inputs` folder. Repeat if you have more tests.
     -   e.g. `tests/part_b/custom/inputs/sll-slli.s`, `tests/part_b/custom/inputs/slt.s`

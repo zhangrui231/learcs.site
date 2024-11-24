@@ -11,7 +11,7 @@ title: Lab04
 
 ## RISC-V Simulator
 
-Like last week, we will be using the **Venus RISC-V simulator** (which can be found online [here](https://web.archive.org/web/20220121174546/https://venus.cs61c.org/)). Also, please refer to the [Venus Guide](https://web.archive.org/web/20220121174546/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference) on our course website when you need a refresher on any of the Venus features.
+Like last week, we will be using the **Venus RISC-V simulator** (which can be found online [here](https://venus.cs61c.org/)). Also, please refer to the [Venus Guide](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference) on our course website when you need a refresher on any of the Venus features.
 
 ## Exercise 1: Debugging `megalistmanips.s`
 
@@ -41,7 +41,7 @@ void map(struct node *head, int (*f)(int)) {
 
 ```
 
-For the purpose of this lab, don’t worry too much about the weird syntax for C function pointers (you are welcome to learn more about them [here](https://web.archive.org/web/20220121174546/https://www.geeksforgeeks.org/function-pointer-in-c/)). Basically, you can pass arguments into function pointers just like you do with normal functions.
+For the purpose of this lab, don’t worry too much about the weird syntax for C function pointers (you are welcome to learn more about them [here](https://www.geeksforgeeks.org/function-pointer-in-c/)). Basically, you can pass arguments into function pointers just like you do with normal functions.
 
 ### Action Item
 
@@ -63,7 +63,7 @@ Record your answers to the following questions in a text file. Some of the quest
     
     The CC checker should report 0 warnings.
     
-    Again, the [Venus Guide](https://web.archive.org/web/20220121174546/https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference) is a great resource if you feel unsure about any of the Venus features.
+    Again, the [Venus Guide](https://inst.eecs.berkeley.edu/~cs61c/sp21/resources/venus-reference) is a great resource if you feel unsure about any of the Venus features.
     
     _Note_: The CC checker won’t check if you are using registers besides `s0` and `s1`, but you need to implement this requirement in order to pass the autograder.
     

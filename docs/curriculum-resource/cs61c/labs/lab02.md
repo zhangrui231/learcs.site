@@ -80,7 +80,7 @@ This will print out the result of a few limited tests.
 
 ## Exercise 2: Linear Feedback Shift Register
 
-In this exercise, you will implement a `lfsr_calculate()` function to compute the next iteration of a linear feedback shift register (LFSR). Applications that use LFSRs are: Digital TV, CDMA cellphones, Ethernet, USB 3.0, and more! This function will generate pseudo-random numbers using bitwise operators. For some more background, read the [Wikipedia article on Linear feedback shift registers](https://web.archive.org/web/20220121172538/https://en.wikipedia.org/wiki/Linear-feedback_shift_register). In `lfsr.c`, fill in the function `lfsr_calculate()` so that it does the following:
+In this exercise, you will implement a `lfsr_calculate()` function to compute the next iteration of a linear feedback shift register (LFSR). Applications that use LFSRs are: Digital TV, CDMA cellphones, Ethernet, USB 3.0, and more! This function will generate pseudo-random numbers using bitwise operators. For some more background, read the [Wikipedia article on Linear feedback shift registers](https://en.wikipedia.org/wiki/Linear-feedback_shift_register). In `lfsr.c`, fill in the function `lfsr_calculate()` so that it does the following:
 
 ### Hardware Diagram
 
@@ -150,7 +150,7 @@ $ make vector-memcheck
 
 ```
 
-All the `vector-memcheck` [rule](https://web.archive.org/web/20220121172538/https://www.gnu.org/software/make/manual/make.html#Rule-Introduction) does is run the following valgrind command on our executable. For a review, read through Exercise 4 in [Lab 1](https://web.archive.org/web/20220121172538/https://inst.eecs.berkeley.edu/~cs61c/fa20/labs/lab01/). Explain to yourself what each of the flags mean.
+All the `vector-memcheck` [rule](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction) does is run the following valgrind command on our executable. For a review, read through Exercise 4 in [Lab 1](https://inst.eecs.berkeley.edu/~cs61c/fa20/labs/lab01/). Explain to yourself what each of the flags mean.
 
 ```
 $ valgrind --tool=memcheck --leak-check=full --track-origins=yes [OS SPECIFIC ARGS] ./<executable>

@@ -29,7 +29,7 @@ At this point, read through `cache.s` to get a rough idea of what the program do
 
 For each of the scenarios below, you’ll be repeating these steps:
 
-1.  Paste the contents of cache.s into [Venus](https://web.archive.org/web/20220121164754/https://venus.cs61c.org/)
+1.  Paste the contents of cache.s into [Venus](https://venus.cs61c.org/)
 2.  In the code for `cache.s`, set the appropriate Program Parameters as indicated at the beginning of each scenario (by changing the immediates of the commented `li` instructions in `main`)
 3.  Simulator–>Cache.
 4.  Set the appropriate Cache Parameters as indicated at the beginning of each scenario.

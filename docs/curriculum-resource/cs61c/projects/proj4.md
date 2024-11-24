@@ -15,9 +15,9 @@ Do not expect your final completed `numc` module to be as good as numpy, but you
 
 ## Tips and Guidelines
 
-**[Here](https://web.archive.org/web/20230923041108/https://piazza.com/class/kd0ifacummd56a?cid=3778) is a list of all the important clarifications!!** For each new clarification we make, it will be reflected both in that post and the spec.
+**[Here](https://piazza.com/class/kd0ifacummd56a?cid=3778) is a list of all the important clarifications!!** For each new clarification we make, it will be reflected both in that post and the spec.
 
--   **Please start early!** Because there are many more 61C students than Hive machines, you will likely share resources with your classmates. This might affect the measurement of your code’s speedup. We encourage you to use [Hivemind](https://web.archive.org/web/20230923041108/https://hivemind.eecs.berkeley.edu/) to help balance the load amongst the hive machines.
+-   **Please start early!** Because there are many more 61C students than Hive machines, you will likely share resources with your classmates. This might affect the measurement of your code’s speedup. We encourage you to use [Hivemind](https://hivemind.eecs.berkeley.edu/) to help balance the load amongst the hive machines.
     -   You will have 6 tokens every 24 hours for the Gradescope assignment.
     -   You can complete task 1 through 3 before the performance lectures (lec 33-35) and task 4 after. So again, please start early!
 -   You will get negative points up to the number of points it is worth if you fail to complete task 5, so you should do it as much as you can even if you do not complete the entire project!
@@ -33,7 +33,7 @@ Do not expect your final completed `numc` module to be as good as numpy, but you
 
 Ssh into one of the hive machines **under your cs61c class account**.
 
-Please follow the directions in this Google Form to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSc59h0HsJLPfhqbJ8hil01lrfIvK0xTPxTihB1C3KfpmkGc2Q/viewform](https://web.archive.org/web/20230923041108/https://docs.google.com/forms/d/e/1FAIpQLSc59h0HsJLPfhqbJ8hil01lrfIvK0xTPxTihB1C3KfpmkGc2Q/viewform). After completing the form, clone your GitHub Classroom repository and add the starter code repository as a remote:
+Please follow the directions in this Google Form to get a repository: [https://docs.google.com/forms/d/e/1FAIpQLSc59h0HsJLPfhqbJ8hil01lrfIvK0xTPxTihB1C3KfpmkGc2Q/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc59h0HsJLPfhqbJ8hil01lrfIvK0xTPxTihB1C3KfpmkGc2Q/viewform). After completing the form, clone your GitHub Classroom repository and add the starter code repository as a remote:
 
 ```
 $ git clone YOUR_REPO_NAME
@@ -155,7 +155,7 @@ You will likely get a lot of warnings about functions being defined but not used
 
 Remember that **you must be in the virtual environment that you set up in order to install the modules**, otherwise you will get a “Read-only file system” error.
 
-**READ FIRST**: take a look at the function `distutils.core.setup` ([https://docs.python.org/3.6/distutils/apiref.html](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/distutils/apiref.html)), and here is an [example usage](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/extending/building.html). If the documentation seems too difficult to understand, it is a good idea to take a look at the example first. You only need two function calls to complete this section, if you’re doing more than that, please reread the docs included as you’re likely doing something wrong
+**READ FIRST**: take a look at the function `distutils.core.setup` ([https://docs.python.org/3.6/distutils/apiref.html](https://docs.python.org/3.6/distutils/apiref.html)), and here is an [example usage](https://docs.python.org/3.6/extending/building.html). If the documentation seems too difficult to understand, it is a good idea to take a look at the example first. You only need two function calls to complete this section, if you’re doing more than that, please reread the docs included as you’re likely doing something wrong
 
 ## Task 3: Writing the Python-C interface
 
@@ -221,7 +221,7 @@ Because 1D matrices’ shapes are tricky, **we are NOT testing matrix operations
 
 ### Info: Python/C API Reference
 
-Here is the link to the full reference manual: [https://docs.python.org/3.6/c-api/index.html](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/index.html). If you ever find anything confusing in the skeleton code or are at a lost on how to implement **`numc.c`**, this is a great resource.
+Here is the link to the full reference manual: [https://docs.python.org/3.6/c-api/index.html](https://docs.python.org/3.6/c-api/index.html). If you ever find anything confusing in the skeleton code or are at a lost on how to implement **`numc.c`**, this is a great resource.
 
 ---
 
@@ -251,19 +251,19 @@ static PyTypeObject Matrix61cType = {
 
 ```
 
-For example, `.tp_dealloc` tells Python which function to call to destroy a `numc.Matrix` object when its reference count becomes 0, and `.tp_members` tells Python what instance attributes `numc.Matrix` objects have. You can take a look at the [official documentation](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/typeobj.html) if you are curious.
+For example, `.tp_dealloc` tells Python which function to call to destroy a `numc.Matrix` object when its reference count becomes 0, and `.tp_members` tells Python what instance attributes `numc.Matrix` objects have. You can take a look at the [official documentation](https://docs.python.org/3.6/c-api/typeobj.html) if you are curious.
 
 ### Useful functions:
 
-Here is a list of some functions and Python objects from `<Python.h>` that you may find useful. You can also choose any other functions at this [link](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/index.html).
+Here is a list of some functions and Python objects from `<Python.h>` that you may find useful. You can also choose any other functions at this [link](https://docs.python.org/3.6/c-api/index.html).
 
--   [PyObject\_TypeCheck](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/object.html)
--   [PyErr\_SetString](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/exceptions.html)
--   [Py\_BuildValue](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/arg.html)
--   [PyTupleObject](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/tuple.html)
--   [PyLongObject](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/long.html)
--   [PyFloatObject](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/float.html)
--   [PyListObject](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/list.html)
+-   [PyObject\_TypeCheck](https://docs.python.org/3.6/c-api/object.html)
+-   [PyErr\_SetString](https://docs.python.org/3.6/c-api/exceptions.html)
+-   [Py\_BuildValue](https://docs.python.org/3.6/c-api/arg.html)
+-   [PyTupleObject](https://docs.python.org/3.6/c-api/tuple.html)
+-   [PyLongObject](https://docs.python.org/3.6/c-api/long.html)
+-   [PyFloatObject](https://docs.python.org/3.6/c-api/float.html)
+-   [PyListObject](https://docs.python.org/3.6/c-api/list.html)
 
 ---
 
@@ -324,7 +324,7 @@ All these functions will be called through a Python-C interface after you comple
 
 After you implement all the functions above, you will need to fill out the struct `Matrix61c_as_number`, which is used to define the object type `numc.Matrix`.
 
-Here is the link to the official documentation of a `PyNumberMethods` struct: [https://docs.python.org/3/c-api/typeobj.html#c.PyNumberMethods](https://web.archive.org/web/20230923041108/https://docs.python.org/3/c-api/typeobj.html#c.PyNumberMethods)
+Here is the link to the official documentation of a `PyNumberMethods` struct: [https://docs.python.org/3/c-api/typeobj.html#c.PyNumberMethods](https://docs.python.org/3/c-api/typeobj.html#c.PyNumberMethods)
 
 ### Instance Methods
 
@@ -350,7 +350,7 @@ Here is a table that tells you which functions in **`numc.c`** in which you will
 
 After you implement all the functions above, you will need to fill out the array of `PyMethodDef` structs `Matrix61c_methods`, which is used to define the object type `numc.Matrix`.
 
-This link tells you what goes into a `PyMethodDef` struct: [https://docs.python.org/3/c-api/structures.html](https://web.archive.org/web/20230923041108/https://docs.python.org/3/c-api/structures.html)
+This link tells you what goes into a `PyMethodDef` struct: [https://docs.python.org/3/c-api/structures.html](https://docs.python.org/3/c-api/structures.html)
 
 ### Indexing
 
@@ -466,7 +466,7 @@ After finishing this part, you should be able to index into a matrix and change 
             -   Resulting slice is 1D, but `v` has the wrong length, or if any element of `v` is not a float or int.
             -   Resulting slice is 2D, but `v` has the wrong length, or if any element of `v` has the wrong length, or if any element of an element of `v` is not a float or int.
 
-We suggest that you use `PySlice_GetIndicesEx` to extract the slices’ information. Here is the [link](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/slice.html) to the documentation of this function. Moreover, you should note that slices share data with their original matrix. This means that by changing values of the slices, the values of the original matrices should also change. Here are some examples.
+We suggest that you use `PySlice_GetIndicesEx` to extract the slices’ information. Here is the [link](https://docs.python.org/3.6/c-api/slice.html) to the documentation of this function. Moreover, you should note that slices share data with their original matrix. This means that by changing values of the slices, the values of the original matrices should also change. Here are some examples.
 
 ```
 >>> import numc as nc
@@ -566,7 +566,7 @@ Once you have improved performance using these optimizations, you can start appl
 
 From lectures, you learned how to apply SIMD instructions to improve performance. The processors in the hive machines support the Intel AVX extensions, which allow you to do SIMD operations on 256 bit values (not just 128 bit, as we have seen in the lab). You should use these extensions to perform four operations in parallel (since all floating point numbers are doubles, which are 64 bit in size). If you are unfamiliar with SIMD instructions, lab 9 can be a good warmup.
 
-As a reminder, you can use the [Intel Intrinsics Guide](https://web.archive.org/web/20230923041108/https://software.intel.com/sites/landingpage/IntrinsicsGuide/) as a reference to look up the relevant instructions. You will have to use the `__m256d` type to hold 4 doubles in a YMM register, and then use the `_mm256_*` intrinsics to operate on them.
+As a reminder, you can use the [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/) as a reference to look up the relevant instructions. You will have to use the `__m256d` type to hold 4 doubles in a YMM register, and then use the `_mm256_*` intrinsics to operate on them.
 
 Here is a list of AVX instructions that you may find helpful, although you are also allowed to use other AVX instructions not on the list.
 
@@ -599,7 +599,7 @@ Write up what you did in your README.md! While we do not have a specific format 
 
 **We will not be grading your tests but we will NOT help you debug unless you have written a test which shows how your code is failing. This means just using the autograder to figure out your issues will not be acceptable for office hours.**
 
-We use **`unittest`** as the framework for testing and have provided a `unittests` folder that contains this framework for testing your python module. You should be familiar with `unittest` by now as you have had experience with it in project 2. **Here is the official documentation for the standard [Python unittest library](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/library/unittest.html).** `unittests/unittests.py` contains all the skeleton code for both correctness and performance tests, and `unittests/utils.py` has all the functions that you might need in order to write tests. We have provided some sample tests for you, but it is up to you to design and code up the tests. We will not be grading your tests.
+We use **`unittest`** as the framework for testing and have provided a `unittests` folder that contains this framework for testing your python module. You should be familiar with `unittest` by now as you have had experience with it in project 2. **Here is the official documentation for the standard [Python unittest library](https://docs.python.org/3.6/library/unittest.html).** `unittests/unittests.py` contains all the skeleton code for both correctness and performance tests, and `unittests/utils.py` has all the functions that you might need in order to write tests. We have provided some sample tests for you, but it is up to you to design and code up the tests. We will not be grading your tests.
 
 As mentioned in [Tips and Guidelines](#tip) and [Getting Started](#getting-started), we have installed the naive solution which we will be comparing against on hive! The python package is called `dumbpy` and you can import it like any other python library (so long as you are on hive)! Please note we will not be distributing this binary which means you must work on hive if you want to test with it. You should use this and the **`time`** package to determine how much you sped up your code.
 
@@ -715,7 +715,7 @@ As mentioned in [Tips and Guidelines](#tip) and [Getting Started](#getting-start
     **A 1.4**: No.
 -   **Q 1.5**: Is it reasonable to run valgrind on `./test`? **A 1.5**: You can try, but would not recommend. Setting up valgrind for C-Python interface can be difficult.
 -   **Q 1.6**: When we throw an error, is it just a fprintf call to stderr?  
-    **A 1.6**: Nope, you should throw errors in a python context. i.e., when your python code calls this underlying C function, it should error. Take a look at the Python/C API’s reference manual for [exception handling](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/exceptions.html).
+    **A 1.6**: Nope, you should throw errors in a python context. i.e., when your python code calls this underlying C function, it should error. Take a look at the Python/C API’s reference manual for [exception handling](https://docs.python.org/3.6/c-api/exceptions.html).
 -   **Q 1.7**: Can we make a slice on slice? for example, `mat1 = [[1,2,3],[4,5,6]]`, `mat2 = mat1[0]`. Can we do `mat3 = mat2[0]`?  
     **A 1.7**: You can make a slice on a 2D slice, but a “slice” on a 1D slice is just a number and is pass by value. In this case, `mat3` will just be a number and changing its value will not change `mat2`.
 -   **Q 1.8**: Does our solution need to exactly match the reference?  
@@ -739,7 +739,7 @@ As mentioned in [Tips and Guidelines](#tip) and [Getting Started](#getting-start
 -   **Q 3.4**: Are we allowed to call methods we wrote in **`matrix.c`**?  
     **A 3.4**: Yes please do!
 -   **Q 3.5**: How do we know what gets passed into `PyObject* args`?  
-    **A 3.5**: Read the [official documentation](https://web.archive.org/web/20230923041108/https://docs.python.org/3.6/c-api/)! (You can also take a look at the starter code for examples.)
+    **A 3.5**: Read the [official documentation](https://docs.python.org/3.6/c-api/)! (You can also take a look at the starter code for examples.)
 
 ### Task 4
 

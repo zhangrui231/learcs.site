@@ -33,16 +33,16 @@ This semester is going to be one of our largest yet, clocking in at 1200 enrolle
 
 ### Action Items
 
--   Please fill out [the not-too-long introduction form](https://web.archive.org/web/20220121171255/https://docs.google.com/forms/d/e/1FAIpQLSdoAAGDkazsNF-c2rQmky13_WGUiYsjtog8FCv1FrNenLOLEg/viewform) ASAP (by EOD Friday, August 28). The content of your responses will not affect your grade.
+-   Please fill out [the not-too-long introduction form](https://docs.google.com/forms/d/e/1FAIpQLSdoAAGDkazsNF-c2rQmky13_WGUiYsjtog8FCv1FrNenLOLEg/viewform) ASAP (by EOD Friday, August 28). The content of your responses will not affect your grade.
     -   This is a Google Form. If you cannot access this form, please refer to the [Accessing Services section](#accessing-services) below.
 
 ## Exercise 1: Course Policies
 
-You can view the course policies on the [policies page of the course website](https://web.archive.org/web/20220121171255/https://inst.eecs.berkeley.edu/~cs61c/fa20/policies). You are responsible for understanding and adhering to all policies throughout the course of the semester. Please pay particular attention to the `Grading`, `Labs`, and `Academic Dishonesty and Cheating` sections.
+You can view the course policies on the [policies page of the course website](https://inst.eecs.berkeley.edu/~cs61c/fa20/policies). You are responsible for understanding and adhering to all policies throughout the course of the semester. Please pay particular attention to the `Grading`, `Labs`, and `Academic Dishonesty and Cheating` sections.
 
 ### Action Items
 
--   Once you’ve finished reviewing the policies, take the [Lab 0: Course Policies Quiz](https://web.archive.org/web/20220121171255/https://www.gradescope.com/courses/150586/assignments/605180/submissions/new) on Gradescope.
+-   Once you’ve finished reviewing the policies, take the [Lab 0: Course Policies Quiz](https://www.gradescope.com/courses/150586/assignments/605180/submissions/new) on Gradescope.
 
 ## Exercise 2: Setup
 
@@ -52,7 +52,7 @@ Unfortunately, assignments in this course do require some (sometimes boring) set
 
 CS 61C primarily uses a couple services for distributing assignments, receiving work, and grading. There’s a brief overview of the important ones in the sections below.
 
-If you’re unable to access any services or resources due to internet access restrictions, please download and use the Berkeley campus VPN at [https://lib.berkeley.edu/using-the-libraries/vpn](https://web.archive.org/web/20220121171255/https://lib.berkeley.edu/using-the-libraries/vpn). If the campus VPN is inaccessible or doesn’t work for you, contact us (Piazza preferrably, or email `cs61c [at] berkeley.edu`) and we can try to work something out.
+If you’re unable to access any services or resources due to internet access restrictions, please download and use the Berkeley campus VPN at [https://lib.berkeley.edu/using-the-libraries/vpn](https://lib.berkeley.edu/using-the-libraries/vpn). If the campus VPN is inaccessible or doesn’t work for you, contact us (Piazza preferrably, or email `cs61c [at] berkeley.edu`) and we can try to work something out.
 
 Unfortunately, some services and resources may be inaccessible or blocked in certain regions. As I’m writing this lab:
 
@@ -78,49 +78,49 @@ If you would like to use an existing account on a service, try to add your Berke
 
 ### Piazza
 
-[Piazza](https://web.archive.org/web/20220121171255/https://piazza.com/berkeley/fall2020/cs61c) is a discussion forum that we’ll be using as the main method of communication for this course. All announcements will be made here, and almost all questions or comments you may have should be posted here (unless we say otherwise).
+[Piazza](https://piazza.com/berkeley/fall2020/cs61c) is a discussion forum that we’ll be using as the main method of communication for this course. All announcements will be made here, and almost all questions or comments you may have should be posted here (unless we say otherwise).
 
 We’ve already emailed invites to the 61C Piazza course to most enrolled students. If you’ve recently enrolled, this may be delayed by several hours while the campus systems process your enrollment.
 
-Please read through the [Discussion Forum section of our policies](https://web.archive.org/web/20220121171255/https://inst.eecs.berkeley.edu/~cs61c/fa20/policies#discussion-forum). Please remember and follow the Piazza Etiquette!
+Please read through the [Discussion Forum section of our policies](https://inst.eecs.berkeley.edu/~cs61c/fa20/policies#discussion-forum). Please remember and follow the Piazza Etiquette!
 
 ### Instructional Accounts and Servers (the Hive!)
 
-The “Hive” is a group of servers maintained by the EECS department. Campus is not exactly open right now, but they live in Soda 330 if you ever want to give them a hug! You can intearct with these servers remotely through SSH and the command line (more on that later). We’ve already installed most of the software we’ll be using on the Hive machines, so you can work on most assignments on the Hive if you want! You can find a list of Hive machines at [Hivemind](https://web.archive.org/web/20220121171255/https://hivemind.eecs.berkeley.edu/) (the names starting with `hive`). Every Hive machine shares the same network mount, so files will be synced across all the machines.
+The “Hive” is a group of servers maintained by the EECS department. Campus is not exactly open right now, but they live in Soda 330 if you ever want to give them a hug! You can intearct with these servers remotely through SSH and the command line (more on that later). We’ve already installed most of the software we’ll be using on the Hive machines, so you can work on most assignments on the Hive if you want! You can find a list of Hive machines at [Hivemind](https://hivemind.eecs.berkeley.edu/) (the names starting with `hive`). Every Hive machine shares the same network mount, so files will be synced across all the machines.
 
-You will need to [sign up for an EECS instructional account](https://web.archive.org/web/20220121171255/https://acropolis.cs.berkeley.edu/~account/webacct/), which you’ll use to access the Hive. We’ll also be using your instructional account username as your primary ID for checkoff (though you can use your `@berkeley.edu` email address for some exceptions).
+You will need to [sign up for an EECS instructional account](https://acropolis.cs.berkeley.edu/~account/webacct/), which you’ll use to access the Hive. We’ll also be using your instructional account username as your primary ID for checkoff (though you can use your `@berkeley.edu` email address for some exceptions).
 
 Note: If you can’t create an account for whatever reason, don’t worry! Fill out the form in the [Non-standard Enrollment section](#non-standard-enrollment), and continue without an account for now.
 
 ### Gradescope
 
-[Gradescope](https://web.archive.org/web/20220121171255/https://www.gradescope.com/) is the platform we use for submitting and grading assignments. Programming assignments, homework, and quizzes will be submitted here.
+[Gradescope](https://www.gradescope.com/) is the platform we use for submitting and grading assignments. Programming assignments, homework, and quizzes will be submitted here.
 
-We’ve already invited most students to the 61C Gradescope course. To sign in, visit [Gradescope](https://web.archive.org/web/20220121171255/https://www.gradescope.com/), click `Log In`, then `School Credentials`, then `CalNet ID`.
+We’ve already invited most students to the 61C Gradescope course. To sign in, visit [Gradescope](https://www.gradescope.com/), click `Log In`, then `School Credentials`, then `CalNet ID`.
 
 **Warning**: Please ensure you set your `@berkeley.edu` email as your primary email. If not, we might not be able to find your Gradescope account, and you may receive an F in the class!
 
 ### GitHub
 
-[GitHub](https://web.archive.org/web/20220121171255/https://github.com/) is a hosted Git service we use for code distribution, along with GitHub Classroom tools.
+[GitHub](https://github.com/) is a hosted Git service we use for code distribution, along with GitHub Classroom tools.
 
 If you have an existing GitHub account, feel free to use that; repositories created in this course are private, and anything you do for this course shouldn’t affect the rest of your GitHub account.
 
-If you don’t have a GitHub account or want to make a new one, [GitHub](https://web.archive.org/web/20220121171255/https://github.com/).
+If you don’t have a GitHub account or want to make a new one, [GitHub](https://github.com/).
 
 ### YouTube
 
-Most lectures and other video resources will be uploaded to [YouTube](https://web.archive.org/web/20220121171255/https://youtu.be/dQw4w9WgXcQ). You will need to be signed into YouTube using your Berkeley Google account to view some videos. If you’re unable to view a video, make sure you’re using your Berkeley Google account.
+Most lectures and other video resources will be uploaded to [YouTube](https://youtu.be/dQw4w9WgXcQ). You will need to be signed into YouTube using your Berkeley Google account to view some videos. If you’re unable to view a video, make sure you’re using your Berkeley Google account.
 
 ### Zoom
 
-We will be holding meetings (OH, lab checkoff, project parties, lectures, discussions, etc.) over [Zoom](https://web.archive.org/web/20220121171255/https://berkeley.zoom.us/). When signing in, use the `Sign in with SSO` option, enter `berkeley.zoom.us`, and sign in with your CalNet ID.
+We will be holding meetings (OH, lab checkoff, project parties, lectures, discussions, etc.) over [Zoom](https://berkeley.zoom.us/). When signing in, use the `Sign in with SSO` option, enter `berkeley.zoom.us`, and sign in with your CalNet ID.
 
-Regularly scheduled meetings (e.g. OH, discussions) will be held in standing Zoom rooms. The links for these can be found in the [Zoom Links Piazza post](https://web.archive.org/web/20220121171255/https://piazza.com/class/kd0ifacummd56a?cid=45).
+Regularly scheduled meetings (e.g. OH, discussions) will be held in standing Zoom rooms. The links for these can be found in the [Zoom Links Piazza post](https://piazza.com/class/kd0ifacummd56a?cid=45).
 
 ### OH Queue
 
-Office Hours (OH), checkoffs, and project parties will be scheduled and managed through the [OH Queue](https://web.archive.org/web/20220121171255/https://oh.cs61c.org/). Please use your Berkeley Google account when logging in; non-Berkeley Google accounts will not be able to use the OH Queue properly.
+Office Hours (OH), checkoffs, and project parties will be scheduled and managed through the [OH Queue](https://oh.cs61c.org/). Please use your Berkeley Google account when logging in; non-Berkeley Google accounts will not be able to use the OH Queue properly.
 
 Please read the blue info box on the OH Queue page.
 
@@ -130,7 +130,7 @@ When your appointment/ticket is picked up by course staff, a large green `Join C
 
 If you’re enrolled in the course as a Berkeley student, you can ignore this blurb.
 
-If you’re a concurrent enrollment student, or in CS 47C, or otherwise not enrolled in CS 61C, please fill out [this form](https://web.archive.org/web/20220121171255/https://docs.google.com/forms/d/e/1FAIpQLScyFVeseZ-zHup1jl95z_3hbBY7HlaFYxu9DJM4R1t-zWROfg/viewform) so you can get access to our resources.
+If you’re a concurrent enrollment student, or in CS 47C, or otherwise not enrolled in CS 61C, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScyFVeseZ-zHup1jl95z_3hbBY7HlaFYxu9DJM4R1t-zWROfg/viewform) so you can get access to our resources.
 
 ### Action Items
 
@@ -139,7 +139,7 @@ If you’re a concurrent enrollment student, or in CS 47C, or otherwise not enro
 
 ## Exercise 3: Command Line Essentials
 
-If you took CS61A and CS61B, you likely have some experience with a command line interface (CLI) and terminal commands, but we’d like to list some less common commands here that may come in handy during the course. For a review of the basic UNIX commands, [look over the CS61B SP19 guide](https://web.archive.org/web/20220121171255/https://sp19.datastructur.es/materials/lab/lab1setup/lab1setup#b-learn-to-use-the-terminal). Be sure to read and understand section B of the guide as well as the commands below, since you’ll need them for Exercise 4.
+If you took CS61A and CS61B, you likely have some experience with a command line interface (CLI) and terminal commands, but we’d like to list some less common commands here that may come in handy during the course. For a review of the basic UNIX commands, [look over the CS61B SP19 guide](https://sp19.datastructur.es/materials/lab/lab1setup/lab1setup#b-learn-to-use-the-terminal). Be sure to read and understand section B of the guide as well as the commands below, since you’ll need them for Exercise 4.
 
 Example commands will be formatted like:
 
@@ -222,7 +222,7 @@ For this class, we’ll expect you to test most of your projects, homeworks, and
 
 Note: If you weren’t able to get an instructional account, you can come back here later!
 
-You can find a list of Hive machines at [Hivemind](https://web.archive.org/web/20220121171255/https://hivemind.eecs.berkeley.edu/). There are 30 of them, named `hive1`, `hive2`, …, `hive30`. If its name starts with `hive`, it is a Hive machine. If it doesn’t start with `hive` (sorry `ashby`), it’s not a Hive machine.
+You can find a list of Hive machines at [Hivemind](https://hivemind.eecs.berkeley.edu/). There are 30 of them, named `hive1`, `hive2`, …, `hive30`. If its name starts with `hive`, it is a Hive machine. If it doesn’t start with `hive` (sorry `ashby`), it’s not a Hive machine.
 
 Sometimes, a Hive machine may be down or overloaded. If you’re getting “`Connection refused`” or “`Connection timeout`” or other connection errors, check Hivemind and pick another machine to use.
 
@@ -233,7 +233,7 @@ $ ssh cs61c-???@hive#.cs.berkeley.edu
 
 ```
 
-Remember to replace `cs61c-???` with your instructional account username, and `hive#` with a Hive machine’s name. The default password is displayed by [WebAccount](https://web.archive.org/web/20220121171255/https://acropolis.cs.berkeley.edu/~account/webacct/) when creating the account, so you might have to reset your password if you forgot it.
+Remember to replace `cs61c-???` with your instructional account username, and `hive#` with a Hive machine’s name. The default password is displayed by [WebAccount](https://acropolis.cs.berkeley.edu/~account/webacct/) when creating the account, so you might have to reset your password if you forgot it.
 
 Troubleshooting:
 
@@ -332,7 +332,7 @@ Some useful Vim commands:
 
 Note: these commands are preceded by `<escape>` because you’ll need to press the escape key on your keyboard to switch you out of your current mode. For example, if I’m inserting (typing) into a file and want to save, I’d have to hit `<escape>` to get out of insert mode, then type `:w` to save my file. If you aren’t in a mode (i.e. you’ve just opened your file) you don’t need to hit escape first, but it won’t hurt :)
 
-For more on Vim, one of our summer 2020 tutors, Yijie, wrote a great [Vim for CS61C guide](https://web.archive.org/web/20220121171255/https://docs.google.com/document/d/1WQF6hQK8CXtlGynSAIX7Rts6q8lykarrqX-zkb9ZDyc/view)!
+For more on Vim, one of our summer 2020 tutors, Yijie, wrote a great [Vim for CS61C guide](https://docs.google.com/document/d/1WQF6hQK8CXtlGynSAIX7Rts6q8lykarrqX-zkb9ZDyc/view)!
 
 ### Action Items
 
@@ -350,11 +350,11 @@ SSH into any Hive machine. Then:
 
 ## Exercise 4: Fun with Git
 
-In this exercise, you’ll get your labs Git repository (“repo”), use Vim, and work with a variety of Git commands. By the end of it, you should feel comfortable using SSH, editing files, pulling/committing/pushing, resolving merge conflicts. If you’d like to review your Git commands before beginning, you can check out [this guide](https://web.archive.org/web/20220121171255/https://docs.google.com/document/d/1PlnweZTG9ZxAlbbJSARNsl-Bs-yfPiM37nK98gVR4dA/view).
+In this exercise, you’ll get your labs Git repository (“repo”), use Vim, and work with a variety of Git commands. By the end of it, you should feel comfortable using SSH, editing files, pulling/committing/pushing, resolving merge conflicts. If you’d like to review your Git commands before beginning, you can check out [this guide](https://docs.google.com/document/d/1PlnweZTG9ZxAlbbJSARNsl-Bs-yfPiM37nK98gVR4dA/view).
 
 ### Getting Your Lab Repo
 
-Make sure you’re logged into GitHub. Fill out the [Lab Repository Registration Form](https://web.archive.org/web/20220121171255/https://docs.google.com/forms/d/e/1FAIpQLSe9BRMvU5bd-lamc-4a9VVdUlLpr4TL_EhjqCtxADvxrvz-vw/viewform). Remember to read the form carefully, and follow the link in the form to accept our invitation to the GitHub Classroom lab assignment. You may need to check your email and confirm the invitation. If you don’t have an instructional account right now, enter `zzz` in the form. You will be able to edit this later.
+Make sure you’re logged into GitHub. Fill out the [Lab Repository Registration Form](https://docs.google.com/forms/d/e/1FAIpQLSe9BRMvU5bd-lamc-4a9VVdUlLpr4TL_EhjqCtxADvxrvz-vw/viewform). Remember to read the form carefully, and follow the link in the form to accept our invitation to the GitHub Classroom lab assignment. You may need to check your email and confirm the invitation. If you don’t have an instructional account right now, enter `zzz` in the form. You will be able to edit this later.
 
 ### Configuring Git
 
@@ -515,7 +515,7 @@ Many of the labs will have an autograder portion. If a lab has an autograder por
 
 Each labs will require you to complete a checkoff to receieve credit. You will be **required** to work on labs in pairs, and both partners are **required** to be present during checkoff. This helps us reduce the time we spend on checkoff and allocate that time towards helping students and developing course materials. It also helps you by giving you someone to discuss class material with and work together with to solve lab problems.
 
-If you have not done so already, please read through the [Labs section of our policies](https://web.archive.org/web/20220121171255/https://inst.eecs.berkeley.edu/~cs61c/fa20/policies#labs).
+If you have not done so already, please read through the [Labs section of our policies](https://inst.eecs.berkeley.edu/~cs61c/fa20/policies#labs).
 
 ### Checkoff: Requirements
 
@@ -534,7 +534,7 @@ We will be using an appointment-based system on the OH Queue to schedule checkof
 
 To sign up for a checkoff slot:
 
--   Visit the [OH Queue](https://web.archive.org/web/20220121171255/https://oh.cs61c.org/appointments) and click the `Appointments` link at the top.
+-   Visit the [OH Queue](https://oh.cs61c.org/appointments) and click the `Appointments` link at the top.
 -   Find **one** slot that’s suitable for you, then click `Add yourself to the section`. Fill out the resulting form (Assignment: `Lab ##`, Question: `Checkoff`, Description: `Partner: <PARTNER_NAME>`) and submit it. If you have a partner, you both **must** sign up for the same appointment (try to sign up at the same time). If you don’t have a partner, you may be paired with someone else without one. You may not sign up for more than one appointment per lab.
 -   When it’s time for your appointment, go to the OH Queue. Your appointment will show up under `Upcoming Appointments` on the home page. When the TA is ready, a green `Join Call` button will appear. Click it to be taken to the Zoom call.
 
@@ -575,4 +575,4 @@ The majority of students do their work in a local editor (Sublime, Atom, VSCode)
 
 ### Quick SSH
 
-Tired of typing up an entire SSH command and password? Follow the instructions on [this Piazza post (`"Useful additional setup information for labs and projects"`)](https://web.archive.org/web/20220121171255/https://piazza.com/class/kd0ifacummd56a?cid=11)
+Tired of typing up an entire SSH command and password? Follow the instructions on [this Piazza post (`"Useful additional setup information for labs and projects"`)](https://piazza.com/class/kd0ifacummd56a?cid=11)
