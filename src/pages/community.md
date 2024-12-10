@@ -47,17 +47,23 @@ hide_table_of_contents: true
 
 ## QQ群
 一个人学习比较痛苦那就跟小伙伴们一起学习吧。
-- 社区一群（提问，课程作业，实验，项目交流群）** 已满 **
+- 社区一群  ** 已满 **
   
   群号：556890917
   
   ![qrcode](/img/qrcode1.png)
 
-- 社区二群（提问，课程作业，实验，项目交流群）
+- 社区二群 
   
   群号： 309485206
 
   ![qrcode](/img/qrcode2.png)
+
+- 社区三群 
+  
+  群号： 1014395907
+
+  ![qrcode](/img/qrcode3.png)
 
 ## 学习笔记分享
 - [@Dream 同学的CS 61a 学习笔记](https://github.com/shuo-liu16/CS61A)
