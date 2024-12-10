@@ -106,7 +106,6 @@ const config = {
             position: 'left',
             label: '自学路线',
           },
-          {to:'https://www.learncs.site/docs/category/resource',label:'课程资料',position:'left'},
           {to: '/blog', label: '博客', position: 'left'},
           {to:'/community', label: '社区', position: 'left'}
           // {
