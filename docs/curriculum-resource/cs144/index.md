@@ -30,7 +30,7 @@ CS144的正式先修课程是CS110/CS111。CS144是一门基于实验的系统�
 
 ## 相关资源
 由于官方已经关闭了labs 的代码骨架，所以社区提供了两个其他人从官网fork的版本，以供学习。
-- [Minnow](https://github.com/flukehn/minnow)
-- [Sponge](https://github.com/gene1974/sponge)
+- [Minnow](https://github.com/flukehn/minnow) 采用的C++20 标准
+- [Sponge](https://github.com/gene1974/sponge) 采用的C++17 标准
 
 <DocCardList />
