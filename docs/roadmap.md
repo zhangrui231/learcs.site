@@ -94,7 +94,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>MIT 6.042J</td>
         <td>本课程为计算机科学与工程领域提供离散数学的互动式入门教学。内容大致分为三部分：数学基础概念：定义、证明、集合、函数、关系；离散结构：图论、状态机、模运算、计数；离散概率论。完成6.042J课程后，学生将能够解释并应用离散（非连续）数学的基本方法于计算机科学中。他们将在后续的算法设计与分析、可计算性理论、软件工程及计算机系统等课程中运用这些方法</td>
         <td>无</td>
-        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1b6bFemEsp">中文语音</a> | <a href="https://www.bilibili.com/video/BV16ptTeEEtt">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
@@ -102,15 +102,15 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>UC Berkeley CS162</td>
         <td>本课程旨在教授操作系统设计及在其他计算机系统中出现的操作系统概念。涵盖的主题包括操作系统概念、系统编程、网络与分布式系统以及存储系统，具体内容涉及多程序系统（进程、进程间通信与同步）、内存分配（分段、分页）、资源分配与调度、文件系统、基础网络（套接字、分层架构、API接口及可靠性）事务处理机制以及安全性与隐私保护等。</td>
         <td>《Operating Systems: Principles and Practice》 </td>
-        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV146B2Y2Ebr">中文语音</a> | <a href="https://www.bilibili.com/video/BV1MwDSYWEKy">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
         <td>计算机网络</td>
         <td>Stanford CS144</td>
-        <td>CS144 是斯坦福大学的一门计算机网络课程，由 Nick McKeown 教授和 Philip Levis 教授主讲。这门课程涵盖了计算机网络的基本原理和实践，重点关注互联网的结构和组成。课程包括分组交换、分层和路由、传输和 TCP、可靠传输、流量控制和拥塞控制等主题。</td>
+        <td>CS144 是一门计算机网络入门课程，涵盖网络基本原理如分组交换、分层封装和协议。课程中将探索互联网的工作原理，并实践构建网络基础设施，如路由器和数据传输服务。通过动手实验和课堂练习，你将深入了解支撑万维网、视频流媒体和视频会议等应用的底层技术。此外，课程还包含行业专家的特邀讲座，提供实际网络运营的宝贵见解。</td>
         <td>无</td>
-        <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1oHCVY7EJR">中文语音</a> | <a href="https://www.bilibili.com/video/BV1NGBEYwEo4">英文原声</a></td>
         <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
     </tr>
     <tr>
@@ -340,3 +340,11 @@ CMU的15-213/15-513课程无疑是一门优秀的课程，但其内容繁杂，�
   > - Homeworks
   > - Projects
 
+### 计算机网络
+计算机网络是计算机科学中最能直接体现实用价值的领域之一，尤其是涉及网络服务端和客户端的软件工程。通过系统地学习计算机网络，学生能够深入理解那些曾让他们感到困惑的术语、概念和协议，为他们的知识体系提供更坚实的基础。
+#### 推荐书籍
+- [计算机网络：自顶向下方法](https://book.douban.com/subject/30280001/)
+  > 《自顶向下方法》采用了一种与传统“自底向上”方法不同的教学策略。它从应用层开始，然后逐步向下到传输层、网络层、链路层和物理层，这样学生可以从他们最熟悉的网络应用开始学习，逐渐深入到网络的底层细节。书中包含了大量的实际案例研究，帮助学生理解网络概念如何应用于现实世界中的网络设计和问题解决。
+#### 推荐课程
+- [Stanford CS144: Introduction to Computer Networking](https://cs144.github.io/)
+  >融理论与实践于一体，以"动手构建互联网"为特色。学生将系统学习网络基础理论，包括分组交换、分层架构等核心概念；通过亲手构建路由器、实现可靠数据传输服务等项目，深入理解网络工作原理。课程还邀请业界专家分享实战经验，配合课堂实践环节，让学生掌握关键的工程技能。
