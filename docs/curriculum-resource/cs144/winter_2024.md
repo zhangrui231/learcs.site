@@ -7,7 +7,7 @@ description: CS 144 winter 2024 | 课程大纲 最新Minnow
 
 ## Practice Exams
 - **Midterm**  
-  - [Midterm (2021 Fall)](/resource/cs144/2024winter/21fa-midterm.pdf) ([Answer](/resource/cs144/2024winter21fa-midterm-ans.pdf))  
+  - [Midterm (2021 Fall)](/resource/cs144/2024winter/21fa-midterm.pdf) ([Answer](/resource/cs144/2024winter/21fa-midterm-ans.pdf))  
   - [Midterm (2023 Spring)](/resource/cs144/2024winter/sp23_midterm.pdf) ([Answer](/resource/cs144/2024winter/sp23_midterm-ans.pdf))  
 
 - **Final**  
