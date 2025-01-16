@@ -85,11 +85,26 @@ const config = {
         
     //   }
     // ],
+    [
+        '@cookbookdev/docusaurus-jsx-runtime-fallback-plugin',
+        {
+          alias: {
+            'react/jsx-runtime': 'react/jsx-runtime.js',
+          },
+        },
+      ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // giscus 评论功能
+      giscus: {
+        repo: 'zhangrui231/learcs.site',
+        repoId: 'R_kgDOKlNXwg',
+        category: 'Q&A',
+        categoryId: 'DIC_kwDOKlNXws4CmDyH',
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       metadata: [{ name: 'baidu-site-verification', content: 'codeva-hJyfN2UKgo' }],
@@ -101,10 +116,15 @@ const config = {
         },
         items: [
           {
+            to: '/docs/roadmap',
+            position: 'left',
+            label: '路线图',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '自学路线',
+            label: '课程资源',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {to:'/community', label: '社区', position: 'left'}
@@ -163,6 +183,14 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '🎉️🎉️🎉️课程文档汉化工作正在进行中 🎉️🎉️ 学习交流群请到社区页面查看入群方式 🎉️🎉️🎉️',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
       },
     }),
 };

@@ -33,5 +33,14 @@
   display: none !important;
 }
 
+
+div[class^=announcementBar_] {
+  --site-announcement-bar-stripe-color1: #e8d7ff;
+  --site-announcement-bar-stripe-color2: #ffe9d1;
+  background: repeating-linear-gradient(35deg,var(--site-announcement-bar-stripe-color1),var(--site-announcement-bar-stripe-color1)20px,var(--site-announcement-bar-stripe-color2)10px,var(--site-announcement-bar-stripe-color2)40px);
+  font-size: 20px;
+  font-weight: 700;
+}
+
 @import './bootstrap.min.css';
 @import './cs61a.css';
