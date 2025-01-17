@@ -187,7 +187,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          '🎉️🎉️🎉️课程文档汉化工作正在进行中 🎉️🎉️ 学习交流群请到社区页面查看入群方式 🎉️🎉️🎉️',
+          '🎉️🎉️🎉️课程文档汉化工作正在进行中 🎉️🎉️ 学习交流群请到 <a  href="/community">社区页面</a> 查看入群方式 🎉️🎉️🎉️',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
