@@ -5,7 +5,7 @@ title: Discussion 6 Iterators, Generators
 
 ## Discussion 6: Iterators, Generators
 
--   [disc06.pdf](/resource/cs61a/disc06.pdf)
+-   [disc06.pdf](/resource/cs61a/disc/disc06.pdf)
 
 Pick someone in your group to [join Discord](https://cs61a.org/articles/discord). It's fine if multiple people join, but one is enough.
 

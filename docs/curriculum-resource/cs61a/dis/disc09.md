@@ -5,7 +5,7 @@ title: Discussion 9 Scheme, Scheme Lists
 
 ## Discussion 9: Scheme, Scheme Lists
 
--   [disc09.pdf](/resource/cs61a/disc09.pdf)
+-   [disc09.pdf](/resource/cs61a/disc/disc09.pdf)
 
 **Reminder:** We'll still use Pensieve, but we've removed the voice/video chat from Pensieve. Use Discord for voice chat with the course staff. It's more reliable and includes screensharing. Write to `@discuss` in the `#discuss-queue` channel on Discord at any time, and a member of the course staff will join your group's voice channel.
 

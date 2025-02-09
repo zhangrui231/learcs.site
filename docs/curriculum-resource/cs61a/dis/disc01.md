@@ -5,7 +5,7 @@ title: Discussion 1 Control, Environment Diagrams
 
 ## Discussion 1: Control, Environment Diagrams
 
--   [disc01.pdf](/resource/cs61a/disc01.pdf)
+-   [disc01.pdf](/resource/cs61a/disc/disc01.pdf)
 
 What everyone will need:
 

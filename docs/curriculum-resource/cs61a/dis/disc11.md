@@ -5,7 +5,7 @@ title: Discussion 11 SQL
 
 ## Discussion 11: SQL
 
--   [disc11.pdf](/resource/cs61a/disc11.pdf)
+-   [disc11.pdf](/resource/cs61a/disc/disc11.pdf)
 
 **Reminder:** Use Discord for voice chat with the course staff. Write to `@discuss` in the `#discuss-queue` channel on Discord at any time, and a member of the course staff will join your group's voice channel.
 

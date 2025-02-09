@@ -5,7 +5,7 @@ title: Discussion 12 Final Review
 
 ## Discussion 12: Final Review
 
--   [disc12.pdf](/resource/cs61a/disc12.pdf)
+-   [disc12.pdf](/resource/cs61a/disc/disc12.pdf)
 
 **Reminder:** Use Discord for voice chat with the course staff. Write to `@discuss` in the `#discuss-queue` channel on Discord at any time, and a member of the course staff will join your group's voice channel.
 

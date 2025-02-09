@@ -6,7 +6,7 @@ title: Discussion 0 Getting Started
 
 ## Discussion 0: Getting Started
 
--   [disc00.pdf](/resource/cs61a/disc00.pdf)
+-   [disc00.pdf](/resource/cs61a/disc/disc00.pdf)
 
 Congratulations, you found the Discussion 0 worksheet!
 

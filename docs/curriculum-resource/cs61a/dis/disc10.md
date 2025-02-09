@@ -5,7 +5,7 @@ title: Discussion 10 Interpreters
 
 ## Discussion 10: Interpreters
 
--   [disc10.pdf](/resource/cs61a/disc10.pdf)
+-   [disc10.pdf](/resource/cs61a/disc/disc10.pdf)
 
 **Reminder:** We'll still use Pensieve, but we've removed the voice/video chat from Pensieve. Use Discord for voice chat with the course staff. It's more reliable and includes screensharing. Write to `@discuss` in the `#discuss-queue` channel on Discord at any time, and a member of the course staff will join your group's voice channel.
 

@@ -5,7 +5,7 @@ title: Discussion 8 Linked Lists, Efficiency
 
 ## Discussion 8: Linked Lists, Efficiency
 
--   [disc08.pdf](/resource/cs61a/disc08.pdf)
+-   [disc08.pdf](/resource/cs61a/disc/disc08.pdf)
 
 **NEW:** From now on, we'll still use Pensieve, but we've removed the voice chat from Pensieve. Use Discord for voice chat with the course staff. It's more reliable and includes screensharing. Write to `@discuss` in the `#discuss-queue` channel on Discord at any time, and a member of the course staff will join your voice channel.
 

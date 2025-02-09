@@ -5,7 +5,7 @@ title: Discussion 5 Trees
 
 ## Discussion 5: Trees
 
--   [disc05.pdf](/resource/cs61a/disc05.pdf)
+-   [disc05.pdf](/resource/cs61a/disc/disc05.pdf)
 
 Pick someone in your group to [join Discord](https://cs61a.org/articles/discord). It's fine if multiple people join, but one is enough.
 
