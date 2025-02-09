@@ -188,14 +188,9 @@ Let’s make a table to clarify how we’re going to encode this rule as a hexad
 
 | If my state is... | alive (1) | dead (0) |
 | --- | --- | --- |
-| And the number of alive neighbors is... | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Then the next state I will be... | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Converting the 18 bits above to a hexadecimal number | 
-0b00 0001 1000 0000 1000
-
-0x1808
-
- |
+| And the number of alive neighbors is... | 8 \| 7 \| 6 \| 5 \| 4 \| 3 \| 2 \| 1 \| 0 \| 8 \| 7 \| 6 \| 5 \| 4 \| 3 \| 2 \| 1 \| 0 |
+| Then the next state I will be... | 0 \| 0 \| 0 \| 0 \| 0 \| 1 \| 1 \| 0 \| 0 \| 0 \| 0 \| 0 \| 0 \| 0 \| 1 \| 0 \| 0 \| 0 |
+| Converting the 18 bits above to a hexadecimal number | 0b00 0001 1000 0000 1000 <br/>0x1808|
 
 By specifying a hexadecimal number between `0x0` and `0x3FFFF`, you can have your simulation run _any_ Game of Life variant, not just the usual rule of `0x1808`. Here is a table of [interesting Life-like rules](https://en.wikipedia.org/wiki/Life-like_cellular_automaton#A_selection_of_Life-like_rules), converted to our rule format:
 
