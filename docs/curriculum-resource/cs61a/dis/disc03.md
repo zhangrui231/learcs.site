@@ -36,19 +36,52 @@ Ok, time to discuss problems! Remember to work together. Everyone in the group s
 ### Q1: Swipe
 
 Implement `swipe`, which prints the digits of argument `n`, one per line, first backward then forward. The left-most digit is printed only once. Do not use `while` or `for` or `str`. (Use recursion, of course!)
+```python
+def swipe(n):
+    """Print the digits of n, one per line, first backward then forward.
 
+    >>> swipe(2837)
+    7
+    3
+    8
+    2
+    8
+    3
+    7
+    """
+    if n < 10:
+        print(n)
+    else:
+        "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
 
+:::tip[**Hint**]
 First `print` the first line of the output, then make a recursive call, then `print` the last line of the output.
+:::
 
 ### Q2: Skip Factorial
 
 Define the base case for the `skip_factorial` function, which returns the product of every other positive integer, starting with `n`.
+```python
+def skip_factorial(n):
+    """Return the product of positive integers n * (n - 2) * (n - 4) * ...
 
+    >>> skip_factorial(5) # 5 * 3 * 1
+    15
+    >>> skip_factorial(8) # 8 * 6 * 4 * 2
+    384
+    """
+    if ___:
+        return ___
+    else:
+        return n * skip_factorial(n - 2)
+```
 Run in 61A Code
 
+:::tip[**Hint**]
 If `n` is even, then the base case will be 2. If `n` is odd, then the base case will be 1. Try to write a condition that handles both possibilities.
-
+:::
 ### Q3: Is Prime
 
 Implement `is_prime` that takes an integer `n` greater than 1. It returns `True` if `n` is a prime number and `False` otherwise. Try following the approach below, but implement it recursively without using a `while` (or `for`) statement.
@@ -65,9 +98,20 @@ def is_prime(n):
 ```
 
 You will need to define another "helper" function (a function that exists just to help implement this one). Does it matter whether you define it within `is_prime` or as a separate function in the global frame? Try to define it to take as few arguments as possible.
-
+```python
+def is_prime(n):
+    """Returns True if n is a prime number and False otherwise.
+    >>> is_prime(2)
+    True
+    >>> is_prime(16)
+    False
+    >>> is_prime(521)
+    True
+    """
+    "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 Define an inner function that checks whether some integer between `i` and `n` evenly divides `n`. Then you can call it starting with `i=2`:
 
 ```
@@ -81,18 +125,50 @@ def is_prime(n):
             return f(____)
     return f(2)
 ```
+:::
 
 Come up with a one sentence docstring for the helper function that describes what it does. Don't just write, "it helps implement `is_prime`." Instead, describe its behavior. When you're done, paste the text of that docstring in your group's [channel's text chat](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X).
 
 ### Q4: Recursive Hailstone
 
 Recall the `hailstone` function from [Homework 1](https://cs61a.org/hw/hw01/). First, pick a positive integer `n` as the start. If `n` is even, divide it by 2. If `n` is odd, multiply it by 3 and add 1. Repeat this process until `n` is 1. Complete this recursive version of `hailstone` that prints out the values of the sequence and returns the number of steps.
+```python
+def hailstone(n):
+    """Print out the hailstone sequence starting at n, 
+    and return the number of elements in the sequence.
+    >>> a = hailstone(10)
+    10
+    5
+    16
+    8
+    4
+    2
+    1
+    >>> a
+    7
+    >>> b = hailstone(1)
+    1
+    >>> b
+    1
+    """
+    print(n)
+    if n % 2 == 0:
+        return even(n)
+    else:
+        return odd(n)
 
+def even(n):
+    return ____
+
+def odd(n):
+    "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 An even number is never a base case, so `even` always makes a recursive call to `hailstone` and returns one more than the length of the rest of the hailstone sequence.
 
 An odd number might be 1 (the base case) or greater than one (the recursive case). Only the recursive case should call `hailstone`.
+:::
 
 Once your group has converged on a solution, it's time to practice your ability to describe your own code. Pick a presenter, then send a message to the `discuss-queue` channel with the @discuss tag, your discussion group number, and the message "Hailing all course staff!" and a member of the course staff will join your voice channel to hear your description.
 
@@ -136,11 +212,41 @@ Play a few games. Post the highest score your group reached on Discord.
 Then, implement `sevens` which takes a positive integer `n` and a number of players `k`. It returns which of the `k` players says `n`. You may call `has_seven`.
 
 An effective approach to this problem is to simulate the game, stopping on turn `n`. The implementation must keep track of the final number `n`, the current number `i`, the player `who` will say `i`, and the current `direction` that determines the next player (either increasing or decreasing). It works well to use integers to represent all of these, with `direction` switching between `1` (increase) and `-1` (decreasing).
+```python
+def sevens(n, k):
+    """Return the (clockwise) position of who says n among k players.
 
+    >>> sevens(2, 5)
+    2
+    >>> sevens(6, 5)
+    1
+    >>> sevens(7, 5)
+    2
+    >>> sevens(8, 5)
+    1
+    >>> sevens(9, 5)
+    5
+    >>> sevens(18, 5)
+    2
+    """
+    def f(i, who, direction):
+        if i == n:
+            return who
+        "*** YOUR CODE HERE ***"
+    return f(1, 1, 1)
+
+def has_seven(n):
+    if n == 0:
+        return False
+    elif n % 10 == 7:
+        return True
+    else:
+        return has_seven(n // 10)
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 First check if `i` is a multiple of 7 or contains a 7, and if so, switch directions. Then, add the direction to `who` and ensure that `who` has not become smaller than 1 or greater than `k`.
-
+:::
 ### Q6: Karel the Robot
 
 [Karel the robot](https://compedu.stanford.edu/karel-reader/docs/python/en/chapter1.html) starts in the corner of an `n` by `n` square for some unknown number `n`. Karel responds to only four functions:
@@ -153,5 +259,8 @@ First check if `i` is a multiple of 7 or contains a 7, and if so, switch directi
 Implement a `main()` function that will leave Karel stopped halfway in the middle of the bottom row. For example, if the square is 7 x 7 and Karel starts in position (1, 1), the bottom left, then Karel should end in position (1, 4) (three steps from either side on the bottom row). Karel can be facing in any direction at the end. If the bottom row length is even, Karel can stop in either position (1, `n // 2`) or (1, `n // 2 + 1`).
 
 **Important** You can only write `if` or `if`/`else` statements and function calls in the body of `main()`. You may not write assignment statements, def statements, lambda expressions, or while/for statements.
-
+<iframe width=960 height=600 src="https://compedu.stanford.edu/karel-reader/docs/python/en/ide.html">
+</iframe>
+:::tip[**Hint**]
 For every two steps forward, take one step back to end up in the middle.
+:::

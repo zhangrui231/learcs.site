@@ -307,5 +307,6 @@ First check if `i` is a multiple of 7 or contains a 7, and if so, switch directi
 Implement a `main()` function that will leave Karel stopped halfway in the middle of the bottom row. For example, if the square is 7 x 7 and Karel starts in position (1, 1), the bottom left, then Karel should end in position (1, 4) (three steps from either side on the bottom row). Karel can be facing in any direction at the end. If the bottom row length is even, Karel can stop in either position (1, `n // 2`) or (1, `n // 2 + 1`).
 
 **Important** You can only write `if` or `if`/`else` statements and function calls in the body of `main()`. You may not write assignment statements, def statements, lambda expressions, or while/for statements.
-
+<iframe width=960 height=600 src="https://compedu.stanford.edu/karel-reader/docs/python/en/ide.html">
+</iframe>
 For every two steps forward, take one step back to end up in the middle.
