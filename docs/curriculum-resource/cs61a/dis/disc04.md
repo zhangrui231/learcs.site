@@ -54,6 +54,22 @@ An insect is inside an `m` by `n` grid. The insect starts at the bottom-left cor
 In the `2` by `2` grid, the insect has two paths from the start to the end. In the `3` by `3` grid, the insect has six paths (only three are shown above).
 
 > **Hint:** What happens if the insect hits the upper or rightmost edge of the grid?
+```python
+def paths(m, n):
+    """Return the number of paths from one corner of an
+    M by N grid to the opposite corner.
+
+    >>> paths(2, 2)
+    2
+    >>> paths(5, 7)
+    210
+    >>> paths(117, 1)
+    1
+    >>> paths(1, 157)
+    1
+    """
+    "*** YOUR CODE HERE ***"
+```
 
 Run in 61A Code
 
@@ -76,15 +92,26 @@ The most important thing to remember about lists is that a non-empty list `s` ca
 ### Q2: Max Product
 
 Implement `max_product`, which takes a list of numbers and returns the maximum product that can be formed by multiplying together non-consecutive elements of the list. Assume that all numbers in the input list are greater than or equal to 1.
+```python
+def max_product(s):
+    """Return the maximum product of non-consecutive elements of s.
 
+    >>> max_product([10, 3, 1, 9, 2])   # 10 * 9
+    90
+    >>> max_product([5, 10, 5, 10, 5])  # 5 * 5 * 5
+    125
+    >>> max_product([])                 # The product of no numbers is 1
+    1
+    """
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 First try multiplying the first element by the `max_product` of everything after the first two elements (skipping the second element because it is consecutive with the first), then try skipping the first element and finding the `max_product` of the rest. To find which of these options is better, use `max`.
 
 A great way to get help is to talk to the course staff!
 
 Complete this sentence together and type your answer into your group's [channel's text chat](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X). "The recursive case is to choose the larger of ... and ..."
-
+:::
 ### Q3: Sum Fun
 
 Implement `sums(n, m)`, which takes a total `n` and maximum `m`. It returns a list of all lists:
@@ -109,15 +136,40 @@ Here's a recursive approach that matches the template below: build up the `resul
 >>> [k] + s
 [2, 4, 3, 1]
 ```
+```python
+def sums(n, m):
+    """Return lists that sum to n containing positive numbers up to m that
+    have no adjacent repeats.
 
+    >>> sums(5, 1)
+    []
+    >>> sums(5, 2)
+    [[2, 1, 2]]
+    >>> sums(5, 3)
+    [[1, 3, 1], [2, 1, 2], [2, 3], [3, 2]]
+    >>> sums(5, 5)
+    [[1, 3, 1], [1, 4], [2, 1, 2], [2, 3], [3, 2], [4, 1], [5]]
+    >>> sums(6, 3)
+    [[1, 2, 1, 2], [1, 2, 3], [1, 3, 2], [2, 1, 2, 1], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+    """
+    if n < 0:
+        return []
+    if n == 0:
+        sums_to_zero = []     # The only way to sum to zero using positives
+        return [sums_to_zero] # Return a list of all the ways to sum to zero
+    result = []
+    for k in range(1, m + 1):
+        result = result + [ ___ for rest in ___ if rest == [] or ___ ]
+    return result
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 `k` is the first number in a list that sums to `n`, and `rest` is the rest of that list, so build a list that sums to `n`.
 
 Call `sums` to build all of the lists that sum to `n-k` so that they can be used to construct lists that sum to `n` by putting a `k` on the front.
 
 Here is where you ensure that "no two adjacent numbers are the same." Since `k` will be the first number in the list you're building, it must not be equal to the first element of `rest` (which will be the second number in the list you're building).
-
+:::
 If you get stuck and want to talk with the staff, post on Discord!
 
 ## Document the Occasion
