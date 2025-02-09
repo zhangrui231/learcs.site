@@ -103,6 +103,16 @@ For `s.rest.first.rest` to exist at all, the second element of `s`, called `s.re
 ![Strange loop](/img/cs61a/e7qhrNQ.png)
 
 Making a cycle requires two steps: making a linked list without a cycle, then modifying it. First create, for example, `s = Link(6, Link(Link(1)))`, then change `s.rest.first.rest` to create the cycle.
+```python
+def strange_loop():
+    """Return a Link s for which s.rest.first.rest is s.
+
+    >>> s = strange_loop()
+    >>> s.rest.first.rest is s
+    True
+    """
+    "*** YOUR CODE HERE ***"
+```
 
 Run in 61A Code
 
@@ -111,13 +121,43 @@ Run in 61A Code
 Implement both `sum_rec` and `sum_iter`. Each one takes a linked list of numbers `s` and returns the sum of its elements. Use recursion to implement `sum_rec`. Don't use recursion to implement `sum_iter`; use a `while` loop instead.
 
 **Facilitator:** Tell the group which one to start with. It's your choice. You can say: "Let's start with the recursive version."
+```python
+def sum_rec(s, k):
+    """Return the sum of the first k elements in s.
+
+    >>> a = Link(1, Link(6, Link(8)))
+    >>> sum_rec(a, 2)
+    7
+    >>> sum_rec(a, 5)
+    15
+    >>> sum_rec(Link.empty, 1)
+    0
+    """
+    # Use a recursive call to sum_rec; don't call sum_iter
+    "*** YOUR CODE HERE ***"
+
+def sum_iter(s, k):
+    """Return the sum of the first k elements in s.
+
+    >>> a = Link(1, Link(6, Link(8)))
+    >>> sum_iter(a, 2)
+    7
+    >>> sum_iter(a, 5)
+    15
+    >>> sum_iter(Link.empty, 1)
+    0
+    """
+    # Don't call sum_rec or sum_iter
+    "*** YOUR CODE HERE ***"
+```
 
 Run in 61A Code
 
+:::tip[**Hint**]
 Add `s.first` to the sum of the elements in `s.rest`. Your base case condition should be `s is Link.empty` so that you're checking whether `s` is empty before ever evaluating `s.first` or `s.rest`.
 
 Introduce a new name, such as `total`, then repeatedly (in a `while` loop) add `s.first` to `total` and set `s = s.rest` to advance through the linked list, as long as `s is not Link.empty`.
-
+:::
 **Discussion time:** When adding up numbers, the intermediate sums depend on the order.
 
 (1 + 3) + 5 and 1 + (3 + 5) both equal 9, but the first one makes 4 along the way while the second makes 8 along the way. For the same linked list, will `sum_rec` and `sum_iter` both make the same intermediate sums along the way? Answer in your group's Discord [channel's text chat](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X). If yes, post "Same way all day." If no, post "Sum thing is different."
@@ -131,9 +171,24 @@ This can be done in _linear_ time in the combined length of `s` and `t` by alway
 Take a vote to decide whether to use recursion or iteration. Either way works (and the solutions are about the same complexity/difficulty).
 
 Want some guidance? Post `@discuss over here!` and your group number to the `#discuss-queue` channel on Discord.
+```python
+def overlap(s, t):
+    """For increasing s and t, count the numbers that appear in both.
+
+    >>> a = Link(3, Link(4, Link(6, Link(7, Link(9, Link(10))))))
+    >>> b = Link(1, Link(3, Link(5, Link(7, Link(8)))))
+    >>> overlap(a, b)  # 3 and 7
+    2
+    >>> overlap(a.rest, b)  # just 7
+    1
+    >>> overlap(Link(0, a), Link(0, b))
+    3
+    """
+    "*** YOUR CODE HERE ***"
+```
 
 Run in 61A Code
-
+:::tip[**Hint**]
 ```
     if s is Link.empty or t is Link.empty:
         return 0
@@ -156,7 +211,7 @@ Run in 61A Code
             __________________
     return k
 ```
-
+:::
 ### Q4: Overlap Growth
 
 The alternative implementation of `overlap` below does not assume that `s` and `t` are sorted in increasing order. What is the order of growth of its run time in terms of the length of `s` and `t`, assuming they have the same length? Choose among: _constant_, _logarithmic_, _linear_, _quadratic_, or _exponential_.
@@ -225,7 +280,46 @@ For example, 1/22 would be represented as `x` below:
 >>> display(x, 20)
 0.04545454545454545454...
 ```
+```python
+def divide(n, d):
+    """Return a linked list with a cycle containing the digits of n/d.
 
+    >>> display(divide(5, 6))
+    0.8333333333...
+    >>> display(divide(2, 7))
+    0.2857142857...
+    >>> display(divide(1, 2500))
+    0.0004000000...
+    >>> display(divide(3, 11))
+    0.2727272727...
+    >>> display(divide(3, 99))
+    0.0303030303...
+    >>> display(divide(2, 31), 50)
+    0.06451612903225806451612903225806451612903225806451...
+    """
+    assert n > 0 and n < d
+    result = Link(0)  # The zero before the decimal point
+    "*** YOUR CODE HERE ***"
+    return result
+
+    def display(s, k=10):
+    """Print the first k digits of infinite linked list s as a decimal.
+
+    >>> s = Link(0, Link(8, Link(3)))
+    >>> s.rest.rest.rest = s.rest.rest
+    >>> display(s)
+    0.8333333333...
+    """
+    assert s.first == 0, f'{s.first} is not 0'
+    digits = f'{s.first}.'
+    s = s.rest
+    for _ in range(k):
+        assert s.first >= 0 and s.first < 10, f'{s.first} is not a digit'
+        digits += str(s.first)
+        s = s.rest
+    print(digits + '...')
+
+```
 Run in 61A Code
 
 The decimal expansion of 1/22 could be constructed as follows:
