@@ -768,7 +768,7 @@ The grading breakdown for Project 4 is as follows:
 -   README.md: 5%
 
 Here are the graphs for the speedup tests. The x-axis is your speedup times and the y-axis indicates what percentage of that test’s total score you will receive.
-![]("/img/cs61c/p4.png")
+![](/img/cs61c/p4.png)
 Minimum speedup for 100% on each test:
 
 -   Multiplication: 95x
