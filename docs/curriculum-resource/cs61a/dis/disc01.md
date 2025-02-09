@@ -40,6 +40,26 @@ Learning to use `if` and `while` is an essential skill. During this discussion, 
 
 The `race` function below sometimes returns the wrong value and sometimes runs forever.
 
+```python
+def race(x, y):
+    """The tortoise always walks x feet per minute, while the hare repeatedly
+    runs y feet per minute for 5 minutes, then rests for 5 minutes. Return how
+    many minutes pass until the tortoise first catches up to the hare.
+
+    >>> race(5, 7)  # After 7 minutes, both have gone 35 steps
+    7
+    >>> race(2, 4) # After 10 minutes, both have gone 20 steps
+    10
+    """
+    assert y > x and y <= 2 * x, 'the hare must be fast but not too fast'
+    tortoise, hare, minutes = 0, 0, 0
+    while minutes == 0 or tortoise - hare:
+        tortoise += x
+        if minutes % 10 < 5:
+            hare += y
+        minutes += 1
+    return minutes
+ ```
 Run in 61A Code
 
 Find positive integers `x` and `y` (with `y` larger than `x` but not larger than `2 * x`) for which either:
@@ -54,7 +74,9 @@ Notes:
 -   `x += 1` is the same as `x = x + 1` when `x` is assigned to a number.
 -   0 is a false value and all other numbers are true values.
 
+:::tip[**Hint**]
 The value of `race(x, y)` is incorrect when it is not the **first** time the tortoise passes the hare. Try some small numbers (below 5) to see if you can find a case where `tortoise` has become larger than `hare`, but the expression `tortoise - hare` was not zero when it happened.
+:::
 
 Put your `(x, y)` examples in the [text chat](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X) of your group's voice channel. If you get stuck for more than 10 minutes, ask for help!
 
@@ -69,9 +91,36 @@ Implement the classic [_Fizz Buzz_ sequence](https://en.wikipedia.org/wiki/Fizz_
 
 Try to make your implementation of `fizzbuzz` concise.
 
+```python
+def fizzbuzz(n):
+    """
+    >>> result = fizzbuzz(16)
+    1
+    2
+    fizz
+    4
+    buzz
+    fizz
+    7
+    8
+    fizz
+    buzz
+    11
+    fizz
+    13
+    14
+    fizzbuzz
+    16
+    >>> print(result)
+    None
+    """
+    "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
 
+:::tip[**Hint**]
 Be careful about the order of your `if` and `elif` clauses: try first checking if the current number is divisible by both 3 and 5, then check for just divisibility by 3 and just divisibility by 5.
+:::
 
 ## Problem Solving
 
@@ -109,16 +158,31 @@ A prime number n is a number that is not divisible by any numbers other than 1 a
 
 Use the `%` operator: `x % y` returns the remainder of `x` when divided by `y`.
 
+:::tip[**Hint**]
 Here's a `while` statement that goes through all numbers above 1 and below `n` :
-
-```
+ 
+```python
 i = 2
 while i < n:
     ...
     i = i + 1
 ```
 
-You can use `n % i == 0` to check whether `i` is a factor of `n`. If it is, `return False`.
+You can use `n % i == 0` to check whether `i` is a factor of `n`. If it is, `return > False`.
+:::
+
+```python
+def is_prime(n):
+    """
+    >>> is_prime(10)
+    False
+    >>> is_prime(7)
+    True
+    >>> is_prime(1) # one is not a prime number!!
+    False
+    """
+    "*** YOUR CODE HERE ***"
+```
 
 Run in 61A Code
 
@@ -128,9 +192,36 @@ Run in 61A Code
 
 Write a function that returns the number of unique digits in a positive integer.
 
-> **Hints:** You can use `//` and `%` to separate a positive integer into its one's digit and the rest of its digits.
-> 
-> You may find it helpful to first define a function `has_digit(n, k)`, which determines whether a number `n` has digit `k`.
+:::tip[**Hint**]
+ You can use `//` and `%` to separate a positive integer into its one's digit and the rest of its digits.
+
+You may find it helpful to first define a function `has_digit(n, k)`, which determines whether a number `n` has digit `k`.
+:::
+
+```python
+def unique_digits(n):
+    """Return the number of unique digits in positive integer n.
+
+    >>> unique_digits(8675309) # All are unique
+    7
+    >>> unique_digits(13173131) # 1, 3, and 7
+    3
+    >>> unique_digits(101) # 0 and 1
+    2
+    """
+    "*** YOUR CODE HERE ***"
+
+def has_digit(n, k):
+    """Returns whether k is a digit in n.
+
+    >>> has_digit(10, 1)
+    True
+    >>> has_digit(12, 7)
+    False
+    """
+    assert k >= 0 and k < 10
+    "*** YOUR CODE HERE ***"
+```
 
 Run in 61A Code
 
