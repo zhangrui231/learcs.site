@@ -260,8 +260,9 @@ Implement a `main()` function that will leave Karel stopped halfway in the middl
 
 **Important** You can only write `if` or `if`/`else` statements and function calls in the body of `main()`. You may not write assignment statements, def statements, lambda expressions, or while/for statements.
 
-<iframe width=960 height=600 src="https://compedu.stanford.edu/karel-reader/docs/python/en/ide.html">
-</iframe>
+
+<iframe width=960 height=600 src="https://compedu.stanford.edu/karel-reader/docs/python/en/ide.html"></iframe>
+
 
 :::tip[**Hint**]
 For every two steps forward, take one step back to end up in the middle.
