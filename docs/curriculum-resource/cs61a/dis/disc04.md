@@ -53,7 +53,8 @@ An insect is inside an `m` by `n` grid. The insect starts at the bottom-left cor
 
 In the `2` by `2` grid, the insect has two paths from the start to the end. In the `3` by `3` grid, the insect has six paths (only three are shown above).
 
-> **Hint:** What happens if the insect hits the upper or rightmost edge of the grid?
+**Hint:** What happens if the insect hits the upper or rightmost edge of the grid?
+
 ```python
 def paths(m, n):
     """Return the number of paths from one corner of an
