@@ -71,9 +71,14 @@ You'd like to have pizza before 13 o'clock (1pm). Create a `opening` table with 
 | La Val's |
 | Artichoke |
 
+```sql
+-- Pizza places that open before 1pm in alphabetical order
+SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
+```
 Run in 61A Code
-
+:::tip[**Hint:***]
 To order by `name` in reverse alphabitical order, write `ORDER BY name DESC`.
+:::
 
 ### Q2: Study Session
 
@@ -91,9 +96,16 @@ You're planning to study at a pizza place from the moment it opens until 14 o'cl
 | Emilia's | 1 |
 | Cheeseboard | 0 |
 
+```sql
+-- Pizza places and the duration of a study break that ends at 14 o'clock
+SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
+```
+
 Run in 61A Code
 
+:::tip[**Hint:***]
 To order by decreasing duration, first name the column with `SELECT ..., ... AS duration ...`, then `ORDER BY duration DESC`.
+:::
 
 ### Q3: Late Night Snack
 
@@ -106,8 +118,14 @@ What's still open for a late night `snack`? Create a `late` table with one colum
 | Cheeseboard closes at 23 |
 | La Val's closes at 22 |
 
+```sql
+-- Pizza places that are open for late-night-snack time and when they close
+  SELECT ____ || " closes at " || ____ AS status
+  FROM ____
+  WHERE ____;
+```
 Run in 61A Code
-
+:::tip[**Hint:***]
 To compare a pizza place's `close` time to the time of a snack:
 
 -   join the `pizzas` and `meals` tables using `FROM pizzas, meals`
@@ -115,6 +133,7 @@ To compare a pizza place's `close` time to the time of a snack:
 -   compare the `time` of the snack to the `close` of the pizza place.
 
 Use `name || " closes at " || close` to create the sentences in the resulting table. The `||` operator concatenates values into strings.
+:::
 
 ### Q4: Double Pizza
 
@@ -129,9 +148,17 @@ If two meals are more than 6 hours apart, then there's nothing wrong with going 
 | breakfast | snack | La Val's |
 | lunch | snack | La Val's |
 
+```sql
+-- Two meals at the same place
+  SELECT ____ AS first, ____ AS second, name
+  FROM ____, ____, pizzas
+  WHERE ____;
+```
 Run in 61A Code
 
+:::tip[**Hint:***]
 Use `FROM meals AS a, meals AS b, pizzas` so that each row has info about two meals and a pizza place. Then you can write a `WHERE` clause that compares both `a.time` and `b.time` to `open` and `close` and each other to ensure all the relevant conditions are met.
+:::
 
 ## Document the Occasion
 
