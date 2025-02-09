@@ -31,6 +31,13 @@ What is the value of `result` after executing `result = (lambda x: 2 * (lambda x
 
 Draw an environment diagram for the code below. You can use paper or a tablet or the whiteboard. Talk to your group about how you are going to draw it, then go through each step _together_. Then, step through the diagram to check your work.
 
+<iframe
+                width="800"
+                height="460"
+                frameborder="0"
+                src="https://pythontutor.com/iframe-embed.html#code=def+team%28work%29%3A%0A%09return+t%28work%29+-+1%0Adef+dream%28work%2C+s%29%3A%0A%09if+work%28s-2%29%3A%0A%09%09t+%3D+not+s%0A%09return+not+t%0Awork%2C+t+%3D+3%2C+abs%0Ateam+%3D+dream%28team%2C+work+%2B+1%29+and+t&codeDivHeight=460&codeDivWidth=350&cumulative=true&curInstr=1&heapPrimitives=nevernest&origin=composingprograms.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+</iframe>
+
 Here's a blank diagram in case you're using a tablet:
 
 ![template](/img/cs61a/A9nnHPb.png)
@@ -51,12 +58,33 @@ Remember the problem-solving approach from last discussion; it works just as wel
 ### Q2: Make Keeper
 
 Implement `make_keeper`, which takes a positive integer `n` and returns a function `f` that takes as its argument another one-argument function `cond`. When `f` is called on `cond`, it prints out the integers from 1 to `n` (including `n`) for which `cond` returns a true value when called on each of those integers. Each integer is printed on a separate line.
+```python
+def make_keeper(n):
+    """Returns a function that takes one parameter cond and prints
+    out all integers 1..i..n where calling cond(i) returns True.
 
+    >>> def is_even(x): # Even numbers have remainder 0 when divided by 2.
+    ...     return x % 2 == 0
+    >>> make_keeper(5)(is_even)
+    2
+    4
+    >>> make_keeper(5)(lambda x: True)
+    1
+    2
+    3
+    4
+    5
+    >>> make_keeper(5)(lambda x: False)  # Nothing is printed
+    """
+    "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
 
 No peeking! First try to implement it without the hint.
 
+:::tip[**Hint**]
 To return a function `f`, include `def f(cond):` as the first line of the implementation and `return f` as the last. The `f` function should introduce `i = 1` in order to loop through all integers, calling `cond(i)` to determine whether `cond` returns true for each integer.
+:::
 
 **Don't run Python to check your work. You can check it just by thinking!**. If you get stuck, ask the staff for help.
 
@@ -71,10 +99,27 @@ For example, in the number 4567, 7 is the 1st digit from the right, 6 is the 2nd
 **Important:** You may not use strings or indexing for this problem.
 
 Use floor dividing by a power of 10 gets rid of the rightmost digits.
+```python
+def find_digit(k):
+    """Returns a function that returns the kth digit of x.
 
+    >>> find_digit(2)(3456)
+    5
+    >>> find_digit(2)(5678)
+    7
+    >>> find_digit(1)(10)
+    0
+    >>> find_digit(4)(789)
+    0
+    """
+    assert k > 0
+    "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
 
+:::tip[**Hint**]
 First remove all of the digits after digit `k`, at which point digit `k` will be the last digit.
+:::
 
 ### Q4: Match Maker
 
@@ -89,10 +134,38 @@ For example, `match_k(2)` returns a one argument function that takes in `x` and 
 **Important:** You may not use strings or indexing for this problem.
 
 Floor dividing by powers of 10 gets rid of the rightmost digits.
+```python
+def match_k(k):
+    """Returns a function that checks if digits k apart match.
 
+    >>> match_k(2)(1010)
+    True
+    >>> match_k(2)(2010)
+    False
+    >>> match_k(1)(1010)
+    False
+    >>> match_k(1)(1)
+    True
+    >>> match_k(1)(2111111111111111)
+    False
+    >>> match_k(3)(123123)
+    True
+    >>> match_k(2)(123123)
+    False
+    """
+    def check(x):
+        while x // (10 ** k) > 0:
+            if ____________________________:
+                return ____________________________
+            x //= 10
+        ____________________________
+    ____________________________
+```
 Run in 61A Code
 
+:::tip[**Hint**]
 In each iteration, compare the last digit with the one that is `k` positions before it.
+:::
 
 ## Document the occasion
 
