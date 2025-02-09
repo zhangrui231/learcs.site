@@ -9,13 +9,13 @@ description: Homework 2 FAQ.
 
 The sample standard deviation is undefined. We recommend returning Double.NaN but we will not test this case.
 
-### After the system has percolated, `PercolationVisualizer` colors in light blue all sites connected to open sites on the bottom (in addition to those connected to open sites on the top). Is this "backwash" acceptable?
+**After the system has percolated**, `PercolationVisualizer` **colors in light blue all sites connected to open sites on the bottom (in addition to those connected to open sites on the top). Is this "backwash" acceptable?**
 
 While allowing backwash does not strictly conform to the Percolation API, it requires quite a bit of ingenuity to fix and it leads to only a small deduction if you don't.
 
 ![percolation](/img/cs61b/percolation-backwash.png)
 
-[//]: # "If you are well and truly stuck, you can read the [hints for solving backwash](hints.md)."
+
 
 ### How do I generate a site uniformly at random among all blocked sites for use in `PercolationStats`?
 
