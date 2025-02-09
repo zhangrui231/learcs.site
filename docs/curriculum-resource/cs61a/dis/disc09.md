@@ -36,9 +36,29 @@ Everybody say your name, and then figure out who most recently pet a dog. (Feel 
 Implement `fit`, which takes non-negative integers `total` and `n`. It returns whether there are `n` **different** positive perfect squares that sum to `total`.
 
 **Important:** Don't use the Scheme interpreter to tell you whether you've implemented it correctly. Discuss! On the final exam, you won't have an interpreter.
+```
+; Return whether there are n perfect squares with no repeats that sum to total
+
+    (define (fit total n)
+        (define (f total n k)
+            (if (and (= n 0) (= total 0))
+                #t
+            (if (< total (* k k))
+                #f
+            'YOUR-CODE-HERE
+            )))
+        (f total n 1))
+
+    (expect (fit 10 2) #t)  ; 1*1 + 3*3
+    (expect (fit 9 1)  #t)  ; 3*3
+    (expect (fit 9 2)  #f)  ;
+    (expect (fit 9 3)  #f)  ; 1*1 + 2*2 + 2*2 doesn't count because of repeated 2*2
+    (expect (fit 25 1)  #t) ; 5*5
+    (expect (fit 25 2)  #t) ; 3*3 + 4*4
+```
 
 Run in 61A Code
-
+:::tip[**Hint**]
 Use the `(or _ _)` special form to combine two recursive calls: one that uses `k*k` in the sum and one that does not. The first should subtract `k*k` from `total` and subtract 1 from `n`; the other should leaves `total` and `n` unchanged. In either case, add 1 to `k`.
 
 **Presentation Time:** As a group, come up with one sentence describing how your implementation makes sure that all `n` positive perfect squares are **different** (no repeats). Once your group agrees on an answer (or wants help), send a message to the `#discuss-queue` channel with the `@discuss` tag, your discussion group number, and the message "It fits!" and a member of the course staff will join your voice channel to hear your explanation and give feedback.
@@ -63,7 +83,7 @@ Quoting an expression leaves it unevaluated. Examples:
 
 Here's an important difference between `list` and quotation:
 
-```
+```scheme
 scm> (list 2 (+ 3 4))
 (2 7)
 scm> `(2 (+ 3 4))
@@ -78,26 +98,54 @@ Create the nested list depicted below three different ways: using `list`, `quote
 
 First, describe the list together: "It looks like there are four elements, and the first element is ..." If you get stuck, look at the hint below. (But try to describe it yourself first!)
 
+:::tip[**Hint**]
 A four-element list in which the first element is a list containing both `a` and `b`, the second element is `c`, the third element is `d`, and the fourth element is a list containing just `e`.
+:::
 
 Next, use calls to `list` to construct this list. If you run this code and then `(draw with-list)` in [code.cs61a.org](https://code.cs61a.org/scheme), the `draw` procedure will draw what you've built.
-
+```scheme
+ (define with-list
+        (list
+            'YOUR-CODE-HERE
+        )
+    )
+    ; (draw with-list)  ; Uncomment this line to draw with-list
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 Every call to list creates a list, and there are three different lists in this diagram: a list containing `a` and `b`: `(list 'a 'b)`, a list containing `e`: `(list 'e)`, and the whole list of four elements: `(list _ 'c 'd _)`. Try to put these expressions together.
-
+:::
 Now, use `quote` to construct this list.
+```scheme
+(define with-quote
+        '(
+            'YOUR-CODE-HERE
+        )
 
+    )
+    ; (draw with-quote)  ; Uncomment this line to draw with-quote
+```
 Run in 61A Code
 
+:::tip[**Hint**]
 One quoted expression is enough, but it needs to match the structure of the linked list using Scheme notation. So, your task is to figure out how this list would be displayed in Scheme.
 
 The nested list drawn above is a four-element list with lists as its first and last elements: `((a b) c d (e))`. Quoting that expression will create the list.
-
+:::
 Now, use `cons` to construct this list. Don't use `list`. You can use `first` in your answer.
 
+```scheme
+ (define first
+    (cons 'a (cons 'b nil)))
+(define with-cons
+        (cons
+            'YOUR-CODE-HERE
+        )
+    )
+    ; (draw with-cons)  ; Uncomment this line to draw with-cons
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 The provided `first` is the first element of the result, so the answer takes the form:
 
 `first ____`
@@ -109,19 +157,34 @@ You can either fill in the blank with a quoted three-element list:
 or with nested calls to `cons`:
 
 `(cons ___ (cons ___ (cons ___ nil)))` `c d (e)`
+:::
 
 ### Q3: Pair Up
 
 Implement `pair-up`, which takes a list `s`. It returns a list of lists that together contain all of the elements of `s` in order. Each list in the result should have 2 elements. The last one can have up to 3.
 
 Look at the examples together to make sure everyone understands what this procedure does.
+```scheme
+;;; Return a list of pairs containing the elements of s.
+    ;;;
+    ;;; scm> (pair-up '(3 4 5 6 7 8))
+    ;;; ((3 4) (5 6) (7 8))
+    ;;; scm> (pair-up '(3 4 5 6 7 8 9))
+    ;;; ((3 4) (5 6) (7 8 9))
+    (define (pair-up s)
+        (if (<= (length s) 3)
+            'YOUR-CODE-HERE
+        ))
 
+    (expect (pair-up '(3 4 5 6 7 8)) ((3 4) (5 6) (7 8)) )
+    (expect (pair-up '(3 4 5 6 7 8 9)) ((3 4) (5 6) (7 8 9)) )
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 `pair-up` takes a list (of numbers) and returns a list of lists, so when `(length s)` is less than or equal to 3, return a list containing the list `s`. For example, `(pair-up (list 2 3 4))` should return `((2 3 4))`.
 
 Use `(cons _ (pair-up _))` to create the result, where the first argument to `cons` is a list with two elements: the `(car s)` and the `(car (cdr s))`. The argument to `pair-up` is everything after the first two elements.
-
+:::
 **Discussion**: What's the longest list `s` for which `(pair-up (pair-up s))` will return a list with only one element? (Don't just guess and check; discuss!) Post your answer in your group's text chat.
 
 ## Document the Occasion
