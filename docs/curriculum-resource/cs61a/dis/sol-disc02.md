@@ -32,6 +32,13 @@ What is the value of `result` after executing `result = (lambda x: 2 * (lambda x
 
 Draw an environment diagram for the code below. You can use paper or a tablet or the whiteboard. Talk to your group about how you are going to draw it, then go through each step _together_. Then, step through the diagram to check your work.
 
+<iframe
+                width="800"
+                height="460"
+                frameborder="0"
+                src="https://pythontutor.com/iframe-embed.html#code=def+team%28work%29%3A%0A%09return+t%28work%29+-+1%0Adef+dream%28work%2C+s%29%3A%0A%09if+work%28s-2%29%3A%0A%09%09t+%3D+not+s%0A%09return+not+t%0Awork%2C+t+%3D+3%2C+abs%0Ateam+%3D+dream%28team%2C+work+%2B+1%29+and+t&codeDivHeight=460&codeDivWidth=350&cumulative=true&curInstr=1&heapPrimitives=nevernest&origin=composingprograms.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false">
+</iframe>
+
 Here's a blank diagram in case you're using a tablet:
 
 ![template](/img/cs61a/A9nnHPb.png)
