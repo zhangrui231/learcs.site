@@ -159,12 +159,46 @@ Define `print_evals`, which takes a Scheme expression `expr` that contains only 
 >>> print(Pair('+', Pair(Pair('*', Pair(3, Pair(4, nil))), Pair(5, nil))))
 (+ (* 3 4) 5)
 ```
+```scheme
+def print_evals(expr):
+        """Print the expressions that are evaluated while evaluating expr.
 
+        expr: a Scheme expression containing only (, ), +, *, and numbers.
+
+        >>> nested_expr = Pair('+', Pair(Pair('*', Pair(3, Pair(4, nil))), Pair(5, nil)))
+        >>> print_evals(nested_expr)
+        (+ (* 3 4) 5)
+        +
+        (* 3 4)
+        *
+        3
+        4
+        5
+        >>> print_evals(Pair('*', Pair(6, Pair(7, Pair(nested_expr, Pair(8, nil))))))
+        (* 6 7 (+ (* 3 4) 5) 8)
+        *
+        6
+        7
+        (+ (* 3 4) 5)
+        +
+        (* 3 4)
+        *
+        3
+        4
+        5
+        8
+        """
+        if not isinstance(expr, Pair):
+            "*** YOUR CODE HERE ***"
+        else:
+            "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
-
+:::tip[**Hint**]
 If `expr` is not a pair, then it is a number or `'+'` or `'*'`. In all of these cases, the `expr` should be printed to indicate that it would be evaluated.
 
 If `expr` is a pair, then it is a call expression. Print it. Then, the operator and operands are evaluated. These are the elements in the list `expr`. So, iterate through `expr` (using either a `while` statement or `expr.map(...)`) and call `print_evals` on each element.
+:::
 
 ## Document the Occasion
 
