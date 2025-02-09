@@ -60,7 +60,22 @@ Implement `word_rope`, a Python function that takes a non-empty string `s` conta
 **Important:** You may not use slicing or the `split`, `find`, or `index` methods of a string. Solve the problem using list operations.
 
 **Reminder:** `s[-1]` evaluates to the last element of a sequence `s`.
-
+```python
+ def word_rope(s):
+    """Return a rope of the words in string s.
+    >>> word_rope('the last week')
+    ['t', 'h', 'e', ['l', 'a', 's', 't', ['w', 'e', 'e', 'k']]]
+    """
+    assert s and s[0] != ' ' and s[-1] != [ ]
+    result = []
+    word = _____
+    for x in s:
+        if x == ' ':
+            "*** YOUR CODE HERE ***"
+        else:
+            "*** YOUR CODE HERE ***"
+    return result
+ ```
 Run in 61A Code
 
 In this implementation, `result` is a rope and `word` is a list within that rope which is still being constructed. When `x` is a space, add an empty list to the end of `word` and assign `word` to this empty list. Otherwise, add `x` to the end of `word`.
@@ -122,7 +137,48 @@ class Link:
 **Definition:** A _linear sublist_ of a linked list of numbers `s` is a sublist in which the difference between adjacent numbers is always the same. For example `<2 4 6 8>` is a linear sublist of `<1 2 3 4 6 9 1 8 5>` because the difference between each pair of adjacent elements is 2.
 
 Implement `linear` which takes a linked list of numbers `s` (either a `Link` instance or `Link.empty`). It returns the longest linear sublist of `s`. If two linear sublists are tied for the longest, return either one.
+```python
+def linear(s):
+    """
+    Return the longest linear sublist of a linked list s.
+    >>> s = Link(9, Link(4, Link(6, Link(7, Link(8, Link(10))))))
+    >>> linear(s)
+    Link(4, Link(6, Link(8, Link(10))))
+    >>> linear(Link(4, Link(5, s)))
+    Link(4, Link(5, Link(6, Link(7, Link(8)))))
+    >>> linear(Link(4, Link(5, Link(4, Link(7, Link(3, Link(2, Link(8))))))))
+    Link(5, Link(4, Link(3, Link(2))))
+    """
+    def complete(first, rest):
+        "The longest linear sublist of Link(first, rest) with difference d."
+        if rest is Link.empty:
+            return ____
+        elif ____ == d:
+            return Link(____, complete(____, ____))
+        else:
+            return complete(first, rest.rest)
+    
+    if s is Link.empty:
+        return s
+    
+    longest = Link(s.first)  # The longest linear sublist found so far
+    while s is not Link.empty:
+        t = s.rest
+        while t is not Link.empty:
+            d = t.first - s.first
+            candidate = ____
+            if length(candidate) > length(longest):
+                longest = candidate
+            t = t.rest
+        s = s.rest
+    return longest
 
+def length(s):
+    if s is Link.empty:
+        return 0
+    else:
+        return 1 + length(s.rest)
+```
 Run in 61A Code
 
 There are three cases:
@@ -142,7 +198,18 @@ This while loop is creating a `candidate` linear sublist for every two possible 
 Implement `up`, a Scheme procedure that takes a positive integer `n`. It returns a rope containing the digits of `n` that is the shortest rope in which each pair of adjacent numbers in the same list are in increasing order.
 
 **Reminder**: the `quotient` procedure performs floor division, like `//` in Python. The `remainder` procedure is like `%` in Python.
+```scheme
+(define (up n)
+  (define (helper n result)
+    (if (zero? n) result
+        (helper (quotient n 10)
+                (let ((first (remainder n 10)))
+                  (cons first (if (null? result) '() (list result)))))))
+  (helper (quotient n 10) '()))
 
+(expect (up 314152667899) '(3 (1 4 (1 5 (2 6 (6 7 8 9 (9)))))))
+
+```
 Run in 61A Code
 
 Compare `first` to `(car result)` to decide whether to `cons` the value `first` onto the `result` or whether to form a new list that contains `first` and `result` as elements.
@@ -168,13 +235,52 @@ The `WHERE`, `GROUP BY`, `HAVING`, and `ORDER BY` clauses are optional.
 A substitution cipher replaces each word with another word in a table in order to encrypt a message. To decode an encrypted message, replace each word `x` with its corresponding `y` in a code table.
 
 Write a select statement to decode the `original` message _It's The End_ using the `code` table.
-
+```sql
+ CREATE TABLE original AS
+    SELECT 1 AS n, "It's" AS word UNION
+    SELECT 2, "The" UNION
+    SELECT 3 , "End";
+ 
+ CREATE TABLE code AS
+    SELECT "Up" AS x, "Down" AS y UNION
+    SELECT "Now", "Home" UNION
+    SELECT "It's" , "What" UNION
+    SELECT "See", "Do" UNION
+    SELECT "Can", "See" UNION
+    SELECT "End", "Now" UNION
+    SELECT "What" , "You" UNION
+    SELECT "The", "Happens" UNION
+    SELECT "Love" , "Scheme" UNION
+    SELECT "Not", "Mess" UNION
+    SELECT "Happens", "Go";
+ SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
+ ```
 Run in 61A Code
 
 Join the `original` and `code` tables and make sure that the joined roles have the same `word` and `x`.
 
 What happens now? Write another select statement to decode this encrypted message using the same `code` table.
+```sql
+CREATE TABLE original AS
+    SELECT 1 AS n, "It's" AS word UNION
+    SELECT 2 , "The" UNION
+    SELECT 3 , "End";
 
+CREATE TABLE code AS
+    SELECT "Up" AS x, "Down" AS y UNION
+    SELECT "Now" , "Home" UNION
+    SELECT "It's" , "What" UNION
+    SELECT "See" , "Do" UNION
+    SELECT "Can" , "See" UNION
+    SELECT "End" , "Now" UNION
+    SELECT "What" , "You" UNION
+    SELECT "The" , "Happens" UNION
+    SELECT "Love" , "Scheme" UNION
+    SELECT "Not" , "Mess" UNION
+    SELECT "Happens", "Go";
+
+SELECT  "REPLACE THIS LINE WITH YOUR SOLUTION";
+```
 Run in 61A Code
 
 Join `original` with `code AS a` and `code AS b` to create six-column rows like: `2|The|The|Happens|Happens|Go`, The _Go_ at the end is part of the decoded message.
