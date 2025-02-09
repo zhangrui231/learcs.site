@@ -117,7 +117,7 @@ Implement `has_path`, which takes a tree `t` and a list `p`. It returns whether 
 -   How can you use those return values to complete your implementation?
 
 If you get stuck, you can view our answers to these questions by clicking the hint button below, but _please_ don't do that until your whole group agrees.
-
+:::tip[**Hint**]
 **What recursive calls will you make?**
 
 As you usual, you will call `has_path` on each branch `b`. You'll make this call after comparing `p[0]` to `label(t)`, and so the second argument to `has_path` will be the rest of `p`: `has_path(b, p[1:])`.
@@ -133,11 +133,36 @@ If `has_path(b, p[1:])` returns `True`, then there is a path through branch `b` 
 **How can you use those return values to complete your implementation?**
 
 If you have already checked that `label(t)` is equal to `p[0]`, then a `True` return value means there is a path through `t` with labels `p` using that branch `b`. A `False` value means there is no path through that branch, but there might be path through a different branch.
+:::
 
+```python
+def has_path(t, p):
+    """Return whether tree t has a path from the root with labels p.
+
+    >>> t2 = tree(5, [tree(6), tree(7)])
+    >>> t1 = tree(3, [tree(4), t2])
+    >>> has_path(t1, [5, 6])        # This path is not from the root of t1
+    False
+    >>> has_path(t2, [5, 6])        # This path is from the root of t2
+    True
+    >>> has_path(t1, [3, 5])        # This path does not go to a leaf, but that's ok
+    True
+    >>> has_path(t1, [3, 5, 6])     # This path goes to a leaf
+    True
+    >>> has_path(t1, [3, 4, 5, 6])  # There is no path with these labels
+    False
+    """
+    if p == ____:  # when len(p) is 1
+        return True
+    elif label(t) != ____:
+        return False
+    else:
+        "*** YOUR CODE HERE ***"
+```
 Run in 61A Code
 
 If your group needs some guidance, you can click on the hints below, but please talk with your group first before reading the hints.
-
+:::tip[**Hint**]
 The first base case should check whether `p` is a list of length one with the label of `t` as its only element. The second base case should check if the first element of `p` matches the label of `t`.
 
 When entering the recursive case, your code should already have checked that `p[0]` is equal to `label(t)`, and so all that's left to check is that `p[1:]` contains the labels in a path through one of the branches. One way is with this template:
@@ -148,6 +173,7 @@ for ____:
         return True
 return False
 ```
+:::
 
 **Discussion Time!** Can the `else` case of `has_path` be written in just one line? Why or why not? You can ignore how fast the function will run. When your group has an answer, send a message to the discuss-queue channel with the @discuss tag, your discussion group number, and the message "Maybe?" and a member of the course staff will join your voice channel to hear your answer and give feedback.
 
@@ -158,7 +184,7 @@ Implement `find_path`, which takes a tree `t` with unique labels and a value `x`
 If `x` is not a label in `t`, return `None`. Assume that the labels of `t` are unique.
 
 First talk through how to make and use the recursive call. (Try it yourselves; don't just click the hint button. That's how you learn.)
-
+:::tip[**Hint**]
 **What recursive calls will you make?**
 
 `find_path(b, x)` on each branch `b`.
@@ -174,16 +200,42 @@ If `find_path(b, x)` returns `None`, then `x` does not appear in `b`. If `find_p
 **How can you use those return values to complete your implementation?**
 
 If a list is returned, then it contains all of the labels in the path except `label(t)`, which must be placed at the front.
+:::
 
+```python
+    def find_path(t, x):
+    """
+    >>> t2 = tree(5, [tree(6), tree(7)])
+    >>> t1 = tree(3, [tree(4), t2])
+    >>> find_path(t1, 5)
+    [3, 5]
+    >>> find_path(t1, 4)
+    [3, 4]
+    >>> find_path(t1, 6)
+    [3, 5, 6]
+    >>> find_path(t2, 6)
+    [5, 6]
+    >>> print(find_path(t1, 2))
+    None
+    """
+    if ____:
+        return ____
+    ____:
+        path = ____
+        if path:
+            return ____
+    return None
+```
 Run in 61A Code
 
 Please don't view the hints until you've discussed with your group and can't make progress.
-
+:::tip[**Hint**]
 If `x` is the label of `t`, then return a list with one element that contains the label of `t`.
 
 Assign `path` to the result of a recursive call to `find_path(b, x)` so that you can both check whether it's `None` and extend it if it's a list.
 
 For a list `path` and a value `v`, the expression `[v] + path` creates a longer list that starts with `v` and then has the elements of `path`.
+:::
 
 **Description Time!** When your group has completed this question, it's time to describe why this function does not have a base case that uses `is_leaf`. Come up with an explanation as a group, pick someone to present your answer, and then send a message to the discuss-queue channel with the @discuss tag, your discussion group number, and the message "Found it!" and a member of the course staff will join your voice channel to hear your description and give feedback.
 
