@@ -21,8 +21,9 @@ Post in the `#help` channel on [Discord](https://cs61a.org/articles/discord/) if
 ## Getting Started
 
 Say your name and share a favorite place on the Berkeley campus or surrounding city that you've discovered. Try to pick a place that others might not have been yet. (But if the room you're in now is your favorite place on campus, that's ok too.)
-
+:::tip[**Hint**]
 [McCone Hall](https://www.campus-maps.com/university-of-california-berkeley/mccone-hall/) has a nice view from the 5th floor balcony.
+:::
 
 ## Generators
 
