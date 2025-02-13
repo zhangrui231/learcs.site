@@ -164,12 +164,12 @@ scm> (eval (pow-expr 2 16))
 :::tip[**Hint**]
 _Hint:_
 
-- $ x^{2y} = (x^y)^2 $
+- $x^{2y} = (x^y)^2$
 
-- $ x^{2y+1} = x \cdot (x^y)^2 $
+- $x^{2y+1} = x \cdot (x^y)^2$
 
 
-For example,  $ 2^{16} = (2^8)^2 $ and $ 2^{17} = 2 \times (2^8)^2 $
+For example,  $2^{16} = (2^8)^2$ and $2^{17} = 2 \times (2^8)^2$
 You may use the built-in predicates `even?` and `odd?`. Also, the `square` procedure is defined for you.
 :::
 
