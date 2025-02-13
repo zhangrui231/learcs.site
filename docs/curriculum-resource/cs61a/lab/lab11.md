@@ -161,15 +161,17 @@ scm> (pow-expr 2 16)
 scm> (eval (pow-expr 2 16))
 65536
 ```
+:::tip[**Hint**]
+_Hint:_
 
-> _Hint:_
-> 
-> 1.  x2y = (xy)2
-> 2.  x2y+1 = x(xy)2
-> 
-> For example, 216 = (28)2 and 217 = 2 \* (28)2.
-> 
-> You may use the built-in predicates `even?` and `odd?`. Also, the `square` procedure is defined for you.
+- $ x^{2y} = (x^y)^2 $
+
+- $ x^{2y+1} = x \cdot (x^y)^2 $
+
+
+For example,  $ 2^{16} = (2^8)^2 $ and $ 2^{17} = 2 \times (2^8)^2 $
+You may use the built-in predicates `even?` and `odd?`. Also, the `square` procedure is defined for you.
+:::
 
 Here's the [solution to a similar homework problem](https://cs61a.org/hw/sol-hw07/#q1-pow).
 
