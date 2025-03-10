@@ -272,20 +272,18 @@ title: 课程笔记
 
     ![](/img/cs50/strach10.png "if")
 
-    注意，垃圾在Y轴上的初始位置是180，X轴的位置是随机的。 当垃圾高于地面时，每次会向下移动3个像素。点击此链接，可以查看更多代码细节：[https://scratch.mit.edu/projects/565117390]
+    注意，垃圾在Y轴上的初始位置是180，X轴的位置是随机的。 当垃圾高于地面时，每次会向下移动3个像素。[点击此链接](https://scratch.mit.edu/projects/565117390)，可以查看更多代码细节：[]
 
 -   接下来，修改代码，让垃圾可以被拖动。
 
     ![](/img/cs50/strach11.png "if")
 
-    点击此链接，可以查看更多代码细节：[https://scratch.mit.edu/projects/565119737]
-
+    点击此[链接](https://scratch.mit.edu/projects/565119737)，可以查看更多代码细节：
 -   接下来，我们可以按如下方式实现评分变量：
 
     ![](/img/cs50/strach12.png "if")
 
-
-    点击此链接，可以查看更多代码细节：[https://scratch.mit.edu/projects/565472267]
+    点击此[链接](https://scratch.mit.edu/projects/565472267)，可以查看更多代码细节：
 
 ## [角色移动](#sprite-movement)
 
@@ -307,10 +305,9 @@ title: 课程笔记
 
     ![](/img/cs50/strach15.png "if")
 
-
     注意，还有一个自定义的“feel for walls”脚本。 当角色碰到墙壁时，这个脚本会把它移回安全区域，防止它穿墙而出。
 
--   点击此链接，可以查看更多代码细节：[https://scratch.mit.edu/projects/565121265]
+-   点击此[链接](https://scratch.mit.edu/projects/565121265)，可以查看更多代码细节
 -   快去体验完整的游戏吧！[Oscartime](https://scratch.mit.edu/projects/277537196)
 
 ## [更多角色](#more-sprites)
