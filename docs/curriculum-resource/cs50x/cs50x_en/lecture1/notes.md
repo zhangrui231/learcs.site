@@ -55,7 +55,9 @@ title: Notes
 -   You will learn about buggy code and what causes computer crashes.
 -   You will learn about data structures such as a hash table.
 -   Then, we will transition to a new, higher-level language called _Python_. Your code will look something like this:
-    
+    ```
+    print("hello, world")
+    ```
 -   This class will give you a strong understanding of how recent programming languages developed from the earlier ones.
 -   We will also be looking at how we can use databases and third-party frameworks to build web applications.
 
@@ -75,21 +77,36 @@ title: Notes
 -   If you imagine using a light bulb, a single bulb can only count from zero to one.
 -   However, if you were to have three light bulbs, there are more options open to you!
 -   Using three light bulbs, the following could represent zero:
-    
+    ```
+      0 0 0
+    ```
 -   Similarly, the following would represent one:
-    
+    ```
+      0 0 1
+    ```
 -   By this logic, we could propose that the following equals two:
-    
+    ```
+      0 1 0
+    ```
 -   Extending this logic further, the following represents three:
-    
+    ```
+      0 1 1
+    ```
 -   Four would appear as:
-    
+    ```
+      1 0 0
+    ```
 -   We could, in fact, using only three light bulbs count as high as seven!
     
 -   As a heuristic, we could imagine that the following values represent each possible place in our _binary digit_:
-    
+    ```
+    4 2 1
+    ```
 -   Computers use ‘base-2’ to count. This can be pictured as follows:
-    
+    ```
+      2^2  2^1  2^0
+      4    2    1
+    ```
 -   Therefore, you could say that it would require three bits (the four’s place, the two’s place, and the one’s place) to represent a number as high as seven.
     
 -   Computers generally use eight bits to represent a number. For example, `00000101` is the number 5 in _binary_.
@@ -100,7 +117,10 @@ title: Notes
 -   Since there is an overlap between the ones and zeros that represent numbers and letters, the _ASCII_ standard was created to map specific letters to specific numbers.
 -   For example, the letter `A` was decided to map to the number 65.
 -   If you received a text message, the binary under that message might represent the numbers 72, 73, and 33. Mapping these out to ASCII, your message would look as follows:
-    
+    ```
+      H   I   !
+      72  73  33
+    ```
 -   Thank goodness for standards like ASCII that allow us to agree upon these values!
 -   Here is an expanded map of ASCII values:
     
