@@ -2,6 +2,9 @@
 title: Lab 9 Solutions
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Lab 9 Solutions | CS 61A Spring 2024
 
 ## Lab 9 Solutions
@@ -153,21 +156,25 @@ scm> (if (= x 3) (print x))
 
 Let's compare a Scheme `if` expression with a Python `if` statement:
 
-| Scheme | Python |
-| --- | --- |
-| 
-```
-scm> (if (> x 3) 1 2)
-```
- | 
-```
->>> if x > 3:
+<Tabs>
+  <TabItem value="scheme" label="Scheme">
+    <pre>
+      <code className="language-scheme">
+        {`scm> (if (> x 3) 1 2)`}
+      </code>
+    </pre>
+  </TabItem>
+  <TabItem value="python" label="Python">
+    <pre>
+      <code className="language-python">
+        {`>>> if x > 3:
 ...     1
 ... else:
-...     2
-```
-
- |
+...     2`}
+      </code>
+    </pre>
+  </TabItem>
+</Tabs>
 
 The Scheme `if` expression evaluates to a number (either 1 or 2, depending on `x`). The Python statement does not evaluate to anything, and so the 1 and 2 cannot be used or accessed.
 
