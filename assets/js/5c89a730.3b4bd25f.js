@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[3412],{51909:e=>{e.exports=JSON.parse('{"label":"Andrej","permalink":"/blog/tags/andrej","allTagsPath":"/blog/tags","count":2}')}}]);
