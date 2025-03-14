@@ -1026,7 +1026,6 @@ description: CS 61A Spring 2024 | 课程大纲
   截止
   周三 4/10
 </div>
-The provided text is already in English, and the "translation" is identical to the source. Therefore, no changes are needed.
 </span>
 </td>
 <td>
