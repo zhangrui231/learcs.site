@@ -315,9 +315,9 @@ Just as you did in Lab 1, add, commit, then push your Lab 2 code to GitHub.
 Then, submit to Gradescope to test your code. If you need a refresher, check
 out the instructions in the
 [Lab 1 spec](../lab01/index.md#submitting-to-gradescope) and the
-[Assignment Workflow Guide](guides/assignment-workflow).
+[Assignment Workflow Guide](../guides/assignment-workflow).
 
-[workflow]( guides/assignment-workflow):
+[workflow]( ../guides/assignment-workflow):
 
 ## Acknowledgements
 
