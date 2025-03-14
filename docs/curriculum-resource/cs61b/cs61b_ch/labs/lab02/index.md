@@ -203,9 +203,9 @@ System.out.println(lst.print())
 
 就像在 Lab 1 中所做的那样，添加、提交，然后将您的 Lab 2 代码推送到 GitHub。然后，提交到 Gradescope 以测试您的代码。如果您需要复习，请查看
 [Lab 1 规范](../lab01/index.md#submitting-to-gradescope) 和
-[作业工作流程指南](../../guides/assignment-workflow)中的说明。
+[作业工作流程指南](guides/assignment-workflow)中的说明。
 
-[workflow:](../guides/assignment-workflow)
+[workflow:](guides/assignment-workflow)
 
 ## 致谢
 
