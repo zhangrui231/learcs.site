@@ -58,9 +58,9 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/11-getting-started.html" class="label label-outline" target="_blank">1.1 节 (第一章)</a></li>
-<li><a href="https://www.composingprograms.com/pages/12-elements-of-programming.html" class="label label-outline" target="_blank">1.2 节 (第一章)</a></li>
-<li><a href="https://www.composingprograms.com/pages/13-defining-new-functions.html" class="label label-outline" target="_blank">1.3 节 (第一章)</a></li>
+  <li><a href="https://www.composingprograms.com/pages/11-getting-started.html" class="label label-outline" target="_blank">ch. 1.1 </a></li>
+<li><a href="https://www.composingprograms.com/pages/12-elements-of-programming.html" class="label label-outline" target="_blank">ch. 1.2 </a></li>
+<li><a href="https://www.composingprograms.com/pages/13-defining-new-functions.html" class="label label-outline" target="_blank">ch. 1.3 </a></li>
 </ul>
 </td>
 <td>
@@ -102,8 +102,8 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/14-designing-functions.html" class="label label-outline" target="_blank">第 1.4 章</a></li>
-<li><a href="https://www.composingprograms.com/pages/15-control.html" class="label label-outline" target="_blank">第 1.5 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/14-designing-functions.html" class="label label-outline" target="_blank">ch. 1.4</a></li>
+<li><a href="https://www.composingprograms.com/pages/15-control.html" class="label label-outline" target="_blank">ch. 1.5</a></li>
 </ul>
 </td>
 <td>
@@ -134,7 +134,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/16-higher-order-functions.html" class="label label-outline" target="_blank">第 1.6 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/16-higher-order-functions.html" class="label label-outline" target="_blank">ch. 1.6</a></li>
 </ul>
 </td>
 <td>
@@ -180,7 +180,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/16-higher-order-functions.html" class="label label-outline" target="_blank">第 1.6 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/16-higher-order-functions.html" class="label label-outline" target="_blank">ch. 1.6</a></li>
 </ul>
 </td>
 <td></td>
@@ -298,7 +298,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/17-recursive-functions.html" class="label label-outline" target="_blank">1.7 章节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/17-recursive-functions.html" class="label label-outline" target="_blank">ch. 1.7</a></li>
 </ul>
 </td>
 <td>
@@ -328,7 +328,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/17-recursive-functions.html" class="label label-outline" target="_blank">1.7 章节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/17-recursive-functions.html" class="label label-outline" target="_blank">ch. 1.7</a></li>
 </ul>
 </td>
 <td></td>
@@ -359,8 +359,8 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/21-introduction.html" class="label label-outline" target="_blank">第 2.1 章</a></li>
-<li><a href="https://www.composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">第 2.3 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/21-introduction.html" class="label label-outline" target="_blank">ch. 2.1</a></li>
+<li><a href="https://www.composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">ch. 2.3</a></li>
 </ul>
 </td>
 <td>
@@ -389,7 +389,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">2.3 章节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">ch. 2.3</a></li>
 </ul>
 </td>
 <td>
@@ -439,7 +439,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/22-data-abstraction.html" class="label label-outline" target="_blank">2.2 章节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/22-data-abstraction.html" class="label label-outline" target="_blank">ch. 2.2</a></li>
 </ul>
 </td>
 <td></td>
@@ -478,7 +478,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">第 2.3 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">ch. 2.3</a></li>
 </ul>
 </td>
 <td>
@@ -508,7 +508,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/24-mutable-data.html" class="label label-outline" target="_blank">第 2.4 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/24-mutable-data.html" class="label label-outline" target="_blank">ch. 2.4</a></li>
 </ul>
 </td>
 <td></td>
@@ -539,7 +539,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/42-implicit-sequences.html" class="label label-outline" target="_blank">第 4.2 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/42-implicit-sequences.html" class="label label-outline" target="_blank">ch. 4.2</a></li>
 </ul>
 </td>
 <td>
@@ -568,7 +568,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/42-implicit-sequences.html" class="label label-outline" target="_blank">第四章，4.2 节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/42-implicit-sequences.html" class="label label-outline" target="_blank">ch. 4.2</a></li>
 </ul>
 </td>
 <td>
@@ -598,7 +598,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">第二章，2.5 节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">ch. 2.5</a></li>
 </ul>
 </td>
 <td></td>
@@ -630,7 +630,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">第二章，2.5 节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">ch. 2.5</a></li>
 </ul>
 </td>
 <td>
@@ -685,7 +685,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">第2.5节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">ch. 2.5</a></li>
 </ul>
 </td>
 <td>
@@ -715,7 +715,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/27-object-abstraction.html" class="label label-outline" target="_blank">第2.7节</a></li>
+  <li><a href="https://www.composingprograms.com/pages/27-object-abstraction.html" class="label label-outline" target="_blank">ch. 2.7</a></li>
 </ul>
 </td>
 <td></td>
@@ -953,7 +953,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/32-functional-programming.html" class="label label-outline" target="_blank">第 3.2 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/32-functional-programming.html" class="label label-outline" target="_blank">ch. 3.2</a></li>
 </ul>
 </td>
 <td>
@@ -983,7 +983,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/33-exceptions.html" class="label label-outline" target="_blank">第 3.3 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/33-exceptions.html" class="label label-outline" target="_blank">ch. 3.3</a></li>
 <li><a href="https://www.composingprograms.com/pages/34-interpreters-for-languages-with-combination.html" class="label label-outline" target="_blank">第 3.4 章</a></li>
 </ul>
 </td>
@@ -1016,7 +1016,7 @@ description: CS 61A Spring 2024 | 课程大纲
 </td>
 <td>
 <ul class="list-inline">
-  <li><a href="https://www.composingprograms.com/pages/35-interpreters-for-languages-with-abstraction.html" class="label label-outline" target="_blank">第 3.5 章</a></li>
+  <li><a href="https://www.composingprograms.com/pages/35-interpreters-for-languages-with-abstraction.html" class="label label-outline" target="_blank">ch. 3.5</a></li>
 </ul>
 </td>
 <td>
