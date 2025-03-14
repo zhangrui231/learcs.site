@@ -205,7 +205,7 @@ System.out.println(lst.print())
 [Lab 1 规范](../lab01/index.md#submitting-to-gradescope) 和
 [作业工作流程指南](../../guides/assignment-workflow)中的说明。
 
-[workflow:](../../guides/assignment-workflow#opening-in-intellij)
+[workflow:](../../guides/assignment-workflow)
 
 ## 致谢
 

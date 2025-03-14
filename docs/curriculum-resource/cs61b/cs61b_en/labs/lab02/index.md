@@ -317,7 +317,7 @@ out the instructions in the
 [Lab 1 spec](../lab01/index.md#submitting-to-gradescope) and the
 [Assignment Workflow Guide](../../guides/assignment-workflow).
 
-[workflow]( ../../guides/assignment-workflow#opening-in-intellij):
+[workflow]( ../../guides/assignment-workflow):
 
 ## Acknowledgements
 
