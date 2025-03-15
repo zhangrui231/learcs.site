@@ -465,7 +465,7 @@ def get_word(match, word_index):
     """A utility function that gets the word with index word_index"""
     assert 0 <= word_index < len(get_all_words(match)), "word_index out of range of words"
     return get_all_words(match)[word_index]
-``````
+
 def time(match, player_num, word_index):
     """A utility function for the time it took player_num to type the word at word_index"""
     assert word_index < len(get_all_words(match)), "word_index out of range of words"
@@ -483,6 +483,7 @@ def get_all_times(match):
 def match_string(match):
     """A helper function that takes in a match data abstraction and returns a string representation of it"""
     return f"match({get_all_words(match)}, {get_all_times(match)})"
+```
 
 时间戳是累积的，并且总是递增的。`times` 列表中的数值代表**每个玩家连续时间戳之间的差值**。
 
@@ -503,12 +504,12 @@ python3 ok -q 09
 更具体地说，`fastest_words` 函数返回一个列表，其中包含多个单词列表。每个子列表对应一个玩家，并包含该玩家打字速度最快的单词（与其他玩家相比）。如果出现平局，则认为在列表中排名最靠前的玩家（即玩家索引最小的玩家）打字速度最快。
 
 例如，考虑以下包含单词 `'Just'`、`'have'` 和 `'fun'` 的比赛。玩家 0 输入 `'fun'` 最快（3 秒），玩家 1 输入 `'Just'` 最快（4 秒），他们在单词 `'have'` 上打成平手（都花了 1 秒），因此我们认为玩家 0 是最快的，因为他们是列表中最早的玩家。
-
+```
 >>> player_0 = [5, 1, 3]
 >>> player_1 = [4, 1, 6]
 >>> fastest_words(match(['Just', 'have', 'fun'], [player_0, player_1]))
 [['have', 'fun'], ['Just']]
-
+```
 `match` 参数是一个 `match` 数据抽象，与我们在问题 9 中返回的类型相同。
 
 你可以使用 `get_word` 选择器来访问 `match` 对象中的单词。该选择器接受一个 `match` 对象和一个 `word_index`（整数）作为参数。
@@ -516,7 +517,7 @@ python3 ok -q 09
 此外，你可以使用 `time` 函数来获取玩家在特定索引位置输入某个单词所花费的时间。除了 `match` 对象和 `word_index` 之外，该函数还需要一个整数类型的 `player_num` 参数。
 
 通过这两个函数和一个 `match` 对象，我们可以轻松地获取任何玩家输入任何单词所花费的时间！
-
+```
 >>> player_0 = [5, 1, 3]
 >>> player_1 = [4, 1, 6]
 >>> ex_match = match(['Just', 'have', 'fun'], [player_0, player_1])

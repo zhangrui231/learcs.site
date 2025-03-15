@@ -60,6 +60,7 @@ Implement `fit`, which takes non-negative integers `total` and `n`. It returns w
 Run in 61A Code
 :::tip[**Hint**]
 Use the `(or _ _)` special form to combine two recursive calls: one that uses `k*k` in the sum and one that does not. The first should subtract `k*k` from `total` and subtract 1 from `n`; the other should leaves `total` and `n` unchanged. In either case, add 1 to `k`.
+:::
 
 **Presentation Time:** As a group, come up with one sentence describing how your implementation makes sure that all `n` positive perfect squares are **different** (no repeats). Once your group agrees on an answer (or wants help), send a message to the `#discuss-queue` channel with the `@discuss` tag, your discussion group number, and the message "It fits!" and a member of the course staff will join your voice channel to hear your explanation and give feedback.
 

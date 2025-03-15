@@ -76,59 +76,31 @@ There are more features described on the [Using OK page](https://cs61a.org/artic
 
 Here are examples of the division-related operators in Python 3:
 
-| True Division: `/`  
-(decimal division) | Floor Division: `//`  
-(integer division) | Modulo: `%`  
-(remainder) |
-| --- | --- | --- |
-| 
-```
->>> 1 / 5
-0.2
->>> 25 / 4
-6.25
+<table>
+  <tr>
+    <th>True Division: `/`(decimal division)</th>
+    <th>Floor Division: `//`(integer division)</th>
+    <th>Modulo: `%`(remainder)</th>
+  </tr>
+  <tr>
+    <td>
+      <pre>
+>>> 1 / 5<br/>0.2<br/>>>> 25 / 4<br/>6.25<br/>>>> 4 / 2<br/>2.0<br/>>>> 5 / 0<br/>ZeroDivisionError
+      </pre>
+    </td>
+    <td>
+      <pre>
+>>> 1 // 5 # truncate result of true division<br/>0<br/>>>> 25 // 4<br/>6<br/>>>> 4 // 2<br/>2<br/>>>> 5 // 0<br/>ZeroDivisionError
+      </pre>
+    </td>
+    <td>
+      <pre>
+>>> 1 % 5<br/>1<br/>>>> 25 % 4<br/>1<br/>>>> 4 % 2<br/>0<br/>>>> 5 % 0<br/>ZeroDivisionError
+      </pre>
+    </td>
+  </tr>
+</table>
 
->>> 4 / 2
-2.0
-
->>> 5 / 0
-ZeroDivisionError
-
-```
-
- | 
-```
->>> 1 // 5 # truncate result of true division
-0
-
->>> 25 // 4
-6
-
->>> 4 // 2
-2
-
->>> 5 // 0
-ZeroDivisionError
-
-```
-
- | 
-```
->>> 1 % 5
-1
-
->>> 25 % 4
-1
-
->>> 4 % 2
-0
-
->>> 5 % 0
-ZeroDivisionError
-
-```
-
- |
 
 A `ZeroDivisionError` occurs when dividing by 0.
 

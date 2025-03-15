@@ -68,7 +68,7 @@ def branches(tree):
 
 def is_leaf(tree):
     return not branches(tree)
-``````
+
 def is_tree(tree):
     if type(tree) != list or len(tree) < 1:
         return False
@@ -142,7 +142,7 @@ result = label(min(branches(max([t1, t2], key=label)), key=label))
 **你的解答**
 
 在 61A 代码中运行
-```**解法**
+**解法**
 
 ```
 def has_path(t, p):

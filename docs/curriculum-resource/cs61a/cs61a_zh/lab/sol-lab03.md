@@ -354,7 +354,7 @@ python3 ok -q squares
 ```
 def double_eights(n):
     """ 返回`n`是否包含两个连续的数字 `8`。 假定`n`至少包含两位数。
-```
+
 >>> double_eights(1288)
     True
     >>> double_eights(880)

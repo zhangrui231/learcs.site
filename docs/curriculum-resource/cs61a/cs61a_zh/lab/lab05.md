@@ -329,7 +329,7 @@ ______[5, 7, 9]
 ```
 def count_occurrences(t, n, x):
     """返回迭代器 t 的前 n 个元素中 x 等于其中一个元素的次数。
-``````
+
 >>> s = iter([10, 9, 10, 9, 9, 10, 8, 8, 8, 7])
     >>> count_occurrences(s, 10, 9)
     3
@@ -400,31 +400,31 @@ python3 ok -q repeated
 
   
 
-## Check Your Score Locally
+## 本地检查你的分数
 
-You can locally check your score on each question of this assignment by running
+你可以通过运行以下命令在本地检查你在本次作业中每个问题的得分：
 
 ```
 python3 ok --score
 ```
 
-**This does NOT submit the assignment!** When you are satisfied with your score, submit the assignment to Gradescope to receive credit for it.
+**这不会提交作业！** 当你对你的分数满意时，将作业提交到 Gradescope 以获得学分。 [实验 00](https://cs61a.org/lab/lab00/#submit-with-gradescope) 有详细的说明。
 
-## Submit
+## 提交
 
-Submit this assignment by uploading any files you've edited **to the appropriate Gradescope assignment.** [Lab 00](https://cs61a.org/lab/lab00/#submit-with-gradescope) has detailed instructions.
+通过将你编辑过的任何文件上传到 **相应的 Gradescope 作业** 来提交此作业。[实验 00](https://cs61a.org/lab/lab00/#submit-with-gradescope) 有详细的说明。
 
-In addition, all students who are **not** in the mega lab must complete this [attendance form](https://go.cs61a.org/lab-att). Submit this form each week, whether you attend lab or missed it for a good reason. The attendance form is not required for mega section students.
+此外，所有**不在**大型实验课的学生必须填写此 [出勤表](https://go.cs61a.org/lab-att)。每周提交此表格，无论你是参加了实验课还是因正当理由错过了实验课。大型实验课的学生不需要填写出勤表。
 
-## Optional Questions
+## 可选问题
 
-> These questions are optional. If you don't complete them, you will still receive credit for lab. They are great practice, so do them anyway!
+> 这些问题是可选的。如果你不完成它们，你仍然会获得实验学分。它们是很好的练习，所以无论如何都要做！
 
-### Q7: Sprout Leaves
+### 第 7 题：Sprout Leaves (萌发叶子)
 
-Define a function `sprout_leaves` that takes in a tree, `t`, and a list of leaves, `leaves`. It produces a new tree that is identical to `t`, but where each old leaf node has new branches, one for each leaf in `leaves`.
+定义一个函数 `sprout_leaves`，它接收一个树 `t` 和一个叶子列表 `leaves`。它生成一个与 `t` 相同的新树，但每个旧的叶节点都有新的分支，每个分支对应 `leaves` 中的一个叶子。
 
-For example, say we have the tree `t = tree(1, [tree(2), tree(3, [tree(4)])])`:
+例如，假设我们有树 `t = tree(1, [tree(2), tree(3, [tree(4)])])`:
 
 ```
   1
@@ -433,6 +433,7 @@ For example, say we have the tree `t = tree(1, [tree(2), tree(3, [tree(4)])])`:
     |
     4
 ```
+
 如果我们调用 `sprout_leaves(t, [5, 6])`，得到的结果将会是如下的树：
 
 ```

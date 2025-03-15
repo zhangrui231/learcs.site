@@ -541,7 +541,7 @@ g = (lambda y: y())(f)
 ```
 def multiple(a, b):
     """Return the smallest number n that is a multiple of both a and b.
-```
+
 >>> multiple(3, 4)
     12
     >>> multiple(14, 21)

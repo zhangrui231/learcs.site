@@ -109,7 +109,7 @@ class Transaction:
         return self.before != self.after
     def report(self):
         """返回描述交易的字符串。
-```
+
 >>> Transaction(3, 20, 10).report()
         '3: 减少了 20->10'
         >>> Transaction(4, 20, 50).report()
@@ -219,7 +219,7 @@ class Server:
     """
     def __init__(self):
         self.clients = {}
-```def send(self, email):
+    def send(self, email):
         """把邮件添加到收件人的邮箱里。"""
         self.clients[email.recipient_name].inbox.append(email)
     def register_client(self, client):
@@ -251,6 +251,7 @@ class Client:
         """向指定收件人发送邮件。"""
         email = Email(message, self, recipient_name)
         self.server.send(email)
+```
 > 提示：尝试用最小的硬币进行兑换。如果无法用最小硬币兑换，则尝试不用最小硬币兑换。
 >
 > 提示：最简单的解法不需要定义局部函数，但你可以根据需要定义额外的函数。
@@ -332,7 +333,7 @@ class ChangeMachine:
     [2, 8]
     >>> m.coins == {10: 1}
     True
-``````
+
 >>> m = ChangeMachine(9)
     >>> [m.change(k) for k in [2, 2, 3]]
     [[1, 1], [1, 1], [1, 1, 1]]

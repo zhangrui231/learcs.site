@@ -65,7 +65,7 @@ title: Discussion 4 Solutions
 ```
 def paths(m, n):
     """返回从一个 M 乘 N 网格的某个角到其对角的路径数。
-``````
+
 >>> paths(2, 2)
     2
     >>> paths(5, 7)
@@ -206,7 +206,7 @@ def max_product(s):
 ```
 def sums(n, m):
     """返回所有总和为 n 的列表，列表中的元素为不超过 m 的正整数，且任意两个相邻元素均不相同。
-```
+
 >>> sums(5, 1)
     []
     >>> sums(5, 2)
@@ -253,4 +253,3 @@ def sums(n, m):
 ## 完成签到
 
 请大家填写[出勤表](https://docs.google.com/forms/d/e/1FAIpQLSeqlK8l6WkScGr-RHR-kM4p5bnR9cllYrG95fDqPJspSlll7A/viewform)（每人每周提交一次）。
-```

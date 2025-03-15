@@ -146,7 +146,7 @@ scm> (* 2 3)  ; 现在是加法
 -   `)`
 
 因为当 `x` 等于 -2 时，`(< x 0)` 的结果是 `#t`，所以会计算 `(- x)`，但不会计算 `(if (= x 1) 100 x)`。 对于每一个需要计算的表达式，它的运算符和操作数都会被计算。 `(< x 0)` 和 `(- x)` 都是调用表达式。
-请在你们小组的 Discord 频道文本聊天中列出你们的答案 ([https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X))。例如，如果你们认为 `if < 0 )` 这几个会被评估，就写出来。助教会审查你们的答案并提供反馈。
+请在你们小组的 [Discord 频道文本聊天中](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels#h_01FMJT412WBX1MR4HDYNR8E95X)列出你们的答案。例如，如果你们认为 `if < 0 )` 这几个会被评估，就写出来。助教会审查你们的答案并提供反馈。
 
 ### Q3：打印被求值的表达式
 

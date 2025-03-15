@@ -85,7 +85,7 @@ def accumulate(fuse, start, n, term):
     """Return the result of fusing together the first n terms in a sequence 
     and start.  The terms to be fused are term(1), term(2), ..., term(n). 
     The function fuse is a two-argument commutative & associative function.
-``````
+
 >>> accumulate(add, 0, 5, identity)  # 0 + 1 + 2 + 3 + 4 + 5
     15
     >>> accumulate(add, 11, 5, identity) # 11 + 1 + 2 + 3 + 4 + 5

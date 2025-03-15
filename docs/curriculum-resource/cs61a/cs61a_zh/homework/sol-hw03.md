@@ -94,7 +94,7 @@ return total
 ```
 def digit_distance(n):
     """Determines the digit distance of n.
-```
+
 >>> digit_distance(3)
     0
     >>> digit_distance(777)
@@ -173,7 +173,7 @@ def distance(n):
 ```
 def interleaved_sum(n, odd_func, even_func):
     """计算总和 odd_func(1) + even_func(2) + odd_func(3) + ...，直到 n。
-``````
+
 >>> identity = lambda x: x
     >>> square = lambda x: x * x
     >>> triple = lambda x: x * 3
@@ -249,7 +249,7 @@ def next_larger_coin(coin):
         return 10
     elif coin == 10:
         return 25
-``````
+
 def next_smaller_coin(coin):
     """Returns the next smaller coin in order.
     >>> next_smaller_coin(25)
@@ -404,6 +404,7 @@ if n == 1:
         move_stack(n-1, start, other)
         print_move(start, end)
         move_stack(n-1, other, end)
+```
 然而，这个实现依赖于`fact`这个函数名（这里不是双关），我们在`fact`函数体内部调用了它。通常，为了编写递归函数，我们会使用`def`语句或赋值语句为其指定一个名称，这样才能在函数体内部引用自身。现在，你的任务是挑战一下自己：不使用函数名，仅通过递归方式实现`fact`函数！
 
 编写一个表达式，仅使用调用表达式、条件表达式和`lambda`表达式（没有赋值或`def`语句）来计算`n`的阶乘。

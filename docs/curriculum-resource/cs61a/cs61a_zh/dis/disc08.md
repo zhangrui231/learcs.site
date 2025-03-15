@@ -185,7 +185,9 @@ def overlap(s, t):
     3
     """
     "*** YOUR CODE HERE ***"
-```在 61A 代码中运行
+```
+在 61A 代码中运行
+
 :::tip[**小提示**]
 ```
     if s is Link.empty or t is Link.empty:
@@ -299,26 +301,26 @@ def divide(n, d):
     result = Link(0)  # 小数点前的 0
     "*** 请在此处填写你的代码 ***"
     return result
-``````
-def display(s, k=10):
-    """将无限链表 s 的前 k 位以小数形式打印出来。
 
-    >>> s = Link(0, Link(8, Link(3)))
-    >>> s.rest.rest.rest = s.rest.rest
-    >>> display(s)
-    0.8333333333...
-    """
-    assert s.first == 0, f'{s.first} 不是 0'
-    digits = f'{s.first}.'
-    s = s.rest
-    for _ in range(k):
-        assert s.first >= 0 and s.first < 10, f'{s.first} 不是一个数字'
-        digits += str(s.first)
+    def display(s, k=10):
+        """将无限链表 s 的前 k 位以小数形式打印出来。
+
+        >>> s = Link(0, Link(8, Link(3)))
+        >>> s.rest.rest.rest = s.rest.rest
+        >>> display(s)
+        0.8333333333...
+        """
+        assert s.first == 0, f'{s.first} 不是 0'
+        digits = f'{s.first}.'
         s = s.rest
-    print(digits + '...')
-
+        for _ in range(k):
+            assert s.first >= 0 and s.first < 10, f'{s.first} 不是一个数字'
+            digits += str(s.first)
+            s = s.rest
+        print(digits + '...')
+```
 1/22 的十进制展开式可以构造如下：
-
+```
 >>> n, d = 1, 22
 >>> n/d
 0.045454545454545456
@@ -347,13 +349,12 @@ Link(0, Link(0, Link(4, Link(5))))
 >>> tail.rest = result.rest.rest
 >>> display(result, 20)
 0.04545454545454545454...
-
+```
 将上述示例中的除法模式放在 `while` 语句中：
-
+```
 >>> q, r = 10 * n // d, 10 * n % d
 >>> tail.rest = Link(q)
 >>> tail = tail.rest
 >>> n = r
-
-在构造十进制展开式时，将每个 `n` 的 `tail` 存储在以 `n` 为键的字典中。当某个 `n` 第二次出现时，不要创建新的`Link`对象，而是将当前`Link`对象的 `rest` 指向前一个相同 `n` 对应的 `Link` 对象。这样就能形成一个循环，循环的长度是正确的。
 ```
+在构造十进制展开式时，将每个 `n` 的 `tail` 存储在以 `n` 为键的字典中。当某个 `n` 第二次出现时，不要创建新的`Link`对象，而是将当前`Link`对象的 `rest` 指向前一个相同 `n` 对应的 `Link` 对象。这样就能形成一个循环，循环的长度是正确的。

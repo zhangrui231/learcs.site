@@ -99,7 +99,7 @@ scm> (define (add-program x y)
 add-program
 scm> (add-program 3 6)
 (+ 3 6)
-``````
+```
 `add-program` 接受两个输入 `x` 和 `y`，并返回一个表达式，求值后会得到 `x` 和 `y` 的和。在 `add-program` 内部，我们使用准引用来构建加法表达式 `(+ ...)`，并使用反引用来获取 `x` 和 `y` 在加法表达式中的求值结果。
 
 ### Q2: If 程序

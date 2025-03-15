@@ -132,39 +132,47 @@ lambda <parameters>: <return expression>
 
 While both `lambda` expressions and `def` statements create function objects, there are some notable differences. `lambda` expressions work like other expressions; much like a mathematical expression just evaluates to a number and does not alter the current environment, a `lambda` expression evaluates to a function without changing the current environment. Let's take a closer look.
 
-|  | lambda | def |
-| --- | --- | --- |
-| Type | _Expression_ that evaluates to a value | _Statement_ that alters the environment |
-| Result of execution | Creates an anonymous lambda function with no intrinsic name. | Creates a function with an intrinsic name and binds it to that name in the current environment. |
-| Effect on the environment | Evaluating a `lambda` expression does _not_ create or modify any variables. | Executing a `def` statement both creates a new function object _and_ binds it to a name in the current environment. |
-| Usage | A `lambda` expression can be used anywhere that expects an expression, such as in an assignment statement or as the operator or operand to a call expression. | After executing a `def` statement, the created function is bound to a name. You should use this name to refer to the function anywhere that expects an expression. |
-| Example | 
-```
-# A lambda expression by itself does not alter
-# the environment
-lambda x: x * x
-# We can assign lambda functions to a name
-# with an assignment statement
-square = lambda x: x * x
-square(3)
+<table>
+  <tr>
+    <th></th>
+    <th>lambda</th>
+    <th>def</th>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>_Expression_ that evaluates to a value</td>
+    <td>_Statement_ that alters the environment</td>
+  </tr>
+  <tr>
+    <td>Result of execution</td>
+    <td>Creates an anonymous lambda function with no intrinsic name.</td>
+    <td>Creates a function with an intrinsic name and binds it to that name in the current environment.</td>
+  </tr>
+  <tr>
+    <td>Effect on the environment</td>
+    <td>Evaluating a `lambda` expression does _not_ create or modify any variables.</td>
+    <td>Executing a `def` statement both creates a new function object _and_ binds it to a name in the current environment.</td>
+  </tr>
+  <tr>
+    <td>Usage</td>
+    <td>A `lambda` expression can be used anywhere that expects an expression, such as in an assignment statement or as the operator or operand to a call expression.</td>
+    <td>After executing a `def` statement, the created function is bound to a name. You should use this name to refer to the function anywhere that expects an expression.</td>
+  </tr>
+  <tr>
+    <td>Example</td>
+    <td>
+      <pre>
+# A lambda expression by itself does not alter<br/># the environment<br/>lambda x: x * x<br/># We can assign lambda functions to a name<br/># with an assignment statement<br/>square = lambda x: x * x<br/>square(3)<br/><br/># Lambda expressions can be used as an operator<br/># or operand<br/>negate = lambda f, x: -f(x)<br/>negate(lambda x: x * x, 3)
+      </pre>
+    </td>
+    <td>
+      <pre>
+def square(x):<br/>    return x * x<br/><br/># A function created by a def statement<br/># can be referred to by its intrinsic name<br/>square(3)
+      </pre>
+    </td>
+  </tr>
+</table>
 
-# Lambda expressions can be used as an operator
-# or operand
-negate = lambda f, x: -f(x)
-negate(lambda x: x * x, 3)
-```
-
- | 
-```
-def square(x):
-    return x * x
-
-# A function created by a def statement
-# can be referred to by its intrinsic name
-square(3)
-```
-
- |
 
 [YouTube link](https://youtu.be/vCeNq_P3akI?list=PLx38hZJ5RLZcUPWZ1-3HYsRPgZ8OCrvqz)
 

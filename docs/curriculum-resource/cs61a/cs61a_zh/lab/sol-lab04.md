@@ -120,7 +120,8 @@ return {q: [d for d in divisors if d % q == 0] for q in quotients}
 
 ```
 python3 ok -q divide
-```### Q3: 购买水果
+```
+### Q3: 购买水果
 
 实现函数 `buy`，它接受一个 `required_fruits` 列表（字符串），一个 `prices` 字典（字符串为键，正整数为值），以及一个 `total_amount` （整数）。它会打印出所有购买所需水果的方案，使得总价等于 `total_amount`。你必须至少购买 `required_fruits` 列表中的每一种水果，并且不能购买任何该列表之外的水果。
 

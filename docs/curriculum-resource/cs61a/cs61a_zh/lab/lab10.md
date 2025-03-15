@@ -256,7 +256,7 @@ calc> (and 0 1 (+ 5 1)) ; 0 is a true value in Scheme!
 ```
 scheme_t = True   # Scheme's #t
 scheme_f = False  # Scheme's #f
-``````
+
 def eval_and(expressions):
     """
     >>> calc_eval(Pair("and", Pair(1, nil)))

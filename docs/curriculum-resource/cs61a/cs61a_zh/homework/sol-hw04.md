@@ -203,7 +203,7 @@ python3 ok -q total_mass
 ```
 def balanced(m):
     """返回 m 是否平衡。
-``````
+
 >>> t, u, v = examples()
     >>> balanced(t)
     True

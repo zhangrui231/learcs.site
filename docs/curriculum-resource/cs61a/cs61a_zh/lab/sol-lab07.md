@@ -116,7 +116,7 @@ class Account:
     """
     max_withdrawal = 10
     interest = 0.02
-``````
+
 def __init__(self, account_holder):
         self.balance = 0
         self.holder = account_holder
@@ -132,22 +132,22 @@ def __init__(self, account_holder):
             return "超出最大提款额度"
         self.balance = self.balance - amount
         return self.balance
-
+```
 ### Q2：退休
 
 向 `Account` 类添加一个 `time_to_retire` 方法。此方法接受一个 `amount`，并返回持有者需要等待多少年才能使当前 `balance` 增长到至少 `amount`，假设银行每年将利息（计算为当前 `balance` 乘以 `interest` 利率）添加到 `balance` 中。
 
-    ```
-    def time_to_retire(self, amount):
-        """Return the number of years until balance would grow to amount."""
-        assert self.balance > 0 and amount > 0 and self.interest > 0
-        future = self.balance
-        years = 0
-        while future < amount:
-            future += self.interest * future
-            years += 1
-        return years
-    ```
+```
+def time_to_retire(self, amount):
+    """Return the number of years until balance would grow to amount."""
+    assert self.balance > 0 and amount > 0 and self.interest > 0
+    future = self.balance
+    years = 0
+    while future < amount:
+        future += self.interest * future
+        years += 1
+    return years
+```
 
 使用 Ok 来测试你的代码：
 
@@ -234,7 +234,7 @@ python3 ok -q FreeChecking
 -   此外，我们需要记录免费提款的次数，以确保在免费次数用完之前不收取额外费用。
 
 视频讲解：
-```[YouTube 链接](https://youtu.be/flIMJC2lY3M)
+[YouTube 链接](https://youtu.be/flIMJC2lY3M)
 
 ## 链表
 

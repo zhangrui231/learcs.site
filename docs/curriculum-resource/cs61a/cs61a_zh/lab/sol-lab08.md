@@ -268,3 +268,6 @@ for b in t.branches:        delete(b, x)        if b.label == x:
 ```
 
 使用 Ok 来测试你的代码，看看是否能通过所有测试！
+```
+python3 ok -q delete
+```

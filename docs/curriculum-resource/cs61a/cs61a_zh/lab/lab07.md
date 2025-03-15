@@ -154,7 +154,7 @@ python3 ok -q Account
 ### Q3: 免费支票账户类
 
 实现 `FreeChecking` 类。该类与课堂上讲的 `Account` 类相似，区别在于，当取款次数超过 `free_withdrawals` 后，会收取 `withdraw_fee` 取款手续费。即使取款失败，也会计入免费取款次数，但不收取手续费。
-``````
+```
 class FreeChecking(Account):
     """一种银行账户，取款会收取费用，但前两次免费！
     >>> ch = FreeChecking('Jack')
@@ -352,7 +352,8 @@ python3 ok -q duplicate_link
 
 ```
 python3 ok --score
-```**这*不*算提交作业！** 只有将作业提交到 Gradescope 才能获得学分。
+```
+**这*不*算提交作业！** 只有将作业提交到 Gradescope 才能获得学分。
 
 ## 提交
 

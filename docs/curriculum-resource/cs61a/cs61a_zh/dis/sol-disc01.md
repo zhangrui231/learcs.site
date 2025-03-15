@@ -313,7 +313,7 @@ def has_digit(n, k):
 -   它暂时更改了绑定到全局框架中 `bottles` 的值。
 -   它永久更改了绑定到全局框架中 `bottles` 的值。
 -   它对全局框架没有影响。
-```<iframe
+  <iframe
                 width="800"
                 height="460"
                 frameborder="0"

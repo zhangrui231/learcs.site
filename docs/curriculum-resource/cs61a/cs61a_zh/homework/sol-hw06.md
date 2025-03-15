@@ -84,7 +84,7 @@ class VendingMachine:
     'Here is your candy.'
     >>> v.add_funds(15)
     'Nothing left to vend. Please restock. Here is your $15.'
-```
+
 >>> w = VendingMachine('汽水', 2)
     >>> w.restock(3)
     '现有汽水库存：3'
@@ -254,7 +254,7 @@ def deep_map_mut(func, lnk):
     no use of Link's constructor).
 
     Does not return the modified Link object.
-``````
+
 >>> link1 = Link(3, Link(Link(4), Link(5, Link(6))))
     >>> print(link1)
     <3 <4> 5 6>

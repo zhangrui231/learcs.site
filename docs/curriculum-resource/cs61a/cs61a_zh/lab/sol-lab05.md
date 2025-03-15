@@ -122,7 +122,7 @@ ______[3, 4, 5, 9, 10, None, None]
 ```
 def insert_items(s, before, after):
     """在列表 `s` 中，每次出现 `before` 值之后插入 `after` 值，并返回 `s`。
-```
+
 >>> test_s = [1, 5, 8, 5, 2, 3]
     >>> new_s = insert_items(test_s, 5, 7)
     >>> new_s
@@ -237,7 +237,7 @@ StopIteration
 ```
 
 您也可以在 `for` 语句中使用迭代器，因为所有迭代器都是可迭代的。但请注意，由于迭代器会记录当前状态，因此通常只能对可迭代对象进行一次完整遍历:
-``````
+```
 >>> t = iter([4, 3, 2, 1])
 >>> for e in t:
 ...     print(e)

@@ -201,6 +201,7 @@ return False
 
 如果返回一个列表，则它包含路径中的所有标签，除了 `label(t)`，必须将其放在前面。
 :::
+```
 def find_path(t, x):
     """
     >>> t2 = tree(5, [tree(6), tree(7)])
@@ -223,8 +224,9 @@ def find_path(t, x):
         if path:
             return ____
     return None
+```
 
-在 61A 代码中运行此代码
+Run in 61A Code
 
 请在与你的小组讨论过并且无法取得进展之后再查看提示。
 提示：

@@ -96,9 +96,7 @@ scm> (eat-two 3) ; 传入最后一个参数； 1 + (2 * 3)
 7
 scm> (curry-consume three-curry '(1 2 3)) ; 一次性传入所有三个参数
 7
-```
 
-```
 (define (curry-consume curry args)
     (if (null? args)
         curry
@@ -137,9 +135,7 @@ scm> (define-macro (switch expr options)
 ```
 scm> (switch-to-cond `(switch (+ 1 1) ((1 2) (2 4) (3 6))))
 (cond ((equal? (+ 1 1) 1) 2) ((equal? (+ 1 1) 2) 4) ((equal? (+ 1 1) 3) 6))
-```
 
-```
 (define-macro (switch expr options) (switch-to-cond (list 'switch expr options)))
 
 (define (switch-to-cond switch-expr)

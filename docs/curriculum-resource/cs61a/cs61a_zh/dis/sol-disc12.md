@@ -71,7 +71,7 @@ title: Discussion 12 Solutions
 ```
 def word_rope(s):
     """返回字符串 s 中单词的绳索。
-```
+
 >>> word_rope('the last week')
     ['t', 'h', 'e', ['l', 'a', 's', 't', ['w', 'e', 'e', 'k']]]
     """
@@ -156,8 +156,7 @@ class Link:
 ```
 def linear(s):
     """返回链接列表 s 的最长线性子列表。
-```
-```
+
 >>> s = Link(9, Link(4, Link(6, Link(7, Link(8, Link(10))))))
     >>> linear(s)
     Link(4, Link(6, Link(8, Link(10))))

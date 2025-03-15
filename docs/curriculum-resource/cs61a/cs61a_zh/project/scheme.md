@@ -524,7 +524,7 @@ f
 ```
 
 修改 `scheme_forms.py` 中的 `do_define_form` 函数，以便它正确处理 `define (...) ...)` 表达式（[规范](https://cs61a.org/articles/scheme-spec/#define)）。
-```确保它能处理包含多个表达式的函数体。例如，
+确保它能处理包含多个表达式的函数体。例如，
 
 ```
 scm> (define (g y) (print y) (+ y 1))
@@ -973,7 +973,7 @@ python3 ok -q optional1
 
 使用此规则在 `questions.scm` 中实现一个名为 `let-to-lambda` 的过程，该过程将所有 `let` 特殊形式重写为 `lambda` 表达式。如果我们引用一个 `let` 表达式并将其传递给此过程，则应返回一个等效的 `lambda` 表达式：
 ```
-</TRANSLATION>```
+
 scm> (let-to-lambda '(let ((a 1) (b 2)) (+ a b)))
 ((lambda (a b) (+ a b)) 1 2)
 scm> (let-to-lambda '(let ((a 1)) (let ((b a)) b)))

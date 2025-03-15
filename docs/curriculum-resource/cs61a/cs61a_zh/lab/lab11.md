@@ -170,7 +170,7 @@ _Hint:_
 例如， $2^{16} = (2^8)^2$ 并且 $2^{17} = 2 \times (2^8)^2$
 你可以使用内置的谓词 `even?` 和 `odd?`。此外，`square` 过程已为你定义。
 :::
-```这里提供了一个[类似作业题目的解答](https://cs61a.org/hw/sol-hw07/#q1-pow)。
+这里提供了一个[类似作业题目的解答](https://cs61a.org/hw/sol-hw07/#q1-pow)。
 
 ```
 (define (square n) (* n n))

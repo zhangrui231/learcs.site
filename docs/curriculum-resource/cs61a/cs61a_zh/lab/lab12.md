@@ -366,7 +366,7 @@ python3 ok -q remaining
 **提醒**：`COUNT(DISTINCT x)` 用于计算每个分组中列 `x` 的不同值的数量。
 
 你的查询应该能正确处理 `finals` 和 `sizes` 表中可能出现的任何数据，但对于上面的示例，结果应该是：
-``````
+```
 61A|3
 61B|2
 61C|2
@@ -450,4 +450,3 @@ python3 ok --score
 通过将你编辑过的任何文件**上传到相应的 Gradescope 作业**来提交此作业。[Lab 00](https://cs61a.org/lab/lab00/#submit-with-gradescope) 包含详细说明。
 
 此外，所有**不在**大型实验课的学生都必须填写此[考勤表](https://go.cs61a.org/lab-att)。 每周提交此表格，无论你是否参加了实验课，或者因为正当理由错过了它。 大型实验课的学生则无需填写考勤表。
-```

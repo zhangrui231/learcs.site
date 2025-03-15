@@ -140,7 +140,8 @@ CREATE TABLE study AS
 CREATE TABLE late AS
   SELECT name || " closes at " || close AS status FROM pizzas, meals WHERE meal="snack" AND time<=clos;
 
-```为了比较披萨店的 `close` 时间与零食时间：
+```
+为了比较披萨店的 `close` 时间与零食时间：
 
 -   使用 `FROM pizzas, meals` 连接 `pizzas` 和 `meals` 表
 -   仅采用 `meal` 等于 `"snack"` 的行

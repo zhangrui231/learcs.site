@@ -223,7 +223,7 @@ class Server:
     """
     def __init__(self):
         self.clients = {}
-``````
+
     def send(self, email):
         """将邮件添加到目标客户端的收件箱里。"""
         ____.inbox.append(email)
@@ -338,7 +338,7 @@ class ChangeMachine:
     [2, 8]
     >>> m.coins == {10: 1}
     True
-```
+
 >>> m = ChangeMachine(9)
     >>> [m.change(k) for k in [2, 2, 3]]
     [[1, 1], [1, 1], [1, 1, 1]]
@@ -394,4 +394,3 @@ python3 ok --score
 通过上传你编辑过的文件到 Gradescope 上对应的作业来提交。 [Lab 00](https://cs61a.org/lab/lab00/#submit-with-gradescope) 包含详细说明。
 
 此外，所有不在大型实验室的学生都需要填写此[出勤表](https://go.cs61a.org/lab-att)。 每周提交此表格，无论您是参加了实验还是因正当理由错过了实验。 大型实验室的学生不需要填写出勤表。
-```

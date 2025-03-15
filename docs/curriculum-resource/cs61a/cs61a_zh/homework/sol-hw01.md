@@ -78,18 +78,22 @@ def two_of_three(i, j, k):
     >>> two_of_three(5, 5, 5)
     50
     """
-return min(i*i+j*j, i*i+k*k, j*j+k*k)
-    # Alternate solution
+    return min(i*i+j*j, i*i+k*k, j*j+k*k)
+
+# Alternate solution
+
 def two_of_three_alternate(i, j, k):
     return i**2 + j**2 + k**2 - max(i, j, k)**2
-```> **提示：** 考虑使用 `max` 或 `min` 函数：
+> **提示：** 考虑使用 `max` 或 `min` 函数：
 > 
-> ```
+> 
 > >>> max(1, 2, 3)
 > 3
 > >>> min(-1, -2, -3)
 > -3
-> ```
+> 
+
+```
 
 使用 Ok 来测试你的代码：
 
@@ -155,7 +159,7 @@ python3 ok -q largest_factor
 ```
 def hailstone(n):
     """打印从 n 开始的冰雹序列并返回其长度。
-```
+
 >>> a = hailstone(10)
     10
     5
@@ -220,4 +224,3 @@ python3 ok --score
 此外，只有非大型实验课的学生才需要填写此[考勤表](https://go.cs61a.org/lab-att)。 每周提交此表格，无论你是否参加了实验课，或者因为正当理由错过了它。
 
 > 如果你正确完成了所有题目，Gradescope 自动评分器会显示你的分数为 6.0。每个作业满分 2 分，因此如果你全部做对，你将获得满分 2 分。请注意，每错一题会扣 1 分，所以如果本次作业你得到 5.0/6.0，那么你的作业成绩将是 1.0/2.0。
-```

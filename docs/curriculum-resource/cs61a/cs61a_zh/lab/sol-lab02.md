@@ -129,37 +129,47 @@ lambda <参数>: <返回表达式>
 
 虽然 `lambda` 表达式和 `def` 语句都创建函数对象，但它们之间存在一些显著的差异。`lambda` 表达式的工作方式与其他表达式类似；就像数学表达式只求值为一个数字而不改变当前环境一样，`lambda` 表达式求值为一个函数而不改变当前环境。让我们仔细看看。
 
-|  | lambda | def |
-| --- | --- | --- |
-| 类型 | 值为值的_表达式_ | 改变环境的_语句_ |
-| 执行结果 | 创建一个没有名称的匿名 lambda 函数。 | 创建一个具有固有名称的函数，并将其绑定到当前环境。 |
-| 对环境的影响 | 执行 `lambda` 表达式_不会_创建或修改任何变量。 | 执行 `def` 语句会创建一个新的函数对象，并将其绑定到当前环境。 |
-| 用法 | `lambda` 表达式可以用在任何需要表达式的地方，例如在赋值语句中，或者作为调用表达式的操作符或操作数。 | 执行 `def` 语句后，创建的函数将绑定到一个名称。您应该使用这个名称在任何需要函数的地方引用它。 |
-| 示例 | 
-```
-# lambda 表达式本身不会改变环境
-lambda x: x * x
-# 我们可以使用赋值语句将 lambda 函数赋值给一个变量
-square = lambda x: x * x
-square(3)
+<table>
+  <tr>
+    <th></th>
+    <th>lambda</th>
+    <th>def</th>
+  </tr>
+  <tr>
+    <td>类型</td>
+    <td>值为值的_表达式_</td>
+    <td>改变环境的_语句_</td>
+  </tr>
+  <tr>
+    <td>执行结果</td>
+    <td>创建一个没有名称的匿名 lambda 函数。</td>
+    <td>创建一个具有固有名称的函数，并将其绑定到当前环境。</td>
+  </tr>
+  <tr>
+    <td>对环境的影响</td>
+    <td>执行 `lambda` 表达式_不会_创建或修改任何变量。</td>
+    <td>执行 `def` 语句会创建一个新的函数对象，并将其绑定到当前环境。</td>
+  </tr>
+  <tr>
+    <td>用法</td>
+    <td>`lambda` 表达式可以用在任何需要表达式的地方，例如在赋值语句中，或者作为调用表达式的操作符或操作数。</td>
+    <td>执行 `def` 语句后，创建的函数将绑定到一个名称。您应该使用这个名称在任何需要函数的地方引用它。</td>
+  </tr>
+  <tr>
+    <td>示例</td>
+    <td>
+      <pre>
+# lambda 表达式本身不会改变环境<br/>lambda x: x * x<br/># 我们可以使用赋值语句将 lambda 函数赋值给一个变量<br/>square = lambda x: x * x<br/>square(3)<br/><br/># Lambda 表达式可以用作操作符<br/># 或操作数<br/>negate = lambda f, x: -f(x)<br/>negate(lambda x: x * x, 3)
+      </pre>
+    </td>
+    <td>
+      <pre>
+def square(x):<br/>    return x * x<br/><br/># 由 def 语句创建的函数<br/># 可以通过其固有名称引用<br/>square(3)
+      </pre>
+    </td>
+  </tr>
+</table>
 
-# Lambda 表达式可以用作操作符
-# 或操作数
-negate = lambda f, x: -f(x)
-negate(lambda x: x * x, 3)
-```
-
- | 
-```
-def square(x):
-    return x * x
-
-# 由 def 语句创建的函数
-# 可以通过其固有名称引用
-square(3)
-```
-
- |
 
 [YouTube 链接](https://youtu.be/vCeNq_P3akI?list=PLx38hZJ5RLZcUPWZ1-3HYsRPgZ8OCrvqz)
 
@@ -555,7 +565,7 @@ g = (lambda y: y())(f)
 ```
 def multiple(a, b):
     """返回既是 a 又是 b 的倍数的最小数字 n。
-```
+
 >>> multiple(3, 4)
     12
     >>> multiple(14, 21)

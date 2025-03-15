@@ -216,7 +216,7 @@ scm> (cond ((= (modulo x 3) 0) x)
 ```
 
 该表达式会创建一个具有指定参数和函数体的匿名函数，其作用类似于 Python 中的 `lambda` 表达式。
-``````
+```
 scm> (lambda (x y) (+ x y))        ; 返回一个 lambda 过程，但未将其赋值给任何变量
 (lambda (x y) (+ x y))
 scm> ((lambda (x y) (+ x y)) 3 4)  ; 在一行代码中创建并调用一个 lambda 过程
@@ -336,7 +336,7 @@ python3 ok -q composed
 ### Q4: Repeat (重复)
 
 编写一个名为 `repeat` 的过程，该过程接受一个过程 `f` 和一个数字 `n` 作为参数，并返回一个新的过程。这个新的过程接受一个数字 `x` 作为参数，并返回将 `f` 作用于 `x`，总共作用 `n` 次的结果。例如：
-``````
+```
 scm> (define (square x) (* x x))
 square
 scm> ((repeat square 2) 5) ; (square (square 5))
@@ -420,4 +420,3 @@ python3 ok --score
 请将你编辑过的文件上传到 Gradescope 上对应的作业以提交本次作业。[Lab 00](https://cs61a.org/lab/lab00/#submit-with-gradescope) 包含详细说明。
 
 此外，所有**不在**大型实验班的学生都必须填写此[出勤表](https://go.cs61a.org/lab-att)。请每周提交此表格，无论你是否参加了实验课，或因故缺席。大型实验班的学生不需要填写出勤表。
-```

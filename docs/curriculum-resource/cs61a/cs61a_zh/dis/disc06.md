@@ -111,7 +111,7 @@ for x in t:
 ```python
 def partition_gen(n, m):
     """Yield the partitions of n using parts up to size m.
-```
+
 >>> for partition in sorted(partition_gen(6, 4)):
     ...     print(partition)
     1 + 1 + 1 + 1 + 1 + 1

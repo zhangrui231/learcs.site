@@ -70,59 +70,31 @@ print("DEBUG:", x)
 
 以下是Python 3中和除法相关的运算符示例:
 
-| 真除法：`/`  
-(小数除法) | 地板除法：`//`  
-(整数除法) | 取模：%  
-(余数) |
-| --- | --- | --- |
-| 
-```
->>> 1 / 5
-0.2
->>> 25 / 4
-6.25
+<table>
+  <tr>
+    <th>真除法：`/`(小数除法)</th>
+    <th>地板除法：`//`(整数除法)</th>
+    <th>取模：%(余数)</th>
+  </tr>
+  <tr>
+    <td>
+      <pre>
+>>> 1 / 5<br/>0.2<br/>>>> 25 / 4<br/>6.25<br/>>>> 4 / 2<br/>2.0<br/>>>> 5 / 0<br/>ZeroDivisionError
+      </pre>
+    </td>
+    <td>
+      <pre>
+>>> 1 // 5 # 向下取整除法的结果<br/>0<br/>>>> 25 // 4<br/>6<br/>>>> 4 // 2<br/>2<br/>>>> 5 // 0<br/>ZeroDivisionError
+      </pre>
+    </td>
+    <td>
+      <pre>
+>>> 1 % 5<br/>1<br/>>>> 25 % 4<br/>1<br/>>>> 4 % 2<br/>0<br/>>>> 5 % 0<br/>ZeroDivisionError
+      </pre>
+    </td>
+  </tr>
+</table>
 
->>> 4 / 2
-2.0
-
->>> 5 / 0
-ZeroDivisionError
-
-```
-
- | 
-```
->>> 1 // 5 # 向下取整除法的结果
-0
-
->>> 25 // 4
-6
-``````
->>> 4 // 2
-2
-
->>> 5 // 0
-ZeroDivisionError
-
-```
-
-|
-```
->>> 1 % 5
-1
-
->>> 25 % 4
-1
-
->>> 4 % 2
-0
-
->>> 5 % 0
-ZeroDivisionError
-
-```
-
-|
 
 当除数为零时，会发生 `ZeroDivisionError` 错误。
 
@@ -233,7 +205,7 @@ ______-12
 ```
 
 ### Q2: 调试测验
-```以下是一个关于调试技巧的小测验，这些技巧对本课程的学习很有帮助。您可以参考[调试文章](https://cs61a.org/articles/debugging/)来检验你的理解程度：
+以下是一个关于调试技巧的小测验，这些技巧对本课程的学习很有帮助。您可以参考[调试文章](https://cs61a.org/articles/debugging/)来检验你的理解程度：
 
 ```
 python3 ok -q debugging-quiz -u
@@ -318,7 +290,7 @@ python3 ok -q divisible_by_k
 ```
 def sum_digits(y):
     """Sum all the digits of y.
-```
+
 >>> sum_digits(10) # 1 + 0 = 1
     1
     >>> sum_digits(4224) # 4 + 2 + 2 + 4 = 12

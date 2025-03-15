@@ -120,7 +120,7 @@ def make_keeper(n):
 ```
 def find_digit(k):
     """Returns a function that returns the kth digit of x.
-```
+
 >>> find_digit(2)(3456)
     5
     >>> find_digit(2)(5678)
@@ -191,4 +191,3 @@ def match_k(k):
 ## 记录本次活动
 
 请大家填写一下[考勤表](https://docs.google.com/forms/d/e/1FAIpQLSeqlK8l6WkScGr-RHR-kM4p5bnR9cllYrG95fDqPJspSlll7A/viewform) (每人每周填一次哦).
-```

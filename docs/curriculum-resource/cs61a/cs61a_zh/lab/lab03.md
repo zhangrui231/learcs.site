@@ -132,7 +132,8 @@ Range是一种用于生成整数序列的数据结构。可以通过以下方式
 0
 1
 2
-```虽然 range 和 list 都是[序列](https://en.wikibooks.org/wiki/Python_Programming/Sequences)，但 range 对象和 list 还是有区别的。可以通过 `list()` 函数把 range 转换成 list：
+```
+虽然 range 和 list 都是[序列](https://en.wikibooks.org/wiki/Python_Programming/Sequences)，但 range 对象和 list 还是有区别的。可以通过 `list()` 函数把 range 转换成 list：
 
 ```
 >>> range(3, 6)
@@ -375,7 +376,7 @@ python3 ok -q double_eights
 编写一个函数 `make_onion`，它接受两个单参数函数 `f` 和 `g`。 它返回一个函数，该函数接收三个参数 `x`、`y` 和 `limit`。如果通过最多 `limit` 次调用函数 `f` 和 `g`，能够从 `x` 得到 `y`，则返回的函数返回 `True`；否则返回 `False`。
 
 例如，如果函数 `f` 的作用是加 1，函数 `g` 的作用是乘以 2，那么可以通过四次调用从 5 得到 25：`f(g(g(f(5))))`。
-``````
+```
 def make_onion(f, g):
     """返回一个名为 can_reach(x, y, limit) 的函数。该函数判断是否可以通过仅使用函数 f、g 和初始值 x，且最多调用 limit 次函数，来得到结果 y。
 
