@@ -15,6 +15,7 @@ function HomepageHeader() {
     <Head>
     <meta name="baidu-site-verification" content="codeva-hJyfN2UKgo" />
     <meta name="bytedance-verification-code" content="2e95RZyrkd7AwZPaKe0r" />
+    <meta name="msvalidate.01" content="A4915626AC2C39CE0E42664E51229403" />
     </Head>
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
