@@ -48,6 +48,11 @@ hide_table_of_contents: true
 ## QQ群
 一个人学习比较痛苦那就跟小伙伴们一起学习吧。
 
+- 社区四群 
+  qq群号： 1041728066
+  
+  ![qrcode](/img/qrcode4.png)
+
 - 社区三群 
   
   群号： 1014395907
