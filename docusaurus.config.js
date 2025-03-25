@@ -127,7 +127,8 @@ const config = {
             label: '课程资源',
           },
           {to: '/blog', label: '博客', position: 'left'},
-          {to:'/community', label: '社区', position: 'left'}
+          {to:'/community', label: '社区', position: 'left'},
+          {to:'/donate', label: '捐赠我们', position: 'left'}
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -162,6 +163,15 @@ const config = {
               //   label: 'Twitter',
               //   href: 'https://twitter.com/docusaurus',
               // },
+            ],
+          },
+          {
+            title: '捐赠',
+            items: [
+              {
+                label: '捐赠我们',
+                to: '/donate',
+              },
             ],
           },
           // {
