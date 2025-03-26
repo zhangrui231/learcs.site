@@ -43,14 +43,14 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>哈佛大学的CS50课程是一门面向所有学生的计算机科学导论课程，非常适合小白入门。该课程旨在教授计算机科学的基本概念和编程技能，并帮助学生理解计算机科学在当今世界的重要性。</td>
         <td>无</td>
         <td><a href="https://www.bilibili.com/video/BV1Rm421V7zw?p=1">中文语音 </a> | <a href="https://www.bilibili.com/video/BV1Hr421F7VC?p=1">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/JarhdhW6Eq">discord</a></td>
     </tr>
     <tr>
         <td>UC Berkeley CS61A</td>
         <td>CS61A《Structure and Interpretation of Computer Programs》中文名称《计算机程序的结构与解释》 该课程是伯克利大学最受欢迎的课程之一，每年有超过 10,000 名学生注册。 该课程旨在帮助学生理解计算机程序的构造和解释，培养学生的编程能力和解决问题的能力。</td>
         <td><a href="https://www.composingprograms.com/"> 在线教材</a> | <a href="https://composingprograms.netlify.app/">在线教材中译版本</a> </td>
         <td><a href="https://www.bilibili.com/video/BV16J4m1u7xP">中文语音</a> | <a href="https://www.bilibili.com/video/BV1sy411z7nA">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/4kHSyVcsYy">discord</a></td>
     </tr>
     <tr>
         <td>算法与数据结构</td>
@@ -58,7 +58,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>CS61B: 《Data Structures and Algorithms》。 CS 61系列是计算机科学的介绍，特别强调以程序员的视角来看软件和机器。CS 61A涵盖了高级问题解决方法，为您提供了将编程问题的解决方案组织为函数组合、对象集合或规则集的多种方式。在CS61B中，更详细地（在某种程度上更基础地）关注编程的效率，特别侧重于编写程序（设计）和运行程序（运行时）的效率。</td>
         <td>本课程没有指定的教科书，但有推荐的阅读材料和书籍 </td>
         <td><a href="https://www.bilibili.com/video/BV132421Z7h2">中文语音</a> | <a href="https://www.bilibili.com/video/BV1hJ4m1M7ZA">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/bKUZETQKX4">discord</a></td>
     </tr>
     <tr>
         <td>计算机系统结构</td>
@@ -66,7 +66,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>CS61C：《Great Ideas in Computer Architecture》，伯克利大学的计算机科学CS61系列的最后一门课程，同61A,61B一样声名远播，这门课程关注的是计算机架构中的重要概念。它以C语言和RISC-V汇编语言为基础，深入剖析数字电路和CPU硬件实现。课程还涵盖了计算机系统的抽象层面，包括cache、虚拟内存、I/O的原理，并且深入探讨了并行计算。</td>
         <td>P&H,K&R,WSC，CSAPP</td>
         <td><a href="https://www.bilibili.com/video/BV1tx4y1s7Jr">中文语音</a> | <a href="https://www.bilibili.com/video/BV17b42177VG">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/Y5rn8VrbSE">discord</a></td>
     </tr>
     <tr>
         <td rowspan="4">计算机科学中的数学</td>
@@ -74,28 +74,28 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>《Single Variable Calculus》单变量微积分是麻省理工学院的基础课程，它在理解科学、工程、经济学和计算机科学等学科中扮演着重要角色。这门入门微积分课程涵盖了单变量函数的微分和积分，以及其应用。</td>
         <td>西蒙斯，乔治·F. 《解析几何与微积分》第二版。</td>
         <td><a href="https://www.bilibili.com/video/BV1uYaUetE3Y">中文语音</a> | <a href="https://www.bilibili.com/video/BV1uavveaED9">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/VHvdPUcPk2">discord</a></td>
     </tr>
     <tr>
         <td>MIT 18.02</td>
         <td>《Multivariable Calculus》多变量微积分，继单变量函数的微分积分之后，这门课程涵盖了多元函数的微分、积分和矢量微积分。这些数学工具和方法在物理科学、工程学、经济学和计算机图形学中被广泛应用。</td>
         <td>《Multivariable Calculus》第六版</td>
         <td><a href="https://www.bilibili.com/video/BV1PFWKerEtS">中文语音</a> | <a href="https://www.bilibili.com/video/BV1PKaDe9ETw">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/VHvdPUcPk2">discord</a></td>
     </tr>
     <tr>
         <td>MIT 18.06</td>
         <td>这门课程涵盖了矩阵理论和线性代数，强调在其他学科中有用的主题。线性代数是数学的一个分支，研究线性方程组和矩阵的性质。线性代数的概念在物理学、经济学和社会科学、自然科学以及工程学中都非常有用。由于其广泛的应用范围，线性代数是大学数学中教学最广泛的学科之一（在高中也越来越受到重视）。</td>
         <td>《线性代数导论》第四版 | 《线性代数导论》第五版</td>
         <td><a href="https://www.bilibili.com/video/BV1ygHFeQEQd">中文语音</a> | <a href="https://www.bilibili.com/video/BV1fLWkeKE13">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/VHvdPUcPk2">discord</a></td>
     </tr>
     <tr>
         <td>MIT 6.042J</td>
         <td>本课程为计算机科学与工程领域提供离散数学的互动式入门教学。内容大致分为三部分：数学基础概念：定义、证明、集合、函数、关系；离散结构：图论、状态机、模运算、计数；离散概率论。完成6.042J课程后，学生将能够解释并应用离散（非连续）数学的基本方法于计算机科学中。他们将在后续的算法设计与分析、可计算性理论、软件工程及计算机系统等课程中运用这些方法</td>
         <td>无</td>
         <td><a href="https://www.bilibili.com/video/BV1b6bFemEsp">中文语音</a> | <a href="https://www.bilibili.com/video/BV16ptTeEEtt">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/VHvdPUcPk2">discord</a></td>
     </tr>
     <tr>
         <td>操作系统</td>
@@ -103,7 +103,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>本课程旨在教授操作系统设计及在其他计算机系统中出现的操作系统概念。涵盖的主题包括操作系统概念、系统编程、网络与分布式系统以及存储系统，具体内容涉及多程序系统（进程、进程间通信与同步）、内存分配（分段、分页）、资源分配与调度、文件系统、基础网络（套接字、分层架构、API接口及可靠性）事务处理机制以及安全性与隐私保护等。</td>
         <td>《Operating Systems: Principles and Practice》 </td>
         <td><a href="https://www.bilibili.com/video/BV146B2Y2Ebr">中文语音</a> | <a href="https://www.bilibili.com/video/BV1MwDSYWEKy">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/HHuBCabURh">discord</a></td>
     </tr>
     <tr>
         <td>计算机网络</td>
@@ -111,7 +111,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>CS144 是一门计算机网络入门课程，涵盖网络基本原理如分组交换、分层封装和协议。课程中将探索互联网的工作原理，并实践构建网络基础设施，如路由器和数据传输服务。通过动手实验和课堂练习，你将深入了解支撑万维网、视频流媒体和视频会议等应用的底层技术。此外，课程还包含行业专家的特邀讲座，提供实际网络运营的宝贵见解。</td>
         <td>无</td>
         <td><a href="https://www.bilibili.com/video/BV1oHCVY7EJR">中文语音</a> | <a href="https://www.bilibili.com/video/BV1NGBEYwEo4">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/8cnpKra4uX">discord</a></td>
     </tr>
     <tr>
         <td>数据库</td>
@@ -119,7 +119,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>是的，这是卡内基梅隆大学关于数据库管理系统设计与实现的首屈一指的课程。课程内容涵盖数据模型（关系型、文档型、键值对）、存储模型（n元组、分解法）、查询语言（SQL、存储过程）、存储架构（堆式、日志结构）、索引与过滤器（保序树、哈希表、向量索引）、事务处理（ACID属性、并发控制）、恢复机制（日志记录、检查点）、查询处理（连接操作、排序算法、聚合函数及优化）以及并行架构设计（多核计算与分布式系统）。通过开源和商业数据库系统的案例分析，深入探讨这些技术及其权衡取舍。本课程适合那些准备充分并愿意磨练其系统编程技能的学生。</td>
         <td> <a herf ="https://www.db-book.com/">《Database System Concepts》 </a></td>
         <td><a href="https://www.bilibili.com/video/BV169QhYZEhn">中文语音</a> | <a href="">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/QdPHU5TWau">discord</a></td>
     </tr>
     <tr>
         <td>编译原理</td>
@@ -127,7 +127,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>本课程将深入探讨编译器的前端(词法分析、语法分析、语义分析)和后端(代码优化、目标代码生成、指令调度等)的核心技术。学生将学习如何构建语言处理工具,掌握编译技术理论并通过项目实践应用这些知识。</td>
         <td> 《编译原理》通常称为龙书</td>
         <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/wBSKSgGceS">discord</a></td>
     </tr>
     <tr>
         <td>分布式系统</td>
@@ -135,7 +135,7 @@ description: 自学编程、自学计算机学科、如何自学编程、如何�
         <td>随着计算机在数量上的增加，计算机同样开始 分散。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。</td>
         <td>无</td>
         <td><a href="">中文语音</a> | <a href="">英文原声</a></td>
-        <td><a href="https://discord.gg/ZVVangWh">discord</a></td>
+        <td><a href="https://discord.gg/6smgtmUW6b">discord</a></td>
     </tr>
 </table>
 
