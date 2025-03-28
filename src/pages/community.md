@@ -139,11 +139,12 @@ import TabItem from '@theme/TabItem';
         gap: '0.5rem'
       }}>
         <div style={{
-          backgroundColor: '#f1f1f1', 
+          backgroundColor: '#FF9800', 
+          color: 'white', 
           padding: '0.5rem 1rem', 
           borderRadius: '20px',
-          fontSize: '0.9rem',
-          color: '#333'
+          fontWeight: 'bold',
+          fontSize: '0.9rem'
         }}>
           群号：1014395907
         </div>
@@ -155,7 +156,7 @@ import TabItem from '@theme/TabItem';
           fontWeight: 'bold',
           fontSize: '0.9rem'
         }}>
-          状态：开放加入
+          状态：已满
         </div>
       </div>
     </div>
