@@ -277,27 +277,20 @@ class Client:
 使用 Ok 来测试您的代码：
 
 ```
-python3 ok -q make_change
+python3 ok -q Client
 ```
-### 问题3：找零钱
+### Q3：找零
 
-实现 `make_change` 函数，它接受一个正整数 `amount` 和一个 `coins` 字典作为参数。`coins` 字典的键是正整数面额，值是正整数的硬币数量。例如，`{1: 4, 5: 2}` 代表四个 1 分硬币和两个 5 分硬币。`make_change` 函数返回一个硬币列表，这些硬币的总和等于 `amount`，并且返回列表中任何面额 `k` 的硬币数量最多为 `coins[k]`。
+实现 `make_change` 函数，该函数接受一个正整数 `amount` 和一个硬币字典 `coins`。`coins` 字典的键是正整数面额，值是正整数硬币数量。例如，`{1: 4, 5: 2}` 表示有四个1分的硬币和两个5分的硬币。`make_change` 函数返回一个硬币列表，其总和为 `amount`，其中任意面额 `k` 的硬币使用数量不超过 `coins[k]`。
 
-如果有多种方式可以凑成 `amount`，优先使用尽可能多的小面额硬币，并且将最小面额的硬币放在返回列表的最前面。
+如果有多种方式可以凑成 `amount`，优先使用尽可能多的小面额硬币，并将小面额硬币放在返回列表的前面。
 
 ```python
-import sys
-# 下面这行增加了递归深度限制。对于某些递归实现， #
-# 这是防止运行时错误所必需的。                 #
-# 注意，这不影响你解决方案的正确性，             #
-# 你的方案应该适用于任何支持的递归深度。           #
-sys.setrecursionlimit(2000)
-
 def make_change(amount, coins):
-    """返回一个硬币列表，其总和为 amount，优先使用可用的小面额硬币，
-    并将最小面额硬币放在返回列表的最前面。
+    """返回一个硬币列表，其总和为amount，优先使用可用的最小面额硬币，
+    并将最小面额硬币放在返回列表的前面。
 
-    coins 参数是一个字典，其键是正整数面额，值是正整数的硬币数量。
+    coins 参数是一个字典，其键是正整数面额，值是正整数硬币数量。
 
     >>> make_change(2, {2: 1})
     [2]
@@ -319,88 +312,56 @@ def make_change(amount, coins):
     >>> make_change(25, coins)
     [2, 2, 4, 4, 5, 8]
     """
-    # Base case 1: 如果 amount 是 0，不需要任何硬币。
-    if amount == 0:
-        return []
-    # Base case 2: 如果没有可用的硬币，无法找零（除非 amount 是 0）。
     if not coins:
         return None
-
-    # 找到可用的最小面额。
     smallest = min(coins)
-
-    # Base case 3: 如果需要的金额小于最小面额的硬币，
-    # 无法使用可用的硬币找零。
+    rest = remove_one(coins, smallest)
     if amount < smallest:
         return None
-
-    # 为使用最小硬币的递归调用准备字典。
-    # `rest` 表示拿走一个 `smallest` 硬币后剩余的可用硬币。
-    rest = remove_one(coins, smallest)
-
-    # 递归步骤：尝试使用最小的硬币。
-    # 查找剩余金额 (amount - smallest) 使用剩余硬币的找零方案。
-    change_using_smallest = make_change(amount - smallest, rest)
-
-    # 检查是否找到了使用最小硬币的可行找零方案。
-    if change_using_smallest is not None:
-        # 如果是，这是首选方案，因为我们优先使用最小的硬币。
-        # 将最小硬币添加到结果的最前面并返回。
-        return [smallest] + change_using_smallest
-    else:
-        # 如果使用最小硬币没有找到解决方案（返回了 None），
-        # 我们必须尝试在不使用这枚最小硬币的情况下为原始金额找零。
-        # 这意味着我们探索使用其他硬币的解决方案，
-        # 或者如果原始 `coins` 字典中有更多 `smallest` 面额的硬币
-        # （`rest` 反映了这一点），则可能使用它们。
-        # 我们对原始 `amount` 和 `rest` 硬币进行递归调用。
-        change_without_this_smallest = make_change(amount, rest)
-        # 返回这个替代尝试的结果（可能是列表或 None）。
-        return change_without_this_smallest
+    "*** 你的代码写在这里 ***"
 
 ```
 
-你应该在你的实现中使用 `remove_one` 函数：
+你需要在实现中调用 `remove_one` 函数：
 
 ```python
 def remove_one(coins, coin):
-    """从硬币字典中移除一枚指定面额的硬币。返回一个新的字典，
-    原始的 coins 字典保持不变。
+    """从硬币字典中移除一枚硬币。返回一个新字典，
+    保持原始字典 coins 不变。
 
     >>> coins = {2: 5, 3: 2, 6: 1}
     >>> remove_one(coins, 2) == {2: 4, 3: 2, 6: 1}
     True
     >>> remove_one(coins, 6) == {2: 5, 3: 2}
     True
-    >>> coins == {2: 5, 3: 2, 6: 1} # 保持不变
+    >>> coins == {2: 5, 3: 2, 6: 1} # 未改变
     True
     """
     copy = dict(coins)
-    count = copy.pop(coin) - 1  # 移除该硬币面额
+    count = copy.pop(coin) - 1  # 移除该面额的硬币
     if count:
-        copy[coin] = count      # 将该硬币面额加回去
+        copy[coin] = count      # 如果还有剩余，重新添加该面额
     return copy
 ```
 
-> 提示：尝试使用最小面额的硬币来找零。如果发现使用最小面额硬币无法找零，则尝试不使用该最小面额硬币进行找零。
->
-> 提示：最简单的解决方案不涉及定义任何局部函数，但如果你愿意，也可以定义额外的函数。
+> 提示：尝试使用最小面额的硬币进行找零。如果发现无法使用最小面额的硬币找零，那么尝试不使用最小面额的硬币进行找零。
+> 
+> 提示：最简单的解决方案不需要定义任何局部函数，但如果你愿意，可以定义额外的函数。
 
-务必尝试在不阅读攻略的情况下解决此问题，但如果你确实卡住了，可以阅读攻略。
+尽量不要阅读下面的引导，独立解决这个问题，但如果你实在卡住了，可以参考引导。
 
-`make_change(amount, coins)` 的代码应执行以下操作：
+`make_change(amount, coins)` 的代码需要完成以下步骤：
 
-1.  检查 `amount == smallest` 是否成立，如果成立，则返回一个只包含 `smallest` 的单元素列表。
-2.  否则，调用 `make_change(amount-smallest, rest)`，该调用将返回 `None` 或一个数字列表。
-3.  如果步骤 2 中的调用返回了一个列表，则返回一个更长的列表，其开头包含 `smallest`。
-4.  如果步骤 2 中的调用返回 `None`，则表示无法使用 `smallest` 硬币，因此只需调用 `make_change(amount, rest)`。
+1. 检查是否 `amount == smallest`，如果是，则返回一个只包含 `smallest` 的单元素列表。
+2. 否则，调用 `make_change(amount-smallest, rest)`，它会返回 `None` 或一个数字列表。
+3. 如果步骤2的调用返回了一个列表，则返回一个更长的列表，在前面添加 `smallest`。
+4. 如果步骤2的调用返回了 `None`，说明无法使用 `smallest` 硬币，那么直接调用 `make_change(amount, rest)`。
 
-使用 Ok 来测试你的代码：
+使用 Ok 测试你的代码：
 
-```
+```bash
 python3 ok -q make_change
 ```
-
 ### Q4: 找零机
 
 完成 `ChangeMachine` 类的 `change` 方法。`ChangeMachine` 实例存储一些 `coins`，最初都是一美分硬币。`change` 方法接收一个正整数 `coin`，将这个硬币加入到 `coins` 中，然后返回一个总和等于 `coin` 的列表。机器会优先返回尽可能多的小额硬币，并按从小到大的顺序排列。`change` 方法返回的硬币会从机器的 `coins` 中扣除。
