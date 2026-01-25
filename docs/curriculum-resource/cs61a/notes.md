@@ -1,6 +1,6 @@
 ---
 title: 学习笔记分享
-sidebar_position: 2
+sidebar_position: 3
 description: UCB CS 61A 学习笔记分享 | CS61A | cs61a 学习方法
 ---
 

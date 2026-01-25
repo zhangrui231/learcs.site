@@ -308,7 +308,8 @@ ______'cake'
 >>> snake(10, 20)
 ______Function
 >>> snake(10, 20)()
-______30
+______sweets
+'cake'
 >>> cake = 'cake'
 >>> snake(10, 20)
 ______30
