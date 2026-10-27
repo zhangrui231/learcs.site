@@ -67,6 +67,63 @@ import TabItem from '@theme/TabItem';
 - 发现错误可提issue或PR
 - 可提交新课程翻译请求
 
+## 🚀 社区项目
+
+<div className="card" style={{
+  padding: '2rem',
+  marginBottom: '2rem',
+  border: '1px solid #e1e4e8',
+  borderRadius: '12px',
+  boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+  background: 'linear-gradient(135deg, #f6f8fa 0%, #ffffff 100%)'
+}}>
+  <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem'}}>
+    <span style={{fontSize: '1.5rem'}}>🔥</span>
+    <span style={{
+      backgroundColor: '#4CAF50',
+      color: 'white',
+      padding: '0.2rem 0.6rem',
+      borderRadius: '12px',
+      fontSize: '0.75rem',
+      fontWeight: 'bold'
+    }}>首个商业项目上线</span>
+  </div>
+  <h3 style={{marginBottom: '0.5rem', color: '#1a1a2e'}}>
+    <a href="/pybuddy" style={{color: '#1a1a2e', textDecoration: 'none'}}>PyBuddy —— 软件构建自学训练营</a>
+  </h3>
+  <p style={{color: '#555', fontSize: '0.95rem', lineHeight: '1.7', marginBottom: '1rem'}}>
+    围绕"全链路交付认知"设计的软件构建自学训练营。从基础语法起步，逐步建立覆盖需求、设计、实现、测试到部署上线的全链路交付能力；进阶阶段融入 SICP 思想内核，帮助建立对软件系统的底层认知与工程手感。
+  </p>
+  <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+    <span style={{backgroundColor: '#e3f2fd', color: '#1565c0', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem'}}>全链路交付</span>
+    <span style={{backgroundColor: '#e8f5e9', color: '#2e7d32', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem'}}>SICP 思想内核</span>
+    <span style={{backgroundColor: '#fff3e0', color: '#e65100', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem'}}>工程实战</span>
+    <span style={{backgroundColor: '#f3e5f5', color: '#7b1fa2', padding: '0.25rem 0.75rem', borderRadius: '12px', fontSize: '0.8rem'}}>Agent Coding</span>
+  </div>
+  <a href="/pybuddy" style={{
+    display: 'inline-block',
+    backgroundColor: '#1a1a2e',
+    color: 'white',
+    padding: '0.6rem 1.5rem',
+    borderRadius: '8px',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    fontSize: '0.9rem'
+  }}>了解详情 →</a>
+  &nbsp;
+  <a href="https://www.pybuddy.site/" target="_blank" style={{
+    display: 'inline-block',
+    backgroundColor: 'transparent',
+    color: '#1a1a2e',
+    padding: '0.6rem 1.5rem',
+    borderRadius: '8px',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    fontSize: '0.9rem',
+    border: '1px solid #1a1a2e'
+  }}>访问官网</a>
+</div>
+
 ## 👥 QQ交流群
 一个人学习太孤单？加入我们的交流群：
 

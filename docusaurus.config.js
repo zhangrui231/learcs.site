@@ -128,7 +128,8 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {to:'/community', label: '社区', position: 'left'},
-          {to:'/donate', label: '捐赠我们', position: 'left'}
+          {to:'/donate', label: '捐赠我们', position: 'left'},
+          {to: '/pybuddy', label: 'PyBuddy', position: 'left'}
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -197,7 +198,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          '🎉️🎉️🎉️课程文档汉化工作正在进行中 🎉️🎉️ 学习交流群请到 <a  href="/community">社区页面</a> 查看入群方式 🎉️🎉️🎉️',
+          '🚀 PyBuddy 软件构建自学训练营 —— 从基础语法到全链路交付，陪你把工程主线走一遍 <a href="/pybuddy">了解详情</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
