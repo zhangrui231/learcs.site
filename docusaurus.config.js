@@ -129,7 +129,7 @@ const config = {
           {to: '/blog', label: '博客', position: 'left'},
           {to:'/community', label: '社区', position: 'left'},
           {to:'/donate', label: '捐赠我们', position: 'left'},
-          {to: '/pybuddy', label: 'PyBuddy', position: 'left'}
+          {to: '/pybuddy', label: '软件构建训练营', position: 'left'}
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
