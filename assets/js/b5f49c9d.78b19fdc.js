@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[19024],{37e3:e=>{e.exports=JSON.parse('{"label":"Agnes","permalink":"/blog/tags/agnes","allTagsPath":"/blog/tags","count":1}')}}]);

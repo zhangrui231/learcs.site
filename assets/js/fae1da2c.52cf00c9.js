@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[25861],{29045:s=>{s.exports=JSON.parse('{"label":"\u514d\u8d39API","permalink":"/blog/tags/\u514d\u8d39api","allTagsPath":"/blog/tags","count":1}')}}]);

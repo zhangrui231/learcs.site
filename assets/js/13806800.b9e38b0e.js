@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[66488],{76976:s=>{s.exports=JSON.parse('{"label":"AMD","permalink":"/blog/tags/amd","allTagsPath":"/blog/tags","count":1}')}}]);

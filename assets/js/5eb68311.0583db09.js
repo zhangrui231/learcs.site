@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[4512],{42674:e=>{e.exports=JSON.parse('{"label":"UnoRouter","permalink":"/blog/tags/uno-router","allTagsPath":"/blog/tags","count":1}')}}]);

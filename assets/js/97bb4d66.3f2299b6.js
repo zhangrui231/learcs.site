@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[76376],{39911:e=>{e.exports=JSON.parse('{"label":"ModelScope","permalink":"/blog/tags/model-scope","allTagsPath":"/blog/tags","count":1}')}}]);
