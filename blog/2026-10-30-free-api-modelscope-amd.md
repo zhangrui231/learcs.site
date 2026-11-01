@@ -1,15 +1,15 @@
 ---
 slug: free-llm-api-platforms
-title: 7 个免费大模型 API 平台接入指南
+title: 9 个免费大模型 API 平台接入指南
 authors: Learncs
-tags: [免费API, LLM, ModelScope, AMD, NVIDIA, OrcaRouter, UnoRouter, Agnes]
-description: OrcaRouter、Agnes AI、ModelScope、AMD Token Factory、NVIDIA、UnoRouter 等 7 个免费大模型 API 平台的详细接入文档，包含 Base URL、认证方式、免费额度、模型列表、代码示例及稳定性分析。
+tags: [免费API, LLM, ModelScope, AMD, NVIDIA, OrcaRouter, UnoRouter, Agnes, Token Harbor, 云知声]
+description: OrcaRouter、Agnes AI、ModelScope、AMD Token Factory、NVIDIA、UnoRouter、Token Harbor、云知声 等 9 个免费大模型 API 平台的详细接入文档，包含 Base URL、认证方式、免费额度、模型列表、代码示例及稳定性分析。
 ---
 
-# 7 个免费大模型 API 平台接入指南
+# 9 个免费大模型 API 平台接入指南
 
 :::info
-本文整理了 7 个免费大模型 API 平台的接入方式，包含 Base URL、认证方式、免费额度、可用模型、代码示例及稳定性边界。各平台的 Base URL 直接写明应填的字符串，不使用"裸域名/裸主机"等行话。
+本文整理了 9 个免费大模型 API 平台的接入方式，包含 Base URL、认证方式、免费额度、可用模型、代码示例及稳定性边界。各平台的 Base URL 直接写明应填的字符串，不使用"裸域名/裸主机"等行话。
 :::
 
 ---
@@ -498,7 +498,244 @@ resp = client.chat.completions.create(
 
 ---
 
-## 七、免费 API 的稳定性边界（适用于全部平台）
+## 八、Token Harbor
+
+平台：https://tokenharbor.ai ｜ 文档：https://tokenharbor.ai/docs ｜ 免费模型目录：https://tokenharbor.ai/models?category=free
+
+Token Harbor 是一个聚合网关，一个 API Key、一个余额即可路由到所有支持的模型。同时兼容 OpenAI 和 Anthropic 协议，支持 Claude Code、Cursor、Codex 等主流 Agent 工具一键接入。内置 **TH-Rudder** 免费聊天功能，无需 Key 即可在网页端使用。
+
+### Base URL
+
+**情况 A：客户端会自动拼接路径**（如 Claude Code、Cherry Studio）
+
+只填到域名，**不带 `/v1`**：
+
+```text
+https://tokenharbor.ai
+```
+
+Anthropic SDK 同样填 `https://tokenharbor.ai`，SDK 会自行拼接 `/v1/messages`。
+
+**情况 B：用 OpenAI SDK 或自己写代码发请求**
+
+填完整的 `/v1` 前缀：
+
+```text
+https://tokenharbor.ai/v1
+```
+
+### 认证
+
+1. 注册 / 登录 Token Harbor，进入 Dashboard → API Keys 创建 Key。
+2. Key 格式为 `thk_live_...`。
+3. 请求头：`Authorization: Bearer thk_live_...`（Anthropic 协议也可用 `x-api-key`）。
+
+### 免费模型识别
+
+免费模型 ID 以 **`:free` 后缀**结尾，价格为 $0。当前免费模型包括：
+
+- `mimo-v2.6-flash:free` —— Xiaomi MiMo V2.6 Flash，1.05M 上下文（128K 输出）
+- `deepseek-v4.1-flash:free` —— DeepSeek V4.1 Flash，1.05M 上下文（128K 输出）
+
+:::note
+模型会更换。实时免费清单通过 https://tokenharbor.ai/models?category=free 查看。免费模型没有额外的单模型限速，只受账户级限制约束。
+:::
+
+### 免费限制
+
+免费账户的速率约束：
+
+| 限制维度 | 免费账户 |
+|---|---|
+| **请求速率** | **60 次/分钟**，1,800 次/小时（每账户） |
+| **IP 级速率** | 100 次/分钟，3,000 次/小时 |
+| **图像生成** | 10 次/分钟，150 次/小时 |
+| **请求大小** | **4 MB**（付费账户 100 MB） |
+| **并发** | 无限制 |
+
+超出返回 HTTP `429` + `Retry-After` 头。充值或订阅 Pass 后，**请求速率限制完全解除**。
+
+### 付费与奖励机制
+
+Token Harbor 采用**按 Token 计费**模式，不设订阅总量配额。免费模型价格为 $0；付费模型按 per-token 实时定价。充值后可解锁更高请求大小上限（100 MB）和无限速率。
+
+### 最小示例
+
+<Tabs>
+<TabItem value="openai" label="OpenAI 兼容" default>
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://tokenharbor.ai/v1",
+    api_key="thk_live_你的密钥",
+)
+
+resp = client.chat.completions.create(
+    model="deepseek-v4.1-flash:free",
+    messages=[{"role": "user", "content": "Hello"}],
+)
+
+print(resp.choices[0].message.content)
+```
+
+</TabItem>
+<TabItem value="anthropic" label="Anthropic 兼容">
+
+```python
+from anthropic import Anthropic
+
+client = Anthropic(
+    api_key="thk_live_你的密钥",
+    base_url="https://tokenharbor.ai",
+)
+
+message = client.messages.create(
+    model="deepseek-v4.1-flash:free",
+    max_tokens=1024,
+    messages=[{"role": "user", "content": "Hi"}],
+)
+
+print(message.content[0].text)
+```
+
+</TabItem>
+</Tabs>
+
+### 稳定性边界
+
+免费账户 60 RPM 对个人原型验证足够，请求大小限制在 4 MB 可能影响长对话 Agent 场景。免费模型数量目前较少（2 个），但上下文窗口大（1.05M），适合长文档处理测试。充值后速率限制解除，适合从免费层平滑迁移到生产使用。
+
+---
+
+## 九、云知声 Unisound（U Plan）
+
+平台：https://maas.unisound.com ｜ 文档：https://maas.unisound.com/docs/token-plan/overview
+
+云知声（Unisound）推出的 **U Plan** 是一个订阅制的 AI 模型服务平台，涵盖文本、医疗、语音、文档等多模态模型，采用统一的点数额度体系。免费档（Free）提供每周 2500 点 + 每 5 小时动态 500 点，以及多项赠送额度。支持 OpenAI 和 Anthropic 兼容协议，可接入 Claude Code、Cursor、Codex 等 AI 编码工具。
+
+### Base URL
+
+```text
+https://maas-api.unisound.com/v1
+```
+
+Anthropic 兼容协议同样支持。同时兼容 OpenAI 和 Anthropic 两种 API 格式。
+
+### 认证
+
+1. 注册 / 登录云知声平台，访问 [U Plan 订阅页](https://maas.unisound.com/token-plan)。
+2. **免费档需手动点击「立即领取」**，不会自动生效。
+3. 领取成功后，进入 **控制台 > 订阅管理 > U Plan** 获取专属 API Key 和 Base URL。
+4. API Key 为计划专属，与按量付费的 Key **不通用**。Key 在计划有效期内有效，自动分配，不可手动创建或删除。
+
+### 免费策略（点数计费）
+
+U Plan 采用**点数（Points）计费**模式，免费档额度如下：
+
+| 额度类型 | 免费档（Free） |
+|---|---|
+| **每周点数** | 2,500 点 |
+| **5 小时动态窗口点数** | 500 点 |
+| **U2-RadiMed 赠送额度** | 475,000 Token |
+| **U2-ASR 赠送额度** | 8 小时 |
+| **U2-TTS 赠送额度** | 40,000 字符 |
+| **U2-OCR 赠送额度** | 7,375,000 Token |
+| **U2-OCR-Med 赠送额度** | 7,375,000 Token |
+
+### 点数刷新规则
+
+- **5 小时点数**：动态刷新——点数在请求消耗开始后 5 小时重置。
+- **每周点数**：从计划领取/购买时间起每 7 天刷新。
+- **未用完的点数不滚动**到下一个窗口或计费周期。
+- **赠送额度**不受 5 小时窗口或每周点数限制，在当前计划周期内用完即止。
+
+### 点数消耗规则
+
+点数消耗 = (输入 tokens × 输入系数 + 缓存命中 tokens × 缓存系数 + 输出 tokens × 输出系数) / 10000
+
+| 模型 | 输入系数 | 缓存输入系数 | 输出系数 |
+|---|---|---|---|
+| **U2-Flash** | 1 | 0.2 | 2 |
+| **U2-Med** | 2 | 0.5 | 7 |
+
+**积分与 Token 换算示例（U2-Flash）**：
+
+假设一次调用：输入 1000 tokens（无缓存命中），输出 500 tokens。
+
+```
+点数消耗 = (1000 × 1 + 0 × 0.2 + 500 × 2) / 10000
+         = (1000 + 0 + 1000) / 10000
+         = 2000 / 10000
+         = 0.2 点
+```
+
+即 **每 1000 输入 + 500 输出约消耗 0.2 点**。免费档每周 2500 点，按此口径约可调用 **12,500 次**类似规模的请求。
+
+如果命中缓存（缓存系数 0.2），同样 1000 输入（其中 800 命中缓存）+ 500 输出：
+
+```
+点数消耗 = (200 × 1 + 800 × 0.2 + 500 × 2) / 10000
+         = (200 + 160 + 1000) / 10000
+         = 1360 / 10000
+         = 0.136 点
+```
+
+缓存命中后单次消耗降低约 32%，**在 90%+ 缓存命中率下，免费档每周约可使用 ~60.68M Token**（每月约 ~264M Token）。
+
+:::note
+高峰时段消耗倍率为基础倍率的 2 倍，但**高峰加倍目前限时豁免**，所有时段均按基础倍率计算。具体规则以平台公告为准。
+:::
+
+### 可用模型
+
+所有档位均可使用 U-Model 系列模型：
+
+**文本 / 推理**
+
+- `u2-flash` —— 通用大模型，支持推理、Coding、长文档处理、Agent 能力
+- `u2` —— 通用知识推理、Agent 交互、代码操作、长文本处理
+- `u2-med` —— 医疗行业大模型，擅长医保、药学、临床知识
+- `u2-decision` —— 企业决策模型，毫秒级延迟输出结构化判断
+
+**多模态 / 语音**
+
+- `u2-asr` —— 语音识别（实时流式 + 异步长音频，支持多方言，90%+ 准确率）
+- `u2-tts` —— 语音合成（高拟人化，支持克隆/设计音色）
+- `u2-ocr` —— 视觉理解 / 文档识别
+- `u2-ocr-med` —— 医疗影像识别
+- `u2-radimed` —— 医疗影像报告生成、病灶定位、临床推理
+
+:::note
+模型会更换。云知声的模型目录持续更新，调用前建议通过平台模型库确认可用性。模型 ID 使用小写格式，如 `u2-flash`。
+:::
+
+### 最小示例
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://maas-api.unisound.com/v1",
+    api_key="你的U-Plan专属API-Key",
+)
+
+resp = client.chat.completions.create(
+    model="u2-flash",
+    messages=[{"role": "user", "content": "你好"}],
+)
+
+print(resp.choices[0].message.content)
+```
+
+### 稳定性边界
+
+免费档每周 2500 点 + 5 小时 500 点的额度对个人学习和原型验证足够，尤其是赠送的医疗影像和语音额度非常慷慨。U2-Flash 在高缓存命中率下周 Token 量可达 60M+，适合长文档处理和 Agent 编码场景。但点数不滚转，高峰加倍随时可能恢复，且平台处于推广期，政策可能调整。适合个人学习、医疗 AI 原型验证、语音多模态测试。
+
+---
+
+## 十、免费 API 的稳定性边界（适用于全部平台）
 
 以上所有平台的"免费"，本质是**用额度或速率上限换取零现金成本**，而不是用 SLA 承诺换取稳定服务。
 
@@ -508,7 +745,7 @@ resp = client.chat.completions.create(
 
 ### 2. 限流是常态，429 不是异常
 
-免费层的速率限制远低于付费层，且**限额会被平台单方面调整**。NVIDIA 约 40 RPM、UnoRouter 约 1 RPM/模型、AMD 约 20 RPM、ModelScope 250 魔粒/天、Agnes 文本 10 RPM——这些数字**随时可能因运营策略调整而下调**（Agnes 已实际下调过一次，AMD 额度也经历过从 $10 到 $1 的调整）。免费层的可用性取决于平台的容量分配策略，不取决于你的代码质量。
+免费层的速率限制远低于付费层，且**限额会被平台单方面调整**。NVIDIA 约 40 RPM、UnoRouter 约 1 RPM/模型、AMD 约 20 RPM、ModelScope 250 魔粒/天、Agnes 文本 10 RPM、Token Harbor 60 RPM、云知声 2500 点/周——这些数字**随时可能因运营策略调整而下调**（Agnes 已实际下调过一次，AMD 额度也经历过从 $10 到 $1 的调整）。免费层的可用性取决于平台的容量分配策略，不取决于你的代码质量。
 
 ### 3. 模型可能被静默下线
 
@@ -535,6 +772,8 @@ resp = client.chat.completions.create(
 | **AMD Token Factory** | `https://developer.amd.com.cn/radeon/api/v1` | 同左 | 6 个核心免费模型 | `DeepSeek-V4.1-Flash`（1M）、`GLM-5.3-Flash`（256K）、`Qwen3.8-Flash-Next`（256K）、`MiniCPM5-2B`（128K） | 有模型已 `model_not_found`，调用前查 `/v1/models` |
 | **NVIDIA** | `https://integrate.api.nvidia.com/v1` | 同左 | 100+ 模型，以 "Free Endpoint" 标签为准 | Nemotron 系列、Mistral Large 4、DeepSeek-V4.1-Flash、FLUX 3 Image Klein | 持续更新，以 Free Endpoint 标签为准 |
 | **UnoRouter** | `https://api.unorouter.com/v1` | `https://api.unorouter.com` | 130+ 个 `:free` 模型，约 50 个上游 | `glm-5.2:free`、`deepseek-v4-pro:free`、`qwen3.5-397b-a17b:free`、`nemotron-3-ultra-550b-a55b:free` | 尽力而为，单模型可能随时耗尽 |
+| **Token Harbor** | `https://tokenharbor.ai/v1` | `https://tokenharbor.ai` | 当前 2 个 `:free` 模型，1.05M 上下文 | `deepseek-v4.1-flash:free`、`mimo-v2.6-flash:free` | 免费模型少但上下文大，充值后速率无限制 |
+| **云知声 U Plan** | `https://maas-api.unisound.com/v1` | 同左 | 文本+医疗+语音+OCR 多模态，免费档每周 2500 点 | `u2-flash`、`u2-med`、`u2-asr`、`u2-tts`、`u2-ocr` | 模型持续更新，点数不滚转，高峰加倍限时豁免 |
 
 :::tip "会自动拼接路径的客户端"
 指 Cherry Studio、Claude Code、Gemini CLI 等工具。其余场景（OpenAI SDK、curl、自写代码）一律用左侧带 `/v1` 的写法。如果拿不准，先看客户端输入框有没有"不要带 /v1"的提示。
