@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[89730],{54230:s=>{s.exports=JSON.parse('{"label":"InstaBox","permalink":"/blog/tags/insta-box","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[47648],{69597:s=>{s.exports=JSON.parse('{"label":"microVM","permalink":"/blog/tags/micro-vm","allTagsPath":"/blog/tags","count":1}')}}]);
