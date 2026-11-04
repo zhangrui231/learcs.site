@@ -1,15 +1,15 @@
 ---
 slug: free-llm-api-platforms
-title: 9 个免费大模型 API 平台接入指南
+title: 10 个免费大模型 API 平台接入指南
 authors: Learncs
-tags: [免费API, LLM, ModelScope, AMD, NVIDIA, OrcaRouter, UnoRouter, Agnes, Token Harbor, 云知声]
-description: OrcaRouter、Agnes AI、ModelScope、AMD Token Factory、NVIDIA、UnoRouter、Token Harbor、云知声 等 9 个免费大模型 API 平台的详细接入文档，包含 Base URL、认证方式、免费额度、模型列表、代码示例及稳定性分析。
+tags: [免费API, LLM, ModelScope, AMD, NVIDIA, OrcaRouter, UnoRouter, Agnes, Token Harbor, 云知声, APInex]
+description: OrcaRouter、Agnes AI、ModelScope、AMD Token Factory、NVIDIA、UnoRouter、Token Harbor、云知声、APInex 等 10 个免费大模型 API 平台的详细接入文档，包含 Base URL、认证方式、免费额度、模型列表、代码示例及稳定性分析。
 ---
 
-# 9 个免费大模型 API 平台接入指南
+# 10 个免费大模型 API 平台接入指南
 
 :::info
-本文整理了 9 个免费大模型 API 平台的接入方式，包含 Base URL、认证方式、免费额度、可用模型、代码示例及稳定性边界。各平台的 Base URL 直接写明应填的字符串，不使用"裸域名/裸主机"等行话。
+本文整理了 10 个免费大模型 API 平台的接入方式，包含 Base URL、认证方式、免费额度、可用模型、代码示例及稳定性边界。各平台的 Base URL 直接写明应填的字符串，不使用"裸域名/裸主机"等行话。
 :::
 
 ---
@@ -735,7 +735,140 @@ print(resp.choices[0].message.content)
 
 ---
 
-## 十、免费 API 的稳定性边界（适用于全部平台）
+## 十、APInex
+
+平台：https://apinex.bond ｜ 模型目录：https://apinex.bond/models?provider=Free ｜ API 文档：https://apinex.bond/developers
+
+APInex 是一个聚合型 AI 模型网关，一个 API Key、一个 Base URL 即可调用全部 46 款模型。同时兼容 OpenAI（`/v1/chat/completions`）和 Anthropic（`/v1/messages`）协议，支持 Claude Code、Cursor、Codex 等主流 Agent 工具接入。免费层提供每日 20M Token 额度，覆盖 21 款 `free/` 前缀模型，国内直连免翻墙。
+
+### Base URL
+
+OpenAI 兼容协议用：
+
+```text
+https://api.apinex.bond/v1
+```
+
+如果用 Anthropic SDK 或 Claude Code 等原生协议客户端，同样填到 `/v1`：
+
+```text
+https://api.apinex.bond/v1
+```
+
+:::tip
+APInex 的 Base URL 统一带 `/v1`，无论是 OpenAI SDK 还是 Anthropic SDK。接口格式与标准 OpenAI SDK 100% 一致。
+:::
+
+### 认证
+
+1. 在 https://apinex.bond/register 注册（邮箱或钱包一键注册，免绑卡）。
+2. 注册后自动生成 `sk-apx-...` 格式的 API Key。
+3. 请求头：`Authorization: Bearer sk-apx-...`。
+
+:::warning 注册限制
+**每个 IP 只能注册一个账号。** 使用 VPN 时可能因 IP 共享或频繁切换导致注册失败，建议使用稳定网络环境注册。
+:::
+
+### 免费策略（每日 20M Token 额度池）
+
+APInex 的免费层采用**独立的每日免费额度池（Allowance）**机制：
+
+- **每日 20M Token 免费额度**，所有 `free/` 前缀模型共享此额度池。
+- 免费模型调用从独立额度池中按**权重（Weight）**扣减，**绝不触碰美元充值余额**。
+- 基础免费层提供 **15 RPM** 并发限制。
+- 额度**每日重置**，未用完的不累积。
+
+| 限制维度 | 免费层 |
+|---|---|
+| **每日 Token 额度** | 20M Token |
+| **并发速率** | 15 RPM |
+| **上下文窗口** | 最大 1M Token |
+| **充值余额** | 独立，不被免费调用扣减 |
+
+### 免费模型识别
+
+免费模型 ID 以 **`free/` 前缀**开头，价格为 $0.00/1M。当前免费层覆盖 21 款模型：
+
+**Claude 系列**
+
+- `free/claude-opus-4-6` —— Claude 4.6 Opus，免费
+- `free/claude-sonnet-4-6` —— Claude 4.6 Sonnet，免费
+
+**DeepSeek 系列**
+
+- `free/deepseek-v4-1-flash` —— DeepSeek V4.1 Flash 1017，1M 上下文
+- `free/deepseek-v4-flash-0731` —— DeepSeek V4 Flash
+- `free/deepseek-v4-pro-0813` —— DeepSeek V4 Pro
+
+**Gemini 系列**
+
+- `free/gemini-3-1-pro` —— Gemini 3.1 Pro
+- `free/gemini-3-8-flash` —— Gemini 3.8 Flash
+
+**GLM 系列**
+
+- `free/glm-5-3-flash` —— GLM-5.3 Flash
+- `free/glm-5-3-flashx` —— GLM 5.3 FlashX
+- `free/glm-5-3` —— GLM 5.3
+
+**Qwen 系列**
+
+- `free/qwen-3-8-max` —— Qwen 3.8 MAX
+
+**Kimi 系列**
+
+- `free/kimi-k2-8` —— Kimi K2.8
+- `free/kimi-k3` —— Kimi K3
+
+**MiniMax 系列**
+
+- `free/minimax-m3-1-flash` —— MiniMax M3.1 Flash
+- `free/minimax-m3` —— MiniMax M3
+
+**其他**
+
+- `free/gpt-6-luna` —— GPT 6 Luna
+- `free/mimo-v2-6-flash` —— MiMo V2.6 Flash
+- `free/mimo-v2-6-pro` —— MiMo V2.6 Pro
+- `free/muse-spark-1-3` —— Muse Spark 1.3
+- `free/hy4` —— HY 4
+- `free/jev-1-13` —— Jev 1.13
+
+:::note
+模型会更换。免费模型阵容可能随容量动态调整，实时免费清单通过 https://apinex.bond/models?provider=Free 查看。所有免费模型均支持完整的上下文窗口、SSE 流式输出及工具调用。
+:::
+
+### 最小示例
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.apinex.bond/v1",
+    api_key="sk-apx-你的密钥",
+)
+
+resp = client.chat.completions.create(
+    model="free/deepseek-v4-1-flash",
+    messages=[{"role": "user", "content": "Hello"}],
+)
+
+print(resp.choices[0].message.content)
+```
+
+### 稳定性边界
+
+每日 20M Token 额度对个人学习和原型验证充足，15 RPM 并发适合中低频调用。免费层覆盖 21 款模型（含 Claude、DeepSeek、Gemini、GLM、Qwen、Kimi 等），模型丰富度是亮点。但需注意：
+
+- **每个 IP 只能注册一个账号**，VPN 用户可能注册失败。
+- 免费池是共享吞吐，延迟不可控。
+- 如需更高并发（15–30 RPM），需订阅 $4/月起的轻量计划或切换至按量付费模型。
+
+适合多模型对比测试、个人 Agent 编码场景，不适合高并发生产环境。
+
+---
+
+## 十一、免费 API 的稳定性边界（适用于全部平台）
 
 以上所有平台的"免费"，本质是**用额度或速率上限换取零现金成本**，而不是用 SLA 承诺换取稳定服务。
 
@@ -745,7 +878,7 @@ print(resp.choices[0].message.content)
 
 ### 2. 限流是常态，429 不是异常
 
-免费层的速率限制远低于付费层，且**限额会被平台单方面调整**。NVIDIA 约 40 RPM、UnoRouter 约 1 RPM/模型、AMD 约 20 RPM、ModelScope 250 魔粒/天、Agnes 文本 10 RPM、Token Harbor 60 RPM、云知声 2500 点/周——这些数字**随时可能因运营策略调整而下调**（Agnes 已实际下调过一次，AMD 额度也经历过从 $10 到 $1 的调整）。免费层的可用性取决于平台的容量分配策略，不取决于你的代码质量。
+免费层的速率限制远低于付费层，且**限额会被平台单方面调整**。NVIDIA 约 40 RPM、UnoRouter 约 1 RPM/模型、AMD 约 20 RPM、ModelScope 250 魔粒/天、Agnes 文本 10 RPM、Token Harbor 60 RPM、云知声 2500 点/周、APInex 20M Token/天 + 15 RPM——这些数字**随时可能因运营策略调整而下调**（Agnes 已实际下调过一次，AMD 额度也经历过从 $10 到 $1 的调整）。免费层的可用性取决于平台的容量分配策略，不取决于你的代码质量。
 
 ### 3. 模型可能被静默下线
 
@@ -773,6 +906,7 @@ print(resp.choices[0].message.content)
 | **NVIDIA** | `https://integrate.api.nvidia.com/v1` | 同左 | 100+ 模型，以 "Free Endpoint" 标签为准 | Nemotron 系列、Mistral Large 4、DeepSeek-V4.1-Flash、FLUX 3 Image Klein | 持续更新，以 Free Endpoint 标签为准 |
 | **UnoRouter** | `https://api.unorouter.com/v1` | `https://api.unorouter.com` | 130+ 个 `:free` 模型，约 50 个上游 | `glm-5.2:free`、`deepseek-v4-pro:free`、`qwen3.5-397b-a17b:free`、`nemotron-3-ultra-550b-a55b:free` | 尽力而为，单模型可能随时耗尽 |
 | **Token Harbor** | `https://tokenharbor.ai/v1` | `https://tokenharbor.ai` | 当前 2 个 `:free` 模型，1.05M 上下文 | `deepseek-v4.1-flash:free`、`mimo-v2.6-flash:free` | 免费模型少但上下文大，充值后速率无限制 |
+| **APInex** | `https://api.apinex.bond/v1` | 同左 | 21 款 `free/` 前缀模型，每日 20M Token | `free/claude-sonnet-4-6`、`free/deepseek-v4-1-flash`、`free/gemini-3-1-pro`、`free/glm-5-3`、`free/qwen-3-8-max` | 每日 20M Token 额度池，15 RPM，每 IP 限注册一个账号 |
 | **云知声 U Plan** | `https://maas-api.unisound.com/v1` | 同左 | 文本+医疗+语音+OCR 多模态，免费档每周 2500 点 | `u2-flash`、`u2-med`、`u2-asr`、`u2-tts`、`u2-ocr` | 模型持续更新，点数不滚转，高峰加倍限时豁免 |
 
 :::tip "会自动拼接路径的客户端"
