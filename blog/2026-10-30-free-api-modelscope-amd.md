@@ -773,21 +773,23 @@ APInex 的 Base URL 统一带 `/v1`，无论是 OpenAI SDK 还是 Anthropic SDK�
 
 APInex 的免费层采用**独立的每日免费额度池（Allowance）**机制：
 
-- **每日 20M Token 免费额度**，所有 `free/` 前缀模型共享此额度池。
+- **每日 20M Token 免费额度**，所有 `free/` 前缀文本模型共享此额度池。
 - 免费模型调用从独立额度池中按**权重（Weight）**扣减，**绝不触碰美元充值余额**。
 - 基础免费层提供 **15 RPM** 并发限制。
 - 额度**每日重置**，未用完的不累积。
+- **订阅是可选的**，不订阅也能使用免费文本模型。订阅的作用是**提升或解除每日免费额度上限**，并**解锁免费图像模型**。
 
-| 限制维度 | 免费层 |
-|---|---|
-| **每日 Token 额度** | 20M Token |
-| **并发速率** | 15 RPM |
-| **上下文窗口** | 最大 1M Token |
-| **充值余额** | 独立，不被免费调用扣减 |
+| 限制维度 | 免费层（无订阅） | 订阅层（$5+/月） |
+|---|---|---|
+| **每日 Token 额度** | 20M Token（基础上限） | 提升或解除上限 |
+| **并发速率** | 15 RPM | $20+ 订阅 30 RPM |
+| **图像模型** | ❌ 需订阅解锁 | ✅ 解锁免费图像模型 |
+| **上下文窗口** | 最大 1M Token | 同左 |
+| **充值余额** | 独立，不被免费调用扣减 | 同左 |
 
 ### 免费模型识别
 
-免费模型 ID 以 **`free/` 前缀**开头，价格为 $0.00/1M。当前免费层覆盖 21 款模型：
+免费模型 ID 以 **`free/` 前缀**开头，价格为 $0.00/1M。当前免费层覆盖 21 款模型，所有模型页面均标记为 "High-Throughput Free Tier"。但需注意：**基础免费层（无订阅）可使用全部 21 款文本模型，但免费图像模型需要订阅才能解锁。**
 
 **Claude 系列**
 
@@ -835,7 +837,7 @@ APInex 的免费层采用**独立的每日免费额度池（Allowance）**机制
 - `free/jev-1-13` —— Jev 1.13
 
 :::note
-模型会更换。免费模型阵容可能随容量动态调整，实时免费清单通过 https://apinex.bond/models?provider=Free 查看。所有免费模型均支持完整的上下文窗口、SSE 流式输出及工具调用。
+模型会更换。免费模型阵容可能随容量动态调整，实时免费清单通过 https://apinex.bond/models?provider=Free 查看。所有免费模型均支持完整的上下文窗口、SSE 流式输出及工具调用。订阅不是必须的，但会提升每日额度上限并解锁免费图像模型。
 :::
 
 ### 最小示例
@@ -858,11 +860,12 @@ print(resp.choices[0].message.content)
 
 ### 稳定性边界
 
-每日 20M Token 额度对个人学习和原型验证充足，15 RPM 并发适合中低频调用。免费层覆盖 21 款模型（含 Claude、DeepSeek、Gemini、GLM、Qwen、Kimi 等），模型丰富度是亮点。但需注意：
+每日 20M Token 额度对个人学习和原型验证充足，15 RPM 并发适合中低频调用。免费层覆盖 21 款文本模型（含 Claude、DeepSeek、Gemini、GLM、Qwen、Kimi 等），模型丰富度是亮点。但需注意：
 
 - **每个 IP 只能注册一个账号**，VPN 用户可能注册失败。
+- **免费图像模型需订阅才能解锁**，基础免费层仅限文本模型。
 - 免费池是共享吞吐，延迟不可控。
-- 如需更高并发（15–30 RPM），需订阅 $4/月起的轻量计划或切换至按量付费模型。
+- 如需更高并发（15–30 RPM）或解除每日额度上限，需订阅 $5+/月计划或切换至按量付费模型。
 
 适合多模型对比测试、个人 Agent 编码场景，不适合高并发生产环境。
 
@@ -906,7 +909,7 @@ print(resp.choices[0].message.content)
 | **NVIDIA** | `https://integrate.api.nvidia.com/v1` | 同左 | 100+ 模型，以 "Free Endpoint" 标签为准 | Nemotron 系列、Mistral Large 4、DeepSeek-V4.1-Flash、FLUX 3 Image Klein | 持续更新，以 Free Endpoint 标签为准 |
 | **UnoRouter** | `https://api.unorouter.com/v1` | `https://api.unorouter.com` | 130+ 个 `:free` 模型，约 50 个上游 | `glm-5.2:free`、`deepseek-v4-pro:free`、`qwen3.5-397b-a17b:free`、`nemotron-3-ultra-550b-a55b:free` | 尽力而为，单模型可能随时耗尽 |
 | **Token Harbor** | `https://tokenharbor.ai/v1` | `https://tokenharbor.ai` | 当前 2 个 `:free` 模型，1.05M 上下文 | `deepseek-v4.1-flash:free`、`mimo-v2.6-flash:free` | 免费模型少但上下文大，充值后速率无限制 |
-| **APInex** | `https://api.apinex.bond/v1` | 同左 | 21 款 `free/` 前缀模型，每日 20M Token | `free/claude-sonnet-4-6`、`free/deepseek-v4-1-flash`、`free/gemini-3-1-pro`、`free/glm-5-3`、`free/qwen-3-8-max` | 每日 20M Token 额度池，15 RPM，每 IP 限注册一个账号 |
+| **APInex** | `https://api.apinex.bond/v1` | 同左 | 21 款 `free/` 前缀文本模型，每日 20M Token（图像模型需订阅解锁） | `free/claude-sonnet-4-6`、`free/deepseek-v4-1-flash`、`free/gemini-3-1-pro`、`free/glm-5-3`、`free/qwen-3-8-max` | 每日 20M Token 额度池，15 RPM，每 IP 限注册一个账号 |
 | **云知声 U Plan** | `https://maas-api.unisound.com/v1` | 同左 | 文本+医疗+语音+OCR 多模态，免费档每周 2500 点 | `u2-flash`、`u2-med`、`u2-asr`、`u2-tts`、`u2-ocr` | 模型持续更新，点数不滚转，高峰加倍限时豁免 |
 
 :::tip "会自动拼接路径的客户端"
