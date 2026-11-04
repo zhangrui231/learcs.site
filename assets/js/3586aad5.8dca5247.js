@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearncs_set=self.webpackChunklearncs_set||[]).push([[62926],{99727:e=>{e.exports=JSON.parse('{"label":"APInex","permalink":"/blog/tags/ap-inex","allTagsPath":"/blog/tags","count":1}')}}]);
