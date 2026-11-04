@@ -761,8 +761,8 @@ APInex 的 Base URL 统一带 `/v1`，无论是 OpenAI SDK 还是 Anthropic SDK�
 
 ### 认证
 
-1. 在 https://apinex.bond/register 注册（邮箱或钱包一键注册，免绑卡）。
-2. 注册后自动生成 `sk-apx-...` 格式的 API Key。
+1. 在 https://apinex.bond/register 通过 **Google 账号登录**注册（目前仅支持 Google 登录这一种方式，免绑卡）。
+2. 登录后进入 Dashboard → API Keys 页面，**手动点击创建** API Key，格式为 `sk-apx-...`。
 3. 请求头：`Authorization: Bearer sk-apx-...`。
 
 :::warning 注册限制
