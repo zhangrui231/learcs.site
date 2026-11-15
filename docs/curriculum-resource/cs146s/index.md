@@ -67,9 +67,23 @@ import DocCardList from '@theme/DocCardList';
 
 ---
 
+## 课程作业
+
+每周作业的中文翻译已整理在 [作业目录](/docs/curriculum-resource/cs146s/homework) 中，包含作业说明（assignment.md）和报告模板（writeup.md）。
+
+| 周次 | 作业主题 |
+|---|---|
+| [第一周作业](/docs/curriculum-resource/cs146s/homework/week1/assignment) | 真实 Claude Code 会话的追踪剖析 |
+| [第二周作业](/docs/curriculum-resource/cs146s/homework/week2/assignment) | 为第三方 API 构建 MCP 服务器 |
+| [第三周作业](/docs/curriculum-resource/cs146s/homework/week3/assignment) | 编写一个技能 |
+| [第四周作业](/docs/curriculum-resource/cs146s/homework/week4/assignment) | 让混乱的仓库变为 Agent 就绪 |
+| [第五周作业](/docs/curriculum-resource/cs146s/homework/week5/assignment) | Agent 就绪度报告 |
+
+---
+
 ## 课程物料
 
-- [作业仓库（GitHub）](https://github.com/mihail911/modern-software-dev-assignments)
+- [作业仓库（GitHub 原文）](https://github.com/mihail911/modern-software-dev-assignments)
 - [课程日历](https://docs.google.com/document/d/1W11sWBigWIsi9wVIhhFx3wajIEnP0Qfb-ei8Ecf5VKU/edit?usp=sharing)
 
 <DocCardList />
