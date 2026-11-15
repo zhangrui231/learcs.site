@@ -48,7 +48,7 @@ import DocCardList from '@theme/DocCardList';
 - **主题**：深入探讨定义 Agent 行为的系统提示词（system prompts），拆解最先进的编码 Agent 设计
 - **幻灯片**：[Google Slides](https://docs.google.com/presentation/d/1RZu-p18Qybbgm8WVP2RH04ESc4Bn377B-T9j5-TBFdQ/edit?usp=drive_link)
 - **提示词文件**：[Google Drive](https://drive.google.com/drive/folders/1c6_atVW0RrqEBWsNIscG2KNwCiuPxWQG?usp=drive_link)
-- **课程记录**：[9-24-26-transcript.txt](/materials/9-24-26-transcript.txt)
+- **课程记录**：9-24-26-transcript.txt（课堂内提供）
 
 ---
 
@@ -56,9 +56,9 @@ import DocCardList from '@theme/DocCardList';
 
 本周共有 3 篇阅读材料，翻译版见下方链接：
 
-1. [Building a Coding Agent —— 构建编码 Agent](./building-a-coding-agent)（[原文视频](https://youtube.com/watch?v=s7ZzkdvCMDY)）
-2. [Lessons from Building Claude Code —— 构建 Claude Code 的经验教训](./lessons-from-building-claude-code)（[原文](https://x.com/trq212/status/2027463795355095314?s=20)）
-3. [Dive into Claude Code —— 深入 Claude Code](./dive-into-claude-code)（[原文论文](https://arxiv.org/pdf/2604.14228)）
+1. [Building a Coding Agent —— 构建编码 Agent](/docs/curriculum-resource/cs146s/week1/building-a-coding-agent)（[原文视频](https://youtube.com/watch?v=s7ZzkdvCMDY)）
+2. [Lessons from Building Claude Code —— 构建 Claude Code 的经验教训](/docs/curriculum-resource/cs146s/week1/lessons-from-building-claude-code)（[原文](https://x.com/trq212/status/2027463795355095314?s=20)）
+3. [Dive into Claude Code —— 深入 Claude Code](/docs/curriculum-resource/cs146s/week1/dive-into-claude-code)（[原文论文](https://arxiv.org/pdf/2604.14228)）
 
 ---
 
@@ -68,11 +68,11 @@ import DocCardList from '@theme/DocCardList';
 
 | 文件 | 用途 |
 |------|------|
-| [system_prompt](./prompts/system_prompt) | 主系统提示词——定义智能体身份与行为准则、工具使用规范、会话专属指引、记忆机制、可用模型与环境信息 |
-| [tool_list](./prompts/tool_list) | 内置工具清单——按类别列出文件读写、Shell、搜索与代码智能体、Agent、计划与隔离、调度等工具 |
-| [compaction_prompt](./prompts/compaction_prompt) | 上下文压缩提示词——把长对话压缩成可继续工作的摘要 |
-| [plan_mode](./prompts/plan_mode) | 计划模式提示词——禁止改动、只读探索，规定 Phase 1–5 的计划工作流 |
-| [subagent_prompt](./prompts/subagent_prompt) | 子智能体任务书示例——一份完整的深度分析型任务提示词 |
-| [config_files](./prompts/config_files) | 项目级配置注入提示词——把 CLAUDE.md 等项目说明喂给模型 |
+| [system_prompt](/docs/curriculum-resource/cs146s/week1/prompts/system_prompt) | 主系统提示词——定义智能体身份与行为准则、工具使用规范、会话专属指引、记忆机制、可用模型与环境信息 |
+| [tool_list](/docs/curriculum-resource/cs146s/week1/prompts/tool_list) | 内置工具清单——按类别列出文件读写、Shell、搜索与代码智能体、Agent、计划与隔离、调度等工具 |
+| [compaction_prompt](/docs/curriculum-resource/cs146s/week1/prompts/compaction_prompt) | 上下文压缩提示词——把长对话压缩成可继续工作的摘要 |
+| [plan_mode](/docs/curriculum-resource/cs146s/week1/prompts/plan_mode) | 计划模式提示词——禁止改动、只读探索，规定 Phase 1–5 的计划工作流 |
+| [subagent_prompt](/docs/curriculum-resource/cs146s/week1/prompts/subagent_prompt) | 子智能体任务书示例——一份完整的深度分析型任务提示词 |
+| [config_files](/docs/curriculum-resource/cs146s/week1/prompts/config_files) | 项目级配置注入提示词——把 CLAUDE.md 等项目说明喂给模型 |
 
 <DocCardList />

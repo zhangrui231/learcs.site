@@ -1,6 +1,6 @@
 ---
-title: CS146S: The Modern Software Developer
-description: Stanford CS146S — 现代软件开发者 | AI 原生开发课程 | Agent Coding 实战
+title: "CS146S: The Modern Software Developer"
+description: "Stanford CS146S — 现代软件开发者 | AI 原生开发课程 | Agent Coding 实战"
 ---
 
 import DocCardList from '@theme/DocCardList';
