@@ -26,6 +26,22 @@ import DocCardList from '@theme/DocCardList';
 - **主题**：课程导论，从零开始用约 200 行代码构建一个编码 Agent
 - **幻灯片**：[Google Slides](https://docs.google.com/presentation/d/1uztIhjHAG6O_9QOD1N_3wdhwhABml1fANXEN2dGwdbg/edit?usp=drive_link)
 - **完整代码**：[Google Drive](https://drive.google.com/file/d/1DxKa_autBOu9s8DvItodgUAwH_pBg7aR/view?usp=drive_link)
+- **中文注释版代码**：[video_completed_exercise.zh.py](/cs146s/week1/video_completed_exercise.zh.py)
+
+<details>
+<summary>📖 代码导读</summary>
+
+这份代码演示了编码 Agent 的四个核心概念：
+
+1. **工具注册表（TOOL_REGISTRY）**：把每个工具（函数）登记到一个 dict 里，键是工具名、值是函数对象。这张表既是"工具清单"的唯一来源，也是实际执行工具时的查表依据。
+
+2. **函数签名注入提示词（get_tool_str_representation）**：不手写工具说明，而是用 `inspect.signature()` 自动把每个工具的函数签名拼进系统提示词，同时把工具的 docstring 当作它的描述。新增一个工具只要往注册表里加一行，提示词会自动跟着更新。
+
+3. **工具调用协议（extract_tool_invocations）**：模型不返回结构化的 `tool_call`，而是按约定输出单行文本：`tool: TOOL_NAME({"arg": "value"})`。解析器把这种行还原成 (工具名, 参数 dict) 二元组，格式不合法的行直接忽略，不会中断整个循环。
+
+4. **单循环 agent loop（run_coding_agent_loop）**：一个 while 循环：读用户输入 → 调模型 → 若模型请求了工具就执行工具、把结果以 `tool_result(...)` 的形式回灌进对话再调模型 → 直到模型不再请求工具。
+
+</details>
 
 ### 第二讲：最先进的编码 Agent 是如何设计的
 
