@@ -60,4 +60,19 @@ import DocCardList from '@theme/DocCardList';
 2. [Lessons from Building Claude Code —— 构建 Claude Code 的经验教训](./lessons-from-building-claude-code)（[原文](https://x.com/trq212/status/2027463795355095314?s=20)）
 3. [Dive into Claude Code —— 深入 Claude Code](./dive-into-claude-code)（[原文论文](https://arxiv.org/pdf/2604.14228)）
 
+---
+
+## Prompts 翻译
+
+第二讲涉及的 Claude Code 提示词文件，已逐份完成中英对照翻译。每份文件包含英文原文与中文译文，方便对照阅读：
+
+| 文件 | 用途 |
+|------|------|
+| [system_prompt](./prompts/system_prompt) | 主系统提示词——定义智能体身份与行为准则、工具使用规范、会话专属指引、记忆机制、可用模型与环境信息 |
+| [tool_list](./prompts/tool_list) | 内置工具清单——按类别列出文件读写、Shell、搜索与代码智能体、Agent、计划与隔离、调度等工具 |
+| [compaction_prompt](./prompts/compaction_prompt) | 上下文压缩提示词——把长对话压缩成可继续工作的摘要 |
+| [plan_mode](./prompts/plan_mode) | 计划模式提示词——禁止改动、只读探索，规定 Phase 1–5 的计划工作流 |
+| [subagent_prompt](./prompts/subagent_prompt) | 子智能体任务书示例——一份完整的深度分析型任务提示词 |
+| [config_files](./prompts/config_files) | 项目级配置注入提示词——把 CLAUDE.md 等项目说明喂给模型 |
+
 <DocCardList />
