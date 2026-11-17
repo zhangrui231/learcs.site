@@ -37,9 +37,9 @@ import DocCardList from '@theme/DocCardList';
 
 本周共有 4 篇阅读材料，均为文章类，已全部翻译：
 
-1. [Spotify: From Migration Scripts to Agent Fleets —— Spotify：从迁移脚本到 Agent 舰队](./spotify-agent-fleets)（[原文](https://engineering.atspotify.com/2025/11/spotifys-background-coding-agent-part-1)）
-2. [Stripe: From Slack Message to Review-Ready PR —— Stripe：从 Slack 消息到可审查的 PR](./stripe-minions)（[原文](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)）
-3. [Ramp: Giving Agents the Tools to Prove Their Work —— Ramp：给 Agent 证明其工作的工具](./ramp-background-agent)（[原文](https://builders.ramp.com/post/why-we-built-our-background-agent)）
-4. [LangChain: Inside an Open-Source Software Factory —— LangChain：开源软件工厂内幕](./langchain-open-swe)（[原文](https://github.com/langchain-ai/open-swe)）
+1. [Spotify: From Migration Scripts to Agent Fleets —— Spotify：从迁移脚本到 Agent 舰队](/docs/curriculum-resource/cs146s/week8/spotify-agent-fleets)（[原文](https://engineering.atspotify.com/2025/11/spotifys-background-coding-agent-part-1)）
+2. [Stripe: From Slack Message to Review-Ready PR —— Stripe：从 Slack 消息到可审查的 PR](/docs/curriculum-resource/cs146s/week8/stripe-minions)（[原文](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)）
+3. [Ramp: Giving Agents the Tools to Prove Their Work —— Ramp：给 Agent 证明其工作的工具](/docs/curriculum-resource/cs146s/week8/ramp-background-agent)（[原文](https://builders.ramp.com/post/why-we-built-our-background-agent)）
+4. [LangChain: Inside an Open-Source Software Factory —— LangChain：开源软件工厂内幕](/docs/curriculum-resource/cs146s/week8/langchain-open-swe)（[原文](https://github.com/langchain-ai/open-swe)）
 
 <DocCardList />

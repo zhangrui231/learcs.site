@@ -37,8 +37,8 @@ import DocCardList from '@theme/DocCardList';
 
 本周共有 3 篇阅读材料，均为文章类，已全部翻译：
 
-1. [Layered Code Review and Risk-Based Human Oversight —— 分层代码审查与基于风险的人类监督](./layered-code-review)（[原文](https://x.com/addyosmani/status/2114604912520921136)）
-2. [Coordinating Specialist Review Agents at Scale —— 大规模协调专业审查 Agent](./coordinating-specialist-review-agents)（[原文](https://blog.cloudflare.com/ai-code-review)）
-3. [Beyond the Diff: Context, Testing, and Model Selection —— 超越 Diff：上下文、测试与模型选择](./beyond-the-diff)（[原文](https://greptile.com/blog/how-to-build-a-code-review-agent)）
+1. [Layered Code Review and Risk-Based Human Oversight —— 分层代码审查与基于风险的人类监督](/docs/curriculum-resource/cs146s/week6/layered-code-review)（[原文](https://x.com/addyosmani/status/2114604912520921136)）
+2. [Coordinating Specialist Review Agents at Scale —— 大规模协调专业审查 Agent](/docs/curriculum-resource/cs146s/week6/coordinating-specialist-review-agents)（[原文](https://blog.cloudflare.com/ai-code-review)）
+3. [Beyond the Diff: Context, Testing, and Model Selection —— 超越 Diff：上下文、测试与模型选择](/docs/curriculum-resource/cs146s/week6/beyond-the-diff)（[原文](https://greptile.com/blog/how-to-build-a-code-review-agent)）
 
 <DocCardList />

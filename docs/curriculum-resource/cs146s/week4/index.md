@@ -37,9 +37,9 @@ import DocCardList from '@theme/DocCardList';
 
 本周共有 4 篇阅读材料，均为文章类，已全部翻译：
 
-1. [I Still Prefer MCP Over Skills —— 我仍然偏好 MCP 而非 Skills](./i-still-prefer-mcp-over-skills)（[原文](https://david.coffee/i-still-prefer-mcp-over-skills)）
-2. [AGENTS.md (Factory Docs) —— AGENTS.md 文档](./agents-md-factory)（[原文](https://docs.factory.com/harness/agents-md)）
-3. [Steering Claude Code: Skills, Hooks, Rules, Subagents, and More —— 操控 Claude Code：技能、Hooks、规则、子 Agent 等](./steering-claude-code)（[原文](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)）
-4. [Writing a Good CLAUDE.md —— 如何写好 CLAUDE.md](./writing-a-good-claude-md)（[原文](https://hlyr.dev/blog/writing-a-good-claude-md)）
+1. [I Still Prefer MCP Over Skills —— 我仍然偏好 MCP 而非 Skills](/docs/curriculum-resource/cs146s/week4/i-still-prefer-mcp-over-skills)（[原文](https://david.coffee/i-still-prefer-mcp-over-skills)）
+2. [AGENTS.md (Factory Docs) —— AGENTS.md 文档](/docs/curriculum-resource/cs146s/week4/agents-md-factory)（[原文](https://docs.factory.com/harness/agents-md)）
+3. [Steering Claude Code: Skills, Hooks, Rules, Subagents, and More —— 操控 Claude Code：技能、Hooks、规则、子 Agent 等](/docs/curriculum-resource/cs146s/week4/steering-claude-code)（[原文](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)）
+4. [Writing a Good CLAUDE.md —— 如何写好 CLAUDE.md](/docs/curriculum-resource/cs146s/week4/writing-a-good-claude-md)（[原文](https://hlyr.dev/blog/writing-a-good-claude-md)）
 
 <DocCardList />

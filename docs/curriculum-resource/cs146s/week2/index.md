@@ -40,8 +40,8 @@ import DocCardList from '@theme/DocCardList';
 
 ### 文章类（已翻译）
 
-1. [The Context Tax: When to Compact —— 上下文税：何时压缩](./context-tax-when-to-compact)（[原文](https://langwatch.ai/blog/context-tax-when-to-compact)）
-2. [Enterprise MCP (Cloudflare) —— 企业级 MCP](./enterprise-mcp)（[原文](https://blog.cloudflare.com/enterprise-mcp)）
+1. [The Context Tax: When to Compact —— 上下文税：何时压缩](/docs/curriculum-resource/cs146s/week2/context-tax-when-to-compact)（[原文](https://langwatch.ai/blog/context-tax-when-to-compact)）
+2. [Enterprise MCP (Cloudflare) —— 企业级 MCP](/docs/curriculum-resource/cs146s/week2/enterprise-mcp)（[原文](https://blog.cloudflare.com/enterprise-mcp)）
 
 ### 项目/工具类（不做翻译，直接访问原文）
 

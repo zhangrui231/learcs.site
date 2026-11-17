@@ -37,7 +37,7 @@ import DocCardList from '@theme/DocCardList';
 
 本周共有 2 篇阅读材料：
 
-1. [Making Codebases Agent Ready —— 让代码仓库变为 Agent 就绪](./making-codebases-agent-ready)（[原文视频](https://www.youtube.com/watch?v=ShuJ_CN6zr4)）
-2. [Making Ergonomic Repositories —— 打造符合人机工程学的仓库](./making-ergonomic-repositories)（[原文](https://x.com/trybasis/status/2056881705269580023)）
+1. [Making Codebases Agent Ready —— 让代码仓库变为 Agent 就绪](/docs/curriculum-resource/cs146s/week5/making-codebases-agent-ready)（[原文视频](https://www.youtube.com/watch?v=ShuJ_CN6zr4)）
+2. [Making Ergonomic Repositories —— 打造符合人机工程学的仓库](/docs/curriculum-resource/cs146s/week5/making-ergonomic-repositories)（[原文](https://x.com/trybasis/status/2056881705269580023)）
 
 <DocCardList />
