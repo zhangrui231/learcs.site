@@ -55,15 +55,15 @@ import DocCardList from '@theme/DocCardList';
 | 周次 | 主题 |
 |---|---|
 | [第一周](/docs/curriculum-resource/cs146s/week1) | The Internals of Coding Agents —— 编码 Agent 的内部机制 |
-| 第二周 | Advanced Context Engineering —— 高级上下文工程 |
-| 第三周 | Agent Skills and CLI —— Agent 技能与命令行 |
-| 第四周 | Customizing Your Agent and Repository —— 定制你的 Agent 与代码仓库 |
-| 第五周 | Agent-Ready Codebases —— Agent 就绪的代码仓库 |
-| 第六周 | Agentic Code Review —— Agent 化代码审查 |
-| 第七周 | Security —— 安全 |
-| 第八周 | Background Agents —— 后台 Agent |
-| 第九周 | The Software Factory —— 软件工厂 |
-| 第十周 | The AI-Native Team + The Future —— AI 原生团队与未来 |
+| [第二周](/docs/curriculum-resource/cs146s/week2) | Advanced Context Engineering —— 高级上下文工程 |
+| [第三周](/docs/curriculum-resource/cs146s/week3) | Agent Skills and CLI —— Agent 技能与命令行 |
+| [第四周](/docs/curriculum-resource/cs146s/week4) | Customizing Your Agent and Repository —— 定制你的 Agent 与代码仓库 |
+| [第五周](/docs/curriculum-resource/cs146s/week5) | Agent-Ready Codebases —— Agent 就绪的代码仓库 |
+| [第六周](/docs/curriculum-resource/cs146s/week6) | Agentic Code Review —— Agent 化代码审查 |
+| [第七周](/docs/curriculum-resource/cs146s/week7) | Security —— 安全 |
+| [第八周](/docs/curriculum-resource/cs146s/week8) | Background Agents —— 后台 Agent |
+| [第九周](/docs/curriculum-resource/cs146s/week9) | The Software Factory —— 软件工厂 |
+| [第十周](/docs/curriculum-resource/cs146s/week10) | The AI-Native Team + The Future —— AI 原生团队与未来 |
 
 ---
 
